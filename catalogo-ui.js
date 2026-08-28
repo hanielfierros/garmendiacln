@@ -322,13 +322,14 @@
     modal.querySelector("#pwa-confirm").addEventListener("click", async () => {
       const idPedido = genOrderId();
       const horaSolicitud = new Date().toLocaleString("es-MX");
-      const observaciones = modal.querySelector("#pwa-obs").value.trim();
-      const payload = { idPedido, idLocal: Number(local.id), horaSolicitud, productos: arrayProductosWix, total: Number(total), observaciones };
+      const txtArea = modal.querySelector("#pwa-obs");
+      const obs = txtArea ? txtArea.value : "";
+      const payload = { idPedido, idLocal: Number(local.id), horaSolicitud, productos: arrayProductosWix, total: Number(total), observaciones: obs };
 
       try {
         const key = "mg_pedidos_pendientes";
         const arr = JSON.parse(localStorage.getItem(key) || "[]");
-        arr.push({ idPedido, idLocal: Number(local.id), hora: horaSolicitud, productos: arrayProductosWix, total: Number(total), observaciones });
+        arr.push({ idPedido, idLocal: Number(local.id), hora: horaSolicitud, productos: arrayProductosWix, total: Number(total), observaciones: obs });
         localStorage.setItem(key, JSON.stringify(arr));
       } catch (e) {}
 
