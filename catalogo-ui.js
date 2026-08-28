@@ -1,5 +1,5 @@
 /**
- * Catálogo y pedido por WhatsApp — Mercado Garmendia V14
+ * Catálogo y pedido por WhatsApp y PWA — Mercado Garmendia V15.1 Estable
  */
 (function (global) {
   "use strict";
@@ -7,6 +7,9 @@
   const CATALOGO = () => global.MG_CATALOGO || {};
   let cartState = {};
   let activeLocal = null;
+
+  // CONFIGURACIÓN DE PRODUCCIÓN DEFINITIVA EN TU DOMINIO PREMIUM DE WIX
+  const WIX_API_URL = "https://ebenezeraviation.com";
 
   function fmtMoney(n) {
     return new Intl.NumberFormat("es-MX", { style: "currency", currency: "MXN" }).format(n);
@@ -65,107 +68,6 @@
     lines.push("", `*Total estimado: ${fmtMoney(total)}*`);
     lines.push("", "Enviado desde Mercado Garmendia");
     return lines.join("\n");
-  }
-
-  function selectedProducts(catalog) {
-    const items = [];
-    (catalog.areas || []).forEach((area) => {
-      (area.productos || []).forEach((p) => {
-        const qty = cartState[p.id];
-        if (qty && qty > 0) items.push({ id: p.id, nombre: p.nombre, cantidad: qty, unidad: p.unidad || p.etiqueta, precio: p.precio, subtotal: lineTotal(p, qty) });
-      });
-    });
-    return items;
-  }
-
-  function genOrderId() {
-    const n = 1000 + Math.floor(Math.random() * 9000);
-    const s = Math.random().toString(36).slice(2, 6).toUpperCase().padEnd(4, "0");
-    return "GM-" + n + "-" + s;
-  }
-
-  function savePedido(order) {
-    try {
-      const key = "mg_pedidos_pendientes";
-      const arr = JSON.parse(localStorage.getItem(key) || "[]");
-      arr.push(order);
-      localStorage.setItem(key, JSON.stringify(arr));
-    } catch (e) {}
-  }
-
-  function openPedidoModal(local, items, total) {
-    let root = document.getElementById("pedido-root");
-    if (!root) {
-      root = document.createElement("div");
-      root.id = "pedido-root";
-      document.body.appendChild(root);
-    }
-    root.innerHTML = "";
-
-    const overlay = document.createElement("div");
-    overlay.className = "pedido-overlay open";
-    overlay.addEventListener("click", () => { root.innerHTML = ""; });
-
-    const card = document.createElement("div");
-    card.className = "pedido-card";
-    card.addEventListener("click", (e) => e.stopPropagation());
-
-    const head = document.createElement("div");
-    head.className = "pedido-head";
-    head.innerHTML = '<div><h3>Confirmar Pedido</h3><p>Local #' + local.id + " · " + local.nombre + '</p></div>';
-    const closeBtn = document.createElement("button");
-    closeBtn.type = "button";
-    closeBtn.className = "pedido-close";
-    closeBtn.innerHTML = '<i class="fa-solid fa-xmark"></i>';
-    closeBtn.addEventListener("click", () => { root.innerHTML = ""; });
-    head.appendChild(closeBtn);
-
-    const list = document.createElement("div");
-    list.className = "pedido-list";
-    items.forEach((it) => {
-      const row = document.createElement("div");
-      row.className = "pedido-item";
-      row.innerHTML = '<div><strong>' + it.nombre + '</strong><span>× ' + it.cantidad + " " + (it.unidad || "") + '</span></div><em>' + fmtMoney(it.subtotal) + '</em>';
-      list.appendChild(row);
-    });
-
-    const totalEl = document.createElement("div");
-    totalEl.className = "pedido-total";
-    totalEl.innerHTML = '<span>Total</span><strong>' + fmtMoney(total) + '</strong>';
-
-    const ta = document.createElement("textarea");
-    ta.className = "pedido-notes";
-    ta.placeholder = "Instrucciones o comentarios extras";
-    ta.setAttribute("rows", "3");
-
-    const confirmBtn = document.createElement("button");
-    confirmBtn.type = "button";
-    confirmBtn.className = "pedido-confirm";
-    confirmBtn.innerHTML = '<i class="fa-solid fa-check"></i> Confirmar y Enviar';
-    confirmBtn.addEventListener("click", () => {
-      const order = {
-        idPedido: genOrderId(),
-        idLocal: local.id,
-        hora: new Date().toLocaleString("es-MX"),
-        productos: items,
-        total: total,
-        observaciones: ta.value.trim(),
-      };
-      savePedido(order);
-
-      Object.keys(cartState).forEach((k) => { cartState[k] = 0; });
-      document.querySelectorAll(".cat-qty-input").forEach((inp) => { inp.value = "0"; });
-      document.querySelectorAll(".cat-qty-select").forEach((sel) => { sel.value = "0"; });
-      const lbl = document.getElementById("catTotalLabel");
-      if (lbl) lbl.textContent = fmtMoney(0);
-
-      card.innerHTML = '<div class="pedido-success"><i class="fa-solid fa-circle-check"></i><h3>¡Pedido enviado con éxito!</h3><p>El local está procesando tu solicitud.</p><button type="button" class="pedido-confirm">Cerrar</button></div>';
-      card.querySelector(".pedido-confirm").addEventListener("click", () => { root.innerHTML = ""; });
-    });
-
-    card.append(head, list, totalEl, ta, confirmBtn);
-    overlay.appendChild(card);
-    root.appendChild(overlay);
   }
 
   function renderQtyControl(prod, onChange) {
@@ -294,10 +196,14 @@
 
     const footer = document.createElement("div");
     footer.className = "cat-footer";
+    footer.style.display = "flex";
+    footer.style.flexDirection = "column";
+    footer.style.gap = "12px";
+
     const orderBtn = document.createElement("button");
     orderBtn.type = "button";
     orderBtn.className = "cat-btn-order";
-    orderBtn.innerHTML = '<i class="fa-brands fa-whatsapp"></i> HACER PEDIDO';
+    orderBtn.innerHTML = '<i class="fa-brands fa-whatsapp"></i> HACER PEDIDO POR WHATSAPP';
     orderBtn.addEventListener("click", () => {
       const msg = buildOrderMessage(catalog);
       if (!msg) {
@@ -305,24 +211,38 @@
         return;
       }
       const wa = catalog.whatsapp || local.whatsapp;
-      const url = `https://wa.me/${wa}?text=${encodeURIComponent(msg)}`;
+      const url = `https://wa.me{wa}?text=${encodeURIComponent(msg)}`;
       window.open(url, "_blank", "noopener");
     });
 
-    const sendBtn = document.createElement("button");
-    sendBtn.type = "button";
-    sendBtn.className = "cat-btn-send";
-    sendBtn.innerHTML = '<i class="fa-solid fa-paper-plane"></i> Enviar Pedido al Local';
-    sendBtn.addEventListener("click", () => {
-      const items = selectedProducts(catalog);
-      if (!items.length) {
+    const pwaOrderBtn = document.createElement("button");
+    pwaOrderBtn.type = "button";
+    pwaOrderBtn.className = "cat-btn-pwa-order";
+    pwaOrderBtn.innerHTML = '<i class="fa-solid fa-shop"></i> ENVIAR PEDIDO AL LOCAL';
+    pwaOrderBtn.style.backgroundColor = "#C9A227"; 
+    pwaOrderBtn.style.color = "#FFFFFF";
+    pwaOrderBtn.style.border = "none";
+    pwaOrderBtn.style.padding = "14px 20px";
+    pwaOrderBtn.style.borderRadius = "12px";
+    pwaOrderBtn.style.fontSize = "15px";
+    pwaOrderBtn.style.fontWeight = "600";
+    pwaOrderBtn.style.cursor = "pointer";
+    pwaOrderBtn.style.transition = "all 0.2s ease";
+    pwaOrderBtn.style.display = "flex";
+    pwaOrderBtn.style.alignItems = "center";
+    pwaOrderBtn.style.justifyContent = "center";
+    pwaOrderBtn.style.gap = "8px";
+
+    pwaOrderBtn.addEventListener("click", () => {
+      const t = calcTotal(catalog);
+      if (t <= 0) {
         alert("Selecciona al menos un producto para enviar tu pedido.");
         return;
       }
-      openPedidoModal(local, items, calcTotal(catalog));
+      abrirPopupConfirmacionPWA(catalog, local, t);
     });
 
-    footer.append(totalBar, orderBtn, sendBtn);
+    footer.append(totalBar, orderBtn, pwaOrderBtn);
     panel.append(header, body, footer);
     overlay.appendChild(panel);
     root.appendChild(overlay);
@@ -331,31 +251,38 @@
     document.addEventListener("keydown", onEsc);
   }
 
-  function onEsc(e) {
-    if (e.key === "Escape") closeCatalogo();
-  }
-
-  function closeCatalogo() {
-    const root = document.getElementById("catalogo-root");
-    if (root) root.innerHTML = "";
-    if (!document.getElementById("modal-root")?.firstChild && !document.getElementById("directorio-root")?.firstChild) {
-      document.body.style.overflow = "";
+  function abrirPopupConfirmacionPWA(catalog, local, total) {
+    let popupRoot = document.getElementById("pwa-popup-root");
+    if (!popupRoot) {
+      popupRoot = document.createElement("div");
+      popupRoot.id = "pwa-popup-root";
+      document.body.appendChild(popupRoot);
     }
-    document.removeEventListener("keydown", onEsc);
-    activeLocal = null;
-  }
 
-  function whatsappUrl(local) {
-    const catalog = getCatalog(local.id);
-    const wa = catalog?.whatsapp || local.whatsapp || "526673763125";
-    const text = `Hola ${local.nombre}, vi su local en el Mercado Garmendia y me gustaría más información.`;
-    return `https://wa.me/${wa}?text=${encodeURIComponent(text)}`;
-  }
+    const resumenItems = [];
+    const arrayProductosWix = [];
+    catalog.areas.forEach((area) => {
+      area.productos.forEach((p) => {
+        const qty = cartState[p.id];
+        if (!qty || qty <= 0) return;
+        const sub = lineTotal(p, qty);
+        resumenItems.push(`<li>${p.nombre} (${qtyLabel(p, qty)}) - <strong>${fmtMoney(sub)}</strong></li>`);
+        arrayProductosWix.push({ id: p.id, nombre: p.nombre, cantidad: qty, unidad: p.etiqueta || p.unidad, subtotal: sub });
+      });
+    });
 
-  global.MG_CATALOGO_UI = {
-    openCatalogo,
-    closeCatalogo,
-    whatsappUrl,
-    getCatalog,
-  };
-})(window);
+    const overlay = document.createElement("div");
+    overlay.className = "cat-overlay open";
+    overlay.style.zIndex = "2000";
+
+    const modal = document.createElement("div");
+    modal.className = "cat-panel";
+    modal.style.maxWidth = "460px";
+    modal.style.height = "auto";
+    modal.style.maxHeight = "90vh";
+    modal.style.borderRadius = "16px";
+    modal.style.backgroundColor = document.body.classList.contains("dark-mode") ? "#1C1C1E" : "#FFFFFF";
+    modal.style.padding = "24px";
+
+    // RESTAURACIÓN FÍSICA: Incluye el Textarea con ID 'pwa-obs' exigido por el compilador
+    modal.innerHTML = `
