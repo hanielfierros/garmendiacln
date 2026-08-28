@@ -273,10 +273,11 @@
 
     const overlay = document.createElement("div");
     overlay.className = "cat-overlay open";
-    overlay.style.zIndex = "2000";
+    overlay.style.zIndex = "99999";
 
     const modal = document.createElement("div");
     modal.className = "cat-panel";
+    modal.style.position = "relative";
     modal.style.maxWidth = "460px";
     modal.style.height = "auto";
     modal.style.maxHeight = "90vh";
