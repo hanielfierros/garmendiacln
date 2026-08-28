@@ -9,7 +9,7 @@
   let activeLocal = null;
 
   // CONFIGURACIÓN DE PRODUCCIÓN DEFINITIVA EN TU DOMINIO PREMIUM DE WIX
-  const WIX_API_URL = "https://ebenezeraviation.com";
+  const WIX_API_URL = "https://ebenezeraviation.com/_functions/recibirPedido";
 
   function fmtMoney(n) {
     return new Intl.NumberFormat("es-MX", { style: "currency", currency: "MXN" }).format(n);
@@ -325,7 +325,7 @@
       const horaSolicitud = new Date().toLocaleString("es-MX");
       const txtArea = modal.querySelector("#pwa-obs");
       const obs = txtArea ? txtArea.value : "";
-      const payload = { idPedido, idLocal: Number(local.id), horaSolicitud, productos: arrayProductosWix, total: Number(total), observaciones: obs };
+      const payload = { idPedido, idLocal: Number(local.id), horaSolicitud, productos: JSON.stringify(arrayProductosWix), total: Number(total), observaciones: obs };
 
       try {
         const key = "mg_pedidos_pendientes";
@@ -337,7 +337,7 @@
       const btn = modal.querySelector("#pwa-confirm");
       btn.disabled = true;
       try {
-        const res = await fetch(WIX_API_URL, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
+        const res = await fetch(WIX_API_URL, { method: "POST", mode: "cors", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
         const data = await res.json().catch(() => ({}));
         if (!res.ok || data.status !== "success") throw new Error("respuesta no exitosa");
 
