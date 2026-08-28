@@ -1,0 +1,328 @@
+/* Cuponera Digital — Mercado Garmendia V6 (complementa Tailwind) */
+
+:root {
+  --wine: #6B1E3D;
+  --wine-dark: #4A1429;
+  --gold: #C9A227;
+  --gold-light: #E8C547;
+  --cream: #F8F5F0;
+  --navy: #0A2540;
+  --teal: #1B4D4A;
+}
+
+body.cuponera-page {
+  font-family: "Montserrat", system-ui, sans-serif;
+  background: var(--cream);
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+body.cuponera-page::before { display: none; }
+
+.cuponera-page .site-header {
+  background: rgba(255,255,255,.97);
+  border-bottom: 1px solid #e8e8e8;
+}
+
+/* Cupón físico premium */
+.coupon-card {
+  position: relative;
+  background: linear-gradient(145deg, #fffef9 0%, #f8f4eb 100%);
+  border: 2px dashed rgba(10, 37, 64, 0.35);
+  border-radius: 16px;
+  padding: 1.25rem 1.1rem 1.1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.coupon-card::before,
+.coupon-card::after {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background: var(--cream);
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 2px dashed rgba(10, 37, 64, 0.2);
+}
+.coupon-card::before { left: -10px; }
+.coupon-card::after { right: -10px; }
+.coupon-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 16px 40px rgba(10, 37, 64, 0.15);
+}
+.coupon-card:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 3px;
+}
+.coupon-scissors {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  font-size: 0.85rem;
+  color: rgba(10, 37, 64, 0.25);
+  transform: rotate(-25deg);
+}
+.coupon-brand {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: var(--navy);
+  opacity: 0.7;
+  margin-bottom: 0.35rem;
+}
+.coupon-local {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--wine);
+  margin-bottom: 0.5rem;
+}
+.coupon-discount {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(1.75rem, 5vw, 2.25rem);
+  font-weight: 800;
+  line-height: 1;
+  color: var(--navy);
+  margin-bottom: 0.4rem;
+}
+.coupon-sub {
+  font-size: 0.8rem;
+  color: #4a5568;
+  line-height: 1.4;
+  flex: 1;
+  margin-bottom: 0.75rem;
+}
+.coupon-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 8px;
+  padding-top: 0.65rem;
+  border-top: 1px dashed rgba(10, 37, 64, 0.2);
+  font-size: 0.68rem;
+  color: #64748b;
+}
+.coupon-code-preview {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: var(--gold-dark, #9A7B18);
+}
+
+/* Mayorista */
+.coupon-card.mayorista {
+  background: linear-gradient(145deg, #f0f4f8 0%, #e8eef4 100%);
+  border-color: rgba(27, 77, 74, 0.4);
+}
+.coupon-card.mayorista .coupon-discount { color: var(--teal); }
+.coupon-card.mayorista .coupon-local { color: var(--navy); }
+.coupon-badge-may {
+  display: inline-block;
+  font-size: 0.58rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: var(--navy);
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 50px;
+  margin-bottom: 0.5rem;
+}
+
+/* Tabs filtro */
+.filter-tab {
+  padding: 0.55rem 1.1rem;
+  border-radius: 50px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  border: 1.5px solid #e2e8f0;
+  background: #fff;
+  color: #64748b;
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+.filter-tab:hover { border-color: var(--wine); color: var(--wine); }
+.filter-tab.active {
+  background: var(--wine);
+  border-color: var(--wine);
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(107, 30, 61, 0.25);
+}
+
+/* Modal */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 5000;
+  background: rgba(10, 37, 64, 0.65);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.35s ease, visibility 0.35s;
+}
+.modal-backdrop.open {
+  opacity: 1;
+  visibility: visible;
+}
+@media (min-width: 640px) {
+  .modal-backdrop {
+    align-items: center;
+    padding: 20px;
+  }
+}
+.modal-panel {
+  background: #fff;
+  width: 100%;
+  max-width: 420px;
+  max-height: 92vh;
+  overflow-y: auto;
+  border-radius: 24px 24px 0 0;
+  transform: translateY(100%) scale(0.95);
+  transition: transform 0.4s cubic-bezier(0.34, 1.4, 0.64, 1);
+  box-shadow: 0 -8px 60px rgba(0,0,0,.2);
+}
+.modal-backdrop.open .modal-panel {
+  transform: translateY(0) scale(1);
+}
+@media (min-width: 640px) {
+  .modal-panel { border-radius: 24px; max-height: 90vh; }
+}
+
+.modal-coupon {
+  padding: 1.5rem 1.25rem 1.25rem;
+  text-align: center;
+  background: linear-gradient(180deg, #fffef9, #f8f4eb);
+  border-bottom: 2px dashed rgba(10,37,64,.2);
+}
+.modal-coupon.mayorista {
+  background: linear-gradient(180deg, #f4f7fa, #e8eef4);
+}
+.modal-discount {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(2.5rem, 10vw, 3.5rem);
+  font-weight: 900;
+  color: var(--navy);
+  line-height: 1;
+  margin: 0.5rem 0;
+}
+.modal-coupon.mayorista .modal-discount { color: var(--teal); }
+.modal-instructions {
+  padding: 1rem 1.25rem;
+  font-size: 0.85rem;
+  color: #475569;
+  text-align: center;
+  background: #fff;
+}
+.modal-instructions strong { color: var(--wine); display: block; margin-bottom: 4px; }
+.modal-barcode-wrap {
+  margin: 1rem 1.25rem;
+  padding: 1rem;
+  background: #fff;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  text-align: center;
+}
+.modal-code-big {
+  font-family: "Courier New", monospace;
+  font-size: clamp(1.1rem, 4.5vw, 1.4rem);
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: var(--navy);
+  margin-bottom: 0.75rem;
+  word-break: break-all;
+}
+.barcode-svg { width: 100%; max-width: 280px; height: 56px; margin: 0 auto; display: block; }
+.modal-mayorista-note {
+  margin: 0 1.25rem 1rem;
+  padding: 0.85rem;
+  background: rgba(27, 77, 74, 0.08);
+  border-left: 4px solid var(--teal);
+  border-radius: 0 8px 8px 0;
+  font-size: 0.78rem;
+  color: #334155;
+  line-height: 1.5;
+}
+.modal-actions {
+  padding: 0 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.btn-redeem {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 0.88rem;
+  letter-spacing: 0.5px;
+  background: linear-gradient(135deg, var(--gold-light), var(--gold));
+  color: #fff;
+  box-shadow: 0 6px 20px rgba(201,162,39,.35);
+  transition: all 0.3s ease;
+}
+.btn-redeem:hover { transform: translateY(-2px); }
+.btn-redeem.success {
+  background: linear-gradient(135deg, #2ecc71, #27ae60);
+  box-shadow: 0 6px 20px rgba(46,204,113,.4);
+  pointer-events: none;
+}
+.btn-close-modal {
+  width: 100%;
+  padding: 0.85rem;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.82rem;
+  background: #f1f5f9;
+  color: #475569;
+}
+.modal-close-x {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(0,0,0,.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  transition: background 0.2s;
+}
+.modal-close-x:hover { background: var(--wine); color: #fff; }
+
+.section-mayorista {
+  background: linear-gradient(135deg, var(--navy) 0%, #0d3a5c 100%);
+  border-radius: 20px;
+  padding: 1.5rem 1.25rem 1.75rem;
+  margin-top: 2rem;
+}
+.section-mayorista h2 {
+  font-family: "Playfair Display", serif;
+  color: #fff;
+  font-size: 1.35rem;
+  margin-bottom: 0.35rem;
+}
+.section-mayorista p {
+  color: rgba(255,255,255,.75);
+  font-size: 0.82rem;
+  margin-bottom: 1.25rem;
+}
+
+@keyframes pulseSuccess {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+.btn-redeem.success { animation: pulseSuccess 0.5s ease; }
+
+.hidden-card { display: none !important; }

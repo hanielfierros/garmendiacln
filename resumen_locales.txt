@@ -1,0 +1,164 @@
+=== INFORME ESTRUCTURAL DE LOCALES ===
+Total de locales detectados: 250
+
+=== DISTRIBUCION REAL POR GIROS ===
+- Venta de carne de res y cerdo: 2 locales
+- Cortes selectos y carne seca: 4 locales
+- Cecina, machaca y chorizo: 1 locales
+- Pan dulce y salado artesanal: 3 locales
+- Repostería y pan de temporada: 3 locales
+- Bolillos, teleras y pan de dulce: 1 locales
+- Queso menonita y requesón: 2 locales
+- Quesos frescos y cremas: 3 locales
+- Lácteos del campo sinaloense: 1 locales
+- Ceviche y mariscos preparados: 2 locales
+- Camarón y ostión del Pacífico: 4 locales
+- Pescado y mariscos frescos: 2 locales
+- Pollo fresco y marinado: 3 locales
+- Pollo para asar y guisar: 1 locales
+- Aves de corral y menudencias: 1 locales
+- Frutas y verduras de temporada: 5 locales
+- Productos del campo sinaloense: 1 locales
+- Frutas tropicales y exóticas: 2 locales
+- Granos, aceites y enlatados: 5 locales
+- Abarrotes y despensa: 2 locales
+- Miscelánea y productos del hogar: 2 locales
+- Totopos y tostadas: 2 locales
+- Tortillas de maíz y harina: 3 locales
+- Antojitos mexicanos: 5 locales
+- Comida corrida y guisos caseros: 2 locales
+- Tamales, gorditas y enchiladas: 2 locales
+- Jugos de temporada: 1 locales
+- Jugos naturales y licuados: 2 locales
+- Vitaminas y bebidas frescas: 1 locales
+- Condimentos y hierbas: 2 locales
+- Adobos y moles: 1 locales
+- Especias y chiles secos: 1 locales
+- Huevo blanco y rojo: 3 locales
+- Carnitas y barbacoa: 1 locales
+- Chorizo y embutidos: 1 locales
+- Carnes frías y charola: 2 locales
+- Semillas para cocina: 3 locales
+- Refrescos y bebidas: 3 locales
+- Café molido y bebidas calientes: 1 locales
+- Café de olla y americano: 2 locales
+- Pasteles y repostería: 5 locales
+- Flanes y pays: 1 locales
+- Flores y arreglos florales: 2 locales
+- Coronas y ramos: 1 locales
+- Remedios tradicionales: 1 locales
+- Productos naturistas: 1 locales
+- Hierbas medicinales: 4 locales
+- Telas y confección: 2 locales
+- Uniformes y bordados: 2 locales
+- Ropa para toda la familia: 3 locales
+- Zapatos y sandalias: 2 locales
+- Calzado para dama y caballero: 1 locales
+- Huaraches y calzado artesanal: 1 locales
+- Herramientas y ferretería: 5 locales
+- Tornillería y pinturas: 1 locales
+- Artículos del hogar: 2 locales
+- Utensilios de cocina: 1 locales
+- Artículos para fiestas: 3 locales
+- Dulces regionales: 4 locales
+- Dulces típicos mexicanos: 1 locales
+- Detergentes y limpieza: 1 locales
+- Productos de aseo: 3 locales
+- Avíos y bordados: 2 locales
+- Hilos, telas y botones: 1 locales
+- Joyería en plata: 1 locales
+- Bisutería y accesorios: 3 locales
+- Artículos de oficina: 1 locales
+- Papelería y librería: 1 locales
+- Útiles escolares: 1 locales
+- Accesorios electrónicos: 3 locales
+- Reparación de celulares: 1 locales
+- Regalos y piñatas: 2 locales
+- Juguetes para niños: 1 locales
+- Artesanías sinaloenses: 2 locales
+- Recuerdos y souvenirs: 2 locales
+- Arreglos de ropa: 3 locales
+- Chocolates y golosinas: 3 locales
+- Ropa tradicional y textiles: 3 locales
+- Sandalias y zapatos: 3 locales
+- Cables y cargadores: 3 locales
+- Globos y artículos festivos: 3 locales
+- Tortillas de maíz recién hechas: 3 locales
+- Huevo de libre pastoreo: 3 locales
+- Abarrotes y productos de despensa: 3 locales
+- Salsas y condimentos: 3 locales
+- Accesorios y bisutería: 3 locales
+- Útiles escolares y papelería: 3 locales
+- Hilos y accesorios de costura: 3 locales
+- Productos de limpieza: 3 locales
+- Vajilla y contenedores: 3 locales
+- Semillas y granos a granel: 3 locales
+- Bebidas embotelladas: 3 locales
+- Carnes marinadas y preparadas: 3 locales
+- Peluches y muñecos artesanales: 2 locales
+- Jugos naturales y licuados de fruta: 2 locales
+- Tostadas y ceviches preparados: 2 locales
+- Platillos típicos de la región: 2 locales
+- Menú casero diario: 2 locales
+- Frutas de temporada del Valle: 3 locales
+- Carne molida y preparada: 3 locales
+- Pan dulce y salado: 3 locales
+- Mariscos y camarón: 3 locales
+- Pollo entero y por piezas: 3 locales
+- Leche y productos lácteos: 3 locales
+- Café de olla y atoles: 3 locales
+- Manualidades y recuerdos: 2 locales
+- Arreglos florales: 2 locales
+- Juguetes de temporada y piñatas: 1 locales
+- Jugos detox y combinados: 1 locales
+- Comida rápida tradicional: 1 locales
+- Comida corrida casera: 1 locales
+- Tamalitos y enchiladas caseras: 1 locales
+
+=== MUESTRA DE PROPIEDADES EXACTAS (Esquema del primer local) ===
+{
+  "id": 1,
+  "nombre": "Carnicería El Toro",
+  "giro": "Venta de carne de res y cerdo",
+  "categoria": "Carnicería",
+  "responsable": "Ricardo Vargas",
+  "contacto": "+52 667 101-2007",
+  "whatsapp": "526673763125",
+  "logo": "local_001.png",
+  "foto": "local_001.png",
+  "icon": "meat",
+  "color": "#E74C3C",
+  "grupoColor": "Carnicerías",
+  "horario": "Lun–Dom 6:00 am – 6:00 pm",
+  "promociones": [],
+  "mapa": {
+    "x": 91,
+    "y": 171,
+    "w": 38.5,
+    "h": 36,
+    "zona": "perimetro-norte",
+    "tipo": "perimetral",
+    "planoLabel": "L-001"
+  },
+  "iconPng": "icon-meat.png",
+  "whatsappDisplay": "667 376 3125"
+}
+
+=== LISTADO MAESTRO DE ACCESO (Muestreo de control de IDs) ===
+ID: 1 | Nombre: Carnicería El Toro | Giro: Venta de carne de res y cerdo
+ID: 2 | Nombre: Carnicería Don Chuy | Giro: Cortes selectos y carne seca
+ID: 3 | Nombre: Carnicería La Res Feliz | Giro: Cortes selectos y carne seca
+ID: 4 | Nombre: Carnicería Los Norteños | Giro: Cecina, machaca y chorizo
+ID: 5 | Nombre: Carnicería La Sinaloa | Giro: Cortes selectos y carne seca
+ID: 6 | Nombre: Carnicería San Martín | Giro: Venta de carne de res y cerdo
+ID: 7 | Nombre: Carnicería El Rincón | Giro: Cortes selectos y carne seca
+ID: 8 | Nombre: Panadería El Trigal | Giro: Pan dulce y salado artesanal
+ID: 9 | Nombre: Panadería La Espiga | Giro: Pan dulce y salado artesanal
+ID: 10 | Nombre: Panadería Don Pepe | Giro: Repostería y pan de temporada
+ID: 11 | Nombre: Panadería El Buen Pan | Giro: Pan dulce y salado artesanal
+ID: 12 | Nombre: Panadería La Michoacana | Giro: Repostería y pan de temporada
+... [Muestreo intermedio de locales omitido para optimizar espacio] ...
+ID: 247 | Nombre: Pescadería La Sinaloa | Giro: Mariscos y camarón
+ID: 248 | Nombre: Pollería La Michoacana | Giro: Pollo entero y por piezas
+ID: 249 | Nombre: Lácteos El Mar Azul | Giro: Leche y productos lácteos
+ID: 250 | Nombre: Café La Isla | Giro: Café de olla y atoles

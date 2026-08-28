@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover"/>
+  <meta name="theme-color" content="#6B1E3D"/>
+  <title>Cuponera | Mercado Garmendia</title>
+  <meta name="description" content="Cupones oficiales y promociones del Mercado Garmendia V8. Canjea desde tu celular en más de 250 locales."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            wine: '#6B1E3D',
+            gold: '#C9A227',
+            cream: '#F8F5F0',
+            navy: '#0A2540',
+            teal: '#1B4D4A',
+          },
+          fontFamily: {
+            display: ['"Playfair Display"', 'Georgia', 'serif'],
+            sans: ['Montserrat', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="cupones.css"/>
+  <link rel="icon" href="logo-mercado.svg" type="image/svg+xml"/>
+</head>
+<body class="cuponera-page">
+
+  <div class="top-bar" aria-hidden="true"></div>
+  <header class="site-header sticky top-0 z-50" id="siteHeader">
+    <div class="header-inner max-w-5xl mx-auto">
+      <a class="brand-block" href="index.html">
+        <img src="logo-mercado.svg" alt="" width="36" height="36"/>
+        <span class="brand-garmendia">Mercado Garmendia</span>
+        <span class="brand-culiacan"><img src="logo-culiacan.png" alt="Ayuntamiento de Culiacán"/></span>
+      </a>
+      <nav aria-label="Principal">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="index.html#mapa">Mapa</a></li>
+          <li><a href="index.html#locales">Locales</a></li>
+          <li><a href="cupones.html" class="nav-cta active"><i class="fa-solid fa-ticket" aria-hidden="true"></i> Cuponera</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" type="button" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Móvil">
+      <a href="index.html">Inicio</a>
+      <a href="index.html#mapa">Mapa</a>
+      <a href="index.html#locales">Locales</a>
+      <a href="cupones.html" class="mobile-nav-cta"><i class="fa-solid fa-ticket"></i> Cuponera</a>
+    </nav>
+  </header>
+
+  <main class="pt-[calc(5px+72px+1rem)] pb-12 px-4 sm:px-6 max-w-5xl mx-auto w-full">
+
+    <header class="text-center mb-8 sm:mb-10">
+      <div class="inline-flex items-center gap-2 bg-white/80 border border-wine/10 rounded-full px-4 py-1.5 mb-4 text-xs font-bold uppercase tracking-widest text-wine">
+        <i class="fa-solid fa-ticket"></i> Oficial · 40 cupones
+      </div>
+      <h1 class="font-display text-3xl sm:text-4xl font-extrabold text-navy mb-3">
+        Cuponera Mercado Garmendia
+      </h1>
+      <p class="text-sm sm:text-base text-slate-600 max-w-lg mx-auto leading-relaxed">
+        30 promociones para público general y 10 cupones mayoristas. Toca un cupón, muéstralo al cajero y canjéalo al instante desde tu celular.
+      </p>
+    </header>
+
+    <div class="flex flex-wrap justify-center gap-2 mb-8" role="tablist" aria-label="Filtrar cupones">
+      <button type="button" class="filter-tab active" data-filter="todos" role="tab">Todos</button>
+      <button type="button" class="filter-tab" data-filter="descuentos" role="tab">Descuentos</button>
+      <button type="button" class="filter-tab" data-filter="mayoristas" role="tab">Mayoristas</button>
+    </div>
+
+    <section id="sectionRetail" aria-labelledby="retailHeading">
+      <h2 id="retailHeading" class="sr-only">Cupones para público general</h2>
+      <div id="couponsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5"></div>
+    </section>
+
+    <section id="sectionMayorista" class="section-mayorista" aria-labelledby="mayHeading">
+      <h2 id="mayHeading" class="font-display text-xl sm:text-2xl font-bold text-white flex items-center gap-2">
+        <i class="fa-solid fa-building"></i>
+        Cupones para Mayoristas y Compras al Mayoreo
+      </h2>
+      <p>Ofertas por volumen para negocios, restaurantes y distribuidores registrados.</p>
+      <div id="mayoristaGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer-mini">
+    <p>© 2026 Mercado Garmendia · Cupones válidos en locales participantes · <a href="index.html">Volver al inicio</a></p>
+  </footer>
+
+  <div id="couponModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-panel relative" id="modalBody"></div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="cupones-data.js"></script>
+  <script src="cupones.js"></script>
+</body>
+</html>

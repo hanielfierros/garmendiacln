@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Prueba correo Web3Forms — Pick Up V13</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 520px; margin: 40px auto; padding: 0 16px; }
+    button { padding: 12px 20px; font-size: 1rem; cursor: pointer; border-radius: 8px; border: none; background: #1e6fd9; color: #fff; font-weight: 700; }
+    button:disabled { opacity: 0.6; cursor: wait; }
+    #result { margin-top: 16px; padding: 12px; border-radius: 8px; white-space: pre-wrap; }
+    .ok { background: #dcfce7; color: #166534; }
+    .err { background: #fee2e2; color: #991b1b; }
+    .wait { background: #fef9c3; color: #854d0e; }
+  </style>
+</head>
+<body>
+  <h1>Prueba correo Pick Up</h1>
+  <p>Envía un correo de prueba a <strong>haniel.fierros@ebenezeraviation.com</strong> vía Web3Forms.</p>
+  <button type="button" id="sendBtn">Enviar prueba otra vez</button>
+  <div id="result" class="wait">Enviando prueba automática...</div>
+  <script>
+    const ACCESS_KEY = "07a8c3aa-0490-474c-97f2-04519cf2129d";
+    const result = document.getElementById("result");
+    const btn = document.getElementById("sendBtn");
+
+    async function sendTest() {
+      btn.disabled = true;
+      result.className = "wait";
+      result.textContent = "Enviando...";
+
+      const folio = "PU-2026-TEST-" + Math.floor(1000 + Math.random() * 9000);
+      const payload = {
+        access_key: ACCESS_KEY,
+        subject: "[PickUp Garmendia] " + folio + " — PRUEBA",
+        from_name: "Mercado Garmendia Pick Up",
+        botcheck: "",
+        email: "haniel.fierros@ebenezeraviation.com",
+        folio,
+        cliente: "Prueba manual V13",
+        telefono: "6670000000",
+        metodo_pago: "Prueba",
+        total: "$0.00",
+        message: "Hola, esto es una prueba de integración Web3Forms para Pick Up V13.\n\nSi recibes este correo, el envío automático de pedidos funciona correctamente.\n\nFolio: " + folio,
+      };
+
+      try {
+        const res = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: { "Content-Type": "application/json", Accept: "application/json" },
+          body: JSON.stringify(payload),
+        });
+        const data = await res.json();
+        if (res.ok && data.success) {
+          result.className = "ok";
+          result.textContent = "✓ Enviado correctamente.\n\n" + (data.message || "") + "\n\nRevisa tu bandeja (y spam) por: " + folio;
+        } else {
+          result.className = "err";
+          result.textContent = "✗ Error del servicio:\n" + JSON.stringify(data, null, 2);
+        }
+      } catch (err) {
+        result.className = "err";
+        result.textContent = "✗ Error de red: " + err.message;
+      } finally {
+        btn.disabled = false;
+      }
+    }
+
+    btn.addEventListener("click", sendTest);
+    sendTest();
+  </script>
+</body>
+</html>

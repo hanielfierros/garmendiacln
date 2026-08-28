@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover"/>
+  <meta name="robots" content="noindex,nofollow"/>
+  <meta name="theme-color" content="#6B1E3D"/>
+  <title>Pick Up | Mercado Garmendia V14</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <link rel="stylesheet" href="pickup.css"/>
+  <link rel="icon" href="logo-mercado.svg" type="image/svg+xml"/>
+</head>
+<body class="pu-body">
+  <header class="pu-header">
+    <a href="index.html" class="pu-logo" id="puExitBtn" title="Salir">
+      <img src="logo-mercado.svg" alt="Mercado Garmendia" width="36" height="36"/>
+      <div>
+        <span class="pu-logo-eyebrow">Mercado Garmendia V14</span>
+        <strong>Pick Up Express</strong>
+      </div>
+    </a>
+    <div class="pu-timer-wrap">
+      <i class="fa-solid fa-hourglass-half"></i>
+      <span id="puTimer">7:00</span>
+    </div>
+  </header>
+
+  <main class="pu-main">
+    <section class="pu-hero">
+      <h1>Compra rápida con <em>IA</em></h1>
+      <p>Pide lo que necesitas. Generamos dos carritos — económico y premium — con precios reales del mercado.</p>
+    </section>
+
+    <section class="pu-instructions">
+      <div class="pu-instructions-card">
+        <h2><i class="fa-solid fa-circle-info"></i> Instrucciones</h2>
+        <ul>
+          <li>Tienes <strong>tiempo limitado</strong> para interactuar y completar tu pedido (ver temporizador arriba).</li>
+          <li>Escribe o dicta lo que necesitas; la IA te ofrecerá <strong>dos opciones de carrito</strong>: económica y premium.</li>
+          <li>Elige un carrito, ajusta cantidades o quita productos, y continúa con tus datos.</li>
+          <li>Enviaremos tu pedido por <strong>WhatsApp</strong> y podrás elegir transferencia, tarjeta o efectivo al recoger.</li>
+        </ul>
+        <p class="pu-instructions-important">
+          <strong>El pedido no se completará hasta que envíes comprobante de transferencia o avises que pagarás con tarjeta o efectivo al recoger en el destino.</strong>
+        </p>
+      </div>
+    </section>
+
+    <div class="pu-layout">
+      <section class="pu-chat-section">
+        <div class="pu-chat-log" id="puChatLog"></div>
+        <div class="pu-chat-input-wrap">
+          <button type="button" class="pu-mic-btn" id="puMicBtn" aria-label="Hablar">
+            <i class="fa-solid fa-microphone"></i>
+          </button>
+          <textarea id="puChatInput" class="pu-chat-input" rows="2" placeholder="Ej: quiero cosas para tacos de asada y refrescos..."></textarea>
+          <button type="button" class="pu-send-btn" id="puSendBtn" aria-label="Enviar">
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </div>
+      </section>
+
+      <aside class="pu-side">
+        <div class="pu-side-block">
+          <h2><i class="fa-solid fa-cart-shopping"></i> Tus opciones</h2>
+          <div id="puCarts" class="pu-carts">
+            <p class="pu-empty">Escribe tu pedido para ver carritos barato y premium.</p>
+          </div>
+        </div>
+        <div class="pu-side-block pu-checkout-block" id="puCheckout"></div>
+        <div class="pu-side-block pu-ticket-block" id="puTicket"></div>
+      </aside>
+    </div>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="catalogo.js"></script>
+  <script src="pickup-config.js"></script>
+  <script src="pickup-access.js"></script>
+  <script src="pickup-engine.js"></script>
+  <script src="pickup-chat.js"></script>
+  <script src="pickup-checkout.js"></script>
+  <script src="pickup-app.js"></script>
+</body>
+</html>
