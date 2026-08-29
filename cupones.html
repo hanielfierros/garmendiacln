@@ -68,34 +68,19 @@
 
     <header class="text-center mb-8 sm:mb-10">
       <div class="inline-flex items-center gap-2 bg-white/80 border border-wine/10 rounded-full px-4 py-1.5 mb-4 text-xs font-bold uppercase tracking-widest text-wine">
-        <i class="fa-solid fa-ticket"></i> Oficial · 40 cupones
+        <i class="fa-solid fa-ticket"></i> Promociones activas
       </div>
       <h1 class="font-display text-3xl sm:text-4xl font-extrabold text-navy mb-3">
         Cuponera Mercado Garmendia
       </h1>
       <p class="text-sm sm:text-base text-slate-600 max-w-lg mx-auto leading-relaxed">
-        30 promociones para público general y 10 cupones mayoristas. Toca un cupón, muéstralo al cajero y canjéalo al instante desde tu celular.
+        Toca un cupón, muéstralo al cajero y canjéalo al instante desde tu celular.
       </p>
     </header>
-
-    <div class="flex flex-wrap justify-center gap-2 mb-8" role="tablist" aria-label="Filtrar cupones">
-      <button type="button" class="filter-tab active" data-filter="todos" role="tab">Todos</button>
-      <button type="button" class="filter-tab" data-filter="descuentos" role="tab">Descuentos</button>
-      <button type="button" class="filter-tab" data-filter="mayoristas" role="tab">Mayoristas</button>
-    </div>
 
     <section id="sectionRetail" aria-labelledby="retailHeading">
       <h2 id="retailHeading" class="sr-only">Cupones para público general</h2>
       <div id="couponsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5"></div>
-    </section>
-
-    <section id="sectionMayorista" class="section-mayorista" aria-labelledby="mayHeading">
-      <h2 id="mayHeading" class="font-display text-xl sm:text-2xl font-bold text-white flex items-center gap-2">
-        <i class="fa-solid fa-building"></i>
-        Cupones para Mayoristas y Compras al Mayoreo
-      </h2>
-      <p>Ofertas por volumen para negocios, restaurantes y distribuidores registrados.</p>
-      <div id="mayoristaGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
     </section>
 
   </main>
@@ -109,7 +94,6 @@
   </div>
 
   <script src="config.js"></script>
-  <script src="cupones-data.js"></script>
   <script src="cupones.js"></script>
 </body>
 </html>

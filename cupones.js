@@ -1,26 +1,23 @@
 /**
- * Cuponera Digital — Mercado Garmendia V8
- * Modal, filtros, canje y código de barras SVG.
+ * Cuponera Digital — Mercado Garmendia (dinámica desde Wix)
  */
 (function () {
   "use strict";
 
   const CONFIG = window.MG_CONFIG || {};
-  const CUPONES = window.MG_CUPONES || [];
+  const WIX_OBTENER_CUPONES = "https://ebenezeraviation.com";
   const grid = document.getElementById("couponsGrid");
-  const mayoristaGrid = document.getElementById("mayoristaGrid");
   const modal = document.getElementById("couponModal");
   const modalBody = document.getElementById("modalBody");
-  const filterTabs = document.querySelectorAll(".filter-tab");
 
-  let activeFilter = "todos";
   let currentCoupon = null;
 
   /** Genera barras simples tipo código de barras desde el código */
   function barcodeSVG(code) {
     const bars = [];
     let x = 0;
-    const seed = code.split("").reduce((a, c) => a + c.charCodeAt(0), 0);
+    const str = code || "";
+    const seed = str.split("").reduce((a, c) => a + c.charCodeAt(0), 0);
     for (let i = 0; i < 42; i++) {
       const w = ((seed + i * 7) % 3) + 1;
       const h = 40 + ((seed + i) % 12);
@@ -30,26 +27,23 @@
     return `<svg class="barcode-svg" viewBox="0 0 ${x} 48" preserveAspectRatio="xMidYMid meet">${bars.join("")}</svg>`;
   }
 
-  function renderCard(c, container) {
-    const isMay = c.tipo === "mayorista";
+  function renderCard(c) {
     const card = document.createElement("article");
-    card.className = `coupon-card${isMay ? " mayorista" : ""}`;
-    card.dataset.category = c.categoria;
-    card.dataset.id = c.id;
+    card.className = "coupon-card";
+    card.dataset.id = c.codigo || c._id || "";
     card.setAttribute("role", "button");
     card.setAttribute("tabindex", "0");
-    card.setAttribute("aria-label", `Cupón ${c.titulo} en ${c.negocio}`);
+    card.setAttribute("aria-label", `Cupón ${c.titulo || ""} en ${c.negocio || ""}`);
 
     card.innerHTML = `
       <i class="fa-solid fa-scissors coupon-scissors" aria-hidden="true"></i>
-      ${isMay ? '<span class="coupon-badge-may">Mayorista</span>' : ""}
       <span class="coupon-brand">${CONFIG.negocio || "Mercado Garmendia"}</span>
-      <span class="coupon-local">${c.negocio}<br/>${c.localLabel}</span>
-      <div class="coupon-discount">${c.titulo}</div>
-      <p class="coupon-sub">${c.subtitulo}</p>
+      <span class="coupon-local">${c.negocio || ""}${c.localLabel ? "<br/>" + c.localLabel : ""}</span>
+      <div class="coupon-discount">${c.titulo || ""}</div>
+      <p class="coupon-sub">${c.subtitulo || ""}</p>
       <div class="coupon-footer">
-        <span>${c.vigencia}</span>
-        <span class="coupon-code-preview">${c.codigo}</span>
+        <span>${c.vigencia || ""}</span>
+        <span class="coupon-code-preview">${c.codigo || ""}</span>
       </div>
     `;
 
@@ -59,78 +53,51 @@
       if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); }
     });
 
-    container.appendChild(card);
-    return card;
+    grid.appendChild(card);
   }
 
-  function renderAll() {
-    if (!grid || !mayoristaGrid) return;
+  function renderAll(cupones) {
+    if (!grid) return;
     grid.innerHTML = "";
-    mayoristaGrid.innerHTML = "";
-
-    CUPONES.filter((c) => c.tipo !== "mayorista").forEach((c) => renderCard(c, grid));
-    CUPONES.filter((c) => c.tipo === "mayorista").forEach((c) => renderCard(c, mayoristaGrid));
-    applyFilter(activeFilter);
+    if (!cupones || !cupones.length) {
+      grid.innerHTML = '<p class="col-span-full text-center text-slate-500 py-10">No hay cupones activos por el momento.</p>';
+      return;
+    }
+    cupones.forEach(renderCard);
   }
 
-  function applyFilter(filter) {
-    activeFilter = filter;
-    filterTabs.forEach((t) => t.classList.toggle("active", t.dataset.filter === filter));
-
-    const allCards = document.querySelectorAll(".coupon-card");
-    const sectionMay = document.getElementById("sectionMayorista");
-
-    allCards.forEach((card) => {
-      const cat = card.dataset.category;
-      let show = false;
-      if (filter === "todos") show = true;
-      else if (filter === "descuentos") show = cat === "descuento";
-      else if (filter === "mayoristas") show = cat === "mayorista";
-      card.classList.toggle("hidden-card", !show);
-    });
-
-    if (sectionMay) {
-      const showMaySection = filter === "todos" || filter === "mayoristas";
-      sectionMay.style.display = showMaySection ? "" : "none";
-    }
-
-    if (filter === "mayoristas") {
-      document.getElementById("sectionRetail")?.scrollIntoView({ behavior: "smooth" });
+  async function cargarCuponesDesdeWix() {
+    try {
+      const res = await fetch(WIX_OBTENER_CUPONES);
+      const data = await res.json();
+      renderAll(Array.isArray(data.cupones) ? data.cupones : []);
+    } catch (e) {
+      renderAll([]);
     }
   }
 
   function openModal(c) {
     currentCoupon = c;
-    const isMay = c.tipo === "mayorista";
-
     modalBody.innerHTML = `
       <button type="button" class="modal-close-x" id="modalCloseX" aria-label="Cerrar">
         <i class="fa-solid fa-xmark"></i>
       </button>
-      <div class="modal-coupon${isMay ? " mayorista" : ""}">
-        ${isMay ? '<span class="coupon-badge-may">Cupón mayorista</span>' : ""}
-        <span class="coupon-brand">${CONFIG.negocio}</span>
-        <p class="text-sm font-semibold text-[#6B1E3D] mt-1">${c.negocio}</p>
-        <p class="text-xs text-slate-500">${c.localLabel}</p>
-        <div class="modal-discount">${c.titulo}</div>
-        <p class="text-sm text-slate-600 px-2">${c.subtitulo}</p>
-        <p class="text-xs text-slate-400 mt-2">${c.vigencia}</p>
+      <div class="modal-coupon">
+        <span class="coupon-brand">${CONFIG.negocio || "Mercado Garmendia"}</span>
+        <p class="text-sm font-semibold text-[#6B1E3D] mt-1">${c.negocio || ""}</p>
+        <p class="text-xs text-slate-500">${c.localLabel || ""}</p>
+        <div class="modal-discount">${c.titulo || ""}</div>
+        <p class="text-sm text-slate-600 px-2">${c.subtitulo || ""}</p>
+        <p class="text-xs text-slate-400 mt-2">${c.vigencia || ""}</p>
       </div>
       <div class="modal-instructions">
         <strong>Muestra este cupón al cajero para canjear</strong>
         Presenta la pantalla con el código visible. Válido solo en el local indicado.
       </div>
       <div class="modal-barcode-wrap">
-        <div class="modal-code-big">${c.codigo}</div>
+        <div class="modal-code-big">${c.codigo || ""}</div>
         ${barcodeSVG(c.codigo)}
       </div>
-      ${isMay ? `
-        <div class="modal-mayorista-note">
-          <i class="fa-solid fa-building"></i>
-          Aplicable solo a clientes mayoristas. Verifica disponibilidad con tu ejecutivo de cuenta.
-          ${c.minimo ? `<br/><strong>${c.minimo}</strong>` : ""}
-        </div>
-      ` : ""}
       <div class="modal-actions">
         <button type="button" class="btn-redeem" id="btnRedeem">
           <i class="fa-solid fa-check-circle"></i> Canjear cupón
@@ -162,10 +129,6 @@
     currentCoupon = null;
   }
 
-  filterTabs.forEach((tab) => {
-    tab.addEventListener("click", () => applyFilter(tab.dataset.filter));
-  });
-
   modal?.addEventListener("click", (e) => {
     if (e.target === modal) closeModal();
   });
@@ -181,19 +144,9 @@
     mobile?.classList.toggle("open");
   });
 
-  function highlightLocalFromUrl() {
-    const localId = new URLSearchParams(window.location.search).get("local");
-    if (!localId) return;
-    const coupon = CUPONES.find((c) => String(c.localNum) === localId);
-    if (!coupon) return;
-    const match = document.querySelector(`.coupon-card[data-id="${coupon.id}"]`);
-    if (match) {
-      match.scrollIntoView({ behavior: "smooth", block: "center" });
-      match.style.outline = "3px solid #C9A227";
-      match.style.outlineOffset = "4px";
-    }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", cargarCuponesDesdeWix);
+  } else {
+    cargarCuponesDesdeWix();
   }
-
-  renderAll();
-  highlightLocalFromUrl();
 })();
