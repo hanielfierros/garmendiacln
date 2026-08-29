@@ -5,7 +5,7 @@
   "use strict";
 
   const CONFIG = window.MG_CONFIG || {};
-  const WIX_OBTENER_CUPONES = "https://ebenezeraviation.com";
+  const WIX_OBTENER_CUPONES = "https://ebenezeraviation.com/_functions/obtenerCupones";
   const grid = document.getElementById("couponsGrid");
   const modal = document.getElementById("couponModal");
   const modalBody = document.getElementById("modalBody");
