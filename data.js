@@ -13,15 +13,9 @@ window.MG_DATA = {
     "heroImage": "hero-mercado-viejo.jpg",
     "gastroCategorias": [
       "Antojitos y Comida",
-      "Café y Atoles",
-      "Carnicería",
-      "Jugos y Licuados",
-      "Panadería",
-      "Pescadería y Mariscos",
-      "Pollería",
-      "Postres y Repostería",
-      "Fonda",
-      "Comida Casera"
+      "Carnes Preparadas",
+      "Comida Casera",
+      "Fonda"
     ],
     "historiaImage": "mercado-historia.jpg",
     "catalogVersion": "14.0.0",
@@ -7398,7 +7392,7 @@ window.MG_DATA = {
   "productos": [
     {
       "localId": 1,
-      "producto": "Bistec res",
+      "producto": "Aguayón",
       "precio": 137,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7406,7 +7400,7 @@ window.MG_DATA = {
     },
     {
       "localId": 1,
-      "producto": "Molida res",
+      "producto": "Diezmillo",
       "precio": 88.4,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7414,7 +7408,7 @@ window.MG_DATA = {
     },
     {
       "localId": 1,
-      "producto": "Costilla res",
+      "producto": "T-bone",
       "precio": 94.9,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7422,7 +7416,7 @@ window.MG_DATA = {
     },
     {
       "localId": 1,
-      "producto": "Arrachera",
+      "producto": "Cueritos de cerdo",
       "precio": 162,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7430,7 +7424,7 @@ window.MG_DATA = {
     },
     {
       "localId": 1,
-      "producto": "Cortadillo",
+      "producto": "Suadero",
       "precio": 118,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7438,7 +7432,7 @@ window.MG_DATA = {
     },
     {
       "localId": 2,
-      "producto": "Bistec res",
+      "producto": "Aguayón",
       "precio": 131,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7446,7 +7440,7 @@ window.MG_DATA = {
     },
     {
       "localId": 2,
-      "producto": "Molida res",
+      "producto": "Diezmillo",
       "precio": 92.8,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7454,7 +7448,7 @@ window.MG_DATA = {
     },
     {
       "localId": 2,
-      "producto": "Costilla res",
+      "producto": "T-bone",
       "precio": 86.2,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7462,7 +7456,7 @@ window.MG_DATA = {
     },
     {
       "localId": 2,
-      "producto": "Arrachera",
+      "producto": "Cueritos de cerdo",
       "precio": 166,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7470,7 +7464,7 @@ window.MG_DATA = {
     },
     {
       "localId": 2,
-      "producto": "Cortadillo",
+      "producto": "Suadero",
       "precio": 117,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7478,7 +7472,7 @@ window.MG_DATA = {
     },
     {
       "localId": 3,
-      "producto": "Bistec res",
+      "producto": "Aguayón",
       "precio": 122,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7486,7 +7480,7 @@ window.MG_DATA = {
     },
     {
       "localId": 3,
-      "producto": "Molida res",
+      "producto": "Diezmillo",
       "precio": 81.6,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7494,7 +7488,7 @@ window.MG_DATA = {
     },
     {
       "localId": 3,
-      "producto": "Costilla res",
+      "producto": "T-bone",
       "precio": 96.3,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7502,7 +7496,7 @@ window.MG_DATA = {
     },
     {
       "localId": 3,
-      "producto": "Arrachera",
+      "producto": "Cueritos de cerdo",
       "precio": 165,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7510,7 +7504,7 @@ window.MG_DATA = {
     },
     {
       "localId": 3,
-      "producto": "Cortadillo",
+      "producto": "Suadero",
       "precio": 124,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7518,7 +7512,7 @@ window.MG_DATA = {
     },
     {
       "localId": 4,
-      "producto": "Bistec res",
+      "producto": "Aguayón",
       "precio": 125,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7526,7 +7520,7 @@ window.MG_DATA = {
     },
     {
       "localId": 4,
-      "producto": "Molida res",
+      "producto": "Diezmillo",
       "precio": 96.7,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7534,7 +7528,7 @@ window.MG_DATA = {
     },
     {
       "localId": 4,
-      "producto": "Costilla res",
+      "producto": "T-bone",
       "precio": 106,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7542,7 +7536,7 @@ window.MG_DATA = {
     },
     {
       "localId": 4,
-      "producto": "Arrachera",
+      "producto": "Cueritos de cerdo",
       "precio": 164,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7550,7 +7544,7 @@ window.MG_DATA = {
     },
     {
       "localId": 4,
-      "producto": "Cortadillo",
+      "producto": "Suadero",
       "precio": 130,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7558,7 +7552,7 @@ window.MG_DATA = {
     },
     {
       "localId": 5,
-      "producto": "Bistec res",
+      "producto": "Aguayón",
       "precio": 130,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7566,7 +7560,7 @@ window.MG_DATA = {
     },
     {
       "localId": 5,
-      "producto": "Molida res",
+      "producto": "Diezmillo",
       "precio": 90.9,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7574,7 +7568,7 @@ window.MG_DATA = {
     },
     {
       "localId": 5,
-      "producto": "Costilla res",
+      "producto": "T-bone",
       "precio": 87.2,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7582,7 +7576,7 @@ window.MG_DATA = {
     },
     {
       "localId": 5,
-      "producto": "Arrachera",
+      "producto": "Cueritos de cerdo",
       "precio": 158,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7590,7 +7584,7 @@ window.MG_DATA = {
     },
     {
       "localId": 5,
-      "producto": "Cortadillo",
+      "producto": "Suadero",
       "precio": 110,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7598,7 +7592,7 @@ window.MG_DATA = {
     },
     {
       "localId": 6,
-      "producto": "Bistec res",
+      "producto": "Aguayón",
       "precio": 141,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7606,7 +7600,7 @@ window.MG_DATA = {
     },
     {
       "localId": 6,
-      "producto": "Molida res",
+      "producto": "Diezmillo",
       "precio": 93.6,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7614,7 +7608,7 @@ window.MG_DATA = {
     },
     {
       "localId": 6,
-      "producto": "Costilla res",
+      "producto": "T-bone",
       "precio": 105,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7622,7 +7616,7 @@ window.MG_DATA = {
     },
     {
       "localId": 6,
-      "producto": "Arrachera",
+      "producto": "Cueritos de cerdo",
       "precio": 165,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7630,7 +7624,7 @@ window.MG_DATA = {
     },
     {
       "localId": 6,
-      "producto": "Cortadillo",
+      "producto": "Suadero",
       "precio": 110,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7638,7 +7632,7 @@ window.MG_DATA = {
     },
     {
       "localId": 7,
-      "producto": "Bistec res",
+      "producto": "Aguayón",
       "precio": 116,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7646,7 +7640,7 @@ window.MG_DATA = {
     },
     {
       "localId": 7,
-      "producto": "Molida res",
+      "producto": "Diezmillo",
       "precio": 89.3,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7654,7 +7648,7 @@ window.MG_DATA = {
     },
     {
       "localId": 7,
-      "producto": "Costilla res",
+      "producto": "T-bone",
       "precio": 98.6,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7662,7 +7656,7 @@ window.MG_DATA = {
     },
     {
       "localId": 7,
-      "producto": "Arrachera",
+      "producto": "Cueritos de cerdo",
       "precio": 151,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7670,7 +7664,7 @@ window.MG_DATA = {
     },
     {
       "localId": 7,
-      "producto": "Cortadillo",
+      "producto": "Suadero",
       "precio": 115,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -7678,7 +7672,7 @@ window.MG_DATA = {
     },
     {
       "localId": 8,
-      "producto": "Concha vainilla",
+      "producto": "Suaves de malvavisco",
       "precio": 14.3,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7686,7 +7680,7 @@ window.MG_DATA = {
     },
     {
       "localId": 8,
-      "producto": "Concha chocolate",
+      "producto": "Empanada de cajeta",
       "precio": 14.2,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7694,7 +7688,7 @@ window.MG_DATA = {
     },
     {
       "localId": 8,
-      "producto": "Oreja",
+      "producto": "Buñuelos",
       "precio": 15.0,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7702,7 +7696,7 @@ window.MG_DATA = {
     },
     {
       "localId": 8,
-      "producto": "Cuerno",
+      "producto": "Pan de feria",
       "precio": 14.9,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7710,7 +7704,7 @@ window.MG_DATA = {
     },
     {
       "localId": 8,
-      "producto": "Polvorón",
+      "producto": "Pinturitas de manteca",
       "precio": 11.0,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7718,7 +7712,7 @@ window.MG_DATA = {
     },
     {
       "localId": 9,
-      "producto": "Concha vainilla",
+      "producto": "Suaves de malvavisco",
       "precio": 12.4,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7726,7 +7720,7 @@ window.MG_DATA = {
     },
     {
       "localId": 9,
-      "producto": "Concha chocolate",
+      "producto": "Empanada de cajeta",
       "precio": 13.2,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7734,7 +7728,7 @@ window.MG_DATA = {
     },
     {
       "localId": 9,
-      "producto": "Oreja",
+      "producto": "Buñuelos",
       "precio": 16.3,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7742,7 +7736,7 @@ window.MG_DATA = {
     },
     {
       "localId": 9,
-      "producto": "Cuerno",
+      "producto": "Pan de feria",
       "precio": 16.8,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7750,7 +7744,7 @@ window.MG_DATA = {
     },
     {
       "localId": 9,
-      "producto": "Polvorón",
+      "producto": "Pinturitas de manteca",
       "precio": 11.6,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7758,7 +7752,7 @@ window.MG_DATA = {
     },
     {
       "localId": 10,
-      "producto": "Concha vainilla",
+      "producto": "Suaves de malvavisco",
       "precio": 13.5,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7766,7 +7760,7 @@ window.MG_DATA = {
     },
     {
       "localId": 10,
-      "producto": "Concha chocolate",
+      "producto": "Empanada de cajeta",
       "precio": 13.6,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7774,7 +7768,7 @@ window.MG_DATA = {
     },
     {
       "localId": 10,
-      "producto": "Oreja",
+      "producto": "Buñuelos",
       "precio": 17.4,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7782,7 +7776,7 @@ window.MG_DATA = {
     },
     {
       "localId": 10,
-      "producto": "Cuerno",
+      "producto": "Pan de feria",
       "precio": 15.4,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7790,7 +7784,7 @@ window.MG_DATA = {
     },
     {
       "localId": 10,
-      "producto": "Polvorón",
+      "producto": "Pinturitas de manteca",
       "precio": 12.9,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7798,7 +7792,7 @@ window.MG_DATA = {
     },
     {
       "localId": 11,
-      "producto": "Concha vainilla",
+      "producto": "Suaves de malvavisco",
       "precio": 13.1,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7806,7 +7800,7 @@ window.MG_DATA = {
     },
     {
       "localId": 11,
-      "producto": "Concha chocolate",
+      "producto": "Empanada de cajeta",
       "precio": 15.2,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7814,7 +7808,7 @@ window.MG_DATA = {
     },
     {
       "localId": 11,
-      "producto": "Oreja",
+      "producto": "Buñuelos",
       "precio": 17.9,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7822,7 +7816,7 @@ window.MG_DATA = {
     },
     {
       "localId": 11,
-      "producto": "Cuerno",
+      "producto": "Pan de feria",
       "precio": 15.6,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7830,7 +7824,7 @@ window.MG_DATA = {
     },
     {
       "localId": 11,
-      "producto": "Polvorón",
+      "producto": "Pinturitas de manteca",
       "precio": 12.1,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7838,7 +7832,7 @@ window.MG_DATA = {
     },
     {
       "localId": 12,
-      "producto": "Concha vainilla",
+      "producto": "Suaves de malvavisco",
       "precio": 15.0,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7846,7 +7840,7 @@ window.MG_DATA = {
     },
     {
       "localId": 12,
-      "producto": "Concha chocolate",
+      "producto": "Empanada de cajeta",
       "precio": 13.3,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7854,7 +7848,7 @@ window.MG_DATA = {
     },
     {
       "localId": 12,
-      "producto": "Oreja",
+      "producto": "Buñuelos",
       "precio": 15.9,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7862,7 +7856,7 @@ window.MG_DATA = {
     },
     {
       "localId": 12,
-      "producto": "Cuerno",
+      "producto": "Pan de feria",
       "precio": 14.5,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7870,7 +7864,7 @@ window.MG_DATA = {
     },
     {
       "localId": 12,
-      "producto": "Polvorón",
+      "producto": "Pinturitas de manteca",
       "precio": 10.7,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7878,7 +7872,7 @@ window.MG_DATA = {
     },
     {
       "localId": 13,
-      "producto": "Concha vainilla",
+      "producto": "Suaves de malvavisco",
       "precio": 14.2,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7886,7 +7880,7 @@ window.MG_DATA = {
     },
     {
       "localId": 13,
-      "producto": "Concha chocolate",
+      "producto": "Empanada de cajeta",
       "precio": 15.5,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7894,7 +7888,7 @@ window.MG_DATA = {
     },
     {
       "localId": 13,
-      "producto": "Oreja",
+      "producto": "Buñuelos",
       "precio": 17.8,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7902,7 +7896,7 @@ window.MG_DATA = {
     },
     {
       "localId": 13,
-      "producto": "Cuerno",
+      "producto": "Pan de feria",
       "precio": 14.4,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7910,7 +7904,7 @@ window.MG_DATA = {
     },
     {
       "localId": 13,
-      "producto": "Polvorón",
+      "producto": "Pinturitas de manteca",
       "precio": 12.6,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7918,7 +7912,7 @@ window.MG_DATA = {
     },
     {
       "localId": 14,
-      "producto": "Concha vainilla",
+      "producto": "Suaves de malvavisco",
       "precio": 14.8,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7926,7 +7920,7 @@ window.MG_DATA = {
     },
     {
       "localId": 14,
-      "producto": "Concha chocolate",
+      "producto": "Empanada de cajeta",
       "precio": 12.3,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7934,7 +7928,7 @@ window.MG_DATA = {
     },
     {
       "localId": 14,
-      "producto": "Oreja",
+      "producto": "Buñuelos",
       "precio": 15.7,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7942,7 +7936,7 @@ window.MG_DATA = {
     },
     {
       "localId": 14,
-      "producto": "Cuerno",
+      "producto": "Pan de feria",
       "precio": 14.0,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7950,7 +7944,7 @@ window.MG_DATA = {
     },
     {
       "localId": 14,
-      "producto": "Polvorón",
+      "producto": "Pinturitas de manteca",
       "precio": 13.0,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -7958,7 +7952,7 @@ window.MG_DATA = {
     },
     {
       "localId": 15,
-      "producto": "Leche Lala entera 1L",
+      "producto": "Mantequilla con ajo",
       "precio": 25.3,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -7966,7 +7960,7 @@ window.MG_DATA = {
     },
     {
       "localId": 15,
-      "producto": "Leche deslactosada 1L",
+      "producto": "Queso panela",
       "precio": 28.2,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -7974,7 +7968,7 @@ window.MG_DATA = {
     },
     {
       "localId": 15,
-      "producto": "Leche Alpura light 1L",
+      "producto": "Leche bronca",
       "precio": 26.8,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -7982,7 +7976,7 @@ window.MG_DATA = {
     },
     {
       "localId": 15,
-      "producto": "Leche coco 1L",
+      "producto": "Crema batida",
       "precio": 28.8,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -7990,7 +7984,7 @@ window.MG_DATA = {
     },
     {
       "localId": 15,
-      "producto": "Leche evaporada",
+      "producto": "Jocoque con chile piquín",
       "precio": 18.4,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -7998,7 +7992,7 @@ window.MG_DATA = {
     },
     {
       "localId": 16,
-      "producto": "Leche Lala entera 1L",
+      "producto": "Mantequilla con ajo",
       "precio": 24.9,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8006,7 +8000,7 @@ window.MG_DATA = {
     },
     {
       "localId": 16,
-      "producto": "Leche deslactosada 1L",
+      "producto": "Queso panela",
       "precio": 26.8,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8014,7 +8008,7 @@ window.MG_DATA = {
     },
     {
       "localId": 16,
-      "producto": "Leche Alpura light 1L",
+      "producto": "Leche bronca",
       "precio": 27.3,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8022,7 +8016,7 @@ window.MG_DATA = {
     },
     {
       "localId": 16,
-      "producto": "Leche coco 1L",
+      "producto": "Crema batida",
       "precio": 29.3,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8030,7 +8024,7 @@ window.MG_DATA = {
     },
     {
       "localId": 16,
-      "producto": "Leche evaporada",
+      "producto": "Jocoque con chile piquín",
       "precio": 19.8,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8038,7 +8032,7 @@ window.MG_DATA = {
     },
     {
       "localId": 17,
-      "producto": "Leche Lala entera 1L",
+      "producto": "Mantequilla con ajo",
       "precio": 22.5,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8046,7 +8040,7 @@ window.MG_DATA = {
     },
     {
       "localId": 17,
-      "producto": "Leche deslactosada 1L",
+      "producto": "Queso panela",
       "precio": 27.6,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8054,7 +8048,7 @@ window.MG_DATA = {
     },
     {
       "localId": 17,
-      "producto": "Leche Alpura light 1L",
+      "producto": "Leche bronca",
       "precio": 26.7,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8062,7 +8056,7 @@ window.MG_DATA = {
     },
     {
       "localId": 17,
-      "producto": "Leche coco 1L",
+      "producto": "Crema batida",
       "precio": 30.1,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8070,7 +8064,7 @@ window.MG_DATA = {
     },
     {
       "localId": 17,
-      "producto": "Leche evaporada",
+      "producto": "Jocoque con chile piquín",
       "precio": 19.9,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8078,7 +8072,7 @@ window.MG_DATA = {
     },
     {
       "localId": 18,
-      "producto": "Leche Lala entera 1L",
+      "producto": "Mantequilla con ajo",
       "precio": 21.3,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8086,7 +8080,7 @@ window.MG_DATA = {
     },
     {
       "localId": 18,
-      "producto": "Leche deslactosada 1L",
+      "producto": "Queso panela",
       "precio": 24.9,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8094,7 +8088,7 @@ window.MG_DATA = {
     },
     {
       "localId": 18,
-      "producto": "Leche Alpura light 1L",
+      "producto": "Leche bronca",
       "precio": 25.1,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8102,7 +8096,7 @@ window.MG_DATA = {
     },
     {
       "localId": 18,
-      "producto": "Leche coco 1L",
+      "producto": "Crema batida",
       "precio": 31.3,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8110,7 +8104,7 @@ window.MG_DATA = {
     },
     {
       "localId": 18,
-      "producto": "Leche evaporada",
+      "producto": "Jocoque con chile piquín",
       "precio": 17.9,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8118,7 +8112,7 @@ window.MG_DATA = {
     },
     {
       "localId": 19,
-      "producto": "Leche Lala entera 1L",
+      "producto": "Mantequilla con ajo",
       "precio": 21.4,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8126,7 +8120,7 @@ window.MG_DATA = {
     },
     {
       "localId": 19,
-      "producto": "Leche deslactosada 1L",
+      "producto": "Queso panela",
       "precio": 25.9,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8134,7 +8128,7 @@ window.MG_DATA = {
     },
     {
       "localId": 19,
-      "producto": "Leche Alpura light 1L",
+      "producto": "Leche bronca",
       "precio": 28.5,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8142,7 +8136,7 @@ window.MG_DATA = {
     },
     {
       "localId": 19,
-      "producto": "Leche coco 1L",
+      "producto": "Crema batida",
       "precio": 30.1,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8150,7 +8144,7 @@ window.MG_DATA = {
     },
     {
       "localId": 19,
-      "producto": "Leche evaporada",
+      "producto": "Jocoque con chile piquín",
       "precio": 17.6,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8158,7 +8152,7 @@ window.MG_DATA = {
     },
     {
       "localId": 20,
-      "producto": "Leche Lala entera 1L",
+      "producto": "Mantequilla con ajo",
       "precio": 23.0,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8166,7 +8160,7 @@ window.MG_DATA = {
     },
     {
       "localId": 20,
-      "producto": "Leche deslactosada 1L",
+      "producto": "Queso panela",
       "precio": 26.7,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8174,7 +8168,7 @@ window.MG_DATA = {
     },
     {
       "localId": 20,
-      "producto": "Leche Alpura light 1L",
+      "producto": "Leche bronca",
       "precio": 27.6,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8182,7 +8176,7 @@ window.MG_DATA = {
     },
     {
       "localId": 20,
-      "producto": "Leche coco 1L",
+      "producto": "Crema batida",
       "precio": 34.9,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8190,7 +8184,7 @@ window.MG_DATA = {
     },
     {
       "localId": 20,
-      "producto": "Leche evaporada",
+      "producto": "Jocoque con chile piquín",
       "precio": 19.1,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -8198,7 +8192,7 @@ window.MG_DATA = {
     },
     {
       "localId": 21,
-      "producto": "Huachinango",
+      "producto": "Cangrejo",
       "precio": 155,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8206,7 +8200,7 @@ window.MG_DATA = {
     },
     {
       "localId": 21,
-      "producto": "Robalo filete",
+      "producto": "Marlín",
       "precio": 179,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8214,7 +8208,7 @@ window.MG_DATA = {
     },
     {
       "localId": 21,
-      "producto": "Sierra fresca",
+      "producto": "Salsa negra marisquera",
       "precio": 86.9,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8222,7 +8216,7 @@ window.MG_DATA = {
     },
     {
       "localId": 21,
-      "producto": "Mojarra",
+      "producto": "Bagre",
       "precio": 63.7,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8230,7 +8224,7 @@ window.MG_DATA = {
     },
     {
       "localId": 21,
-      "producto": "Pargo",
+      "producto": "Almeja",
       "precio": 144,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8238,7 +8232,7 @@ window.MG_DATA = {
     },
     {
       "localId": 22,
-      "producto": "Huachinango",
+      "producto": "Cangrejo",
       "precio": 131,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8246,7 +8240,7 @@ window.MG_DATA = {
     },
     {
       "localId": 22,
-      "producto": "Robalo filete",
+      "producto": "Marlín",
       "precio": 167,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8254,7 +8248,7 @@ window.MG_DATA = {
     },
     {
       "localId": 22,
-      "producto": "Sierra fresca",
+      "producto": "Salsa negra marisquera",
       "precio": 87.8,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8262,7 +8256,7 @@ window.MG_DATA = {
     },
     {
       "localId": 22,
-      "producto": "Mojarra",
+      "producto": "Bagre",
       "precio": 79.8,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8270,7 +8264,7 @@ window.MG_DATA = {
     },
     {
       "localId": 22,
-      "producto": "Pargo",
+      "producto": "Almeja",
       "precio": 163,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8278,7 +8272,7 @@ window.MG_DATA = {
     },
     {
       "localId": 23,
-      "producto": "Huachinango",
+      "producto": "Cangrejo",
       "precio": 154,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8286,7 +8280,7 @@ window.MG_DATA = {
     },
     {
       "localId": 23,
-      "producto": "Robalo filete",
+      "producto": "Marlín",
       "precio": 172,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8294,7 +8288,7 @@ window.MG_DATA = {
     },
     {
       "localId": 23,
-      "producto": "Sierra fresca",
+      "producto": "Salsa negra marisquera",
       "precio": 102,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8302,7 +8296,7 @@ window.MG_DATA = {
     },
     {
       "localId": 23,
-      "producto": "Mojarra",
+      "producto": "Bagre",
       "precio": 80.1,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8310,7 +8304,7 @@ window.MG_DATA = {
     },
     {
       "localId": 23,
-      "producto": "Pargo",
+      "producto": "Almeja",
       "precio": 156,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8318,7 +8312,7 @@ window.MG_DATA = {
     },
     {
       "localId": 24,
-      "producto": "Huachinango",
+      "producto": "Cangrejo",
       "precio": 133,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8326,7 +8320,7 @@ window.MG_DATA = {
     },
     {
       "localId": 24,
-      "producto": "Robalo filete",
+      "producto": "Marlín",
       "precio": 188,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8334,7 +8328,7 @@ window.MG_DATA = {
     },
     {
       "localId": 24,
-      "producto": "Sierra fresca",
+      "producto": "Salsa negra marisquera",
       "precio": 101,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8342,7 +8336,7 @@ window.MG_DATA = {
     },
     {
       "localId": 24,
-      "producto": "Mojarra",
+      "producto": "Bagre",
       "precio": 72.3,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8350,7 +8344,7 @@ window.MG_DATA = {
     },
     {
       "localId": 24,
-      "producto": "Pargo",
+      "producto": "Almeja",
       "precio": 170,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8358,7 +8352,7 @@ window.MG_DATA = {
     },
     {
       "localId": 25,
-      "producto": "Huachinango",
+      "producto": "Cangrejo",
       "precio": 146,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8366,7 +8360,7 @@ window.MG_DATA = {
     },
     {
       "localId": 25,
-      "producto": "Robalo filete",
+      "producto": "Marlín",
       "precio": 184,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8374,7 +8368,7 @@ window.MG_DATA = {
     },
     {
       "localId": 25,
-      "producto": "Sierra fresca",
+      "producto": "Salsa negra marisquera",
       "precio": 86.0,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8382,7 +8376,7 @@ window.MG_DATA = {
     },
     {
       "localId": 25,
-      "producto": "Mojarra",
+      "producto": "Bagre",
       "precio": 66.8,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8390,7 +8384,7 @@ window.MG_DATA = {
     },
     {
       "localId": 25,
-      "producto": "Pargo",
+      "producto": "Almeja",
       "precio": 163,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8398,7 +8392,7 @@ window.MG_DATA = {
     },
     {
       "localId": 26,
-      "producto": "Huachinango",
+      "producto": "Cangrejo",
       "precio": 153,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8406,7 +8400,7 @@ window.MG_DATA = {
     },
     {
       "localId": 26,
-      "producto": "Robalo filete",
+      "producto": "Marlín",
       "precio": 187,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8414,7 +8408,7 @@ window.MG_DATA = {
     },
     {
       "localId": 26,
-      "producto": "Sierra fresca",
+      "producto": "Salsa negra marisquera",
       "precio": 96.0,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8422,7 +8416,7 @@ window.MG_DATA = {
     },
     {
       "localId": 26,
-      "producto": "Mojarra",
+      "producto": "Bagre",
       "precio": 74.8,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8430,7 +8424,7 @@ window.MG_DATA = {
     },
     {
       "localId": 26,
-      "producto": "Pargo",
+      "producto": "Almeja",
       "precio": 165,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8438,7 +8432,7 @@ window.MG_DATA = {
     },
     {
       "localId": 27,
-      "producto": "Huachinango",
+      "producto": "Cangrejo",
       "precio": 146,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8446,7 +8440,7 @@ window.MG_DATA = {
     },
     {
       "localId": 27,
-      "producto": "Robalo filete",
+      "producto": "Marlín",
       "precio": 176,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8454,7 +8448,7 @@ window.MG_DATA = {
     },
     {
       "localId": 27,
-      "producto": "Sierra fresca",
+      "producto": "Salsa negra marisquera",
       "precio": 85.9,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8462,7 +8456,7 @@ window.MG_DATA = {
     },
     {
       "localId": 27,
-      "producto": "Mojarra",
+      "producto": "Bagre",
       "precio": 68.9,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8470,7 +8464,7 @@ window.MG_DATA = {
     },
     {
       "localId": 27,
-      "producto": "Pargo",
+      "producto": "Almeja",
       "precio": 171,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8478,7 +8472,7 @@ window.MG_DATA = {
     },
     {
       "localId": 28,
-      "producto": "Huachinango",
+      "producto": "Cangrejo",
       "precio": 147,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8486,7 +8480,7 @@ window.MG_DATA = {
     },
     {
       "localId": 28,
-      "producto": "Robalo filete",
+      "producto": "Marlín",
       "precio": 180,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8494,7 +8488,7 @@ window.MG_DATA = {
     },
     {
       "localId": 28,
-      "producto": "Sierra fresca",
+      "producto": "Salsa negra marisquera",
       "precio": 96.3,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8502,7 +8496,7 @@ window.MG_DATA = {
     },
     {
       "localId": 28,
-      "producto": "Mojarra",
+      "producto": "Bagre",
       "precio": 63.9,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8510,7 +8504,7 @@ window.MG_DATA = {
     },
     {
       "localId": 28,
-      "producto": "Pargo",
+      "producto": "Almeja",
       "precio": 161,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -8518,7 +8512,7 @@ window.MG_DATA = {
     },
     {
       "localId": 29,
-      "producto": "Pollo entero kg",
+      "producto": "Pechuga deshuesada",
       "precio": 57.5,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8526,7 +8520,7 @@ window.MG_DATA = {
     },
     {
       "localId": 29,
-      "producto": "Pechuga kg",
+      "producto": "Pechuga ahumada",
       "precio": 73.7,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8534,7 +8528,7 @@ window.MG_DATA = {
     },
     {
       "localId": 29,
-      "producto": "Muslo kg",
+      "producto": "Pollo rostizado",
       "precio": 49.5,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8542,7 +8536,7 @@ window.MG_DATA = {
     },
     {
       "localId": 29,
-      "producto": "Ala kg",
+      "producto": "Pollo a la parrilla",
       "precio": 38.1,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8550,7 +8544,7 @@ window.MG_DATA = {
     },
     {
       "localId": 29,
-      "producto": "Pollo deshuesado kg",
+      "producto": "Medio pollo rostizado",
       "precio": 73.1,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8558,7 +8552,7 @@ window.MG_DATA = {
     },
     {
       "localId": 30,
-      "producto": "Pollo entero kg",
+      "producto": "Pechuga deshuesada",
       "precio": 56.0,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8566,7 +8560,7 @@ window.MG_DATA = {
     },
     {
       "localId": 30,
-      "producto": "Pechuga kg",
+      "producto": "Pechuga ahumada",
       "precio": 69.1,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8574,7 +8568,7 @@ window.MG_DATA = {
     },
     {
       "localId": 30,
-      "producto": "Muslo kg",
+      "producto": "Pollo rostizado",
       "precio": 44.0,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8582,7 +8576,7 @@ window.MG_DATA = {
     },
     {
       "localId": 30,
-      "producto": "Ala kg",
+      "producto": "Pollo a la parrilla",
       "precio": 40.7,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8590,7 +8584,7 @@ window.MG_DATA = {
     },
     {
       "localId": 30,
-      "producto": "Pollo deshuesado kg",
+      "producto": "Medio pollo rostizado",
       "precio": 74.7,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8598,7 +8592,7 @@ window.MG_DATA = {
     },
     {
       "localId": 31,
-      "producto": "Pollo entero kg",
+      "producto": "Pechuga deshuesada",
       "precio": 57.5,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8606,7 +8600,7 @@ window.MG_DATA = {
     },
     {
       "localId": 31,
-      "producto": "Pechuga kg",
+      "producto": "Pechuga ahumada",
       "precio": 78.3,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8614,7 +8608,7 @@ window.MG_DATA = {
     },
     {
       "localId": 31,
-      "producto": "Muslo kg",
+      "producto": "Pollo rostizado",
       "precio": 46.9,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8622,7 +8616,7 @@ window.MG_DATA = {
     },
     {
       "localId": 31,
-      "producto": "Ala kg",
+      "producto": "Pollo a la parrilla",
       "precio": 37.7,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8630,7 +8624,7 @@ window.MG_DATA = {
     },
     {
       "localId": 31,
-      "producto": "Pollo deshuesado kg",
+      "producto": "Medio pollo rostizado",
       "precio": 71.8,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8638,7 +8632,7 @@ window.MG_DATA = {
     },
     {
       "localId": 32,
-      "producto": "Pollo entero kg",
+      "producto": "Pechuga deshuesada",
       "precio": 46.7,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8646,7 +8640,7 @@ window.MG_DATA = {
     },
     {
       "localId": 32,
-      "producto": "Pechuga kg",
+      "producto": "Pechuga ahumada",
       "precio": 87.3,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8654,7 +8648,7 @@ window.MG_DATA = {
     },
     {
       "localId": 32,
-      "producto": "Muslo kg",
+      "producto": "Pollo rostizado",
       "precio": 48.7,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8662,7 +8656,7 @@ window.MG_DATA = {
     },
     {
       "localId": 32,
-      "producto": "Ala kg",
+      "producto": "Pollo a la parrilla",
       "precio": 46.7,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8670,7 +8664,7 @@ window.MG_DATA = {
     },
     {
       "localId": 32,
-      "producto": "Pollo deshuesado kg",
+      "producto": "Medio pollo rostizado",
       "precio": 65.9,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8678,7 +8672,7 @@ window.MG_DATA = {
     },
     {
       "localId": 33,
-      "producto": "Pollo entero kg",
+      "producto": "Pechuga deshuesada",
       "precio": 47.8,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8686,7 +8680,7 @@ window.MG_DATA = {
     },
     {
       "localId": 33,
-      "producto": "Pechuga kg",
+      "producto": "Pechuga ahumada",
       "precio": 77.6,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8694,7 +8688,7 @@ window.MG_DATA = {
     },
     {
       "localId": 33,
-      "producto": "Muslo kg",
+      "producto": "Pollo rostizado",
       "precio": 46.9,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8702,7 +8696,7 @@ window.MG_DATA = {
     },
     {
       "localId": 33,
-      "producto": "Ala kg",
+      "producto": "Pollo a la parrilla",
       "precio": 43.4,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8710,7 +8704,7 @@ window.MG_DATA = {
     },
     {
       "localId": 33,
-      "producto": "Pollo deshuesado kg",
+      "producto": "Medio pollo rostizado",
       "precio": 72.2,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -8718,7 +8712,7 @@ window.MG_DATA = {
     },
     {
       "localId": 34,
-      "producto": "Mango ataulfo kg",
+      "producto": "Manzana golden",
       "precio": 37.2,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8726,7 +8720,7 @@ window.MG_DATA = {
     },
     {
       "localId": 34,
-      "producto": "Sandía kg",
+      "producto": "Naranja valencia",
       "precio": 12.6,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8734,7 +8728,7 @@ window.MG_DATA = {
     },
     {
       "localId": 34,
-      "producto": "Melón kg",
+      "producto": "Plátano macho",
       "precio": 17.2,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8742,7 +8736,7 @@ window.MG_DATA = {
     },
     {
       "localId": 34,
-      "producto": "Plátano tabasco kg",
+      "producto": "Guamúchil",
       "precio": 20.0,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8750,7 +8744,7 @@ window.MG_DATA = {
     },
     {
       "localId": 34,
-      "producto": "Papaya maradol kg",
+      "producto": "Fresa",
       "precio": 28.9,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8758,7 +8752,7 @@ window.MG_DATA = {
     },
     {
       "localId": 35,
-      "producto": "Mango ataulfo kg",
+      "producto": "Manzana golden",
       "precio": 41.8,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8766,7 +8760,7 @@ window.MG_DATA = {
     },
     {
       "localId": 35,
-      "producto": "Sandía kg",
+      "producto": "Naranja valencia",
       "precio": 11.9,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8774,7 +8768,7 @@ window.MG_DATA = {
     },
     {
       "localId": 35,
-      "producto": "Melón kg",
+      "producto": "Plátano macho",
       "precio": 15.9,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8782,7 +8776,7 @@ window.MG_DATA = {
     },
     {
       "localId": 35,
-      "producto": "Plátano tabasco kg",
+      "producto": "Guamúchil",
       "precio": 23.9,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8790,7 +8784,7 @@ window.MG_DATA = {
     },
     {
       "localId": 35,
-      "producto": "Papaya maradol kg",
+      "producto": "Fresa",
       "precio": 29.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8798,7 +8792,7 @@ window.MG_DATA = {
     },
     {
       "localId": 36,
-      "producto": "Mango ataulfo kg",
+      "producto": "Manzana golden",
       "precio": 41.2,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8806,7 +8800,7 @@ window.MG_DATA = {
     },
     {
       "localId": 36,
-      "producto": "Sandía kg",
+      "producto": "Naranja valencia",
       "precio": 10.8,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8814,7 +8808,7 @@ window.MG_DATA = {
     },
     {
       "localId": 36,
-      "producto": "Melón kg",
+      "producto": "Plátano macho",
       "precio": 18.1,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8822,7 +8816,7 @@ window.MG_DATA = {
     },
     {
       "localId": 36,
-      "producto": "Plátano tabasco kg",
+      "producto": "Guamúchil",
       "precio": 22.4,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8830,7 +8824,7 @@ window.MG_DATA = {
     },
     {
       "localId": 36,
-      "producto": "Papaya maradol kg",
+      "producto": "Fresa",
       "precio": 29.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8838,7 +8832,7 @@ window.MG_DATA = {
     },
     {
       "localId": 37,
-      "producto": "Mango ataulfo kg",
+      "producto": "Manzana golden",
       "precio": 34.0,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8846,7 +8840,7 @@ window.MG_DATA = {
     },
     {
       "localId": 37,
-      "producto": "Sandía kg",
+      "producto": "Naranja valencia",
       "precio": 11.9,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8854,7 +8848,7 @@ window.MG_DATA = {
     },
     {
       "localId": 37,
-      "producto": "Melón kg",
+      "producto": "Plátano macho",
       "precio": 17.7,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8862,7 +8856,7 @@ window.MG_DATA = {
     },
     {
       "localId": 37,
-      "producto": "Plátano tabasco kg",
+      "producto": "Guamúchil",
       "precio": 21.7,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8870,7 +8864,7 @@ window.MG_DATA = {
     },
     {
       "localId": 37,
-      "producto": "Papaya maradol kg",
+      "producto": "Fresa",
       "precio": 27.1,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8878,7 +8872,7 @@ window.MG_DATA = {
     },
     {
       "localId": 38,
-      "producto": "Mango ataulfo kg",
+      "producto": "Manzana golden",
       "precio": 39.4,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8886,7 +8880,7 @@ window.MG_DATA = {
     },
     {
       "localId": 38,
-      "producto": "Sandía kg",
+      "producto": "Naranja valencia",
       "precio": 10.8,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8894,7 +8888,7 @@ window.MG_DATA = {
     },
     {
       "localId": 38,
-      "producto": "Melón kg",
+      "producto": "Plátano macho",
       "precio": 18.2,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8902,7 +8896,7 @@ window.MG_DATA = {
     },
     {
       "localId": 38,
-      "producto": "Plátano tabasco kg",
+      "producto": "Guamúchil",
       "precio": 22.3,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8910,7 +8904,7 @@ window.MG_DATA = {
     },
     {
       "localId": 38,
-      "producto": "Papaya maradol kg",
+      "producto": "Fresa",
       "precio": 27.4,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8918,7 +8912,7 @@ window.MG_DATA = {
     },
     {
       "localId": 39,
-      "producto": "Mango ataulfo kg",
+      "producto": "Manzana golden",
       "precio": 35.0,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8926,7 +8920,7 @@ window.MG_DATA = {
     },
     {
       "localId": 39,
-      "producto": "Sandía kg",
+      "producto": "Naranja valencia",
       "precio": 12.0,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8934,7 +8928,7 @@ window.MG_DATA = {
     },
     {
       "localId": 39,
-      "producto": "Melón kg",
+      "producto": "Plátano macho",
       "precio": 16.7,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8942,7 +8936,7 @@ window.MG_DATA = {
     },
     {
       "localId": 39,
-      "producto": "Plátano tabasco kg",
+      "producto": "Guamúchil",
       "precio": 20.7,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8950,7 +8944,7 @@ window.MG_DATA = {
     },
     {
       "localId": 39,
-      "producto": "Papaya maradol kg",
+      "producto": "Fresa",
       "precio": 25.8,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8958,7 +8952,7 @@ window.MG_DATA = {
     },
     {
       "localId": 40,
-      "producto": "Mango ataulfo kg",
+      "producto": "Manzana golden",
       "precio": 41.4,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8966,7 +8960,7 @@ window.MG_DATA = {
     },
     {
       "localId": 40,
-      "producto": "Sandía kg",
+      "producto": "Naranja valencia",
       "precio": 12.9,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8974,7 +8968,7 @@ window.MG_DATA = {
     },
     {
       "localId": 40,
-      "producto": "Melón kg",
+      "producto": "Plátano macho",
       "precio": 19.7,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8982,7 +8976,7 @@ window.MG_DATA = {
     },
     {
       "localId": 40,
-      "producto": "Plátano tabasco kg",
+      "producto": "Guamúchil",
       "precio": 23.7,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8990,7 +8984,7 @@ window.MG_DATA = {
     },
     {
       "localId": 40,
-      "producto": "Papaya maradol kg",
+      "producto": "Fresa",
       "precio": 29.1,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -8998,7 +8992,7 @@ window.MG_DATA = {
     },
     {
       "localId": 41,
-      "producto": "Mango ataulfo kg",
+      "producto": "Manzana golden",
       "precio": 34.1,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -9006,7 +9000,7 @@ window.MG_DATA = {
     },
     {
       "localId": 41,
-      "producto": "Sandía kg",
+      "producto": "Naranja valencia",
       "precio": 13.0,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -9014,7 +9008,7 @@ window.MG_DATA = {
     },
     {
       "localId": 41,
-      "producto": "Melón kg",
+      "producto": "Plátano macho",
       "precio": 18.9,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -9022,7 +9016,7 @@ window.MG_DATA = {
     },
     {
       "localId": 41,
-      "producto": "Plátano tabasco kg",
+      "producto": "Guamúchil",
       "precio": 20.8,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -9030,7 +9024,7 @@ window.MG_DATA = {
     },
     {
       "localId": 41,
-      "producto": "Papaya maradol kg",
+      "producto": "Fresa",
       "precio": 27.1,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -9038,7 +9032,7 @@ window.MG_DATA = {
     },
     {
       "localId": 42,
-      "producto": "Arroz Morelos 1kg",
+      "producto": "Vinagre",
       "precio": 22.8,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9046,7 +9040,7 @@ window.MG_DATA = {
     },
     {
       "localId": 42,
-      "producto": "Frijol negro 1kg",
+      "producto": "Manteca vegetal",
       "precio": 30.0,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9054,7 +9048,7 @@ window.MG_DATA = {
     },
     {
       "localId": 42,
-      "producto": "Azúcar 1kg",
+      "producto": "Cajeta en envase",
       "precio": 23.0,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9062,7 +9056,7 @@ window.MG_DATA = {
     },
     {
       "localId": 42,
-      "producto": "Sal 1kg",
+      "producto": "Arroz blanco",
       "precio": 10.6,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9070,7 +9064,7 @@ window.MG_DATA = {
     },
     {
       "localId": 42,
-      "producto": "Harina 1kg",
+      "producto": "Atún en agua",
       "precio": 17.8,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9078,7 +9072,7 @@ window.MG_DATA = {
     },
     {
       "localId": 43,
-      "producto": "Arroz Morelos 1kg",
+      "producto": "Vinagre",
       "precio": 24.1,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9086,7 +9080,7 @@ window.MG_DATA = {
     },
     {
       "localId": 43,
-      "producto": "Frijol negro 1kg",
+      "producto": "Manteca vegetal",
       "precio": 29.5,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9094,7 +9088,7 @@ window.MG_DATA = {
     },
     {
       "localId": 43,
-      "producto": "Azúcar 1kg",
+      "producto": "Cajeta en envase",
       "precio": 21.5,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9102,7 +9096,7 @@ window.MG_DATA = {
     },
     {
       "localId": 43,
-      "producto": "Sal 1kg",
+      "producto": "Arroz blanco",
       "precio": 10.9,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9110,7 +9104,7 @@ window.MG_DATA = {
     },
     {
       "localId": 43,
-      "producto": "Harina 1kg",
+      "producto": "Atún en agua",
       "precio": 16.8,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9118,7 +9112,7 @@ window.MG_DATA = {
     },
     {
       "localId": 44,
-      "producto": "Arroz Morelos 1kg",
+      "producto": "Vinagre",
       "precio": 20.8,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9126,7 +9120,7 @@ window.MG_DATA = {
     },
     {
       "localId": 44,
-      "producto": "Frijol negro 1kg",
+      "producto": "Manteca vegetal",
       "precio": 29.6,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9134,7 +9128,7 @@ window.MG_DATA = {
     },
     {
       "localId": 44,
-      "producto": "Azúcar 1kg",
+      "producto": "Cajeta en envase",
       "precio": 20.1,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9142,7 +9136,7 @@ window.MG_DATA = {
     },
     {
       "localId": 44,
-      "producto": "Sal 1kg",
+      "producto": "Arroz blanco",
       "precio": 10.8,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9150,7 +9144,7 @@ window.MG_DATA = {
     },
     {
       "localId": 44,
-      "producto": "Harina 1kg",
+      "producto": "Atún en agua",
       "precio": 19.0,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9158,7 +9152,7 @@ window.MG_DATA = {
     },
     {
       "localId": 45,
-      "producto": "Arroz Morelos 1kg",
+      "producto": "Vinagre",
       "precio": 24.2,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9166,7 +9160,7 @@ window.MG_DATA = {
     },
     {
       "localId": 45,
-      "producto": "Frijol negro 1kg",
+      "producto": "Manteca vegetal",
       "precio": 26.8,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9174,7 +9168,7 @@ window.MG_DATA = {
     },
     {
       "localId": 45,
-      "producto": "Azúcar 1kg",
+      "producto": "Cajeta en envase",
       "precio": 19.7,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9182,7 +9176,7 @@ window.MG_DATA = {
     },
     {
       "localId": 45,
-      "producto": "Sal 1kg",
+      "producto": "Arroz blanco",
       "precio": 11.2,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9190,7 +9184,7 @@ window.MG_DATA = {
     },
     {
       "localId": 45,
-      "producto": "Harina 1kg",
+      "producto": "Atún en agua",
       "precio": 18.1,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9198,7 +9192,7 @@ window.MG_DATA = {
     },
     {
       "localId": 46,
-      "producto": "Arroz Morelos 1kg",
+      "producto": "Vinagre",
       "precio": 19.7,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9206,7 +9200,7 @@ window.MG_DATA = {
     },
     {
       "localId": 46,
-      "producto": "Frijol negro 1kg",
+      "producto": "Manteca vegetal",
       "precio": 27.0,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9214,7 +9208,7 @@ window.MG_DATA = {
     },
     {
       "localId": 46,
-      "producto": "Azúcar 1kg",
+      "producto": "Cajeta en envase",
       "precio": 19.5,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9222,7 +9216,7 @@ window.MG_DATA = {
     },
     {
       "localId": 46,
-      "producto": "Sal 1kg",
+      "producto": "Arroz blanco",
       "precio": 12.2,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9230,7 +9224,7 @@ window.MG_DATA = {
     },
     {
       "localId": 46,
-      "producto": "Harina 1kg",
+      "producto": "Atún en agua",
       "precio": 16.2,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9238,7 +9232,7 @@ window.MG_DATA = {
     },
     {
       "localId": 47,
-      "producto": "Arroz Morelos 1kg",
+      "producto": "Vinagre",
       "precio": 21.1,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9246,7 +9240,7 @@ window.MG_DATA = {
     },
     {
       "localId": 47,
-      "producto": "Frijol negro 1kg",
+      "producto": "Manteca vegetal",
       "precio": 30.8,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9254,7 +9248,7 @@ window.MG_DATA = {
     },
     {
       "localId": 47,
-      "producto": "Azúcar 1kg",
+      "producto": "Cajeta en envase",
       "precio": 21.7,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9262,7 +9256,7 @@ window.MG_DATA = {
     },
     {
       "localId": 47,
-      "producto": "Sal 1kg",
+      "producto": "Arroz blanco",
       "precio": 10.7,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9270,7 +9264,7 @@ window.MG_DATA = {
     },
     {
       "localId": 47,
-      "producto": "Harina 1kg",
+      "producto": "Atún en agua",
       "precio": 16.5,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9278,7 +9272,7 @@ window.MG_DATA = {
     },
     {
       "localId": 48,
-      "producto": "Arroz Morelos 1kg",
+      "producto": "Vinagre",
       "precio": 24.2,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9286,7 +9280,7 @@ window.MG_DATA = {
     },
     {
       "localId": 48,
-      "producto": "Frijol negro 1kg",
+      "producto": "Manteca vegetal",
       "precio": 31.2,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9294,7 +9288,7 @@ window.MG_DATA = {
     },
     {
       "localId": 48,
-      "producto": "Azúcar 1kg",
+      "producto": "Cajeta en envase",
       "precio": 21.8,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9302,7 +9296,7 @@ window.MG_DATA = {
     },
     {
       "localId": 48,
-      "producto": "Sal 1kg",
+      "producto": "Arroz blanco",
       "precio": 12.5,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9310,7 +9304,7 @@ window.MG_DATA = {
     },
     {
       "localId": 48,
-      "producto": "Harina 1kg",
+      "producto": "Atún en agua",
       "precio": 16.2,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9318,7 +9312,7 @@ window.MG_DATA = {
     },
     {
       "localId": 49,
-      "producto": "Arroz Morelos 1kg",
+      "producto": "Vinagre",
       "precio": 20.7,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9326,7 +9320,7 @@ window.MG_DATA = {
     },
     {
       "localId": 49,
-      "producto": "Frijol negro 1kg",
+      "producto": "Manteca vegetal",
       "precio": 27.0,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9334,7 +9328,7 @@ window.MG_DATA = {
     },
     {
       "localId": 49,
-      "producto": "Azúcar 1kg",
+      "producto": "Cajeta en envase",
       "precio": 24.3,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9342,7 +9336,7 @@ window.MG_DATA = {
     },
     {
       "localId": 49,
-      "producto": "Sal 1kg",
+      "producto": "Arroz blanco",
       "precio": 11.9,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9350,7 +9344,7 @@ window.MG_DATA = {
     },
     {
       "localId": 49,
-      "producto": "Harina 1kg",
+      "producto": "Atún en agua",
       "precio": 18.9,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9358,7 +9352,7 @@ window.MG_DATA = {
     },
     {
       "localId": 50,
-      "producto": "Arroz Morelos 1kg",
+      "producto": "Vinagre",
       "precio": 21.7,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9366,7 +9360,7 @@ window.MG_DATA = {
     },
     {
       "localId": 50,
-      "producto": "Frijol negro 1kg",
+      "producto": "Manteca vegetal",
       "precio": 31.3,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9374,7 +9368,7 @@ window.MG_DATA = {
     },
     {
       "localId": 50,
-      "producto": "Azúcar 1kg",
+      "producto": "Cajeta en envase",
       "precio": 23.4,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9382,7 +9376,7 @@ window.MG_DATA = {
     },
     {
       "localId": 50,
-      "producto": "Sal 1kg",
+      "producto": "Arroz blanco",
       "precio": 12.9,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9390,7 +9384,7 @@ window.MG_DATA = {
     },
     {
       "localId": 50,
-      "producto": "Harina 1kg",
+      "producto": "Atún en agua",
       "precio": 18.6,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -9398,7 +9392,7 @@ window.MG_DATA = {
     },
     {
       "localId": 51,
-      "producto": "Tortilla maíz kg",
+      "producto": "Tlayuda",
       "precio": 20.2,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -9406,7 +9400,7 @@ window.MG_DATA = {
     },
     {
       "localId": 51,
-      "producto": "Tortilla harina kg",
+      "producto": "Tortilla de betabel",
       "precio": 21.0,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -9414,7 +9408,7 @@ window.MG_DATA = {
     },
     {
       "localId": 51,
-      "producto": "Tortilla mano 12pz",
+      "producto": "Tortilla taquera",
       "precio": 13.8,
       "categoria": "Tortillería",
       "unidad": "pieza",
@@ -9422,7 +9416,7 @@ window.MG_DATA = {
     },
     {
       "localId": 51,
-      "producto": "Tortilla azul kg",
+      "producto": "Tlacoyo de haba",
       "precio": 25.0,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -9430,7 +9424,7 @@ window.MG_DATA = {
     },
     {
       "localId": 51,
-      "producto": "Tortilla nopal kg",
+      "producto": "Tortilla de cilantro",
       "precio": 25.0,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -9438,7 +9432,7 @@ window.MG_DATA = {
     },
     {
       "localId": 52,
-      "producto": "Tortilla maíz kg",
+      "producto": "Tlayuda",
       "precio": 17.2,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -9446,7 +9440,7 @@ window.MG_DATA = {
     },
     {
       "localId": 52,
-      "producto": "Tortilla harina kg",
+      "producto": "Tortilla de betabel",
       "precio": 23.5,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -9454,7 +9448,7 @@ window.MG_DATA = {
     },
     {
       "localId": 52,
-      "producto": "Tortilla mano 12pz",
+      "producto": "Tortilla taquera",
       "precio": 14.2,
       "categoria": "Tortillería",
       "unidad": "pieza",
@@ -9462,7 +9456,7 @@ window.MG_DATA = {
     },
     {
       "localId": 52,
-      "producto": "Tortilla azul kg",
+      "producto": "Tlacoyo de haba",
       "precio": 26.1,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -9470,7 +9464,7 @@ window.MG_DATA = {
     },
     {
       "localId": 52,
-      "producto": "Tortilla nopal kg",
+      "producto": "Tortilla de cilantro",
       "precio": 24.2,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -9478,7 +9472,7 @@ window.MG_DATA = {
     },
     {
       "localId": 53,
-      "producto": "Tortilla maíz kg",
+      "producto": "Tlayuda",
       "precio": 19.5,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -9486,7 +9480,7 @@ window.MG_DATA = {
     },
     {
       "localId": 53,
-      "producto": "Tortilla harina kg",
+      "producto": "Tortilla de betabel",
       "precio": 23.5,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -9494,7 +9488,7 @@ window.MG_DATA = {
     },
     {
       "localId": 53,
-      "producto": "Tortilla mano 12pz",
+      "producto": "Tortilla taquera",
       "precio": 12.6,
       "categoria": "Tortillería",
       "unidad": "pieza",
@@ -9502,7 +9496,7 @@ window.MG_DATA = {
     },
     {
       "localId": 53,
-      "producto": "Tortilla azul kg",
+      "producto": "Tlacoyo de haba",
       "precio": 24.0,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -9510,7 +9504,7 @@ window.MG_DATA = {
     },
     {
       "localId": 53,
-      "producto": "Tortilla nopal kg",
+      "producto": "Tortilla de cilantro",
       "precio": 27.7,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -9518,7 +9512,7 @@ window.MG_DATA = {
     },
     {
       "localId": 54,
-      "producto": "Tortilla maíz kg",
+      "producto": "Tlayuda",
       "precio": 16.5,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -9526,7 +9520,7 @@ window.MG_DATA = {
     },
     {
       "localId": 54,
-      "producto": "Tortilla harina kg",
+      "producto": "Tortilla de betabel",
       "precio": 23.7,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -9534,7 +9528,7 @@ window.MG_DATA = {
     },
     {
       "localId": 54,
-      "producto": "Tortilla mano 12pz",
+      "producto": "Tortilla taquera",
       "precio": 13.1,
       "categoria": "Tortillería",
       "unidad": "pieza",
@@ -9542,7 +9536,7 @@ window.MG_DATA = {
     },
     {
       "localId": 54,
-      "producto": "Tortilla azul kg",
+      "producto": "Tlacoyo de haba",
       "precio": 23.5,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -9550,7 +9544,7 @@ window.MG_DATA = {
     },
     {
       "localId": 54,
-      "producto": "Tortilla nopal kg",
+      "producto": "Tortilla de cilantro",
       "precio": 27.4,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -9558,7 +9552,7 @@ window.MG_DATA = {
     },
     {
       "localId": 55,
-      "producto": "Tortilla maíz kg",
+      "producto": "Tlayuda",
       "precio": 20.1,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -9566,7 +9560,7 @@ window.MG_DATA = {
     },
     {
       "localId": 55,
-      "producto": "Tortilla harina kg",
+      "producto": "Tortilla de betabel",
       "precio": 19.8,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -9574,7 +9568,7 @@ window.MG_DATA = {
     },
     {
       "localId": 55,
-      "producto": "Tortilla mano 12pz",
+      "producto": "Tortilla taquera",
       "precio": 13.1,
       "categoria": "Tortillería",
       "unidad": "pieza",
@@ -9582,7 +9576,7 @@ window.MG_DATA = {
     },
     {
       "localId": 55,
-      "producto": "Tortilla azul kg",
+      "producto": "Tlacoyo de haba",
       "precio": 24.2,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -9590,7 +9584,7 @@ window.MG_DATA = {
     },
     {
       "localId": 55,
-      "producto": "Tortilla nopal kg",
+      "producto": "Tortilla de cilantro",
       "precio": 25.4,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -9598,7 +9592,7 @@ window.MG_DATA = {
     },
     {
       "localId": 56,
-      "producto": "Orden tacos asada 3pz",
+      "producto": "Tostada de ceviche",
       "precio": 50.8,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9606,7 +9600,7 @@ window.MG_DATA = {
     },
     {
       "localId": 56,
-      "producto": "Orden tacos adobada 3pz",
+      "producto": "Tamal de elote",
       "precio": 47.5,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9614,7 +9608,7 @@ window.MG_DATA = {
     },
     {
       "localId": 56,
-      "producto": "Orden tacos pastor 3pz",
+      "producto": "Torta ahogada",
       "precio": 53.8,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9622,7 +9616,7 @@ window.MG_DATA = {
     },
     {
       "localId": 56,
-      "producto": "Orden tacos tripa 3pz",
+      "producto": "Tacos de barbacoa",
       "precio": 54.6,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9630,7 +9624,7 @@ window.MG_DATA = {
     },
     {
       "localId": 56,
-      "producto": "Orden tacos suadero 3pz",
+      "producto": "Nachos con queso",
       "precio": 55.5,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9638,7 +9632,7 @@ window.MG_DATA = {
     },
     {
       "localId": 57,
-      "producto": "Orden tacos asada 3pz",
+      "producto": "Tostada de ceviche",
       "precio": 57.8,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9646,7 +9640,7 @@ window.MG_DATA = {
     },
     {
       "localId": 57,
-      "producto": "Orden tacos adobada 3pz",
+      "producto": "Tamal de elote",
       "precio": 48.8,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9654,7 +9648,7 @@ window.MG_DATA = {
     },
     {
       "localId": 57,
-      "producto": "Orden tacos pastor 3pz",
+      "producto": "Torta ahogada",
       "precio": 55.4,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9662,7 +9656,7 @@ window.MG_DATA = {
     },
     {
       "localId": 57,
-      "producto": "Orden tacos tripa 3pz",
+      "producto": "Tacos de barbacoa",
       "precio": 52.9,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9670,7 +9664,7 @@ window.MG_DATA = {
     },
     {
       "localId": 57,
-      "producto": "Orden tacos suadero 3pz",
+      "producto": "Nachos con queso",
       "precio": 50.9,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9678,7 +9672,7 @@ window.MG_DATA = {
     },
     {
       "localId": 58,
-      "producto": "Orden tacos asada 3pz",
+      "producto": "Tostada de ceviche",
       "precio": 55.9,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9686,7 +9680,7 @@ window.MG_DATA = {
     },
     {
       "localId": 58,
-      "producto": "Orden tacos adobada 3pz",
+      "producto": "Tamal de elote",
       "precio": 48.3,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9694,7 +9688,7 @@ window.MG_DATA = {
     },
     {
       "localId": 58,
-      "producto": "Orden tacos pastor 3pz",
+      "producto": "Torta ahogada",
       "precio": 58.5,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9702,7 +9696,7 @@ window.MG_DATA = {
     },
     {
       "localId": 58,
-      "producto": "Orden tacos tripa 3pz",
+      "producto": "Tacos de barbacoa",
       "precio": 44.2,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9710,7 +9704,7 @@ window.MG_DATA = {
     },
     {
       "localId": 58,
-      "producto": "Orden tacos suadero 3pz",
+      "producto": "Nachos con queso",
       "precio": 53.4,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9718,7 +9712,7 @@ window.MG_DATA = {
     },
     {
       "localId": 59,
-      "producto": "Orden tacos asada 3pz",
+      "producto": "Tostada de ceviche",
       "precio": 56.0,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9726,7 +9720,7 @@ window.MG_DATA = {
     },
     {
       "localId": 59,
-      "producto": "Orden tacos adobada 3pz",
+      "producto": "Tamal de elote",
       "precio": 49.6,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9734,7 +9728,7 @@ window.MG_DATA = {
     },
     {
       "localId": 59,
-      "producto": "Orden tacos pastor 3pz",
+      "producto": "Torta ahogada",
       "precio": 49.4,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9742,7 +9736,7 @@ window.MG_DATA = {
     },
     {
       "localId": 59,
-      "producto": "Orden tacos tripa 3pz",
+      "producto": "Tacos de barbacoa",
       "precio": 53.7,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9750,7 +9744,7 @@ window.MG_DATA = {
     },
     {
       "localId": 59,
-      "producto": "Orden tacos suadero 3pz",
+      "producto": "Nachos con queso",
       "precio": 54.3,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9758,7 +9752,7 @@ window.MG_DATA = {
     },
     {
       "localId": 60,
-      "producto": "Orden tacos asada 3pz",
+      "producto": "Tostada de ceviche",
       "precio": 59.1,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9766,7 +9760,7 @@ window.MG_DATA = {
     },
     {
       "localId": 60,
-      "producto": "Orden tacos adobada 3pz",
+      "producto": "Tamal de elote",
       "precio": 49.8,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9774,7 +9768,7 @@ window.MG_DATA = {
     },
     {
       "localId": 60,
-      "producto": "Orden tacos pastor 3pz",
+      "producto": "Torta ahogada",
       "precio": 52.5,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9782,7 +9776,7 @@ window.MG_DATA = {
     },
     {
       "localId": 60,
-      "producto": "Orden tacos tripa 3pz",
+      "producto": "Tacos de barbacoa",
       "precio": 55.7,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9790,7 +9784,7 @@ window.MG_DATA = {
     },
     {
       "localId": 60,
-      "producto": "Orden tacos suadero 3pz",
+      "producto": "Nachos con queso",
       "precio": 47.9,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9798,7 +9792,7 @@ window.MG_DATA = {
     },
     {
       "localId": 61,
-      "producto": "Orden tacos asada 3pz",
+      "producto": "Tostada de ceviche",
       "precio": 51.5,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9806,7 +9800,7 @@ window.MG_DATA = {
     },
     {
       "localId": 61,
-      "producto": "Orden tacos adobada 3pz",
+      "producto": "Tamal de elote",
       "precio": 55.7,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9814,7 +9808,7 @@ window.MG_DATA = {
     },
     {
       "localId": 61,
-      "producto": "Orden tacos pastor 3pz",
+      "producto": "Torta ahogada",
       "precio": 59.2,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9822,7 +9816,7 @@ window.MG_DATA = {
     },
     {
       "localId": 61,
-      "producto": "Orden tacos tripa 3pz",
+      "producto": "Tacos de barbacoa",
       "precio": 44.4,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9830,7 +9824,7 @@ window.MG_DATA = {
     },
     {
       "localId": 61,
-      "producto": "Orden tacos suadero 3pz",
+      "producto": "Nachos con queso",
       "precio": 50.3,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9838,7 +9832,7 @@ window.MG_DATA = {
     },
     {
       "localId": 62,
-      "producto": "Orden tacos asada 3pz",
+      "producto": "Tostada de ceviche",
       "precio": 55.6,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9846,7 +9840,7 @@ window.MG_DATA = {
     },
     {
       "localId": 62,
-      "producto": "Orden tacos adobada 3pz",
+      "producto": "Tamal de elote",
       "precio": 54.8,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9854,7 +9848,7 @@ window.MG_DATA = {
     },
     {
       "localId": 62,
-      "producto": "Orden tacos pastor 3pz",
+      "producto": "Torta ahogada",
       "precio": 53.1,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9862,7 +9856,7 @@ window.MG_DATA = {
     },
     {
       "localId": 62,
-      "producto": "Orden tacos tripa 3pz",
+      "producto": "Tacos de barbacoa",
       "precio": 52.5,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9870,7 +9864,7 @@ window.MG_DATA = {
     },
     {
       "localId": 62,
-      "producto": "Orden tacos suadero 3pz",
+      "producto": "Nachos con queso",
       "precio": 48.6,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9878,7 +9872,7 @@ window.MG_DATA = {
     },
     {
       "localId": 63,
-      "producto": "Orden tacos asada 3pz",
+      "producto": "Tostada de ceviche",
       "precio": 60.6,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9886,7 +9880,7 @@ window.MG_DATA = {
     },
     {
       "localId": 63,
-      "producto": "Orden tacos adobada 3pz",
+      "producto": "Tamal de elote",
       "precio": 44.9,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9894,7 +9888,7 @@ window.MG_DATA = {
     },
     {
       "localId": 63,
-      "producto": "Orden tacos pastor 3pz",
+      "producto": "Torta ahogada",
       "precio": 52.6,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9902,7 +9896,7 @@ window.MG_DATA = {
     },
     {
       "localId": 63,
-      "producto": "Orden tacos tripa 3pz",
+      "producto": "Tacos de barbacoa",
       "precio": 51.5,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9910,7 +9904,7 @@ window.MG_DATA = {
     },
     {
       "localId": 63,
-      "producto": "Orden tacos suadero 3pz",
+      "producto": "Nachos con queso",
       "precio": 57.9,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9918,7 +9912,7 @@ window.MG_DATA = {
     },
     {
       "localId": 64,
-      "producto": "Orden tacos asada 3pz",
+      "producto": "Tostada de ceviche",
       "precio": 60.9,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9926,7 +9920,7 @@ window.MG_DATA = {
     },
     {
       "localId": 64,
-      "producto": "Orden tacos adobada 3pz",
+      "producto": "Tamal de elote",
       "precio": 55.5,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9934,7 +9928,7 @@ window.MG_DATA = {
     },
     {
       "localId": 64,
-      "producto": "Orden tacos pastor 3pz",
+      "producto": "Torta ahogada",
       "precio": 54.5,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9942,7 +9936,7 @@ window.MG_DATA = {
     },
     {
       "localId": 64,
-      "producto": "Orden tacos tripa 3pz",
+      "producto": "Tacos de barbacoa",
       "precio": 47.3,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9950,7 +9944,7 @@ window.MG_DATA = {
     },
     {
       "localId": 64,
-      "producto": "Orden tacos suadero 3pz",
+      "producto": "Nachos con queso",
       "precio": 57.6,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -9958,7 +9952,7 @@ window.MG_DATA = {
     },
     {
       "localId": 65,
-      "producto": "Jugo naranja 500ml",
+      "producto": "Agua de piña",
       "precio": 36.3,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -9966,7 +9960,7 @@ window.MG_DATA = {
     },
     {
       "localId": 65,
-      "producto": "Jugo zanahoria 500ml",
+      "producto": "Agua de horchata",
       "precio": 37.2,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -9974,7 +9968,7 @@ window.MG_DATA = {
     },
     {
       "localId": 65,
-      "producto": "Jugo verde 500ml",
+      "producto": "Licuado de chocolate",
       "precio": 41.4,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -9982,7 +9976,7 @@ window.MG_DATA = {
     },
     {
       "localId": 65,
-      "producto": "Jugo mango 500ml",
+      "producto": "Jugo de manzana",
       "precio": 40.2,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -9990,7 +9984,7 @@ window.MG_DATA = {
     },
     {
       "localId": 65,
-      "producto": "Jugo piña 500ml",
+      "producto": "Jugo de ciruela",
       "precio": 39.0,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -9998,7 +9992,7 @@ window.MG_DATA = {
     },
     {
       "localId": 66,
-      "producto": "Jugo naranja 500ml",
+      "producto": "Agua de piña",
       "precio": 38.1,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -10006,7 +10000,7 @@ window.MG_DATA = {
     },
     {
       "localId": 66,
-      "producto": "Jugo zanahoria 500ml",
+      "producto": "Agua de horchata",
       "precio": 37.6,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -10014,7 +10008,7 @@ window.MG_DATA = {
     },
     {
       "localId": 66,
-      "producto": "Jugo verde 500ml",
+      "producto": "Licuado de chocolate",
       "precio": 42.1,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -10022,7 +10016,7 @@ window.MG_DATA = {
     },
     {
       "localId": 66,
-      "producto": "Jugo mango 500ml",
+      "producto": "Jugo de manzana",
       "precio": 36.1,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -10030,7 +10024,7 @@ window.MG_DATA = {
     },
     {
       "localId": 66,
-      "producto": "Jugo piña 500ml",
+      "producto": "Jugo de ciruela",
       "precio": 41.4,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -10038,7 +10032,7 @@ window.MG_DATA = {
     },
     {
       "localId": 67,
-      "producto": "Jugo naranja 500ml",
+      "producto": "Agua de piña",
       "precio": 39.0,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -10046,7 +10040,7 @@ window.MG_DATA = {
     },
     {
       "localId": 67,
-      "producto": "Jugo zanahoria 500ml",
+      "producto": "Agua de horchata",
       "precio": 37.4,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -10054,7 +10048,7 @@ window.MG_DATA = {
     },
     {
       "localId": 67,
-      "producto": "Jugo verde 500ml",
+      "producto": "Licuado de chocolate",
       "precio": 43.7,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -10062,7 +10056,7 @@ window.MG_DATA = {
     },
     {
       "localId": 67,
-      "producto": "Jugo mango 500ml",
+      "producto": "Jugo de manzana",
       "precio": 43.9,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -10070,7 +10064,7 @@ window.MG_DATA = {
     },
     {
       "localId": 67,
-      "producto": "Jugo piña 500ml",
+      "producto": "Jugo de ciruela",
       "precio": 33.5,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -10078,7 +10072,7 @@ window.MG_DATA = {
     },
     {
       "localId": 68,
-      "producto": "Jugo naranja 500ml",
+      "producto": "Agua de piña",
       "precio": 34.9,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -10086,7 +10080,7 @@ window.MG_DATA = {
     },
     {
       "localId": 68,
-      "producto": "Jugo zanahoria 500ml",
+      "producto": "Agua de horchata",
       "precio": 38.3,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -10094,7 +10088,7 @@ window.MG_DATA = {
     },
     {
       "localId": 68,
-      "producto": "Jugo verde 500ml",
+      "producto": "Licuado de chocolate",
       "precio": 44.0,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -10102,7 +10096,7 @@ window.MG_DATA = {
     },
     {
       "localId": 68,
-      "producto": "Jugo mango 500ml",
+      "producto": "Jugo de manzana",
       "precio": 38.8,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -10110,7 +10104,7 @@ window.MG_DATA = {
     },
     {
       "localId": 68,
-      "producto": "Jugo piña 500ml",
+      "producto": "Jugo de ciruela",
       "precio": 41.9,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -10118,7 +10112,7 @@ window.MG_DATA = {
     },
     {
       "localId": 69,
-      "producto": "Chile guajillo kg",
+      "producto": "Canela entera en raja",
       "precio": 78.4,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -10126,7 +10120,7 @@ window.MG_DATA = {
     },
     {
       "localId": 69,
-      "producto": "Chile ancho kg",
+      "producto": "Tomillo",
       "precio": 87.2,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -10134,7 +10128,7 @@ window.MG_DATA = {
     },
     {
       "localId": 69,
-      "producto": "Chile pasilla kg",
+      "producto": "Hoja de laurel",
       "precio": 83.7,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -10142,7 +10136,7 @@ window.MG_DATA = {
     },
     {
       "localId": 69,
-      "producto": "Chile morita kg",
+      "producto": "Sazonador completo",
       "precio": 94.0,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -10150,7 +10144,7 @@ window.MG_DATA = {
     },
     {
       "localId": 69,
-      "producto": "Chile chipotle kg",
+      "producto": "Canela en polvo",
       "precio": 106,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -10158,7 +10152,7 @@ window.MG_DATA = {
     },
     {
       "localId": 70,
-      "producto": "Chile guajillo kg",
+      "producto": "Canela entera en raja",
       "precio": 78.7,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -10166,7 +10160,7 @@ window.MG_DATA = {
     },
     {
       "localId": 70,
-      "producto": "Chile ancho kg",
+      "producto": "Tomillo",
       "precio": 104,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -10174,7 +10168,7 @@ window.MG_DATA = {
     },
     {
       "localId": 70,
-      "producto": "Chile pasilla kg",
+      "producto": "Hoja de laurel",
       "precio": 79.5,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -10182,7 +10176,7 @@ window.MG_DATA = {
     },
     {
       "localId": 70,
-      "producto": "Chile morita kg",
+      "producto": "Sazonador completo",
       "precio": 99.9,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -10190,7 +10184,7 @@ window.MG_DATA = {
     },
     {
       "localId": 70,
-      "producto": "Chile chipotle kg",
+      "producto": "Canela en polvo",
       "precio": 96.6,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -10198,7 +10192,7 @@ window.MG_DATA = {
     },
     {
       "localId": 71,
-      "producto": "Chile guajillo kg",
+      "producto": "Canela entera en raja",
       "precio": 88.6,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -10206,7 +10200,7 @@ window.MG_DATA = {
     },
     {
       "localId": 71,
-      "producto": "Chile ancho kg",
+      "producto": "Tomillo",
       "precio": 103,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -10214,7 +10208,7 @@ window.MG_DATA = {
     },
     {
       "localId": 71,
-      "producto": "Chile pasilla kg",
+      "producto": "Hoja de laurel",
       "precio": 81.7,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -10222,7 +10216,7 @@ window.MG_DATA = {
     },
     {
       "localId": 71,
-      "producto": "Chile morita kg",
+      "producto": "Sazonador completo",
       "precio": 85.8,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -10230,7 +10224,7 @@ window.MG_DATA = {
     },
     {
       "localId": 71,
-      "producto": "Chile chipotle kg",
+      "producto": "Canela en polvo",
       "precio": 115,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -10238,7 +10232,7 @@ window.MG_DATA = {
     },
     {
       "localId": 72,
-      "producto": "Chile guajillo kg",
+      "producto": "Canela entera en raja",
       "precio": 87.6,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -10246,7 +10240,7 @@ window.MG_DATA = {
     },
     {
       "localId": 72,
-      "producto": "Chile ancho kg",
+      "producto": "Tomillo",
       "precio": 97.6,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -10254,7 +10248,7 @@ window.MG_DATA = {
     },
     {
       "localId": 72,
-      "producto": "Chile pasilla kg",
+      "producto": "Hoja de laurel",
       "precio": 81.3,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -10262,7 +10256,7 @@ window.MG_DATA = {
     },
     {
       "localId": 72,
-      "producto": "Chile morita kg",
+      "producto": "Sazonador completo",
       "precio": 86.2,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -10270,7 +10264,7 @@ window.MG_DATA = {
     },
     {
       "localId": 72,
-      "producto": "Chile chipotle kg",
+      "producto": "Canela en polvo",
       "precio": 94.3,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -10278,7 +10272,7 @@ window.MG_DATA = {
     },
     {
       "localId": 73,
-      "producto": "Huevo blanco 12pz",
+      "producto": "Huevo en cono de 30",
       "precio": 35.4,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -10286,7 +10280,7 @@ window.MG_DATA = {
     },
     {
       "localId": 73,
-      "producto": "Huevo blanco 18pz",
+      "producto": "Huevo rojo por media cartera",
       "precio": 42.2,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -10294,7 +10288,7 @@ window.MG_DATA = {
     },
     {
       "localId": 73,
-      "producto": "Huevo blanco 30pz",
+      "producto": "Huevo blanco limpio",
       "precio": 59.2,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -10302,7 +10296,7 @@ window.MG_DATA = {
     },
     {
       "localId": 73,
-      "producto": "Huevo blanco 60pz",
+      "producto": "Huevo de avestruz",
       "precio": 128,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -10310,7 +10304,7 @@ window.MG_DATA = {
     },
     {
       "localId": 73,
-      "producto": "Huevo blanco cubeta",
+      "producto": "Huevo en cono de 12",
       "precio": 204,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -10318,7 +10312,7 @@ window.MG_DATA = {
     },
     {
       "localId": 74,
-      "producto": "Huevo blanco 12pz",
+      "producto": "Huevo en cono de 30",
       "precio": 32.8,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -10326,7 +10320,7 @@ window.MG_DATA = {
     },
     {
       "localId": 74,
-      "producto": "Huevo blanco 18pz",
+      "producto": "Huevo rojo por media cartera",
       "precio": 47.9,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -10334,7 +10328,7 @@ window.MG_DATA = {
     },
     {
       "localId": 74,
-      "producto": "Huevo blanco 30pz",
+      "producto": "Huevo blanco limpio",
       "precio": 58.6,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -10342,7 +10336,7 @@ window.MG_DATA = {
     },
     {
       "localId": 74,
-      "producto": "Huevo blanco 60pz",
+      "producto": "Huevo de avestruz",
       "precio": 136,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -10350,7 +10344,7 @@ window.MG_DATA = {
     },
     {
       "localId": 74,
-      "producto": "Huevo blanco cubeta",
+      "producto": "Huevo en cono de 12",
       "precio": 211,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -10358,7 +10352,7 @@ window.MG_DATA = {
     },
     {
       "localId": 75,
-      "producto": "Huevo blanco 12pz",
+      "producto": "Huevo en cono de 30",
       "precio": 32.8,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -10366,7 +10360,7 @@ window.MG_DATA = {
     },
     {
       "localId": 75,
-      "producto": "Huevo blanco 18pz",
+      "producto": "Huevo rojo por media cartera",
       "precio": 41.8,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -10374,7 +10368,7 @@ window.MG_DATA = {
     },
     {
       "localId": 75,
-      "producto": "Huevo blanco 30pz",
+      "producto": "Huevo blanco limpio",
       "precio": 72.1,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -10382,7 +10376,7 @@ window.MG_DATA = {
     },
     {
       "localId": 75,
-      "producto": "Huevo blanco 60pz",
+      "producto": "Huevo de avestruz",
       "precio": 135,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -10390,7 +10384,7 @@ window.MG_DATA = {
     },
     {
       "localId": 75,
-      "producto": "Huevo blanco cubeta",
+      "producto": "Huevo en cono de 12",
       "precio": 215,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -10398,7 +10392,7 @@ window.MG_DATA = {
     },
     {
       "localId": 76,
-      "producto": "Arrachera adobada kg",
+      "producto": "Tasajo en adobo",
       "precio": 186,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -10406,7 +10400,7 @@ window.MG_DATA = {
     },
     {
       "localId": 76,
-      "producto": "Pollo adobado kg",
+      "producto": "Carne para asar",
       "precio": 62.8,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -10414,7 +10408,7 @@ window.MG_DATA = {
     },
     {
       "localId": 76,
-      "producto": "Costilla adobada kg",
+      "producto": "Tocino ahumado",
       "precio": 87.8,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -10422,7 +10416,7 @@ window.MG_DATA = {
     },
     {
       "localId": 76,
-      "producto": "Chuleta adobada kg",
+      "producto": "Buche",
       "precio": 75.6,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -10430,7 +10424,7 @@ window.MG_DATA = {
     },
     {
       "localId": 76,
-      "producto": "Carne asada marinada kg",
+      "producto": "Tripa dorada",
       "precio": 130,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -10438,7 +10432,7 @@ window.MG_DATA = {
     },
     {
       "localId": 77,
-      "producto": "Arrachera adobada kg",
+      "producto": "Tasajo en adobo",
       "precio": 185,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -10446,7 +10440,7 @@ window.MG_DATA = {
     },
     {
       "localId": 77,
-      "producto": "Pollo adobado kg",
+      "producto": "Carne para asar",
       "precio": 63.8,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -10454,7 +10448,7 @@ window.MG_DATA = {
     },
     {
       "localId": 77,
-      "producto": "Costilla adobada kg",
+      "producto": "Tocino ahumado",
       "precio": 102,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -10462,7 +10456,7 @@ window.MG_DATA = {
     },
     {
       "localId": 77,
-      "producto": "Chuleta adobada kg",
+      "producto": "Buche",
       "precio": 77.2,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -10470,7 +10464,7 @@ window.MG_DATA = {
     },
     {
       "localId": 77,
-      "producto": "Carne asada marinada kg",
+      "producto": "Tripa dorada",
       "precio": 154,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -10478,7 +10472,7 @@ window.MG_DATA = {
     },
     {
       "localId": 78,
-      "producto": "Arrachera adobada kg",
+      "producto": "Tasajo en adobo",
       "precio": 157,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -10486,7 +10480,7 @@ window.MG_DATA = {
     },
     {
       "localId": 78,
-      "producto": "Pollo adobado kg",
+      "producto": "Carne para asar",
       "precio": 64.7,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -10494,7 +10488,7 @@ window.MG_DATA = {
     },
     {
       "localId": 78,
-      "producto": "Costilla adobada kg",
+      "producto": "Tocino ahumado",
       "precio": 90.7,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -10502,7 +10496,7 @@ window.MG_DATA = {
     },
     {
       "localId": 78,
-      "producto": "Chuleta adobada kg",
+      "producto": "Buche",
       "precio": 72.4,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -10510,7 +10504,7 @@ window.MG_DATA = {
     },
     {
       "localId": 78,
-      "producto": "Carne asada marinada kg",
+      "producto": "Tripa dorada",
       "precio": 134,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -10518,7 +10512,7 @@ window.MG_DATA = {
     },
     {
       "localId": 79,
-      "producto": "Arrachera adobada kg",
+      "producto": "Tasajo en adobo",
       "precio": 161,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -10526,7 +10520,7 @@ window.MG_DATA = {
     },
     {
       "localId": 79,
-      "producto": "Pollo adobado kg",
+      "producto": "Carne para asar",
       "precio": 70.9,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -10534,7 +10528,7 @@ window.MG_DATA = {
     },
     {
       "localId": 79,
-      "producto": "Costilla adobada kg",
+      "producto": "Tocino ahumado",
       "precio": 95.1,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -10542,7 +10536,7 @@ window.MG_DATA = {
     },
     {
       "localId": 79,
-      "producto": "Chuleta adobada kg",
+      "producto": "Buche",
       "precio": 81.5,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -10550,7 +10544,7 @@ window.MG_DATA = {
     },
     {
       "localId": 79,
-      "producto": "Carne asada marinada kg",
+      "producto": "Tripa dorada",
       "precio": 143,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -10558,7 +10552,7 @@ window.MG_DATA = {
     },
     {
       "localId": 80,
-      "producto": "Semilla girasol kg",
+      "producto": "Maíz pozolero",
       "precio": 57.8,
       "categoria": "Semillas y Granos",
       "unidad": "kg",
@@ -10566,7 +10560,7 @@ window.MG_DATA = {
     },
     {
       "localId": 80,
-      "producto": "Semilla calabaza kg",
+      "producto": "Frijol negro",
       "precio": 60.2,
       "categoria": "Semillas y Granos",
       "unidad": "kg",
@@ -10574,7 +10568,7 @@ window.MG_DATA = {
     },
     {
       "localId": 80,
-      "producto": "Semilla chía 500g",
+      "producto": "Trigo",
       "precio": 46.5,
       "categoria": "Semillas y Granos",
       "unidad": "pieza",
@@ -10582,7 +10576,7 @@ window.MG_DATA = {
     },
     {
       "localId": 80,
-      "producto": "Semilla linaza 500g",
+      "producto": "Amaranto",
       "precio": 34.3,
       "categoria": "Semillas y Granos",
       "unidad": "pieza",
@@ -10590,7 +10584,7 @@ window.MG_DATA = {
     },
     {
       "localId": 80,
-      "producto": "Semilla ajonjolí kg",
+      "producto": "Chía negra",
       "precio": 82.0,
       "categoria": "Semillas y Granos",
       "unidad": "kg",
@@ -10598,7 +10592,7 @@ window.MG_DATA = {
     },
     {
       "localId": 81,
-      "producto": "Semilla girasol kg",
+      "producto": "Maíz pozolero",
       "precio": 59.8,
       "categoria": "Semillas y Granos",
       "unidad": "kg",
@@ -10606,7 +10600,7 @@ window.MG_DATA = {
     },
     {
       "localId": 81,
-      "producto": "Semilla calabaza kg",
+      "producto": "Frijol negro",
       "precio": 66.0,
       "categoria": "Semillas y Granos",
       "unidad": "kg",
@@ -10614,7 +10608,7 @@ window.MG_DATA = {
     },
     {
       "localId": 81,
-      "producto": "Semilla chía 500g",
+      "producto": "Trigo",
       "precio": 41.3,
       "categoria": "Semillas y Granos",
       "unidad": "pieza",
@@ -10622,7 +10616,7 @@ window.MG_DATA = {
     },
     {
       "localId": 81,
-      "producto": "Semilla linaza 500g",
+      "producto": "Amaranto",
       "precio": 39.0,
       "categoria": "Semillas y Granos",
       "unidad": "pieza",
@@ -10630,7 +10624,7 @@ window.MG_DATA = {
     },
     {
       "localId": 81,
-      "producto": "Semilla ajonjolí kg",
+      "producto": "Chía negra",
       "precio": 71.5,
       "categoria": "Semillas y Granos",
       "unidad": "kg",
@@ -10638,7 +10632,7 @@ window.MG_DATA = {
     },
     {
       "localId": 82,
-      "producto": "Semilla girasol kg",
+      "producto": "Maíz pozolero",
       "precio": 50.8,
       "categoria": "Semillas y Granos",
       "unidad": "kg",
@@ -10646,7 +10640,7 @@ window.MG_DATA = {
     },
     {
       "localId": 82,
-      "producto": "Semilla calabaza kg",
+      "producto": "Frijol negro",
       "precio": 72.7,
       "categoria": "Semillas y Granos",
       "unidad": "kg",
@@ -10654,7 +10648,7 @@ window.MG_DATA = {
     },
     {
       "localId": 82,
-      "producto": "Semilla chía 500g",
+      "producto": "Trigo",
       "precio": 39.9,
       "categoria": "Semillas y Granos",
       "unidad": "pieza",
@@ -10662,7 +10656,7 @@ window.MG_DATA = {
     },
     {
       "localId": 82,
-      "producto": "Semilla linaza 500g",
+      "producto": "Amaranto",
       "precio": 32.9,
       "categoria": "Semillas y Granos",
       "unidad": "pieza",
@@ -10670,7 +10664,7 @@ window.MG_DATA = {
     },
     {
       "localId": 82,
-      "producto": "Semilla ajonjolí kg",
+      "producto": "Chía negra",
       "precio": 84.0,
       "categoria": "Semillas y Granos",
       "unidad": "kg",
@@ -10678,7 +10672,7 @@ window.MG_DATA = {
     },
     {
       "localId": 83,
-      "producto": "Agua purificada 5L",
+      "producto": "Jarritos",
       "precio": 20.8,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -10686,7 +10680,7 @@ window.MG_DATA = {
     },
     {
       "localId": 83,
-      "producto": "Agua purificada 10L",
+      "producto": "Jugo embotellado",
       "precio": 32.8,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -10694,7 +10688,7 @@ window.MG_DATA = {
     },
     {
       "localId": 83,
-      "producto": "Agua garrafón 20L",
+      "producto": "Jugo de uva embotellado",
       "precio": 48.4,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -10702,7 +10696,7 @@ window.MG_DATA = {
     },
     {
       "localId": 83,
-      "producto": "Agua mineral 1.5L",
+      "producto": "Michelada de mango",
       "precio": 16.2,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -10710,7 +10704,7 @@ window.MG_DATA = {
     },
     {
       "localId": 83,
-      "producto": "Agua mineral 600ml",
+      "producto": "Agua de sabor",
       "precio": 12.7,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -10718,7 +10712,7 @@ window.MG_DATA = {
     },
     {
       "localId": 84,
-      "producto": "Agua purificada 5L",
+      "producto": "Jarritos",
       "precio": 19.7,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -10726,7 +10720,7 @@ window.MG_DATA = {
     },
     {
       "localId": 84,
-      "producto": "Agua purificada 10L",
+      "producto": "Jugo embotellado",
       "precio": 34.7,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -10734,7 +10728,7 @@ window.MG_DATA = {
     },
     {
       "localId": 84,
-      "producto": "Agua garrafón 20L",
+      "producto": "Jugo de uva embotellado",
       "precio": 41.8,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -10742,7 +10736,7 @@ window.MG_DATA = {
     },
     {
       "localId": 84,
-      "producto": "Agua mineral 1.5L",
+      "producto": "Michelada de mango",
       "precio": 17.0,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -10750,7 +10744,7 @@ window.MG_DATA = {
     },
     {
       "localId": 84,
-      "producto": "Agua mineral 600ml",
+      "producto": "Agua de sabor",
       "precio": 11.0,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -10758,7 +10752,7 @@ window.MG_DATA = {
     },
     {
       "localId": 85,
-      "producto": "Agua purificada 5L",
+      "producto": "Jarritos",
       "precio": 21.6,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -10766,7 +10760,7 @@ window.MG_DATA = {
     },
     {
       "localId": 85,
-      "producto": "Agua purificada 10L",
+      "producto": "Jugo embotellado",
       "precio": 34.6,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -10774,7 +10768,7 @@ window.MG_DATA = {
     },
     {
       "localId": 85,
-      "producto": "Agua garrafón 20L",
+      "producto": "Jugo de uva embotellado",
       "precio": 43.6,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -10782,7 +10776,7 @@ window.MG_DATA = {
     },
     {
       "localId": 85,
-      "producto": "Agua mineral 1.5L",
+      "producto": "Michelada de mango",
       "precio": 18.0,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -10790,7 +10784,7 @@ window.MG_DATA = {
     },
     {
       "localId": 85,
-      "producto": "Agua mineral 600ml",
+      "producto": "Agua de sabor",
       "precio": 12.3,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -10798,7 +10792,7 @@ window.MG_DATA = {
     },
     {
       "localId": 86,
-      "producto": "Café olla taza",
+      "producto": "Capuchino de caramelo",
       "precio": 19.8,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -10806,7 +10800,7 @@ window.MG_DATA = {
     },
     {
       "localId": 86,
-      "producto": "Café americano",
+      "producto": "Café irlandés",
       "precio": 20.3,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -10814,7 +10808,7 @@ window.MG_DATA = {
     },
     {
       "localId": 86,
-      "producto": "Café leche",
+      "producto": "Café con canela",
       "precio": 29.9,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -10822,7 +10816,7 @@ window.MG_DATA = {
     },
     {
       "localId": 86,
-      "producto": "Café capuchino",
+      "producto": "Café molido",
       "precio": 38.7,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -10830,7 +10824,7 @@ window.MG_DATA = {
     },
     {
       "localId": 86,
-      "producto": "Café mocha",
+      "producto": "Champurrado",
       "precio": 37.8,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -10838,7 +10832,7 @@ window.MG_DATA = {
     },
     {
       "localId": 87,
-      "producto": "Café olla taza",
+      "producto": "Capuchino de caramelo",
       "precio": 16.7,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -10846,7 +10840,7 @@ window.MG_DATA = {
     },
     {
       "localId": 87,
-      "producto": "Café americano",
+      "producto": "Café irlandés",
       "precio": 23.3,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -10854,7 +10848,7 @@ window.MG_DATA = {
     },
     {
       "localId": 87,
-      "producto": "Café leche",
+      "producto": "Café con canela",
       "precio": 27.5,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -10862,7 +10856,7 @@ window.MG_DATA = {
     },
     {
       "localId": 87,
-      "producto": "Café capuchino",
+      "producto": "Café molido",
       "precio": 35.6,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -10870,7 +10864,7 @@ window.MG_DATA = {
     },
     {
       "localId": 87,
-      "producto": "Café mocha",
+      "producto": "Champurrado",
       "precio": 38.9,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -10878,7 +10872,7 @@ window.MG_DATA = {
     },
     {
       "localId": 88,
-      "producto": "Café olla taza",
+      "producto": "Capuchino de caramelo",
       "precio": 16.2,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -10886,7 +10880,7 @@ window.MG_DATA = {
     },
     {
       "localId": 88,
-      "producto": "Café americano",
+      "producto": "Café irlandés",
       "precio": 24.2,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -10894,7 +10888,7 @@ window.MG_DATA = {
     },
     {
       "localId": 88,
-      "producto": "Café leche",
+      "producto": "Café con canela",
       "precio": 30.1,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -10902,7 +10896,7 @@ window.MG_DATA = {
     },
     {
       "localId": 88,
-      "producto": "Café capuchino",
+      "producto": "Café molido",
       "precio": 33.7,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -10910,7 +10904,7 @@ window.MG_DATA = {
     },
     {
       "localId": 88,
-      "producto": "Café mocha",
+      "producto": "Champurrado",
       "precio": 40.7,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -10918,7 +10912,7 @@ window.MG_DATA = {
     },
     {
       "localId": 89,
-      "producto": "Pastel chocolate rebanada",
+      "producto": "Tiramisú de cajeta",
       "precio": 32.5,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -10926,7 +10920,7 @@ window.MG_DATA = {
     },
     {
       "localId": 89,
-      "producto": "Pastel 3 leches rebanada",
+      "producto": "Panqué",
       "precio": 40.2,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -10934,7 +10928,7 @@ window.MG_DATA = {
     },
     {
       "localId": 89,
-      "producto": "Pastel zanahoria rebanada",
+      "producto": "Galletas de avena",
       "precio": 32.7,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -10942,7 +10936,7 @@ window.MG_DATA = {
     },
     {
       "localId": 89,
-      "producto": "Pastel red velvet rebanada",
+      "producto": "Cupcake de vainilla",
       "precio": 46.0,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -10950,7 +10944,7 @@ window.MG_DATA = {
     },
     {
       "localId": 89,
-      "producto": "Pastel marmoleado rebanada",
+      "producto": "Churros rellenos",
       "precio": 31.8,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -10958,7 +10952,7 @@ window.MG_DATA = {
     },
     {
       "localId": 90,
-      "producto": "Pastel chocolate rebanada",
+      "producto": "Tiramisú de cajeta",
       "precio": 36.4,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -10966,7 +10960,7 @@ window.MG_DATA = {
     },
     {
       "localId": 90,
-      "producto": "Pastel 3 leches rebanada",
+      "producto": "Panqué",
       "precio": 39.4,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -10974,7 +10968,7 @@ window.MG_DATA = {
     },
     {
       "localId": 90,
-      "producto": "Pastel zanahoria rebanada",
+      "producto": "Galletas de avena",
       "precio": 34.5,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -10982,7 +10976,7 @@ window.MG_DATA = {
     },
     {
       "localId": 90,
-      "producto": "Pastel red velvet rebanada",
+      "producto": "Cupcake de vainilla",
       "precio": 44.2,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -10990,7 +10984,7 @@ window.MG_DATA = {
     },
     {
       "localId": 90,
-      "producto": "Pastel marmoleado rebanada",
+      "producto": "Churros rellenos",
       "precio": 33.3,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -10998,7 +10992,7 @@ window.MG_DATA = {
     },
     {
       "localId": 91,
-      "producto": "Pastel chocolate rebanada",
+      "producto": "Tiramisú de cajeta",
       "precio": 31.3,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -11006,7 +11000,7 @@ window.MG_DATA = {
     },
     {
       "localId": 91,
-      "producto": "Pastel 3 leches rebanada",
+      "producto": "Panqué",
       "precio": 35.6,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -11014,7 +11008,7 @@ window.MG_DATA = {
     },
     {
       "localId": 91,
-      "producto": "Pastel zanahoria rebanada",
+      "producto": "Galletas de avena",
       "precio": 36.0,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -11022,7 +11016,7 @@ window.MG_DATA = {
     },
     {
       "localId": 91,
-      "producto": "Pastel red velvet rebanada",
+      "producto": "Cupcake de vainilla",
       "precio": 44.3,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -11030,7 +11024,7 @@ window.MG_DATA = {
     },
     {
       "localId": 91,
-      "producto": "Pastel marmoleado rebanada",
+      "producto": "Churros rellenos",
       "precio": 28.2,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -11038,7 +11032,7 @@ window.MG_DATA = {
     },
     {
       "localId": 92,
-      "producto": "Rosa roja",
+      "producto": "Tulipán",
       "precio": 25.8,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -11046,7 +11040,7 @@ window.MG_DATA = {
     },
     {
       "localId": 92,
-      "producto": "Rosa blanca",
+      "producto": "Clavel rojo",
       "precio": 21.9,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -11054,7 +11048,7 @@ window.MG_DATA = {
     },
     {
       "localId": 92,
-      "producto": "Rosa amarilla",
+      "producto": "Suculenta",
       "precio": 19.6,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -11062,7 +11056,7 @@ window.MG_DATA = {
     },
     {
       "localId": 92,
-      "producto": "Rosa rosada",
+      "producto": "Corona fúnebre",
       "precio": 19.5,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -11070,7 +11064,7 @@ window.MG_DATA = {
     },
     {
       "localId": 92,
-      "producto": "Ramo 12 rosas",
+      "producto": "Ramo de girasoles",
       "precio": 261,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -11078,7 +11072,7 @@ window.MG_DATA = {
     },
     {
       "localId": 93,
-      "producto": "Rosa roja",
+      "producto": "Tulipán",
       "precio": 27.1,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -11086,7 +11080,7 @@ window.MG_DATA = {
     },
     {
       "localId": 93,
-      "producto": "Rosa blanca",
+      "producto": "Clavel rojo",
       "precio": 20.5,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -11094,7 +11088,7 @@ window.MG_DATA = {
     },
     {
       "localId": 93,
-      "producto": "Rosa amarilla",
+      "producto": "Suculenta",
       "precio": 23.8,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -11102,7 +11096,7 @@ window.MG_DATA = {
     },
     {
       "localId": 93,
-      "producto": "Rosa rosada",
+      "producto": "Corona fúnebre",
       "precio": 20.6,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -11110,7 +11104,7 @@ window.MG_DATA = {
     },
     {
       "localId": 93,
-      "producto": "Ramo 12 rosas",
+      "producto": "Ramo de girasoles",
       "precio": 298,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -11118,7 +11112,7 @@ window.MG_DATA = {
     },
     {
       "localId": 94,
-      "producto": "Rosa roja",
+      "producto": "Tulipán",
       "precio": 24.3,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -11126,7 +11120,7 @@ window.MG_DATA = {
     },
     {
       "localId": 94,
-      "producto": "Rosa blanca",
+      "producto": "Clavel rojo",
       "precio": 19.4,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -11134,7 +11128,7 @@ window.MG_DATA = {
     },
     {
       "localId": 94,
-      "producto": "Rosa amarilla",
+      "producto": "Suculenta",
       "precio": 21.7,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -11142,7 +11136,7 @@ window.MG_DATA = {
     },
     {
       "localId": 94,
-      "producto": "Rosa rosada",
+      "producto": "Corona fúnebre",
       "precio": 22.0,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -11150,7 +11144,7 @@ window.MG_DATA = {
     },
     {
       "localId": 94,
-      "producto": "Ramo 12 rosas",
+      "producto": "Ramo de girasoles",
       "precio": 269,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -11158,7 +11152,7 @@ window.MG_DATA = {
     },
     {
       "localId": 95,
-      "producto": "Té manzanilla 50g",
+      "producto": "Chía",
       "precio": 23.7,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -11166,7 +11160,7 @@ window.MG_DATA = {
     },
     {
       "localId": 95,
-      "producto": "Té menta 50g",
+      "producto": "Moringa",
       "precio": 23.2,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -11174,7 +11168,7 @@ window.MG_DATA = {
     },
     {
       "localId": 95,
-      "producto": "Té jamaica 100g",
+      "producto": "Jalea real",
       "precio": 18.1,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -11182,7 +11176,7 @@ window.MG_DATA = {
     },
     {
       "localId": 95,
-      "producto": "Té verde 50g",
+      "producto": "Eucalipto",
       "precio": 27.0,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -11190,7 +11184,7 @@ window.MG_DATA = {
     },
     {
       "localId": 95,
-      "producto": "Té boldo 50g",
+      "producto": "Ruda",
       "precio": 27.3,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -11198,7 +11192,7 @@ window.MG_DATA = {
     },
     {
       "localId": 96,
-      "producto": "Té manzanilla 50g",
+      "producto": "Chía",
       "precio": 22.1,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -11206,7 +11200,7 @@ window.MG_DATA = {
     },
     {
       "localId": 96,
-      "producto": "Té menta 50g",
+      "producto": "Moringa",
       "precio": 23.3,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -11214,7 +11208,7 @@ window.MG_DATA = {
     },
     {
       "localId": 96,
-      "producto": "Té jamaica 100g",
+      "producto": "Jalea real",
       "precio": 18.2,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -11222,7 +11216,7 @@ window.MG_DATA = {
     },
     {
       "localId": 96,
-      "producto": "Té verde 50g",
+      "producto": "Eucalipto",
       "precio": 28.1,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -11230,7 +11224,7 @@ window.MG_DATA = {
     },
     {
       "localId": 96,
-      "producto": "Té boldo 50g",
+      "producto": "Ruda",
       "precio": 22.5,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -11238,7 +11232,7 @@ window.MG_DATA = {
     },
     {
       "localId": 97,
-      "producto": "Té manzanilla 50g",
+      "producto": "Chía",
       "precio": 21.3,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -11246,7 +11240,7 @@ window.MG_DATA = {
     },
     {
       "localId": 97,
-      "producto": "Té menta 50g",
+      "producto": "Moringa",
       "precio": 21.9,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -11254,7 +11248,7 @@ window.MG_DATA = {
     },
     {
       "localId": 97,
-      "producto": "Té jamaica 100g",
+      "producto": "Jalea real",
       "precio": 16.3,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -11262,7 +11256,7 @@ window.MG_DATA = {
     },
     {
       "localId": 97,
-      "producto": "Té verde 50g",
+      "producto": "Eucalipto",
       "precio": 27.5,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -11270,7 +11264,7 @@ window.MG_DATA = {
     },
     {
       "localId": 97,
-      "producto": "Té boldo 50g",
+      "producto": "Ruda",
       "precio": 24.8,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -11278,7 +11272,7 @@ window.MG_DATA = {
     },
     {
       "localId": 98,
-      "producto": "Blusa manga corta",
+      "producto": "Chamarra",
       "precio": 169,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11286,7 +11280,7 @@ window.MG_DATA = {
     },
     {
       "localId": 98,
-      "producto": "Blusa manga larga",
+      "producto": "Medias",
       "precio": 233,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11294,7 +11288,7 @@ window.MG_DATA = {
     },
     {
       "localId": 98,
-      "producto": "Pantalón mezclilla",
+      "producto": "Blusa bordada",
       "precio": 260,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11302,7 +11296,7 @@ window.MG_DATA = {
     },
     {
       "localId": 98,
-      "producto": "Falda midi",
+      "producto": "Pijama",
       "precio": 183,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11310,7 +11304,7 @@ window.MG_DATA = {
     },
     {
       "localId": 98,
-      "producto": "Vestido casual",
+      "producto": "Camisa formal",
       "precio": 375,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11318,7 +11312,7 @@ window.MG_DATA = {
     },
     {
       "localId": 99,
-      "producto": "Blusa manga corta",
+      "producto": "Chamarra",
       "precio": 169,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11326,7 +11320,7 @@ window.MG_DATA = {
     },
     {
       "localId": 99,
-      "producto": "Blusa manga larga",
+      "producto": "Medias",
       "precio": 213,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11334,7 +11328,7 @@ window.MG_DATA = {
     },
     {
       "localId": 99,
-      "producto": "Pantalón mezclilla",
+      "producto": "Blusa bordada",
       "precio": 329,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11342,7 +11336,7 @@ window.MG_DATA = {
     },
     {
       "localId": 99,
-      "producto": "Falda midi",
+      "producto": "Pijama",
       "precio": 209,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11350,7 +11344,7 @@ window.MG_DATA = {
     },
     {
       "localId": 99,
-      "producto": "Vestido casual",
+      "producto": "Camisa formal",
       "precio": 360,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11358,7 +11352,7 @@ window.MG_DATA = {
     },
     {
       "localId": 100,
-      "producto": "Blusa manga corta",
+      "producto": "Chamarra",
       "precio": 175,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11366,7 +11360,7 @@ window.MG_DATA = {
     },
     {
       "localId": 100,
-      "producto": "Blusa manga larga",
+      "producto": "Medias",
       "precio": 238,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11374,7 +11368,7 @@ window.MG_DATA = {
     },
     {
       "localId": 100,
-      "producto": "Pantalón mezclilla",
+      "producto": "Blusa bordada",
       "precio": 286,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11382,7 +11376,7 @@ window.MG_DATA = {
     },
     {
       "localId": 100,
-      "producto": "Falda midi",
+      "producto": "Pijama",
       "precio": 216,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11390,7 +11384,7 @@ window.MG_DATA = {
     },
     {
       "localId": 100,
-      "producto": "Vestido casual",
+      "producto": "Camisa formal",
       "precio": 361,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11398,7 +11392,7 @@ window.MG_DATA = {
     },
     {
       "localId": 101,
-      "producto": "Blusa manga corta",
+      "producto": "Chamarra",
       "precio": 194,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11406,7 +11400,7 @@ window.MG_DATA = {
     },
     {
       "localId": 101,
-      "producto": "Blusa manga larga",
+      "producto": "Medias",
       "precio": 200,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11414,7 +11408,7 @@ window.MG_DATA = {
     },
     {
       "localId": 101,
-      "producto": "Pantalón mezclilla",
+      "producto": "Blusa bordada",
       "precio": 267,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11422,7 +11416,7 @@ window.MG_DATA = {
     },
     {
       "localId": 101,
-      "producto": "Falda midi",
+      "producto": "Pijama",
       "precio": 197,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11430,7 +11424,7 @@ window.MG_DATA = {
     },
     {
       "localId": 101,
-      "producto": "Vestido casual",
+      "producto": "Camisa formal",
       "precio": 389,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11438,7 +11432,7 @@ window.MG_DATA = {
     },
     {
       "localId": 102,
-      "producto": "Blusa manga corta",
+      "producto": "Chamarra",
       "precio": 204,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11446,7 +11440,7 @@ window.MG_DATA = {
     },
     {
       "localId": 102,
-      "producto": "Blusa manga larga",
+      "producto": "Medias",
       "precio": 226,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11454,7 +11448,7 @@ window.MG_DATA = {
     },
     {
       "localId": 102,
-      "producto": "Pantalón mezclilla",
+      "producto": "Blusa bordada",
       "precio": 330,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11462,7 +11456,7 @@ window.MG_DATA = {
     },
     {
       "localId": 102,
-      "producto": "Falda midi",
+      "producto": "Pijama",
       "precio": 213,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11470,7 +11464,7 @@ window.MG_DATA = {
     },
     {
       "localId": 102,
-      "producto": "Vestido casual",
+      "producto": "Camisa formal",
       "precio": 360,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11478,7 +11472,7 @@ window.MG_DATA = {
     },
     {
       "localId": 103,
-      "producto": "Blusa manga corta",
+      "producto": "Chamarra",
       "precio": 172,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11486,7 +11480,7 @@ window.MG_DATA = {
     },
     {
       "localId": 103,
-      "producto": "Blusa manga larga",
+      "producto": "Medias",
       "precio": 201,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11494,7 +11488,7 @@ window.MG_DATA = {
     },
     {
       "localId": 103,
-      "producto": "Pantalón mezclilla",
+      "producto": "Blusa bordada",
       "precio": 329,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11502,7 +11496,7 @@ window.MG_DATA = {
     },
     {
       "localId": 103,
-      "producto": "Falda midi",
+      "producto": "Pijama",
       "precio": 195,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11510,7 +11504,7 @@ window.MG_DATA = {
     },
     {
       "localId": 103,
-      "producto": "Vestido casual",
+      "producto": "Camisa formal",
       "precio": 372,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11518,7 +11512,7 @@ window.MG_DATA = {
     },
     {
       "localId": 104,
-      "producto": "Blusa manga corta",
+      "producto": "Chamarra",
       "precio": 163,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11526,7 +11520,7 @@ window.MG_DATA = {
     },
     {
       "localId": 104,
-      "producto": "Blusa manga larga",
+      "producto": "Medias",
       "precio": 245,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11534,7 +11528,7 @@ window.MG_DATA = {
     },
     {
       "localId": 104,
-      "producto": "Pantalón mezclilla",
+      "producto": "Blusa bordada",
       "precio": 261,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11542,7 +11536,7 @@ window.MG_DATA = {
     },
     {
       "localId": 104,
-      "producto": "Falda midi",
+      "producto": "Pijama",
       "precio": 192,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11550,7 +11544,7 @@ window.MG_DATA = {
     },
     {
       "localId": 104,
-      "producto": "Vestido casual",
+      "producto": "Camisa formal",
       "precio": 365,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -11558,7 +11552,7 @@ window.MG_DATA = {
     },
     {
       "localId": 105,
-      "producto": "Zapato tacón medio",
+      "producto": "Zapatillas de baile",
       "precio": 403,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -11566,7 +11560,7 @@ window.MG_DATA = {
     },
     {
       "localId": 105,
-      "producto": "Zapato tacón alto",
+      "producto": "Zapatos de niño",
       "precio": 457,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -11574,7 +11568,7 @@ window.MG_DATA = {
     },
     {
       "localId": 105,
-      "producto": "Zapato plano",
+      "producto": "Tenis deportivos",
       "precio": 221,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -11582,7 +11576,7 @@ window.MG_DATA = {
     },
     {
       "localId": 105,
-      "producto": "Balerina",
+      "producto": "Calzado de charol para niño",
       "precio": 182,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -11590,7 +11584,7 @@ window.MG_DATA = {
     },
     {
       "localId": 105,
-      "producto": "Sandalia casual",
+      "producto": "Botas de trabajo",
       "precio": 182,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -11598,7 +11592,7 @@ window.MG_DATA = {
     },
     {
       "localId": 106,
-      "producto": "Zapato tacón medio",
+      "producto": "Zapatillas de baile",
       "precio": 409,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -11606,7 +11600,7 @@ window.MG_DATA = {
     },
     {
       "localId": 106,
-      "producto": "Zapato tacón alto",
+      "producto": "Zapatos de niño",
       "precio": 422,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -11614,7 +11608,7 @@ window.MG_DATA = {
     },
     {
       "localId": 106,
-      "producto": "Zapato plano",
+      "producto": "Tenis deportivos",
       "precio": 227,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -11622,7 +11616,7 @@ window.MG_DATA = {
     },
     {
       "localId": 106,
-      "producto": "Balerina",
+      "producto": "Calzado de charol para niño",
       "precio": 202,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -11630,7 +11624,7 @@ window.MG_DATA = {
     },
     {
       "localId": 106,
-      "producto": "Sandalia casual",
+      "producto": "Botas de trabajo",
       "precio": 193,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -11638,7 +11632,7 @@ window.MG_DATA = {
     },
     {
       "localId": 107,
-      "producto": "Zapato tacón medio",
+      "producto": "Zapatillas de baile",
       "precio": 412,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -11646,7 +11640,7 @@ window.MG_DATA = {
     },
     {
       "localId": 107,
-      "producto": "Zapato tacón alto",
+      "producto": "Zapatos de niño",
       "precio": 409,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -11654,7 +11648,7 @@ window.MG_DATA = {
     },
     {
       "localId": 107,
-      "producto": "Zapato plano",
+      "producto": "Tenis deportivos",
       "precio": 258,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -11662,7 +11656,7 @@ window.MG_DATA = {
     },
     {
       "localId": 107,
-      "producto": "Balerina",
+      "producto": "Calzado de charol para niño",
       "precio": 196,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -11670,7 +11664,7 @@ window.MG_DATA = {
     },
     {
       "localId": 107,
-      "producto": "Sandalia casual",
+      "producto": "Botas de trabajo",
       "precio": 187,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -11678,7 +11672,7 @@ window.MG_DATA = {
     },
     {
       "localId": 108,
-      "producto": "Zapato tacón medio",
+      "producto": "Zapatillas de baile",
       "precio": 347,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -11686,7 +11680,7 @@ window.MG_DATA = {
     },
     {
       "localId": 108,
-      "producto": "Zapato tacón alto",
+      "producto": "Zapatos de niño",
       "precio": 411,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -11694,7 +11688,7 @@ window.MG_DATA = {
     },
     {
       "localId": 108,
-      "producto": "Zapato plano",
+      "producto": "Tenis deportivos",
       "precio": 221,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -11702,7 +11696,7 @@ window.MG_DATA = {
     },
     {
       "localId": 108,
-      "producto": "Balerina",
+      "producto": "Calzado de charol para niño",
       "precio": 183,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -11710,7 +11704,7 @@ window.MG_DATA = {
     },
     {
       "localId": 108,
-      "producto": "Sandalia casual",
+      "producto": "Botas de trabajo",
       "precio": 160,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -11718,7 +11712,7 @@ window.MG_DATA = {
     },
     {
       "localId": 109,
-      "producto": "Martillo 16oz",
+      "producto": "Brocha",
       "precio": 116,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -11726,7 +11720,7 @@ window.MG_DATA = {
     },
     {
       "localId": 109,
-      "producto": "Desarmador plano",
+      "producto": "Machete Colima cacha de plástico",
       "precio": 32.5,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -11734,7 +11728,7 @@ window.MG_DATA = {
     },
     {
       "localId": 109,
-      "producto": "Desarmador phillips",
+      "producto": "Tornillo para madera",
       "precio": 36.4,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -11742,7 +11736,7 @@ window.MG_DATA = {
     },
     {
       "localId": 109,
-      "producto": "Pinzas universales",
+      "producto": "Cerradura",
       "precio": 62.1,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -11750,7 +11744,7 @@ window.MG_DATA = {
     },
     {
       "localId": 109,
-      "producto": "Llave stillson 12",
+      "producto": "Lijas",
       "precio": 151,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -11758,7 +11752,7 @@ window.MG_DATA = {
     },
     {
       "localId": 110,
-      "producto": "Martillo 16oz",
+      "producto": "Brocha",
       "precio": 118,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -11766,7 +11760,7 @@ window.MG_DATA = {
     },
     {
       "localId": 110,
-      "producto": "Desarmador plano",
+      "producto": "Machete Colima cacha de plástico",
       "precio": 39.0,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -11774,7 +11768,7 @@ window.MG_DATA = {
     },
     {
       "localId": 110,
-      "producto": "Desarmador phillips",
+      "producto": "Tornillo para madera",
       "precio": 32.9,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -11782,7 +11776,7 @@ window.MG_DATA = {
     },
     {
       "localId": 110,
-      "producto": "Pinzas universales",
+      "producto": "Cerradura",
       "precio": 62.3,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -11790,7 +11784,7 @@ window.MG_DATA = {
     },
     {
       "localId": 110,
-      "producto": "Llave stillson 12",
+      "producto": "Lijas",
       "precio": 153,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -11798,7 +11792,7 @@ window.MG_DATA = {
     },
     {
       "localId": 111,
-      "producto": "Martillo 16oz",
+      "producto": "Brocha",
       "precio": 115,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -11806,7 +11800,7 @@ window.MG_DATA = {
     },
     {
       "localId": 111,
-      "producto": "Desarmador plano",
+      "producto": "Machete Colima cacha de plástico",
       "precio": 38.5,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -11814,7 +11808,7 @@ window.MG_DATA = {
     },
     {
       "localId": 111,
-      "producto": "Desarmador phillips",
+      "producto": "Tornillo para madera",
       "precio": 38.5,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -11822,7 +11816,7 @@ window.MG_DATA = {
     },
     {
       "localId": 111,
-      "producto": "Pinzas universales",
+      "producto": "Cerradura",
       "precio": 61.1,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -11830,7 +11824,7 @@ window.MG_DATA = {
     },
     {
       "localId": 111,
-      "producto": "Llave stillson 12",
+      "producto": "Lijas",
       "precio": 143,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -11838,7 +11832,7 @@ window.MG_DATA = {
     },
     {
       "localId": 112,
-      "producto": "Cuchara sopera 6pz",
+      "producto": "Olla exprés",
       "precio": 30.9,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -11846,7 +11840,7 @@ window.MG_DATA = {
     },
     {
       "localId": 112,
-      "producto": "Cuchara servir",
+      "producto": "Comal de acero",
       "precio": 22.2,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -11854,7 +11848,7 @@ window.MG_DATA = {
     },
     {
       "localId": 112,
-      "producto": "Espátula cocina",
+      "producto": "Cuchara de acero",
       "precio": 17.3,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -11862,7 +11856,7 @@ window.MG_DATA = {
     },
     {
       "localId": 112,
-      "producto": "Cucharón",
+      "producto": "Sartén de teflón",
       "precio": 24.9,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -11870,7 +11864,7 @@ window.MG_DATA = {
     },
     {
       "localId": 112,
-      "producto": "Colador plástico",
+      "producto": "Recipiente con tapa",
       "precio": 25.1,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -11878,7 +11872,7 @@ window.MG_DATA = {
     },
     {
       "localId": 113,
-      "producto": "Cuchara sopera 6pz",
+      "producto": "Olla exprés",
       "precio": 31.1,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -11886,7 +11880,7 @@ window.MG_DATA = {
     },
     {
       "localId": 113,
-      "producto": "Cuchara servir",
+      "producto": "Comal de acero",
       "precio": 23.1,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -11894,7 +11888,7 @@ window.MG_DATA = {
     },
     {
       "localId": 113,
-      "producto": "Espátula cocina",
+      "producto": "Cuchara de acero",
       "precio": 17.2,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -11902,7 +11896,7 @@ window.MG_DATA = {
     },
     {
       "localId": 113,
-      "producto": "Cucharón",
+      "producto": "Sartén de teflón",
       "precio": 26.0,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -11910,7 +11904,7 @@ window.MG_DATA = {
     },
     {
       "localId": 113,
-      "producto": "Colador plástico",
+      "producto": "Recipiente con tapa",
       "precio": 30.0,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -11918,7 +11912,7 @@ window.MG_DATA = {
     },
     {
       "localId": 114,
-      "producto": "Cuchara sopera 6pz",
+      "producto": "Olla exprés",
       "precio": 36.9,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -11926,7 +11920,7 @@ window.MG_DATA = {
     },
     {
       "localId": 114,
-      "producto": "Cuchara servir",
+      "producto": "Comal de acero",
       "precio": 22.0,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -11934,7 +11928,7 @@ window.MG_DATA = {
     },
     {
       "localId": 114,
-      "producto": "Espátula cocina",
+      "producto": "Cuchara de acero",
       "precio": 17.4,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -11942,7 +11936,7 @@ window.MG_DATA = {
     },
     {
       "localId": 114,
-      "producto": "Cucharón",
+      "producto": "Sartén de teflón",
       "precio": 22.3,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -11950,7 +11944,7 @@ window.MG_DATA = {
     },
     {
       "localId": 114,
-      "producto": "Colador plástico",
+      "producto": "Recipiente con tapa",
       "precio": 25.2,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -11958,7 +11952,7 @@ window.MG_DATA = {
     },
     {
       "localId": 115,
-      "producto": "Piñata estrella mediana",
+      "producto": "Globos",
       "precio": 178,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -11966,7 +11960,7 @@ window.MG_DATA = {
     },
     {
       "localId": 115,
-      "producto": "Piñata estrella grande",
+      "producto": "Confeti",
       "precio": 267,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -11974,7 +11968,7 @@ window.MG_DATA = {
     },
     {
       "localId": 115,
-      "producto": "Piñata personaje",
+      "producto": "Pito",
       "precio": 224,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -11982,7 +11976,7 @@ window.MG_DATA = {
     },
     {
       "localId": 115,
-      "producto": "Piñata número",
+      "producto": "Cuerno de fiesta",
       "precio": 204,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -11990,7 +11984,7 @@ window.MG_DATA = {
     },
     {
       "localId": 115,
-      "producto": "Piñata unicornio",
+      "producto": "Varita mágica",
       "precio": 217,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -11998,7 +11992,7 @@ window.MG_DATA = {
     },
     {
       "localId": 116,
-      "producto": "Piñata estrella mediana",
+      "producto": "Globos",
       "precio": 202,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -12006,7 +12000,7 @@ window.MG_DATA = {
     },
     {
       "localId": 116,
-      "producto": "Piñata estrella grande",
+      "producto": "Confeti",
       "precio": 285,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -12014,7 +12008,7 @@ window.MG_DATA = {
     },
     {
       "localId": 116,
-      "producto": "Piñata personaje",
+      "producto": "Pito",
       "precio": 204,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -12022,7 +12016,7 @@ window.MG_DATA = {
     },
     {
       "localId": 116,
-      "producto": "Piñata número",
+      "producto": "Cuerno de fiesta",
       "precio": 216,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -12030,7 +12024,7 @@ window.MG_DATA = {
     },
     {
       "localId": 116,
-      "producto": "Piñata unicornio",
+      "producto": "Varita mágica",
       "precio": 227,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -12038,7 +12032,7 @@ window.MG_DATA = {
     },
     {
       "localId": 117,
-      "producto": "Piñata estrella mediana",
+      "producto": "Globos",
       "precio": 180,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -12046,7 +12040,7 @@ window.MG_DATA = {
     },
     {
       "localId": 117,
-      "producto": "Piñata estrella grande",
+      "producto": "Confeti",
       "precio": 289,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -12054,7 +12048,7 @@ window.MG_DATA = {
     },
     {
       "localId": 117,
-      "producto": "Piñata personaje",
+      "producto": "Pito",
       "precio": 221,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -12062,7 +12056,7 @@ window.MG_DATA = {
     },
     {
       "localId": 117,
-      "producto": "Piñata número",
+      "producto": "Cuerno de fiesta",
       "precio": 177,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -12070,7 +12064,7 @@ window.MG_DATA = {
     },
     {
       "localId": 117,
-      "producto": "Piñata unicornio",
+      "producto": "Varita mágica",
       "precio": 249,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -12078,7 +12072,7 @@ window.MG_DATA = {
     },
     {
       "localId": 118,
-      "producto": "Cajeta 400g",
+      "producto": "Alegría de amaranto",
       "precio": 62.4,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12086,7 +12080,7 @@ window.MG_DATA = {
     },
     {
       "localId": 118,
-      "producto": "Camote dulce 500g",
+      "producto": "Jamoncillos de leche",
       "precio": 32.1,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12094,7 +12088,7 @@ window.MG_DATA = {
     },
     {
       "localId": 118,
-      "producto": "Calabaza tacha 500g",
+      "producto": "Alfeñique",
       "precio": 34.7,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12102,7 +12096,7 @@ window.MG_DATA = {
     },
     {
       "localId": 118,
-      "producto": "Ate guayaba",
+      "producto": "Coyotas de cajeta",
       "precio": 29.6,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12110,7 +12104,7 @@ window.MG_DATA = {
     },
     {
       "localId": 118,
-      "producto": "Dulce leche 350g",
+      "producto": "Gomitas",
       "precio": 46.6,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12118,7 +12112,7 @@ window.MG_DATA = {
     },
     {
       "localId": 119,
-      "producto": "Cajeta 400g",
+      "producto": "Alegría de amaranto",
       "precio": 69.7,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12126,7 +12120,7 @@ window.MG_DATA = {
     },
     {
       "localId": 119,
-      "producto": "Camote dulce 500g",
+      "producto": "Jamoncillos de leche",
       "precio": 32.2,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12134,7 +12128,7 @@ window.MG_DATA = {
     },
     {
       "localId": 119,
-      "producto": "Calabaza tacha 500g",
+      "producto": "Alfeñique",
       "precio": 29.5,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12142,7 +12136,7 @@ window.MG_DATA = {
     },
     {
       "localId": 119,
-      "producto": "Ate guayaba",
+      "producto": "Coyotas de cajeta",
       "precio": 26.0,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12150,7 +12144,7 @@ window.MG_DATA = {
     },
     {
       "localId": 119,
-      "producto": "Dulce leche 350g",
+      "producto": "Gomitas",
       "precio": 42.2,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12158,7 +12152,7 @@ window.MG_DATA = {
     },
     {
       "localId": 120,
-      "producto": "Cajeta 400g",
+      "producto": "Alegría de amaranto",
       "precio": 60.0,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12166,7 +12160,7 @@ window.MG_DATA = {
     },
     {
       "localId": 120,
-      "producto": "Camote dulce 500g",
+      "producto": "Jamoncillos de leche",
       "precio": 31.4,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12174,7 +12168,7 @@ window.MG_DATA = {
     },
     {
       "localId": 120,
-      "producto": "Calabaza tacha 500g",
+      "producto": "Alfeñique",
       "precio": 31.6,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12182,7 +12176,7 @@ window.MG_DATA = {
     },
     {
       "localId": 120,
-      "producto": "Ate guayaba",
+      "producto": "Coyotas de cajeta",
       "precio": 29.0,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12190,7 +12184,7 @@ window.MG_DATA = {
     },
     {
       "localId": 120,
-      "producto": "Dulce leche 350g",
+      "producto": "Gomitas",
       "precio": 39.5,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12198,7 +12192,7 @@ window.MG_DATA = {
     },
     {
       "localId": 121,
-      "producto": "Cajeta 400g",
+      "producto": "Alegría de amaranto",
       "precio": 65.3,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12206,7 +12200,7 @@ window.MG_DATA = {
     },
     {
       "localId": 121,
-      "producto": "Camote dulce 500g",
+      "producto": "Jamoncillos de leche",
       "precio": 33.0,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12214,7 +12208,7 @@ window.MG_DATA = {
     },
     {
       "localId": 121,
-      "producto": "Calabaza tacha 500g",
+      "producto": "Alfeñique",
       "precio": 30.7,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12222,7 +12216,7 @@ window.MG_DATA = {
     },
     {
       "localId": 121,
-      "producto": "Ate guayaba",
+      "producto": "Coyotas de cajeta",
       "precio": 27.4,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12230,7 +12224,7 @@ window.MG_DATA = {
     },
     {
       "localId": 121,
-      "producto": "Dulce leche 350g",
+      "producto": "Gomitas",
       "precio": 46.1,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12238,7 +12232,7 @@ window.MG_DATA = {
     },
     {
       "localId": 122,
-      "producto": "Cajeta 400g",
+      "producto": "Alegría de amaranto",
       "precio": 62.1,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12246,7 +12240,7 @@ window.MG_DATA = {
     },
     {
       "localId": 122,
-      "producto": "Camote dulce 500g",
+      "producto": "Jamoncillos de leche",
       "precio": 37.2,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12254,7 +12248,7 @@ window.MG_DATA = {
     },
     {
       "localId": 122,
-      "producto": "Calabaza tacha 500g",
+      "producto": "Alfeñique",
       "precio": 31.2,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12262,7 +12256,7 @@ window.MG_DATA = {
     },
     {
       "localId": 122,
-      "producto": "Ate guayaba",
+      "producto": "Coyotas de cajeta",
       "precio": 29.5,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12270,7 +12264,7 @@ window.MG_DATA = {
     },
     {
       "localId": 122,
-      "producto": "Dulce leche 350g",
+      "producto": "Gomitas",
       "precio": 41.9,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -12278,7 +12272,7 @@ window.MG_DATA = {
     },
     {
       "localId": 123,
-      "producto": "Pinol 1L",
+      "producto": "Limpiavidrios",
       "precio": 27.5,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -12286,7 +12280,7 @@ window.MG_DATA = {
     },
     {
       "localId": 123,
-      "producto": "Fabuloso 1L",
+      "producto": "Fibra",
       "precio": 29.8,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -12294,7 +12288,7 @@ window.MG_DATA = {
     },
     {
       "localId": 123,
-      "producto": "Cloro 2L",
+      "producto": "Escobillón",
       "precio": 21.6,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -12302,7 +12296,7 @@ window.MG_DATA = {
     },
     {
       "localId": 123,
-      "producto": "Limpiador multiusos",
+      "producto": "Limpiador de pisos",
       "precio": 26.8,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -12310,7 +12304,7 @@ window.MG_DATA = {
     },
     {
       "localId": 123,
-      "producto": "Limpiavidrios",
+      "producto": "Guantes de hule",
       "precio": 19.6,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -12318,7 +12312,7 @@ window.MG_DATA = {
     },
     {
       "localId": 124,
-      "producto": "Pinol 1L",
+      "producto": "Limpiavidrios",
       "precio": 30.8,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -12326,7 +12320,7 @@ window.MG_DATA = {
     },
     {
       "localId": 124,
-      "producto": "Fabuloso 1L",
+      "producto": "Fibra",
       "precio": 24.7,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -12334,7 +12328,7 @@ window.MG_DATA = {
     },
     {
       "localId": 124,
-      "producto": "Cloro 2L",
+      "producto": "Escobillón",
       "precio": 24.2,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -12342,7 +12336,7 @@ window.MG_DATA = {
     },
     {
       "localId": 124,
-      "producto": "Limpiador multiusos",
+      "producto": "Limpiador de pisos",
       "precio": 24.4,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -12350,7 +12344,7 @@ window.MG_DATA = {
     },
     {
       "localId": 124,
-      "producto": "Limpiavidrios",
+      "producto": "Guantes de hule",
       "precio": 23.1,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -12358,7 +12352,7 @@ window.MG_DATA = {
     },
     {
       "localId": 125,
-      "producto": "Pinol 1L",
+      "producto": "Limpiavidrios",
       "precio": 26.5,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -12366,7 +12360,7 @@ window.MG_DATA = {
     },
     {
       "localId": 125,
-      "producto": "Fabuloso 1L",
+      "producto": "Fibra",
       "precio": 28.6,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -12374,7 +12368,7 @@ window.MG_DATA = {
     },
     {
       "localId": 125,
-      "producto": "Cloro 2L",
+      "producto": "Escobillón",
       "precio": 23.4,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -12382,7 +12376,7 @@ window.MG_DATA = {
     },
     {
       "localId": 125,
-      "producto": "Limpiador multiusos",
+      "producto": "Limpiador de pisos",
       "precio": 24.5,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -12390,7 +12384,7 @@ window.MG_DATA = {
     },
     {
       "localId": 125,
-      "producto": "Limpiavidrios",
+      "producto": "Guantes de hule",
       "precio": 20.2,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -12398,7 +12392,7 @@ window.MG_DATA = {
     },
     {
       "localId": 126,
-      "producto": "Pinol 1L",
+      "producto": "Limpiavidrios",
       "precio": 25.0,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -12406,7 +12400,7 @@ window.MG_DATA = {
     },
     {
       "localId": 126,
-      "producto": "Fabuloso 1L",
+      "producto": "Fibra",
       "precio": 29.6,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -12414,7 +12408,7 @@ window.MG_DATA = {
     },
     {
       "localId": 126,
-      "producto": "Cloro 2L",
+      "producto": "Escobillón",
       "precio": 19.5,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -12422,7 +12416,7 @@ window.MG_DATA = {
     },
     {
       "localId": 126,
-      "producto": "Limpiador multiusos",
+      "producto": "Limpiador de pisos",
       "precio": 26.1,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -12430,7 +12424,7 @@ window.MG_DATA = {
     },
     {
       "localId": 126,
-      "producto": "Limpiavidrios",
+      "producto": "Guantes de hule",
       "precio": 24.2,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -12438,7 +12432,7 @@ window.MG_DATA = {
     },
     {
       "localId": 127,
-      "producto": "Hilo poliéster carrete",
+      "producto": "Botón forrado",
       "precio": 8.71,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -12446,7 +12440,7 @@ window.MG_DATA = {
     },
     {
       "localId": 127,
-      "producto": "Hilo algodón carrete",
+      "producto": "Tela de lino",
       "precio": 9.75,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -12454,7 +12448,7 @@ window.MG_DATA = {
     },
     {
       "localId": 127,
-      "producto": "Hilo bordar surtido",
+      "producto": "Tela de satín",
       "precio": 36.5,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -12462,7 +12456,7 @@ window.MG_DATA = {
     },
     {
       "localId": 127,
-      "producto": "Hilo nylon transparente",
+      "producto": "Hilo de nylon",
       "precio": 11.8,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -12470,7 +12464,7 @@ window.MG_DATA = {
     },
     {
       "localId": 127,
-      "producto": "Hilo grueso",
+      "producto": "Dedal",
       "precio": 15.4,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -12478,7 +12472,7 @@ window.MG_DATA = {
     },
     {
       "localId": 128,
-      "producto": "Hilo poliéster carrete",
+      "producto": "Botón forrado",
       "precio": 7.51,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -12486,7 +12480,7 @@ window.MG_DATA = {
     },
     {
       "localId": 128,
-      "producto": "Hilo algodón carrete",
+      "producto": "Tela de lino",
       "precio": 10.8,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -12494,7 +12488,7 @@ window.MG_DATA = {
     },
     {
       "localId": 128,
-      "producto": "Hilo bordar surtido",
+      "producto": "Tela de satín",
       "precio": 37.4,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -12502,7 +12496,7 @@ window.MG_DATA = {
     },
     {
       "localId": 128,
-      "producto": "Hilo nylon transparente",
+      "producto": "Hilo de nylon",
       "precio": 13.4,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -12510,7 +12504,7 @@ window.MG_DATA = {
     },
     {
       "localId": 128,
-      "producto": "Hilo grueso",
+      "producto": "Dedal",
       "precio": 14.9,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -12518,7 +12512,7 @@ window.MG_DATA = {
     },
     {
       "localId": 129,
-      "producto": "Hilo poliéster carrete",
+      "producto": "Botón forrado",
       "precio": 8.61,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -12526,7 +12520,7 @@ window.MG_DATA = {
     },
     {
       "localId": 129,
-      "producto": "Hilo algodón carrete",
+      "producto": "Tela de lino",
       "precio": 10.5,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -12534,7 +12528,7 @@ window.MG_DATA = {
     },
     {
       "localId": 129,
-      "producto": "Hilo bordar surtido",
+      "producto": "Tela de satín",
       "precio": 34.0,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -12542,7 +12536,7 @@ window.MG_DATA = {
     },
     {
       "localId": 129,
-      "producto": "Hilo nylon transparente",
+      "producto": "Hilo de nylon",
       "precio": 13.2,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -12550,7 +12544,7 @@ window.MG_DATA = {
     },
     {
       "localId": 129,
-      "producto": "Hilo grueso",
+      "producto": "Dedal",
       "precio": 15.7,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -12558,7 +12552,7 @@ window.MG_DATA = {
     },
     {
       "localId": 130,
-      "producto": "Anillo plata .925",
+      "producto": "Anillo de compromiso",
       "precio": 480,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -12566,7 +12560,7 @@ window.MG_DATA = {
     },
     {
       "localId": 130,
-      "producto": "Anillo oro laminado",
+      "producto": "Dije religioso",
       "precio": 368,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -12574,7 +12568,7 @@ window.MG_DATA = {
     },
     {
       "localId": 130,
-      "producto": "Anillo con piedra",
+      "producto": "Collar de cuarzo",
       "precio": 479,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -12582,7 +12576,7 @@ window.MG_DATA = {
     },
     {
       "localId": 130,
-      "producto": "Anillo compromiso plata",
+      "producto": "Collar de bautizo",
       "precio": 824,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -12590,7 +12584,7 @@ window.MG_DATA = {
     },
     {
       "localId": 130,
-      "producto": "Anillo ajustable",
+      "producto": "Tobillera",
       "precio": 80.0,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -12598,7 +12592,7 @@ window.MG_DATA = {
     },
     {
       "localId": 131,
-      "producto": "Anillo plata .925",
+      "producto": "Anillo de compromiso",
       "precio": 489,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -12606,7 +12600,7 @@ window.MG_DATA = {
     },
     {
       "localId": 131,
-      "producto": "Anillo oro laminado",
+      "producto": "Dije religioso",
       "precio": 366,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -12614,7 +12608,7 @@ window.MG_DATA = {
     },
     {
       "localId": 131,
-      "producto": "Anillo con piedra",
+      "producto": "Collar de cuarzo",
       "precio": 495,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -12622,7 +12616,7 @@ window.MG_DATA = {
     },
     {
       "localId": 131,
-      "producto": "Anillo compromiso plata",
+      "producto": "Collar de bautizo",
       "precio": 856,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -12630,7 +12624,7 @@ window.MG_DATA = {
     },
     {
       "localId": 131,
-      "producto": "Anillo ajustable",
+      "producto": "Tobillera",
       "precio": 78.7,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -12638,7 +12632,7 @@ window.MG_DATA = {
     },
     {
       "localId": 132,
-      "producto": "Anillo plata .925",
+      "producto": "Anillo de compromiso",
       "precio": 448,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -12646,7 +12640,7 @@ window.MG_DATA = {
     },
     {
       "localId": 132,
-      "producto": "Anillo oro laminado",
+      "producto": "Dije religioso",
       "precio": 349,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -12654,7 +12648,7 @@ window.MG_DATA = {
     },
     {
       "localId": 132,
-      "producto": "Anillo con piedra",
+      "producto": "Collar de cuarzo",
       "precio": 514,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -12662,7 +12656,7 @@ window.MG_DATA = {
     },
     {
       "localId": 132,
-      "producto": "Anillo compromiso plata",
+      "producto": "Collar de bautizo",
       "precio": 849,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -12670,7 +12664,7 @@ window.MG_DATA = {
     },
     {
       "localId": 132,
-      "producto": "Anillo ajustable",
+      "producto": "Tobillera",
       "precio": 90.8,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -12678,7 +12672,7 @@ window.MG_DATA = {
     },
     {
       "localId": 133,
-      "producto": "Anillo plata .925",
+      "producto": "Anillo de compromiso",
       "precio": 406,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -12686,7 +12680,7 @@ window.MG_DATA = {
     },
     {
       "localId": 133,
-      "producto": "Anillo oro laminado",
+      "producto": "Dije religioso",
       "precio": 356,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -12694,7 +12688,7 @@ window.MG_DATA = {
     },
     {
       "localId": 133,
-      "producto": "Anillo con piedra",
+      "producto": "Collar de cuarzo",
       "precio": 486,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -12702,7 +12696,7 @@ window.MG_DATA = {
     },
     {
       "localId": 133,
-      "producto": "Anillo compromiso plata",
+      "producto": "Collar de bautizo",
       "precio": 820,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -12710,7 +12704,7 @@ window.MG_DATA = {
     },
     {
       "localId": 133,
-      "producto": "Anillo ajustable",
+      "producto": "Tobillera",
       "precio": 88.3,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -12718,7 +12712,7 @@ window.MG_DATA = {
     },
     {
       "localId": 134,
-      "producto": "Cuaderno profesional 100h",
+      "producto": "Sobre",
       "precio": 47.4,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -12726,7 +12720,7 @@ window.MG_DATA = {
     },
     {
       "localId": 134,
-      "producto": "Cuaderno espiral 200h",
+      "producto": "Lápiz adhesivo",
       "precio": 52.6,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -12734,7 +12728,7 @@ window.MG_DATA = {
     },
     {
       "localId": 134,
-      "producto": "Libreta media",
+      "producto": "Folder tamaño carta",
       "precio": 26.6,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -12742,7 +12736,7 @@ window.MG_DATA = {
     },
     {
       "localId": 134,
-      "producto": "Libreta pocket",
+      "producto": "Clips",
       "precio": 17.3,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -12750,7 +12744,7 @@ window.MG_DATA = {
     },
     {
       "localId": 134,
-      "producto": "Cuaderno dibujo",
+      "producto": "Liga",
       "precio": 69.3,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -12758,7 +12752,7 @@ window.MG_DATA = {
     },
     {
       "localId": 135,
-      "producto": "Cuaderno profesional 100h",
+      "producto": "Sobre",
       "precio": 46.6,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -12766,7 +12760,7 @@ window.MG_DATA = {
     },
     {
       "localId": 135,
-      "producto": "Cuaderno espiral 200h",
+      "producto": "Lápiz adhesivo",
       "precio": 51.3,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -12774,7 +12768,7 @@ window.MG_DATA = {
     },
     {
       "localId": 135,
-      "producto": "Libreta media",
+      "producto": "Folder tamaño carta",
       "precio": 24.8,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -12782,7 +12776,7 @@ window.MG_DATA = {
     },
     {
       "localId": 135,
-      "producto": "Libreta pocket",
+      "producto": "Clips",
       "precio": 20.1,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -12790,7 +12784,7 @@ window.MG_DATA = {
     },
     {
       "localId": 135,
-      "producto": "Cuaderno dibujo",
+      "producto": "Liga",
       "precio": 66.8,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -12798,7 +12792,7 @@ window.MG_DATA = {
     },
     {
       "localId": 136,
-      "producto": "Cuaderno profesional 100h",
+      "producto": "Sobre",
       "precio": 46.9,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -12806,7 +12800,7 @@ window.MG_DATA = {
     },
     {
       "localId": 136,
-      "producto": "Cuaderno espiral 200h",
+      "producto": "Lápiz adhesivo",
       "precio": 57.9,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -12814,7 +12808,7 @@ window.MG_DATA = {
     },
     {
       "localId": 136,
-      "producto": "Libreta media",
+      "producto": "Folder tamaño carta",
       "precio": 27.0,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -12822,7 +12816,7 @@ window.MG_DATA = {
     },
     {
       "localId": 136,
-      "producto": "Libreta pocket",
+      "producto": "Clips",
       "precio": 16.1,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -12830,7 +12824,7 @@ window.MG_DATA = {
     },
     {
       "localId": 136,
-      "producto": "Cuaderno dibujo",
+      "producto": "Liga",
       "precio": 72.5,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -12838,7 +12832,7 @@ window.MG_DATA = {
     },
     {
       "localId": 137,
-      "producto": "Funda silicona",
+      "producto": "Audífonos de diadema",
       "precio": 72.2,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -12846,7 +12840,7 @@ window.MG_DATA = {
     },
     {
       "localId": 137,
-      "producto": "Mica vidrio",
+      "producto": "Splitter",
       "precio": 94.9,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -12854,7 +12848,7 @@ window.MG_DATA = {
     },
     {
       "localId": 137,
-      "producto": "Cable USB-C 1m",
+      "producto": "Mouse USB",
       "precio": 42.9,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -12862,7 +12856,7 @@ window.MG_DATA = {
     },
     {
       "localId": 137,
-      "producto": "Cable lightning",
+      "producto": "Audífonos bluetooth",
       "precio": 59.2,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -12870,7 +12864,7 @@ window.MG_DATA = {
     },
     {
       "localId": 137,
-      "producto": "Cargador 2 puertos",
+      "producto": "Cargador de pilas",
       "precio": 117,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -12878,7 +12872,7 @@ window.MG_DATA = {
     },
     {
       "localId": 138,
-      "producto": "Funda silicona",
+      "producto": "Audífonos de diadema",
       "precio": 61.2,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -12886,7 +12880,7 @@ window.MG_DATA = {
     },
     {
       "localId": 138,
-      "producto": "Mica vidrio",
+      "producto": "Splitter",
       "precio": 78.2,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -12894,7 +12888,7 @@ window.MG_DATA = {
     },
     {
       "localId": 138,
-      "producto": "Cable USB-C 1m",
+      "producto": "Mouse USB",
       "precio": 50.0,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -12902,7 +12896,7 @@ window.MG_DATA = {
     },
     {
       "localId": 138,
-      "producto": "Cable lightning",
+      "producto": "Audífonos bluetooth",
       "precio": 50.7,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -12910,7 +12904,7 @@ window.MG_DATA = {
     },
     {
       "localId": 138,
-      "producto": "Cargador 2 puertos",
+      "producto": "Cargador de pilas",
       "precio": 122,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -12918,7 +12912,7 @@ window.MG_DATA = {
     },
     {
       "localId": 139,
-      "producto": "Funda silicona",
+      "producto": "Audífonos de diadema",
       "precio": 65.2,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -12926,7 +12920,7 @@ window.MG_DATA = {
     },
     {
       "localId": 139,
-      "producto": "Mica vidrio",
+      "producto": "Splitter",
       "precio": 85.9,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -12934,7 +12928,7 @@ window.MG_DATA = {
     },
     {
       "localId": 139,
-      "producto": "Cable USB-C 1m",
+      "producto": "Mouse USB",
       "precio": 43.4,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -12942,7 +12936,7 @@ window.MG_DATA = {
     },
     {
       "localId": 139,
-      "producto": "Cable lightning",
+      "producto": "Audífonos bluetooth",
       "precio": 57.4,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -12950,7 +12944,7 @@ window.MG_DATA = {
     },
     {
       "localId": 139,
-      "producto": "Cargador 2 puertos",
+      "producto": "Cargador de pilas",
       "precio": 126,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -12958,7 +12952,7 @@ window.MG_DATA = {
     },
     {
       "localId": 140,
-      "producto": "Funda silicona",
+      "producto": "Audífonos de diadema",
       "precio": 64.5,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -12966,7 +12960,7 @@ window.MG_DATA = {
     },
     {
       "localId": 140,
-      "producto": "Mica vidrio",
+      "producto": "Splitter",
       "precio": 85.7,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -12974,7 +12968,7 @@ window.MG_DATA = {
     },
     {
       "localId": 140,
-      "producto": "Cable USB-C 1m",
+      "producto": "Mouse USB",
       "precio": 44.8,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -12982,7 +12976,7 @@ window.MG_DATA = {
     },
     {
       "localId": 140,
-      "producto": "Cable lightning",
+      "producto": "Audífonos bluetooth",
       "precio": 51.0,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -12990,7 +12984,7 @@ window.MG_DATA = {
     },
     {
       "localId": 140,
-      "producto": "Cargador 2 puertos",
+      "producto": "Cargador de pilas",
       "precio": 135,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -12998,7 +12992,7 @@ window.MG_DATA = {
     },
     {
       "localId": 141,
-      "producto": "Rompecabezas infantil",
+      "producto": "Cubo mágico",
       "precio": 79.1,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -13006,7 +13000,7 @@ window.MG_DATA = {
     },
     {
       "localId": 141,
-      "producto": "Bloques construcción",
+      "producto": "Figura coleccionable",
       "precio": 120,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -13014,7 +13008,7 @@ window.MG_DATA = {
     },
     {
       "localId": 141,
-      "producto": "Juego mesa familiar",
+      "producto": "Saltarín",
       "precio": 144,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -13022,7 +13016,7 @@ window.MG_DATA = {
     },
     {
       "localId": 141,
-      "producto": "Kit ciencia",
+      "producto": "Balero",
       "precio": 148,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -13030,7 +13024,7 @@ window.MG_DATA = {
     },
     {
       "localId": 141,
-      "producto": "Laberinto magnético",
+      "producto": "Rompecabezas",
       "precio": 96.8,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -13038,7 +13032,7 @@ window.MG_DATA = {
     },
     {
       "localId": 142,
-      "producto": "Rompecabezas infantil",
+      "producto": "Cubo mágico",
       "precio": 91.9,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -13046,7 +13040,7 @@ window.MG_DATA = {
     },
     {
       "localId": 142,
-      "producto": "Bloques construcción",
+      "producto": "Figura coleccionable",
       "precio": 106,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -13054,7 +13048,7 @@ window.MG_DATA = {
     },
     {
       "localId": 142,
-      "producto": "Juego mesa familiar",
+      "producto": "Saltarín",
       "precio": 138,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -13062,7 +13056,7 @@ window.MG_DATA = {
     },
     {
       "localId": 142,
-      "producto": "Kit ciencia",
+      "producto": "Balero",
       "precio": 160,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -13070,7 +13064,7 @@ window.MG_DATA = {
     },
     {
       "localId": 142,
-      "producto": "Laberinto magnético",
+      "producto": "Rompecabezas",
       "precio": 102,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -13078,7 +13072,7 @@ window.MG_DATA = {
     },
     {
       "localId": 143,
-      "producto": "Rompecabezas infantil",
+      "producto": "Cubo mágico",
       "precio": 78.7,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -13086,7 +13080,7 @@ window.MG_DATA = {
     },
     {
       "localId": 143,
-      "producto": "Bloques construcción",
+      "producto": "Figura coleccionable",
       "precio": 122,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -13094,7 +13088,7 @@ window.MG_DATA = {
     },
     {
       "localId": 143,
-      "producto": "Juego mesa familiar",
+      "producto": "Saltarín",
       "precio": 143,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -13102,7 +13096,7 @@ window.MG_DATA = {
     },
     {
       "localId": 143,
-      "producto": "Kit ciencia",
+      "producto": "Balero",
       "precio": 178,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -13110,7 +13104,7 @@ window.MG_DATA = {
     },
     {
       "localId": 143,
-      "producto": "Laberinto magnético",
+      "producto": "Rompecabezas",
       "precio": 98.4,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -13118,7 +13112,7 @@ window.MG_DATA = {
     },
     {
       "localId": 144,
-      "producto": "Olla barro 2L",
+      "producto": "Tapete tejido",
       "precio": 129,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -13126,7 +13120,7 @@ window.MG_DATA = {
     },
     {
       "localId": 144,
-      "producto": "Cazuela barro",
+      "producto": "Canasta de bejuco",
       "precio": 85.5,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -13134,7 +13128,7 @@ window.MG_DATA = {
     },
     {
       "localId": 144,
-      "producto": "Plato barro",
+      "producto": "Charola de palma",
       "precio": 44.4,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -13142,7 +13136,7 @@ window.MG_DATA = {
     },
     {
       "localId": 144,
-      "producto": "Taza barro",
+      "producto": "Jarrito de barro",
       "precio": 36.7,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -13150,7 +13144,7 @@ window.MG_DATA = {
     },
     {
       "localId": 144,
-      "producto": "Molcajete chico",
+      "producto": "Figura de ámbar",
       "precio": 201,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -13158,7 +13152,7 @@ window.MG_DATA = {
     },
     {
       "localId": 145,
-      "producto": "Olla barro 2L",
+      "producto": "Tapete tejido",
       "precio": 129,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -13166,7 +13160,7 @@ window.MG_DATA = {
     },
     {
       "localId": 145,
-      "producto": "Cazuela barro",
+      "producto": "Canasta de bejuco",
       "precio": 88.3,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -13174,7 +13168,7 @@ window.MG_DATA = {
     },
     {
       "localId": 145,
-      "producto": "Plato barro",
+      "producto": "Charola de palma",
       "precio": 48.9,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -13182,7 +13176,7 @@ window.MG_DATA = {
     },
     {
       "localId": 145,
-      "producto": "Taza barro",
+      "producto": "Jarrito de barro",
       "precio": 37.5,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -13190,7 +13184,7 @@ window.MG_DATA = {
     },
     {
       "localId": 145,
-      "producto": "Molcajete chico",
+      "producto": "Figura de ámbar",
       "precio": 173,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -13198,7 +13192,7 @@ window.MG_DATA = {
     },
     {
       "localId": 146,
-      "producto": "Olla barro 2L",
+      "producto": "Tapete tejido",
       "precio": 131,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -13206,7 +13200,7 @@ window.MG_DATA = {
     },
     {
       "localId": 146,
-      "producto": "Cazuela barro",
+      "producto": "Canasta de bejuco",
       "precio": 84.0,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -13214,7 +13208,7 @@ window.MG_DATA = {
     },
     {
       "localId": 146,
-      "producto": "Plato barro",
+      "producto": "Charola de palma",
       "precio": 49.4,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -13222,7 +13216,7 @@ window.MG_DATA = {
     },
     {
       "localId": 146,
-      "producto": "Taza barro",
+      "producto": "Jarrito de barro",
       "precio": 36.4,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -13230,7 +13224,7 @@ window.MG_DATA = {
     },
     {
       "localId": 146,
-      "producto": "Molcajete chico",
+      "producto": "Figura de ámbar",
       "precio": 193,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -13238,7 +13232,7 @@ window.MG_DATA = {
     },
     {
       "localId": 147,
-      "producto": "Olla barro 2L",
+      "producto": "Tapete tejido",
       "precio": 137,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -13246,7 +13240,7 @@ window.MG_DATA = {
     },
     {
       "localId": 147,
-      "producto": "Cazuela barro",
+      "producto": "Canasta de bejuco",
       "precio": 77.7,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -13254,7 +13248,7 @@ window.MG_DATA = {
     },
     {
       "localId": 147,
-      "producto": "Plato barro",
+      "producto": "Charola de palma",
       "precio": 44.9,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -13262,7 +13256,7 @@ window.MG_DATA = {
     },
     {
       "localId": 147,
-      "producto": "Taza barro",
+      "producto": "Jarrito de barro",
       "precio": 33.7,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -13270,7 +13264,7 @@ window.MG_DATA = {
     },
     {
       "localId": 147,
-      "producto": "Molcajete chico",
+      "producto": "Figura de ámbar",
       "precio": 188,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -13278,7 +13272,7 @@ window.MG_DATA = {
     },
     {
       "localId": 148,
-      "producto": "Dobladillo pantalón",
+      "producto": "Enmarcado",
       "precio": 45.5,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
@@ -13286,7 +13280,7 @@ window.MG_DATA = {
     },
     {
       "localId": 148,
-      "producto": "Cierre pantalón",
+      "producto": "Reparación de reloj",
       "precio": 72.0,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
@@ -13294,7 +13288,7 @@ window.MG_DATA = {
     },
     {
       "localId": 148,
-      "producto": "Ajuste cintura",
+      "producto": "Bordado de playeras",
       "precio": 85.5,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
@@ -13302,7 +13296,7 @@ window.MG_DATA = {
     },
     {
       "localId": 148,
-      "producto": "Arreglo vestido",
+      "producto": "Reparación de sombreros",
       "precio": 133,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
@@ -13310,7 +13304,7 @@ window.MG_DATA = {
     },
     {
       "localId": 148,
-      "producto": "Zurcido sencillo",
+      "producto": "Costura sencilla",
       "precio": 27.2,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
@@ -13318,7 +13312,7 @@ window.MG_DATA = {
     },
     {
       "localId": 149,
-      "producto": "Dobladillo pantalón",
+      "producto": "Enmarcado",
       "precio": 48.6,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
@@ -13326,7 +13320,7 @@ window.MG_DATA = {
     },
     {
       "localId": 149,
-      "producto": "Cierre pantalón",
+      "producto": "Reparación de reloj",
       "precio": 71.6,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
@@ -13334,7 +13328,7 @@ window.MG_DATA = {
     },
     {
       "localId": 149,
-      "producto": "Ajuste cintura",
+      "producto": "Bordado de playeras",
       "precio": 93.8,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
@@ -13342,7 +13336,7 @@ window.MG_DATA = {
     },
     {
       "localId": 149,
-      "producto": "Arreglo vestido",
+      "producto": "Reparación de sombreros",
       "precio": 130,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
@@ -13350,7 +13344,7 @@ window.MG_DATA = {
     },
     {
       "localId": 149,
-      "producto": "Zurcido sencillo",
+      "producto": "Costura sencilla",
       "precio": 26.6,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
@@ -13358,7 +13352,7 @@ window.MG_DATA = {
     },
     {
       "localId": 150,
-      "producto": "Dobladillo pantalón",
+      "producto": "Enmarcado",
       "precio": 48.6,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
@@ -13366,7 +13360,7 @@ window.MG_DATA = {
     },
     {
       "localId": 150,
-      "producto": "Cierre pantalón",
+      "producto": "Reparación de reloj",
       "precio": 60.9,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
@@ -13374,7 +13368,7 @@ window.MG_DATA = {
     },
     {
       "localId": 150,
-      "producto": "Ajuste cintura",
+      "producto": "Bordado de playeras",
       "precio": 79.5,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
@@ -13382,7 +13376,7 @@ window.MG_DATA = {
     },
     {
       "localId": 150,
-      "producto": "Arreglo vestido",
+      "producto": "Reparación de sombreros",
       "precio": 120,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
@@ -13390,7 +13384,7 @@ window.MG_DATA = {
     },
     {
       "localId": 150,
-      "producto": "Zurcido sencillo",
+      "producto": "Costura sencilla",
       "precio": 22.2,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
@@ -13398,7 +13392,7 @@ window.MG_DATA = {
     },
     {
       "localId": 151,
-      "producto": "Cajeta 400g",
+      "producto": "Alegría de amaranto",
       "precio": 69.8,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -13406,7 +13400,7 @@ window.MG_DATA = {
     },
     {
       "localId": 151,
-      "producto": "Camote dulce 500g",
+      "producto": "Jamoncillos de leche",
       "precio": 34.2,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -13414,7 +13408,7 @@ window.MG_DATA = {
     },
     {
       "localId": 151,
-      "producto": "Calabaza tacha 500g",
+      "producto": "Alfeñique",
       "precio": 28.6,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -13422,7 +13416,7 @@ window.MG_DATA = {
     },
     {
       "localId": 151,
-      "producto": "Ate guayaba",
+      "producto": "Coyotas de cajeta",
       "precio": 26.1,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -13430,7 +13424,7 @@ window.MG_DATA = {
     },
     {
       "localId": 151,
-      "producto": "Dulce leche 350g",
+      "producto": "Gomitas",
       "precio": 40.1,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -13438,7 +13432,7 @@ window.MG_DATA = {
     },
     {
       "localId": 152,
-      "producto": "Blusa manga corta",
+      "producto": "Chamarra",
       "precio": 187,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -13446,7 +13440,7 @@ window.MG_DATA = {
     },
     {
       "localId": 152,
-      "producto": "Blusa manga larga",
+      "producto": "Medias",
       "precio": 233,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -13454,7 +13448,7 @@ window.MG_DATA = {
     },
     {
       "localId": 152,
-      "producto": "Pantalón mezclilla",
+      "producto": "Blusa bordada",
       "precio": 285,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -13462,7 +13456,7 @@ window.MG_DATA = {
     },
     {
       "localId": 152,
-      "producto": "Falda midi",
+      "producto": "Pijama",
       "precio": 189,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -13470,7 +13464,7 @@ window.MG_DATA = {
     },
     {
       "localId": 152,
-      "producto": "Vestido casual",
+      "producto": "Camisa formal",
       "precio": 320,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -13478,7 +13472,7 @@ window.MG_DATA = {
     },
     {
       "localId": 153,
-      "producto": "Zapato tacón medio",
+      "producto": "Zapatillas de baile",
       "precio": 416,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -13486,7 +13480,7 @@ window.MG_DATA = {
     },
     {
       "localId": 153,
-      "producto": "Zapato tacón alto",
+      "producto": "Zapatos de niño",
       "precio": 469,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -13494,7 +13488,7 @@ window.MG_DATA = {
     },
     {
       "localId": 153,
-      "producto": "Zapato plano",
+      "producto": "Tenis deportivos",
       "precio": 224,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -13502,7 +13496,7 @@ window.MG_DATA = {
     },
     {
       "localId": 153,
-      "producto": "Balerina",
+      "producto": "Calzado de charol para niño",
       "precio": 187,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -13510,7 +13504,7 @@ window.MG_DATA = {
     },
     {
       "localId": 153,
-      "producto": "Sandalia casual",
+      "producto": "Botas de trabajo",
       "precio": 188,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -13518,7 +13512,7 @@ window.MG_DATA = {
     },
     {
       "localId": 154,
-      "producto": "Martillo 16oz",
+      "producto": "Brocha",
       "precio": 125,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -13526,7 +13520,7 @@ window.MG_DATA = {
     },
     {
       "localId": 154,
-      "producto": "Desarmador plano",
+      "producto": "Machete Colima cacha de plástico",
       "precio": 35.0,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -13534,7 +13528,7 @@ window.MG_DATA = {
     },
     {
       "localId": 154,
-      "producto": "Desarmador phillips",
+      "producto": "Tornillo para madera",
       "precio": 39.0,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -13542,7 +13536,7 @@ window.MG_DATA = {
     },
     {
       "localId": 154,
-      "producto": "Pinzas universales",
+      "producto": "Cerradura",
       "precio": 68.4,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -13550,7 +13544,7 @@ window.MG_DATA = {
     },
     {
       "localId": 154,
-      "producto": "Llave stillson 12",
+      "producto": "Lijas",
       "precio": 156,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -13558,7 +13552,7 @@ window.MG_DATA = {
     },
     {
       "localId": 155,
-      "producto": "Funda silicona",
+      "producto": "Audífonos de diadema",
       "precio": 61.7,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -13566,7 +13560,7 @@ window.MG_DATA = {
     },
     {
       "localId": 155,
-      "producto": "Mica vidrio",
+      "producto": "Splitter",
       "precio": 87.5,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -13574,7 +13568,7 @@ window.MG_DATA = {
     },
     {
       "localId": 155,
-      "producto": "Cable USB-C 1m",
+      "producto": "Mouse USB",
       "precio": 47.8,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -13582,7 +13576,7 @@ window.MG_DATA = {
     },
     {
       "localId": 155,
-      "producto": "Cable lightning",
+      "producto": "Audífonos bluetooth",
       "precio": 60.3,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -13590,7 +13584,7 @@ window.MG_DATA = {
     },
     {
       "localId": 155,
-      "producto": "Cargador 2 puertos",
+      "producto": "Cargador de pilas",
       "precio": 121,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -13598,7 +13592,7 @@ window.MG_DATA = {
     },
     {
       "localId": 156,
-      "producto": "Té manzanilla 50g",
+      "producto": "Chía",
       "precio": 19.9,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -13606,7 +13600,7 @@ window.MG_DATA = {
     },
     {
       "localId": 156,
-      "producto": "Té menta 50g",
+      "producto": "Moringa",
       "precio": 24.3,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -13614,7 +13608,7 @@ window.MG_DATA = {
     },
     {
       "localId": 156,
-      "producto": "Té jamaica 100g",
+      "producto": "Jalea real",
       "precio": 17.8,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -13622,7 +13616,7 @@ window.MG_DATA = {
     },
     {
       "localId": 156,
-      "producto": "Té verde 50g",
+      "producto": "Eucalipto",
       "precio": 26.3,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -13630,7 +13624,7 @@ window.MG_DATA = {
     },
     {
       "localId": 156,
-      "producto": "Té boldo 50g",
+      "producto": "Ruda",
       "precio": 25.9,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -13638,7 +13632,7 @@ window.MG_DATA = {
     },
     {
       "localId": 157,
-      "producto": "Piñata estrella mediana",
+      "producto": "Globos",
       "precio": 192,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -13646,7 +13640,7 @@ window.MG_DATA = {
     },
     {
       "localId": 157,
-      "producto": "Piñata estrella grande",
+      "producto": "Confeti",
       "precio": 269,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -13654,7 +13648,7 @@ window.MG_DATA = {
     },
     {
       "localId": 157,
-      "producto": "Piñata personaje",
+      "producto": "Pito",
       "precio": 202,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -13662,7 +13656,7 @@ window.MG_DATA = {
     },
     {
       "localId": 157,
-      "producto": "Piñata número",
+      "producto": "Cuerno de fiesta",
       "precio": 190,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -13670,7 +13664,7 @@ window.MG_DATA = {
     },
     {
       "localId": 157,
-      "producto": "Piñata unicornio",
+      "producto": "Varita mágica",
       "precio": 259,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -13678,7 +13672,7 @@ window.MG_DATA = {
     },
     {
       "localId": 158,
-      "producto": "Tortilla maíz kg",
+      "producto": "Tlayuda",
       "precio": 16.0,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -13686,7 +13680,7 @@ window.MG_DATA = {
     },
     {
       "localId": 158,
-      "producto": "Tortilla harina kg",
+      "producto": "Tortilla de betabel",
       "precio": 21.6,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -13694,7 +13688,7 @@ window.MG_DATA = {
     },
     {
       "localId": 158,
-      "producto": "Tortilla mano 12pz",
+      "producto": "Tortilla taquera",
       "precio": 15.4,
       "categoria": "Tortillería",
       "unidad": "pieza",
@@ -13702,7 +13696,7 @@ window.MG_DATA = {
     },
     {
       "localId": 158,
-      "producto": "Tortilla azul kg",
+      "producto": "Tlacoyo de haba",
       "precio": 21.2,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -13710,7 +13704,7 @@ window.MG_DATA = {
     },
     {
       "localId": 158,
-      "producto": "Tortilla nopal kg",
+      "producto": "Tortilla de cilantro",
       "precio": 27.5,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -13718,7 +13712,7 @@ window.MG_DATA = {
     },
     {
       "localId": 159,
-      "producto": "Huevo blanco 12pz",
+      "producto": "Huevo en cono de 30",
       "precio": 35.0,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -13726,7 +13720,7 @@ window.MG_DATA = {
     },
     {
       "localId": 159,
-      "producto": "Huevo blanco 18pz",
+      "producto": "Huevo rojo por media cartera",
       "precio": 40.8,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -13734,7 +13728,7 @@ window.MG_DATA = {
     },
     {
       "localId": 159,
-      "producto": "Huevo blanco 30pz",
+      "producto": "Huevo blanco limpio",
       "precio": 60.6,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -13742,7 +13736,7 @@ window.MG_DATA = {
     },
     {
       "localId": 159,
-      "producto": "Huevo blanco 60pz",
+      "producto": "Huevo de avestruz",
       "precio": 115,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -13750,7 +13744,7 @@ window.MG_DATA = {
     },
     {
       "localId": 159,
-      "producto": "Huevo blanco cubeta",
+      "producto": "Huevo en cono de 12",
       "precio": 221,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -13758,7 +13752,7 @@ window.MG_DATA = {
     },
     {
       "localId": 160,
-      "producto": "Arroz Morelos 1kg",
+      "producto": "Vinagre",
       "precio": 22.3,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -13766,7 +13760,7 @@ window.MG_DATA = {
     },
     {
       "localId": 160,
-      "producto": "Frijol negro 1kg",
+      "producto": "Manteca vegetal",
       "precio": 25.5,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -13774,7 +13768,7 @@ window.MG_DATA = {
     },
     {
       "localId": 160,
-      "producto": "Azúcar 1kg",
+      "producto": "Cajeta en envase",
       "precio": 20.0,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -13782,7 +13776,7 @@ window.MG_DATA = {
     },
     {
       "localId": 160,
-      "producto": "Sal 1kg",
+      "producto": "Arroz blanco",
       "precio": 11.4,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -13790,7 +13784,7 @@ window.MG_DATA = {
     },
     {
       "localId": 160,
-      "producto": "Harina 1kg",
+      "producto": "Atún en agua",
       "precio": 16.9,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -13798,7 +13792,7 @@ window.MG_DATA = {
     },
     {
       "localId": 161,
-      "producto": "Chile guajillo kg",
+      "producto": "Canela entera en raja",
       "precio": 86.0,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -13806,7 +13800,7 @@ window.MG_DATA = {
     },
     {
       "localId": 161,
-      "producto": "Chile ancho kg",
+      "producto": "Tomillo",
       "precio": 86.9,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -13814,7 +13808,7 @@ window.MG_DATA = {
     },
     {
       "localId": 161,
-      "producto": "Chile pasilla kg",
+      "producto": "Hoja de laurel",
       "precio": 95.4,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -13822,7 +13816,7 @@ window.MG_DATA = {
     },
     {
       "localId": 161,
-      "producto": "Chile morita kg",
+      "producto": "Sazonador completo",
       "precio": 93.5,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -13830,7 +13824,7 @@ window.MG_DATA = {
     },
     {
       "localId": 161,
-      "producto": "Chile chipotle kg",
+      "producto": "Canela en polvo",
       "precio": 99.0,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -13838,7 +13832,7 @@ window.MG_DATA = {
     },
     {
       "localId": 162,
-      "producto": "Pastel chocolate rebanada",
+      "producto": "Tiramisú de cajeta",
       "precio": 33.4,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -13846,7 +13840,7 @@ window.MG_DATA = {
     },
     {
       "localId": 162,
-      "producto": "Pastel 3 leches rebanada",
+      "producto": "Panqué",
       "precio": 38.5,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -13854,7 +13848,7 @@ window.MG_DATA = {
     },
     {
       "localId": 162,
-      "producto": "Pastel zanahoria rebanada",
+      "producto": "Galletas de avena",
       "precio": 32.4,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -13862,7 +13856,7 @@ window.MG_DATA = {
     },
     {
       "localId": 162,
-      "producto": "Pastel red velvet rebanada",
+      "producto": "Cupcake de vainilla",
       "precio": 47.0,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -13870,7 +13864,7 @@ window.MG_DATA = {
     },
     {
       "localId": 162,
-      "producto": "Pastel marmoleado rebanada",
+      "producto": "Churros rellenos",
       "precio": 31.9,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -13878,7 +13872,7 @@ window.MG_DATA = {
     },
     {
       "localId": 163,
-      "producto": "Anillo plata .925",
+      "producto": "Anillo de compromiso",
       "precio": 490,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -13886,7 +13880,7 @@ window.MG_DATA = {
     },
     {
       "localId": 163,
-      "producto": "Anillo oro laminado",
+      "producto": "Dije religioso",
       "precio": 342,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -13894,7 +13888,7 @@ window.MG_DATA = {
     },
     {
       "localId": 163,
-      "producto": "Anillo con piedra",
+      "producto": "Collar de cuarzo",
       "precio": 480,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -13902,7 +13896,7 @@ window.MG_DATA = {
     },
     {
       "localId": 163,
-      "producto": "Anillo compromiso plata",
+      "producto": "Collar de bautizo",
       "precio": 900,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -13910,7 +13904,7 @@ window.MG_DATA = {
     },
     {
       "localId": 163,
-      "producto": "Anillo ajustable",
+      "producto": "Tobillera",
       "precio": 89.3,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -13918,7 +13912,7 @@ window.MG_DATA = {
     },
     {
       "localId": 164,
-      "producto": "Cuaderno profesional 100h",
+      "producto": "Sobre",
       "precio": 48.8,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -13926,7 +13920,7 @@ window.MG_DATA = {
     },
     {
       "localId": 164,
-      "producto": "Cuaderno espiral 200h",
+      "producto": "Lápiz adhesivo",
       "precio": 59.3,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -13934,7 +13928,7 @@ window.MG_DATA = {
     },
     {
       "localId": 164,
-      "producto": "Libreta media",
+      "producto": "Folder tamaño carta",
       "precio": 27.9,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -13942,7 +13936,7 @@ window.MG_DATA = {
     },
     {
       "localId": 164,
-      "producto": "Libreta pocket",
+      "producto": "Clips",
       "precio": 17.2,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -13950,7 +13944,7 @@ window.MG_DATA = {
     },
     {
       "localId": 164,
-      "producto": "Cuaderno dibujo",
+      "producto": "Liga",
       "precio": 64.7,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -13958,7 +13952,7 @@ window.MG_DATA = {
     },
     {
       "localId": 165,
-      "producto": "Hilo poliéster carrete",
+      "producto": "Botón forrado",
       "precio": 7.43,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -13966,7 +13960,7 @@ window.MG_DATA = {
     },
     {
       "localId": 165,
-      "producto": "Hilo algodón carrete",
+      "producto": "Tela de lino",
       "precio": 9.84,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -13974,7 +13968,7 @@ window.MG_DATA = {
     },
     {
       "localId": 165,
-      "producto": "Hilo bordar surtido",
+      "producto": "Tela de satín",
       "precio": 34.1,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -13982,7 +13976,7 @@ window.MG_DATA = {
     },
     {
       "localId": 165,
-      "producto": "Hilo nylon transparente",
+      "producto": "Hilo de nylon",
       "precio": 10.6,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -13990,7 +13984,7 @@ window.MG_DATA = {
     },
     {
       "localId": 165,
-      "producto": "Hilo grueso",
+      "producto": "Dedal",
       "precio": 15.5,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -13998,7 +13992,7 @@ window.MG_DATA = {
     },
     {
       "localId": 166,
-      "producto": "Pinol 1L",
+      "producto": "Limpiavidrios",
       "precio": 30.1,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -14006,7 +14000,7 @@ window.MG_DATA = {
     },
     {
       "localId": 166,
-      "producto": "Fabuloso 1L",
+      "producto": "Fibra",
       "precio": 28.6,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -14014,7 +14008,7 @@ window.MG_DATA = {
     },
     {
       "localId": 166,
-      "producto": "Cloro 2L",
+      "producto": "Escobillón",
       "precio": 20.6,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -14022,7 +14016,7 @@ window.MG_DATA = {
     },
     {
       "localId": 166,
-      "producto": "Limpiador multiusos",
+      "producto": "Limpiador de pisos",
       "precio": 22.6,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -14030,7 +14024,7 @@ window.MG_DATA = {
     },
     {
       "localId": 166,
-      "producto": "Limpiavidrios",
+      "producto": "Guantes de hule",
       "precio": 23.7,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -14038,7 +14032,7 @@ window.MG_DATA = {
     },
     {
       "localId": 167,
-      "producto": "Cuchara sopera 6pz",
+      "producto": "Olla exprés",
       "precio": 36.4,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -14046,7 +14040,7 @@ window.MG_DATA = {
     },
     {
       "localId": 167,
-      "producto": "Cuchara servir",
+      "producto": "Comal de acero",
       "precio": 23.8,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -14054,7 +14048,7 @@ window.MG_DATA = {
     },
     {
       "localId": 167,
-      "producto": "Espátula cocina",
+      "producto": "Cuchara de acero",
       "precio": 20.1,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -14062,7 +14056,7 @@ window.MG_DATA = {
     },
     {
       "localId": 167,
-      "producto": "Cucharón",
+      "producto": "Sartén de teflón",
       "precio": 25.0,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -14070,7 +14064,7 @@ window.MG_DATA = {
     },
     {
       "localId": 167,
-      "producto": "Colador plástico",
+      "producto": "Recipiente con tapa",
       "precio": 27.4,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -14078,7 +14072,7 @@ window.MG_DATA = {
     },
     {
       "localId": 168,
-      "producto": "Semilla girasol kg",
+      "producto": "Maíz pozolero",
       "precio": 56.5,
       "categoria": "Semillas y Granos",
       "unidad": "kg",
@@ -14086,7 +14080,7 @@ window.MG_DATA = {
     },
     {
       "localId": 168,
-      "producto": "Semilla calabaza kg",
+      "producto": "Frijol negro",
       "precio": 65.3,
       "categoria": "Semillas y Granos",
       "unidad": "kg",
@@ -14094,7 +14088,7 @@ window.MG_DATA = {
     },
     {
       "localId": 168,
-      "producto": "Semilla chía 500g",
+      "producto": "Trigo",
       "precio": 40.4,
       "categoria": "Semillas y Granos",
       "unidad": "pieza",
@@ -14102,7 +14096,7 @@ window.MG_DATA = {
     },
     {
       "localId": 168,
-      "producto": "Semilla linaza 500g",
+      "producto": "Amaranto",
       "precio": 36.4,
       "categoria": "Semillas y Granos",
       "unidad": "pieza",
@@ -14110,7 +14104,7 @@ window.MG_DATA = {
     },
     {
       "localId": 168,
-      "producto": "Semilla ajonjolí kg",
+      "producto": "Chía negra",
       "precio": 74.2,
       "categoria": "Semillas y Granos",
       "unidad": "kg",
@@ -14118,7 +14112,7 @@ window.MG_DATA = {
     },
     {
       "localId": 169,
-      "producto": "Agua purificada 5L",
+      "producto": "Jarritos",
       "precio": 24.1,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -14126,7 +14120,7 @@ window.MG_DATA = {
     },
     {
       "localId": 169,
-      "producto": "Agua purificada 10L",
+      "producto": "Jugo embotellado",
       "precio": 35.2,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -14134,7 +14128,7 @@ window.MG_DATA = {
     },
     {
       "localId": 169,
-      "producto": "Agua garrafón 20L",
+      "producto": "Jugo de uva embotellado",
       "precio": 41.0,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -14142,7 +14136,7 @@ window.MG_DATA = {
     },
     {
       "localId": 169,
-      "producto": "Agua mineral 1.5L",
+      "producto": "Michelada de mango",
       "precio": 16.2,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -14150,7 +14144,7 @@ window.MG_DATA = {
     },
     {
       "localId": 169,
-      "producto": "Agua mineral 600ml",
+      "producto": "Agua de sabor",
       "precio": 12.7,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -14158,7 +14152,7 @@ window.MG_DATA = {
     },
     {
       "localId": 170,
-      "producto": "Arrachera adobada kg",
+      "producto": "Tasajo en adobo",
       "precio": 181,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -14166,7 +14160,7 @@ window.MG_DATA = {
     },
     {
       "localId": 170,
-      "producto": "Pollo adobado kg",
+      "producto": "Carne para asar",
       "precio": 71.9,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -14174,7 +14168,7 @@ window.MG_DATA = {
     },
     {
       "localId": 170,
-      "producto": "Costilla adobada kg",
+      "producto": "Tocino ahumado",
       "precio": 97.1,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -14182,7 +14176,7 @@ window.MG_DATA = {
     },
     {
       "localId": 170,
-      "producto": "Chuleta adobada kg",
+      "producto": "Buche",
       "precio": 74.2,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -14190,7 +14184,7 @@ window.MG_DATA = {
     },
     {
       "localId": 170,
-      "producto": "Carne asada marinada kg",
+      "producto": "Tripa dorada",
       "precio": 162,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -14198,7 +14192,7 @@ window.MG_DATA = {
     },
     {
       "localId": 171,
-      "producto": "Rompecabezas infantil",
+      "producto": "Cubo mágico",
       "precio": 83.4,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -14206,7 +14200,7 @@ window.MG_DATA = {
     },
     {
       "localId": 171,
-      "producto": "Bloques construcción",
+      "producto": "Figura coleccionable",
       "precio": 113,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -14214,7 +14208,7 @@ window.MG_DATA = {
     },
     {
       "localId": 171,
-      "producto": "Juego mesa familiar",
+      "producto": "Saltarín",
       "precio": 145,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -14222,7 +14216,7 @@ window.MG_DATA = {
     },
     {
       "localId": 171,
-      "producto": "Kit ciencia",
+      "producto": "Balero",
       "precio": 173,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -14230,7 +14224,7 @@ window.MG_DATA = {
     },
     {
       "localId": 171,
-      "producto": "Laberinto magnético",
+      "producto": "Rompecabezas",
       "precio": 106,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -14238,7 +14232,7 @@ window.MG_DATA = {
     },
     {
       "localId": 172,
-      "producto": "Jugo naranja 500ml",
+      "producto": "Agua de piña",
       "precio": 38.6,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -14246,7 +14240,7 @@ window.MG_DATA = {
     },
     {
       "localId": 172,
-      "producto": "Jugo zanahoria 500ml",
+      "producto": "Agua de horchata",
       "precio": 40.5,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -14254,7 +14248,7 @@ window.MG_DATA = {
     },
     {
       "localId": 172,
-      "producto": "Jugo verde 500ml",
+      "producto": "Licuado de chocolate",
       "precio": 43.2,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -14262,7 +14256,7 @@ window.MG_DATA = {
     },
     {
       "localId": 172,
-      "producto": "Jugo mango 500ml",
+      "producto": "Jugo de manzana",
       "precio": 43.1,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -14270,7 +14264,7 @@ window.MG_DATA = {
     },
     {
       "localId": 172,
-      "producto": "Jugo piña 500ml",
+      "producto": "Jugo de ciruela",
       "precio": 35.4,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -14278,7 +14272,7 @@ window.MG_DATA = {
     },
     {
       "localId": 173,
-      "producto": "Orden tacos asada 3pz",
+      "producto": "Tostada de ceviche",
       "precio": 49.7,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -14286,7 +14280,7 @@ window.MG_DATA = {
     },
     {
       "localId": 173,
-      "producto": "Orden tacos adobada 3pz",
+      "producto": "Tamal de elote",
       "precio": 48.7,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -14294,7 +14288,7 @@ window.MG_DATA = {
     },
     {
       "localId": 173,
-      "producto": "Orden tacos pastor 3pz",
+      "producto": "Torta ahogada",
       "precio": 55.4,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -14302,7 +14296,7 @@ window.MG_DATA = {
     },
     {
       "localId": 173,
-      "producto": "Orden tacos tripa 3pz",
+      "producto": "Tacos de barbacoa",
       "precio": 49.8,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -14310,7 +14304,7 @@ window.MG_DATA = {
     },
     {
       "localId": 173,
-      "producto": "Orden tacos suadero 3pz",
+      "producto": "Nachos con queso",
       "precio": 54.8,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -14318,7 +14312,7 @@ window.MG_DATA = {
     },
     {
       "localId": 174,
-      "producto": "Comida corrida día",
+      "producto": "Omelette de queso",
       "precio": 85.4,
       "categoria": "Fonda",
       "unidad": "pieza",
@@ -14326,7 +14320,7 @@ window.MG_DATA = {
     },
     {
       "localId": 174,
-      "producto": "Comida corrida postre",
+      "producto": "Sopes",
       "precio": 84.7,
       "categoria": "Fonda",
       "unidad": "pieza",
@@ -14334,7 +14328,7 @@ window.MG_DATA = {
     },
     {
       "localId": 174,
-      "producto": "Menú ejecutivo",
+      "producto": "Gorditas de chicharrón",
       "precio": 72.9,
       "categoria": "Fonda",
       "unidad": "pieza",
@@ -14342,7 +14336,7 @@ window.MG_DATA = {
     },
     {
       "localId": 174,
-      "producto": "Comida corrida sopa",
+      "producto": "Milanesa de pollo",
       "precio": 86.6,
       "categoria": "Fonda",
       "unidad": "pieza",
@@ -14350,7 +14344,7 @@ window.MG_DATA = {
     },
     {
       "localId": 174,
-      "producto": "Comida corrida premium",
+      "producto": "Albóndigas",
       "precio": 115,
       "categoria": "Fonda",
       "unidad": "pieza",
@@ -14358,7 +14352,7 @@ window.MG_DATA = {
     },
     {
       "localId": 175,
-      "producto": "Guisado res",
+      "producto": "Mole de olla",
       "precio": 83.6,
       "categoria": "Comida Casera",
       "unidad": "pieza",
@@ -14366,7 +14360,7 @@ window.MG_DATA = {
     },
     {
       "localId": 175,
-      "producto": "Guisado pollo",
+      "producto": "Arroz a la mexicana",
       "precio": 72.7,
       "categoria": "Comida Casera",
       "unidad": "pieza",
@@ -14374,7 +14368,7 @@ window.MG_DATA = {
     },
     {
       "localId": 175,
-      "producto": "Guisado cerdo",
+      "producto": "Bistec a la mexicana",
       "precio": 69.9,
       "categoria": "Comida Casera",
       "unidad": "pieza",
@@ -14382,7 +14376,7 @@ window.MG_DATA = {
     },
     {
       "localId": 175,
-      "producto": "Guisado pescado",
+      "producto": "Torta ahogada",
       "precio": 81.9,
       "categoria": "Comida Casera",
       "unidad": "pieza",
@@ -14390,7 +14384,7 @@ window.MG_DATA = {
     },
     {
       "localId": 175,
-      "producto": "Guisado rajas",
+      "producto": "Pozole rojo con espinazo",
       "precio": 50.2,
       "categoria": "Comida Casera",
       "unidad": "pieza",
@@ -14398,7 +14392,7 @@ window.MG_DATA = {
     },
     {
       "localId": 176,
-      "producto": "Mango ataulfo kg",
+      "producto": "Manzana golden",
       "precio": 34.6,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -14406,7 +14400,7 @@ window.MG_DATA = {
     },
     {
       "localId": 176,
-      "producto": "Sandía kg",
+      "producto": "Naranja valencia",
       "precio": 12.6,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -14414,7 +14408,7 @@ window.MG_DATA = {
     },
     {
       "localId": 176,
-      "producto": "Melón kg",
+      "producto": "Plátano macho",
       "precio": 16.7,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -14422,7 +14416,7 @@ window.MG_DATA = {
     },
     {
       "localId": 176,
-      "producto": "Plátano tabasco kg",
+      "producto": "Guamúchil",
       "precio": 19.6,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -14430,7 +14424,7 @@ window.MG_DATA = {
     },
     {
       "localId": 176,
-      "producto": "Papaya maradol kg",
+      "producto": "Fresa",
       "precio": 27.1,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -14438,7 +14432,7 @@ window.MG_DATA = {
     },
     {
       "localId": 177,
-      "producto": "Bistec res",
+      "producto": "Aguayón",
       "precio": 120,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -14446,7 +14440,7 @@ window.MG_DATA = {
     },
     {
       "localId": 177,
-      "producto": "Molida res",
+      "producto": "Diezmillo",
       "precio": 79.1,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -14454,7 +14448,7 @@ window.MG_DATA = {
     },
     {
       "localId": 177,
-      "producto": "Costilla res",
+      "producto": "T-bone",
       "precio": 106,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -14462,7 +14456,7 @@ window.MG_DATA = {
     },
     {
       "localId": 177,
-      "producto": "Arrachera",
+      "producto": "Cueritos de cerdo",
       "precio": 184,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -14470,7 +14464,7 @@ window.MG_DATA = {
     },
     {
       "localId": 177,
-      "producto": "Cortadillo",
+      "producto": "Suadero",
       "precio": 125,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -14478,7 +14472,7 @@ window.MG_DATA = {
     },
     {
       "localId": 178,
-      "producto": "Concha vainilla",
+      "producto": "Suaves de malvavisco",
       "precio": 15.1,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -14486,7 +14480,7 @@ window.MG_DATA = {
     },
     {
       "localId": 178,
-      "producto": "Concha chocolate",
+      "producto": "Empanada de cajeta",
       "precio": 13.4,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -14494,7 +14488,7 @@ window.MG_DATA = {
     },
     {
       "localId": 178,
-      "producto": "Oreja",
+      "producto": "Buñuelos",
       "precio": 15.8,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -14502,7 +14496,7 @@ window.MG_DATA = {
     },
     {
       "localId": 178,
-      "producto": "Cuerno",
+      "producto": "Pan de feria",
       "precio": 14.9,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -14510,7 +14504,7 @@ window.MG_DATA = {
     },
     {
       "localId": 178,
-      "producto": "Polvorón",
+      "producto": "Pinturitas de manteca",
       "precio": 12.2,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -14518,7 +14512,7 @@ window.MG_DATA = {
     },
     {
       "localId": 179,
-      "producto": "Huachinango",
+      "producto": "Cangrejo",
       "precio": 136,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -14526,7 +14520,7 @@ window.MG_DATA = {
     },
     {
       "localId": 179,
-      "producto": "Robalo filete",
+      "producto": "Marlín",
       "precio": 200,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -14534,7 +14528,7 @@ window.MG_DATA = {
     },
     {
       "localId": 179,
-      "producto": "Sierra fresca",
+      "producto": "Salsa negra marisquera",
       "precio": 89.8,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -14542,7 +14536,7 @@ window.MG_DATA = {
     },
     {
       "localId": 179,
-      "producto": "Mojarra",
+      "producto": "Bagre",
       "precio": 65.8,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -14550,7 +14544,7 @@ window.MG_DATA = {
     },
     {
       "localId": 179,
-      "producto": "Pargo",
+      "producto": "Almeja",
       "precio": 178,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -14558,7 +14552,7 @@ window.MG_DATA = {
     },
     {
       "localId": 180,
-      "producto": "Pollo entero kg",
+      "producto": "Pechuga deshuesada",
       "precio": 51.7,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -14566,7 +14560,7 @@ window.MG_DATA = {
     },
     {
       "localId": 180,
-      "producto": "Pechuga kg",
+      "producto": "Pechuga ahumada",
       "precio": 83.8,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -14574,7 +14568,7 @@ window.MG_DATA = {
     },
     {
       "localId": 180,
-      "producto": "Muslo kg",
+      "producto": "Pollo rostizado",
       "precio": 53.3,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -14582,7 +14576,7 @@ window.MG_DATA = {
     },
     {
       "localId": 180,
-      "producto": "Ala kg",
+      "producto": "Pollo a la parrilla",
       "precio": 39.7,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -14590,7 +14584,7 @@ window.MG_DATA = {
     },
     {
       "localId": 180,
-      "producto": "Pollo deshuesado kg",
+      "producto": "Medio pollo rostizado",
       "precio": 78.3,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -14598,7 +14592,7 @@ window.MG_DATA = {
     },
     {
       "localId": 181,
-      "producto": "Leche Lala entera 1L",
+      "producto": "Mantequilla con ajo",
       "precio": 24.3,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -14606,7 +14600,7 @@ window.MG_DATA = {
     },
     {
       "localId": 181,
-      "producto": "Leche deslactosada 1L",
+      "producto": "Queso panela",
       "precio": 24.8,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -14614,7 +14608,7 @@ window.MG_DATA = {
     },
     {
       "localId": 181,
-      "producto": "Leche Alpura light 1L",
+      "producto": "Leche bronca",
       "precio": 28.5,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -14622,7 +14616,7 @@ window.MG_DATA = {
     },
     {
       "localId": 181,
-      "producto": "Leche coco 1L",
+      "producto": "Crema batida",
       "precio": 28.2,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -14630,7 +14624,7 @@ window.MG_DATA = {
     },
     {
       "localId": 181,
-      "producto": "Leche evaporada",
+      "producto": "Jocoque con chile piquín",
       "precio": 18.6,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -14638,7 +14632,7 @@ window.MG_DATA = {
     },
     {
       "localId": 182,
-      "producto": "Café olla taza",
+      "producto": "Capuchino de caramelo",
       "precio": 17.3,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -14646,7 +14640,7 @@ window.MG_DATA = {
     },
     {
       "localId": 182,
-      "producto": "Café americano",
+      "producto": "Café irlandés",
       "precio": 24.6,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -14654,7 +14648,7 @@ window.MG_DATA = {
     },
     {
       "localId": 182,
-      "producto": "Café leche",
+      "producto": "Café con canela",
       "precio": 25.2,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -14662,7 +14656,7 @@ window.MG_DATA = {
     },
     {
       "localId": 182,
-      "producto": "Café capuchino",
+      "producto": "Café molido",
       "precio": 35.8,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -14670,7 +14664,7 @@ window.MG_DATA = {
     },
     {
       "localId": 182,
-      "producto": "Café mocha",
+      "producto": "Champurrado",
       "precio": 40.0,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -14678,7 +14672,7 @@ window.MG_DATA = {
     },
     {
       "localId": 183,
-      "producto": "Olla barro 2L",
+      "producto": "Tapete tejido",
       "precio": 118,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -14686,7 +14680,7 @@ window.MG_DATA = {
     },
     {
       "localId": 183,
-      "producto": "Cazuela barro",
+      "producto": "Canasta de bejuco",
       "precio": 90.7,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -14694,7 +14688,7 @@ window.MG_DATA = {
     },
     {
       "localId": 183,
-      "producto": "Plato barro",
+      "producto": "Charola de palma",
       "precio": 47.2,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -14702,7 +14696,7 @@ window.MG_DATA = {
     },
     {
       "localId": 183,
-      "producto": "Taza barro",
+      "producto": "Jarrito de barro",
       "precio": 35.4,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -14710,7 +14704,7 @@ window.MG_DATA = {
     },
     {
       "localId": 183,
-      "producto": "Molcajete chico",
+      "producto": "Figura de ámbar",
       "precio": 202,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -14718,7 +14712,7 @@ window.MG_DATA = {
     },
     {
       "localId": 184,
-      "producto": "Rosa roja",
+      "producto": "Tulipán",
       "precio": 23.5,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -14726,7 +14720,7 @@ window.MG_DATA = {
     },
     {
       "localId": 184,
-      "producto": "Rosa blanca",
+      "producto": "Clavel rojo",
       "precio": 23.9,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -14734,7 +14728,7 @@ window.MG_DATA = {
     },
     {
       "localId": 184,
-      "producto": "Rosa amarilla",
+      "producto": "Suculenta",
       "precio": 22.3,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -14742,7 +14736,7 @@ window.MG_DATA = {
     },
     {
       "localId": 184,
-      "producto": "Rosa rosada",
+      "producto": "Corona fúnebre",
       "precio": 23.4,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -14750,7 +14744,7 @@ window.MG_DATA = {
     },
     {
       "localId": 184,
-      "producto": "Ramo 12 rosas",
+      "producto": "Ramo de girasoles",
       "precio": 315,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -14758,7 +14752,7 @@ window.MG_DATA = {
     },
     {
       "localId": 185,
-      "producto": "Cajeta 400g",
+      "producto": "Alegría de amaranto",
       "precio": 62.9,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -14766,7 +14760,7 @@ window.MG_DATA = {
     },
     {
       "localId": 185,
-      "producto": "Camote dulce 500g",
+      "producto": "Jamoncillos de leche",
       "precio": 34.9,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -14774,7 +14768,7 @@ window.MG_DATA = {
     },
     {
       "localId": 185,
-      "producto": "Calabaza tacha 500g",
+      "producto": "Alfeñique",
       "precio": 35.7,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -14782,7 +14776,7 @@ window.MG_DATA = {
     },
     {
       "localId": 185,
-      "producto": "Ate guayaba",
+      "producto": "Coyotas de cajeta",
       "precio": 28.7,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -14790,7 +14784,7 @@ window.MG_DATA = {
     },
     {
       "localId": 185,
-      "producto": "Dulce leche 350g",
+      "producto": "Gomitas",
       "precio": 45.9,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -14798,7 +14792,7 @@ window.MG_DATA = {
     },
     {
       "localId": 186,
-      "producto": "Blusa manga corta",
+      "producto": "Chamarra",
       "precio": 163,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -14806,7 +14800,7 @@ window.MG_DATA = {
     },
     {
       "localId": 186,
-      "producto": "Blusa manga larga",
+      "producto": "Medias",
       "precio": 221,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -14814,7 +14808,7 @@ window.MG_DATA = {
     },
     {
       "localId": 186,
-      "producto": "Pantalón mezclilla",
+      "producto": "Blusa bordada",
       "precio": 287,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -14822,7 +14816,7 @@ window.MG_DATA = {
     },
     {
       "localId": 186,
-      "producto": "Falda midi",
+      "producto": "Pijama",
       "precio": 199,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -14830,7 +14824,7 @@ window.MG_DATA = {
     },
     {
       "localId": 186,
-      "producto": "Vestido casual",
+      "producto": "Camisa formal",
       "precio": 339,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -14838,7 +14832,7 @@ window.MG_DATA = {
     },
     {
       "localId": 187,
-      "producto": "Zapato tacón medio",
+      "producto": "Zapatillas de baile",
       "precio": 362,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -14846,7 +14840,7 @@ window.MG_DATA = {
     },
     {
       "localId": 187,
-      "producto": "Zapato tacón alto",
+      "producto": "Zapatos de niño",
       "precio": 454,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -14854,7 +14848,7 @@ window.MG_DATA = {
     },
     {
       "localId": 187,
-      "producto": "Zapato plano",
+      "producto": "Tenis deportivos",
       "precio": 239,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -14862,7 +14856,7 @@ window.MG_DATA = {
     },
     {
       "localId": 187,
-      "producto": "Balerina",
+      "producto": "Calzado de charol para niño",
       "precio": 215,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -14870,7 +14864,7 @@ window.MG_DATA = {
     },
     {
       "localId": 187,
-      "producto": "Sandalia casual",
+      "producto": "Botas de trabajo",
       "precio": 174,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -14878,7 +14872,7 @@ window.MG_DATA = {
     },
     {
       "localId": 188,
-      "producto": "Martillo 16oz",
+      "producto": "Brocha",
       "precio": 138,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -14886,7 +14880,7 @@ window.MG_DATA = {
     },
     {
       "localId": 188,
-      "producto": "Desarmador plano",
+      "producto": "Machete Colima cacha de plástico",
       "precio": 38.0,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -14894,7 +14888,7 @@ window.MG_DATA = {
     },
     {
       "localId": 188,
-      "producto": "Desarmador phillips",
+      "producto": "Tornillo para madera",
       "precio": 38.3,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -14902,7 +14896,7 @@ window.MG_DATA = {
     },
     {
       "localId": 188,
-      "producto": "Pinzas universales",
+      "producto": "Cerradura",
       "precio": 63.1,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -14910,7 +14904,7 @@ window.MG_DATA = {
     },
     {
       "localId": 188,
-      "producto": "Llave stillson 12",
+      "producto": "Lijas",
       "precio": 136,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -14918,7 +14912,7 @@ window.MG_DATA = {
     },
     {
       "localId": 189,
-      "producto": "Funda silicona",
+      "producto": "Audífonos de diadema",
       "precio": 65.2,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -14926,7 +14920,7 @@ window.MG_DATA = {
     },
     {
       "localId": 189,
-      "producto": "Mica vidrio",
+      "producto": "Splitter",
       "precio": 85.7,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -14934,7 +14928,7 @@ window.MG_DATA = {
     },
     {
       "localId": 189,
-      "producto": "Cable USB-C 1m",
+      "producto": "Mouse USB",
       "precio": 45.4,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -14942,7 +14936,7 @@ window.MG_DATA = {
     },
     {
       "localId": 189,
-      "producto": "Cable lightning",
+      "producto": "Audífonos bluetooth",
       "precio": 56.7,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -14950,7 +14944,7 @@ window.MG_DATA = {
     },
     {
       "localId": 189,
-      "producto": "Cargador 2 puertos",
+      "producto": "Cargador de pilas",
       "precio": 112,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -14958,7 +14952,7 @@ window.MG_DATA = {
     },
     {
       "localId": 190,
-      "producto": "Té manzanilla 50g",
+      "producto": "Chía",
       "precio": 21.3,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -14966,7 +14960,7 @@ window.MG_DATA = {
     },
     {
       "localId": 190,
-      "producto": "Té menta 50g",
+      "producto": "Moringa",
       "precio": 23.3,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -14974,7 +14968,7 @@ window.MG_DATA = {
     },
     {
       "localId": 190,
-      "producto": "Té jamaica 100g",
+      "producto": "Jalea real",
       "precio": 19.7,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -14982,7 +14976,7 @@ window.MG_DATA = {
     },
     {
       "localId": 190,
-      "producto": "Té verde 50g",
+      "producto": "Eucalipto",
       "precio": 28.0,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -14990,7 +14984,7 @@ window.MG_DATA = {
     },
     {
       "localId": 190,
-      "producto": "Té boldo 50g",
+      "producto": "Ruda",
       "precio": 25.2,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -14998,7 +14992,7 @@ window.MG_DATA = {
     },
     {
       "localId": 191,
-      "producto": "Piñata estrella mediana",
+      "producto": "Globos",
       "precio": 186,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -15006,7 +15000,7 @@ window.MG_DATA = {
     },
     {
       "localId": 191,
-      "producto": "Piñata estrella grande",
+      "producto": "Confeti",
       "precio": 265,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -15014,7 +15008,7 @@ window.MG_DATA = {
     },
     {
       "localId": 191,
-      "producto": "Piñata personaje",
+      "producto": "Pito",
       "precio": 241,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -15022,7 +15016,7 @@ window.MG_DATA = {
     },
     {
       "localId": 191,
-      "producto": "Piñata número",
+      "producto": "Cuerno de fiesta",
       "precio": 177,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -15030,7 +15024,7 @@ window.MG_DATA = {
     },
     {
       "localId": 191,
-      "producto": "Piñata unicornio",
+      "producto": "Varita mágica",
       "precio": 252,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -15038,7 +15032,7 @@ window.MG_DATA = {
     },
     {
       "localId": 192,
-      "producto": "Tortilla maíz kg",
+      "producto": "Tlayuda",
       "precio": 17.4,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -15046,7 +15040,7 @@ window.MG_DATA = {
     },
     {
       "localId": 192,
-      "producto": "Tortilla harina kg",
+      "producto": "Tortilla de betabel",
       "precio": 19.5,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -15054,7 +15048,7 @@ window.MG_DATA = {
     },
     {
       "localId": 192,
-      "producto": "Tortilla mano 12pz",
+      "producto": "Tortilla taquera",
       "precio": 13.6,
       "categoria": "Tortillería",
       "unidad": "pieza",
@@ -15062,7 +15056,7 @@ window.MG_DATA = {
     },
     {
       "localId": 192,
-      "producto": "Tortilla azul kg",
+      "producto": "Tlacoyo de haba",
       "precio": 25.9,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -15070,7 +15064,7 @@ window.MG_DATA = {
     },
     {
       "localId": 192,
-      "producto": "Tortilla nopal kg",
+      "producto": "Tortilla de cilantro",
       "precio": 25.9,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -15078,7 +15072,7 @@ window.MG_DATA = {
     },
     {
       "localId": 193,
-      "producto": "Huevo blanco 12pz",
+      "producto": "Huevo en cono de 30",
       "precio": 31.1,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -15086,7 +15080,7 @@ window.MG_DATA = {
     },
     {
       "localId": 193,
-      "producto": "Huevo blanco 18pz",
+      "producto": "Huevo rojo por media cartera",
       "precio": 45.5,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -15094,7 +15088,7 @@ window.MG_DATA = {
     },
     {
       "localId": 193,
-      "producto": "Huevo blanco 30pz",
+      "producto": "Huevo blanco limpio",
       "precio": 67.9,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -15102,7 +15096,7 @@ window.MG_DATA = {
     },
     {
       "localId": 193,
-      "producto": "Huevo blanco 60pz",
+      "producto": "Huevo de avestruz",
       "precio": 129,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -15110,7 +15104,7 @@ window.MG_DATA = {
     },
     {
       "localId": 193,
-      "producto": "Huevo blanco cubeta",
+      "producto": "Huevo en cono de 12",
       "precio": 205,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -15118,7 +15112,7 @@ window.MG_DATA = {
     },
     {
       "localId": 194,
-      "producto": "Arroz Morelos 1kg",
+      "producto": "Vinagre",
       "precio": 21.9,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -15126,7 +15120,7 @@ window.MG_DATA = {
     },
     {
       "localId": 194,
-      "producto": "Frijol negro 1kg",
+      "producto": "Manteca vegetal",
       "precio": 27.8,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -15134,7 +15128,7 @@ window.MG_DATA = {
     },
     {
       "localId": 194,
-      "producto": "Azúcar 1kg",
+      "producto": "Cajeta en envase",
       "precio": 24.5,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -15142,7 +15136,7 @@ window.MG_DATA = {
     },
     {
       "localId": 194,
-      "producto": "Sal 1kg",
+      "producto": "Arroz blanco",
       "precio": 11.8,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -15150,7 +15144,7 @@ window.MG_DATA = {
     },
     {
       "localId": 194,
-      "producto": "Harina 1kg",
+      "producto": "Atún en agua",
       "precio": 18.8,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -15158,7 +15152,7 @@ window.MG_DATA = {
     },
     {
       "localId": 195,
-      "producto": "Chile guajillo kg",
+      "producto": "Canela entera en raja",
       "precio": 88.9,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -15166,7 +15160,7 @@ window.MG_DATA = {
     },
     {
       "localId": 195,
-      "producto": "Chile ancho kg",
+      "producto": "Tomillo",
       "precio": 94.8,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -15174,7 +15168,7 @@ window.MG_DATA = {
     },
     {
       "localId": 195,
-      "producto": "Chile pasilla kg",
+      "producto": "Hoja de laurel",
       "precio": 86.8,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -15182,7 +15176,7 @@ window.MG_DATA = {
     },
     {
       "localId": 195,
-      "producto": "Chile morita kg",
+      "producto": "Sazonador completo",
       "precio": 99.7,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -15190,7 +15184,7 @@ window.MG_DATA = {
     },
     {
       "localId": 195,
-      "producto": "Chile chipotle kg",
+      "producto": "Canela en polvo",
       "precio": 112,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -15198,7 +15192,7 @@ window.MG_DATA = {
     },
     {
       "localId": 196,
-      "producto": "Pastel chocolate rebanada",
+      "producto": "Tiramisú de cajeta",
       "precio": 31.8,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -15206,7 +15200,7 @@ window.MG_DATA = {
     },
     {
       "localId": 196,
-      "producto": "Pastel 3 leches rebanada",
+      "producto": "Panqué",
       "precio": 41.7,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -15214,7 +15208,7 @@ window.MG_DATA = {
     },
     {
       "localId": 196,
-      "producto": "Pastel zanahoria rebanada",
+      "producto": "Galletas de avena",
       "precio": 37.2,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -15222,7 +15216,7 @@ window.MG_DATA = {
     },
     {
       "localId": 196,
-      "producto": "Pastel red velvet rebanada",
+      "producto": "Cupcake de vainilla",
       "precio": 40.3,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -15230,7 +15224,7 @@ window.MG_DATA = {
     },
     {
       "localId": 196,
-      "producto": "Pastel marmoleado rebanada",
+      "producto": "Churros rellenos",
       "precio": 33.2,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -15238,7 +15232,7 @@ window.MG_DATA = {
     },
     {
       "localId": 197,
-      "producto": "Anillo plata .925",
+      "producto": "Anillo de compromiso",
       "precio": 409,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -15246,7 +15240,7 @@ window.MG_DATA = {
     },
     {
       "localId": 197,
-      "producto": "Anillo oro laminado",
+      "producto": "Dije religioso",
       "precio": 340,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -15254,7 +15248,7 @@ window.MG_DATA = {
     },
     {
       "localId": 197,
-      "producto": "Anillo con piedra",
+      "producto": "Collar de cuarzo",
       "precio": 471,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -15262,7 +15256,7 @@ window.MG_DATA = {
     },
     {
       "localId": 197,
-      "producto": "Anillo compromiso plata",
+      "producto": "Collar de bautizo",
       "precio": 884,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -15270,7 +15264,7 @@ window.MG_DATA = {
     },
     {
       "localId": 197,
-      "producto": "Anillo ajustable",
+      "producto": "Tobillera",
       "precio": 94.3,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -15278,7 +15272,7 @@ window.MG_DATA = {
     },
     {
       "localId": 198,
-      "producto": "Cuaderno profesional 100h",
+      "producto": "Sobre",
       "precio": 44.7,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -15286,7 +15280,7 @@ window.MG_DATA = {
     },
     {
       "localId": 198,
-      "producto": "Cuaderno espiral 200h",
+      "producto": "Lápiz adhesivo",
       "precio": 60.4,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -15294,7 +15288,7 @@ window.MG_DATA = {
     },
     {
       "localId": 198,
-      "producto": "Libreta media",
+      "producto": "Folder tamaño carta",
       "precio": 25.6,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -15302,7 +15296,7 @@ window.MG_DATA = {
     },
     {
       "localId": 198,
-      "producto": "Libreta pocket",
+      "producto": "Clips",
       "precio": 17.8,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -15310,7 +15304,7 @@ window.MG_DATA = {
     },
     {
       "localId": 198,
-      "producto": "Cuaderno dibujo",
+      "producto": "Liga",
       "precio": 64.2,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -15318,7 +15312,7 @@ window.MG_DATA = {
     },
     {
       "localId": 199,
-      "producto": "Hilo poliéster carrete",
+      "producto": "Botón forrado",
       "precio": 7.72,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -15326,7 +15320,7 @@ window.MG_DATA = {
     },
     {
       "localId": 199,
-      "producto": "Hilo algodón carrete",
+      "producto": "Tela de lino",
       "precio": 10.5,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -15334,7 +15328,7 @@ window.MG_DATA = {
     },
     {
       "localId": 199,
-      "producto": "Hilo bordar surtido",
+      "producto": "Tela de satín",
       "precio": 36.8,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -15342,7 +15336,7 @@ window.MG_DATA = {
     },
     {
       "localId": 199,
-      "producto": "Hilo nylon transparente",
+      "producto": "Hilo de nylon",
       "precio": 13.1,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -15350,7 +15344,7 @@ window.MG_DATA = {
     },
     {
       "localId": 199,
-      "producto": "Hilo grueso",
+      "producto": "Dedal",
       "precio": 14.0,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -15358,7 +15352,7 @@ window.MG_DATA = {
     },
     {
       "localId": 200,
-      "producto": "Pinol 1L",
+      "producto": "Limpiavidrios",
       "precio": 30.2,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -15366,7 +15360,7 @@ window.MG_DATA = {
     },
     {
       "localId": 200,
-      "producto": "Fabuloso 1L",
+      "producto": "Fibra",
       "precio": 24.7,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -15374,7 +15368,7 @@ window.MG_DATA = {
     },
     {
       "localId": 200,
-      "producto": "Cloro 2L",
+      "producto": "Escobillón",
       "precio": 22.6,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -15382,7 +15376,7 @@ window.MG_DATA = {
     },
     {
       "localId": 200,
-      "producto": "Limpiador multiusos",
+      "producto": "Limpiador de pisos",
       "precio": 23.8,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -15390,7 +15384,7 @@ window.MG_DATA = {
     },
     {
       "localId": 200,
-      "producto": "Limpiavidrios",
+      "producto": "Guantes de hule",
       "precio": 20.6,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -15398,7 +15392,7 @@ window.MG_DATA = {
     },
     {
       "localId": 201,
-      "producto": "Cuchara sopera 6pz",
+      "producto": "Olla exprés",
       "precio": 35.6,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -15406,7 +15400,7 @@ window.MG_DATA = {
     },
     {
       "localId": 201,
-      "producto": "Cuchara servir",
+      "producto": "Comal de acero",
       "precio": 24.5,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -15414,7 +15408,7 @@ window.MG_DATA = {
     },
     {
       "localId": 201,
-      "producto": "Espátula cocina",
+      "producto": "Cuchara de acero",
       "precio": 17.7,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -15422,7 +15416,7 @@ window.MG_DATA = {
     },
     {
       "localId": 201,
-      "producto": "Cucharón",
+      "producto": "Sartén de teflón",
       "precio": 24.8,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -15430,7 +15424,7 @@ window.MG_DATA = {
     },
     {
       "localId": 201,
-      "producto": "Colador plástico",
+      "producto": "Recipiente con tapa",
       "precio": 25.3,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -15438,7 +15432,7 @@ window.MG_DATA = {
     },
     {
       "localId": 202,
-      "producto": "Semilla girasol kg",
+      "producto": "Maíz pozolero",
       "precio": 52.6,
       "categoria": "Semillas y Granos",
       "unidad": "kg",
@@ -15446,7 +15440,7 @@ window.MG_DATA = {
     },
     {
       "localId": 202,
-      "producto": "Semilla calabaza kg",
+      "producto": "Frijol negro",
       "precio": 64.0,
       "categoria": "Semillas y Granos",
       "unidad": "kg",
@@ -15454,7 +15448,7 @@ window.MG_DATA = {
     },
     {
       "localId": 202,
-      "producto": "Semilla chía 500g",
+      "producto": "Trigo",
       "precio": 47.1,
       "categoria": "Semillas y Granos",
       "unidad": "pieza",
@@ -15462,7 +15456,7 @@ window.MG_DATA = {
     },
     {
       "localId": 202,
-      "producto": "Semilla linaza 500g",
+      "producto": "Amaranto",
       "precio": 34.5,
       "categoria": "Semillas y Granos",
       "unidad": "pieza",
@@ -15470,7 +15464,7 @@ window.MG_DATA = {
     },
     {
       "localId": 202,
-      "producto": "Semilla ajonjolí kg",
+      "producto": "Chía negra",
       "precio": 72.2,
       "categoria": "Semillas y Granos",
       "unidad": "kg",
@@ -15478,7 +15472,7 @@ window.MG_DATA = {
     },
     {
       "localId": 203,
-      "producto": "Agua purificada 5L",
+      "producto": "Jarritos",
       "precio": 23.8,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -15486,7 +15480,7 @@ window.MG_DATA = {
     },
     {
       "localId": 203,
-      "producto": "Agua purificada 10L",
+      "producto": "Jugo embotellado",
       "precio": 34.7,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -15494,7 +15488,7 @@ window.MG_DATA = {
     },
     {
       "localId": 203,
-      "producto": "Agua garrafón 20L",
+      "producto": "Jugo de uva embotellado",
       "precio": 49.1,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -15502,7 +15496,7 @@ window.MG_DATA = {
     },
     {
       "localId": 203,
-      "producto": "Agua mineral 1.5L",
+      "producto": "Michelada de mango",
       "precio": 16.2,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -15510,7 +15504,7 @@ window.MG_DATA = {
     },
     {
       "localId": 203,
-      "producto": "Agua mineral 600ml",
+      "producto": "Agua de sabor",
       "precio": 13.4,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -15518,7 +15512,7 @@ window.MG_DATA = {
     },
     {
       "localId": 204,
-      "producto": "Arrachera adobada kg",
+      "producto": "Tasajo en adobo",
       "precio": 171,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -15526,7 +15520,7 @@ window.MG_DATA = {
     },
     {
       "localId": 204,
-      "producto": "Pollo adobado kg",
+      "producto": "Carne para asar",
       "precio": 60.3,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -15534,7 +15528,7 @@ window.MG_DATA = {
     },
     {
       "localId": 204,
-      "producto": "Costilla adobada kg",
+      "producto": "Tocino ahumado",
       "precio": 104,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -15542,7 +15536,7 @@ window.MG_DATA = {
     },
     {
       "localId": 204,
-      "producto": "Chuleta adobada kg",
+      "producto": "Buche",
       "precio": 77.0,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -15550,7 +15544,7 @@ window.MG_DATA = {
     },
     {
       "localId": 204,
-      "producto": "Carne asada marinada kg",
+      "producto": "Tripa dorada",
       "precio": 136,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -15558,7 +15552,7 @@ window.MG_DATA = {
     },
     {
       "localId": 205,
-      "producto": "Rompecabezas infantil",
+      "producto": "Cubo mágico",
       "precio": 90.1,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -15566,7 +15560,7 @@ window.MG_DATA = {
     },
     {
       "localId": 205,
-      "producto": "Bloques construcción",
+      "producto": "Figura coleccionable",
       "precio": 124,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -15574,7 +15568,7 @@ window.MG_DATA = {
     },
     {
       "localId": 205,
-      "producto": "Juego mesa familiar",
+      "producto": "Saltarín",
       "precio": 151,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -15582,7 +15576,7 @@ window.MG_DATA = {
     },
     {
       "localId": 205,
-      "producto": "Kit ciencia",
+      "producto": "Balero",
       "precio": 165,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -15590,7 +15584,7 @@ window.MG_DATA = {
     },
     {
       "localId": 205,
-      "producto": "Laberinto magnético",
+      "producto": "Rompecabezas",
       "precio": 85.3,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -15598,7 +15592,7 @@ window.MG_DATA = {
     },
     {
       "localId": 206,
-      "producto": "Jugo naranja 500ml",
+      "producto": "Agua de piña",
       "precio": 31.2,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -15606,7 +15600,7 @@ window.MG_DATA = {
     },
     {
       "localId": 206,
-      "producto": "Jugo zanahoria 500ml",
+      "producto": "Agua de horchata",
       "precio": 36.3,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -15614,7 +15608,7 @@ window.MG_DATA = {
     },
     {
       "localId": 206,
-      "producto": "Jugo verde 500ml",
+      "producto": "Licuado de chocolate",
       "precio": 38.1,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -15622,7 +15616,7 @@ window.MG_DATA = {
     },
     {
       "localId": 206,
-      "producto": "Jugo mango 500ml",
+      "producto": "Jugo de manzana",
       "precio": 38.5,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -15630,7 +15624,7 @@ window.MG_DATA = {
     },
     {
       "localId": 206,
-      "producto": "Jugo piña 500ml",
+      "producto": "Jugo de ciruela",
       "precio": 42.2,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -15638,7 +15632,7 @@ window.MG_DATA = {
     },
     {
       "localId": 207,
-      "producto": "Orden tacos asada 3pz",
+      "producto": "Tostada de ceviche",
       "precio": 57.6,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -15646,7 +15640,7 @@ window.MG_DATA = {
     },
     {
       "localId": 207,
-      "producto": "Orden tacos adobada 3pz",
+      "producto": "Tamal de elote",
       "precio": 54.5,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -15654,7 +15648,7 @@ window.MG_DATA = {
     },
     {
       "localId": 207,
-      "producto": "Orden tacos pastor 3pz",
+      "producto": "Torta ahogada",
       "precio": 58.4,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -15662,7 +15656,7 @@ window.MG_DATA = {
     },
     {
       "localId": 207,
-      "producto": "Orden tacos tripa 3pz",
+      "producto": "Tacos de barbacoa",
       "precio": 54.7,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -15670,7 +15664,7 @@ window.MG_DATA = {
     },
     {
       "localId": 207,
-      "producto": "Orden tacos suadero 3pz",
+      "producto": "Nachos con queso",
       "precio": 49.3,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -15678,7 +15672,7 @@ window.MG_DATA = {
     },
     {
       "localId": 208,
-      "producto": "Comida corrida día",
+      "producto": "Omelette de queso",
       "precio": 75.6,
       "categoria": "Fonda",
       "unidad": "pieza",
@@ -15686,7 +15680,7 @@ window.MG_DATA = {
     },
     {
       "localId": 208,
-      "producto": "Comida corrida postre",
+      "producto": "Sopes",
       "precio": 95.0,
       "categoria": "Fonda",
       "unidad": "pieza",
@@ -15694,7 +15688,7 @@ window.MG_DATA = {
     },
     {
       "localId": 208,
-      "producto": "Menú ejecutivo",
+      "producto": "Gorditas de chicharrón",
       "precio": 82.0,
       "categoria": "Fonda",
       "unidad": "pieza",
@@ -15702,7 +15696,7 @@ window.MG_DATA = {
     },
     {
       "localId": 208,
-      "producto": "Comida corrida sopa",
+      "producto": "Milanesa de pollo",
       "precio": 85.3,
       "categoria": "Fonda",
       "unidad": "pieza",
@@ -15710,7 +15704,7 @@ window.MG_DATA = {
     },
     {
       "localId": 208,
-      "producto": "Comida corrida premium",
+      "producto": "Albóndigas",
       "precio": 109,
       "categoria": "Fonda",
       "unidad": "pieza",
@@ -15718,7 +15712,7 @@ window.MG_DATA = {
     },
     {
       "localId": 209,
-      "producto": "Guisado res",
+      "producto": "Mole de olla",
       "precio": 74.2,
       "categoria": "Comida Casera",
       "unidad": "pieza",
@@ -15726,7 +15720,7 @@ window.MG_DATA = {
     },
     {
       "localId": 209,
-      "producto": "Guisado pollo",
+      "producto": "Arroz a la mexicana",
       "precio": 70.0,
       "categoria": "Comida Casera",
       "unidad": "pieza",
@@ -15734,7 +15728,7 @@ window.MG_DATA = {
     },
     {
       "localId": 209,
-      "producto": "Guisado cerdo",
+      "producto": "Bistec a la mexicana",
       "precio": 66.0,
       "categoria": "Comida Casera",
       "unidad": "pieza",
@@ -15742,7 +15736,7 @@ window.MG_DATA = {
     },
     {
       "localId": 209,
-      "producto": "Guisado pescado",
+      "producto": "Torta ahogada",
       "precio": 78.8,
       "categoria": "Comida Casera",
       "unidad": "pieza",
@@ -15750,7 +15744,7 @@ window.MG_DATA = {
     },
     {
       "localId": 209,
-      "producto": "Guisado rajas",
+      "producto": "Pozole rojo con espinazo",
       "precio": 60.4,
       "categoria": "Comida Casera",
       "unidad": "pieza",
@@ -15758,7 +15752,7 @@ window.MG_DATA = {
     },
     {
       "localId": 210,
-      "producto": "Mango ataulfo kg",
+      "producto": "Manzana golden",
       "precio": 39.7,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -15766,7 +15760,7 @@ window.MG_DATA = {
     },
     {
       "localId": 210,
-      "producto": "Sandía kg",
+      "producto": "Naranja valencia",
       "precio": 13.0,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -15774,7 +15768,7 @@ window.MG_DATA = {
     },
     {
       "localId": 210,
-      "producto": "Melón kg",
+      "producto": "Plátano macho",
       "precio": 19.8,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -15782,7 +15776,7 @@ window.MG_DATA = {
     },
     {
       "localId": 210,
-      "producto": "Plátano tabasco kg",
+      "producto": "Guamúchil",
       "precio": 19.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -15790,7 +15784,7 @@ window.MG_DATA = {
     },
     {
       "localId": 210,
-      "producto": "Papaya maradol kg",
+      "producto": "Fresa",
       "precio": 24.7,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -15798,7 +15792,7 @@ window.MG_DATA = {
     },
     {
       "localId": 211,
-      "producto": "Bistec res",
+      "producto": "Aguayón",
       "precio": 132,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -15806,7 +15800,7 @@ window.MG_DATA = {
     },
     {
       "localId": 211,
-      "producto": "Molida res",
+      "producto": "Diezmillo",
       "precio": 93.2,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -15814,7 +15808,7 @@ window.MG_DATA = {
     },
     {
       "localId": 211,
-      "producto": "Costilla res",
+      "producto": "T-bone",
       "precio": 94.2,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -15822,7 +15816,7 @@ window.MG_DATA = {
     },
     {
       "localId": 211,
-      "producto": "Arrachera",
+      "producto": "Cueritos de cerdo",
       "precio": 148,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -15830,7 +15824,7 @@ window.MG_DATA = {
     },
     {
       "localId": 211,
-      "producto": "Cortadillo",
+      "producto": "Suadero",
       "precio": 122,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -15838,7 +15832,7 @@ window.MG_DATA = {
     },
     {
       "localId": 212,
-      "producto": "Concha vainilla",
+      "producto": "Suaves de malvavisco",
       "precio": 13.6,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -15846,7 +15840,7 @@ window.MG_DATA = {
     },
     {
       "localId": 212,
-      "producto": "Concha chocolate",
+      "producto": "Empanada de cajeta",
       "precio": 15.7,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -15854,7 +15848,7 @@ window.MG_DATA = {
     },
     {
       "localId": 212,
-      "producto": "Oreja",
+      "producto": "Buñuelos",
       "precio": 14.7,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -15862,7 +15856,7 @@ window.MG_DATA = {
     },
     {
       "localId": 212,
-      "producto": "Cuerno",
+      "producto": "Pan de feria",
       "precio": 14.4,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -15870,7 +15864,7 @@ window.MG_DATA = {
     },
     {
       "localId": 212,
-      "producto": "Polvorón",
+      "producto": "Pinturitas de manteca",
       "precio": 13.3,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -15878,7 +15872,7 @@ window.MG_DATA = {
     },
     {
       "localId": 213,
-      "producto": "Huachinango",
+      "producto": "Cangrejo",
       "precio": 156,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -15886,7 +15880,7 @@ window.MG_DATA = {
     },
     {
       "localId": 213,
-      "producto": "Robalo filete",
+      "producto": "Marlín",
       "precio": 171,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -15894,7 +15888,7 @@ window.MG_DATA = {
     },
     {
       "localId": 213,
-      "producto": "Sierra fresca",
+      "producto": "Salsa negra marisquera",
       "precio": 97.8,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -15902,7 +15896,7 @@ window.MG_DATA = {
     },
     {
       "localId": 213,
-      "producto": "Mojarra",
+      "producto": "Bagre",
       "precio": 66.5,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -15910,7 +15904,7 @@ window.MG_DATA = {
     },
     {
       "localId": 213,
-      "producto": "Pargo",
+      "producto": "Almeja",
       "precio": 166,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -15918,7 +15912,7 @@ window.MG_DATA = {
     },
     {
       "localId": 214,
-      "producto": "Pollo entero kg",
+      "producto": "Pechuga deshuesada",
       "precio": 46.9,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -15926,7 +15920,7 @@ window.MG_DATA = {
     },
     {
       "localId": 214,
-      "producto": "Pechuga kg",
+      "producto": "Pechuga ahumada",
       "precio": 76.4,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -15934,7 +15928,7 @@ window.MG_DATA = {
     },
     {
       "localId": 214,
-      "producto": "Muslo kg",
+      "producto": "Pollo rostizado",
       "precio": 49.9,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -15942,7 +15936,7 @@ window.MG_DATA = {
     },
     {
       "localId": 214,
-      "producto": "Ala kg",
+      "producto": "Pollo a la parrilla",
       "precio": 38.3,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -15950,7 +15944,7 @@ window.MG_DATA = {
     },
     {
       "localId": 214,
-      "producto": "Pollo deshuesado kg",
+      "producto": "Medio pollo rostizado",
       "precio": 78.8,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -15958,7 +15952,7 @@ window.MG_DATA = {
     },
     {
       "localId": 215,
-      "producto": "Leche Lala entera 1L",
+      "producto": "Mantequilla con ajo",
       "precio": 26.8,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -15966,7 +15960,7 @@ window.MG_DATA = {
     },
     {
       "localId": 215,
-      "producto": "Leche deslactosada 1L",
+      "producto": "Queso panela",
       "precio": 29.2,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -15974,7 +15968,7 @@ window.MG_DATA = {
     },
     {
       "localId": 215,
-      "producto": "Leche Alpura light 1L",
+      "producto": "Leche bronca",
       "precio": 27.2,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -15982,7 +15976,7 @@ window.MG_DATA = {
     },
     {
       "localId": 215,
-      "producto": "Leche coco 1L",
+      "producto": "Crema batida",
       "precio": 31.3,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -15990,7 +15984,7 @@ window.MG_DATA = {
     },
     {
       "localId": 215,
-      "producto": "Leche evaporada",
+      "producto": "Jocoque con chile piquín",
       "precio": 16.7,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -15998,7 +15992,7 @@ window.MG_DATA = {
     },
     {
       "localId": 216,
-      "producto": "Café olla taza",
+      "producto": "Capuchino de caramelo",
       "precio": 19.2,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -16006,7 +16000,7 @@ window.MG_DATA = {
     },
     {
       "localId": 216,
-      "producto": "Café americano",
+      "producto": "Café irlandés",
       "precio": 22.4,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -16014,7 +16008,7 @@ window.MG_DATA = {
     },
     {
       "localId": 216,
-      "producto": "Café leche",
+      "producto": "Café con canela",
       "precio": 24.7,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -16022,7 +16016,7 @@ window.MG_DATA = {
     },
     {
       "localId": 216,
-      "producto": "Café capuchino",
+      "producto": "Café molido",
       "precio": 42.1,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -16030,7 +16024,7 @@ window.MG_DATA = {
     },
     {
       "localId": 216,
-      "producto": "Café mocha",
+      "producto": "Champurrado",
       "precio": 46.1,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -16038,7 +16032,7 @@ window.MG_DATA = {
     },
     {
       "localId": 217,
-      "producto": "Olla barro 2L",
+      "producto": "Tapete tejido",
       "precio": 134,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -16046,7 +16040,7 @@ window.MG_DATA = {
     },
     {
       "localId": 217,
-      "producto": "Cazuela barro",
+      "producto": "Canasta de bejuco",
       "precio": 85.7,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -16054,7 +16048,7 @@ window.MG_DATA = {
     },
     {
       "localId": 217,
-      "producto": "Plato barro",
+      "producto": "Charola de palma",
       "precio": 46.5,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -16062,7 +16056,7 @@ window.MG_DATA = {
     },
     {
       "localId": 217,
-      "producto": "Taza barro",
+      "producto": "Jarrito de barro",
       "precio": 38.2,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -16070,7 +16064,7 @@ window.MG_DATA = {
     },
     {
       "localId": 217,
-      "producto": "Molcajete chico",
+      "producto": "Figura de ámbar",
       "precio": 168,
       "categoria": "Artesanías",
       "unidad": "pieza",
@@ -16078,7 +16072,7 @@ window.MG_DATA = {
     },
     {
       "localId": 218,
-      "producto": "Rosa roja",
+      "producto": "Tulipán",
       "precio": 27.0,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -16086,7 +16080,7 @@ window.MG_DATA = {
     },
     {
       "localId": 218,
-      "producto": "Rosa blanca",
+      "producto": "Clavel rojo",
       "precio": 22.1,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -16094,7 +16088,7 @@ window.MG_DATA = {
     },
     {
       "localId": 218,
-      "producto": "Rosa amarilla",
+      "producto": "Suculenta",
       "precio": 22.4,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -16102,7 +16096,7 @@ window.MG_DATA = {
     },
     {
       "localId": 218,
-      "producto": "Rosa rosada",
+      "producto": "Corona fúnebre",
       "precio": 20.6,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -16110,7 +16104,7 @@ window.MG_DATA = {
     },
     {
       "localId": 218,
-      "producto": "Ramo 12 rosas",
+      "producto": "Ramo de girasoles",
       "precio": 313,
       "categoria": "Florería",
       "unidad": "pieza",
@@ -16118,7 +16112,7 @@ window.MG_DATA = {
     },
     {
       "localId": 219,
-      "producto": "Cajeta 400g",
+      "producto": "Alegría de amaranto",
       "precio": 60.6,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -16126,7 +16120,7 @@ window.MG_DATA = {
     },
     {
       "localId": 219,
-      "producto": "Camote dulce 500g",
+      "producto": "Jamoncillos de leche",
       "precio": 33.8,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -16134,7 +16128,7 @@ window.MG_DATA = {
     },
     {
       "localId": 219,
-      "producto": "Calabaza tacha 500g",
+      "producto": "Alfeñique",
       "precio": 29.3,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -16142,7 +16136,7 @@ window.MG_DATA = {
     },
     {
       "localId": 219,
-      "producto": "Ate guayaba",
+      "producto": "Coyotas de cajeta",
       "precio": 31.2,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -16150,7 +16144,7 @@ window.MG_DATA = {
     },
     {
       "localId": 219,
-      "producto": "Dulce leche 350g",
+      "producto": "Gomitas",
       "precio": 42.9,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
@@ -16158,7 +16152,7 @@ window.MG_DATA = {
     },
     {
       "localId": 220,
-      "producto": "Blusa manga corta",
+      "producto": "Chamarra",
       "precio": 192,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -16166,7 +16160,7 @@ window.MG_DATA = {
     },
     {
       "localId": 220,
-      "producto": "Blusa manga larga",
+      "producto": "Medias",
       "precio": 212,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -16174,7 +16168,7 @@ window.MG_DATA = {
     },
     {
       "localId": 220,
-      "producto": "Pantalón mezclilla",
+      "producto": "Blusa bordada",
       "precio": 315,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -16182,7 +16176,7 @@ window.MG_DATA = {
     },
     {
       "localId": 220,
-      "producto": "Falda midi",
+      "producto": "Pijama",
       "precio": 202,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -16190,7 +16184,7 @@ window.MG_DATA = {
     },
     {
       "localId": 220,
-      "producto": "Vestido casual",
+      "producto": "Camisa formal",
       "precio": 340,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
@@ -16198,7 +16192,7 @@ window.MG_DATA = {
     },
     {
       "localId": 221,
-      "producto": "Zapato tacón medio",
+      "producto": "Zapatillas de baile",
       "precio": 352,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -16206,7 +16200,7 @@ window.MG_DATA = {
     },
     {
       "localId": 221,
-      "producto": "Zapato tacón alto",
+      "producto": "Zapatos de niño",
       "precio": 461,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -16214,7 +16208,7 @@ window.MG_DATA = {
     },
     {
       "localId": 221,
-      "producto": "Zapato plano",
+      "producto": "Tenis deportivos",
       "precio": 250,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -16222,7 +16216,7 @@ window.MG_DATA = {
     },
     {
       "localId": 221,
-      "producto": "Balerina",
+      "producto": "Calzado de charol para niño",
       "precio": 176,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -16230,7 +16224,7 @@ window.MG_DATA = {
     },
     {
       "localId": 221,
-      "producto": "Sandalia casual",
+      "producto": "Botas de trabajo",
       "precio": 168,
       "categoria": "Calzado",
       "unidad": "pieza",
@@ -16238,7 +16232,7 @@ window.MG_DATA = {
     },
     {
       "localId": 222,
-      "producto": "Martillo 16oz",
+      "producto": "Brocha",
       "precio": 122,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -16246,7 +16240,7 @@ window.MG_DATA = {
     },
     {
       "localId": 222,
-      "producto": "Desarmador plano",
+      "producto": "Machete Colima cacha de plástico",
       "precio": 34.5,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -16254,7 +16248,7 @@ window.MG_DATA = {
     },
     {
       "localId": 222,
-      "producto": "Desarmador phillips",
+      "producto": "Tornillo para madera",
       "precio": 35.4,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -16262,7 +16256,7 @@ window.MG_DATA = {
     },
     {
       "localId": 222,
-      "producto": "Pinzas universales",
+      "producto": "Cerradura",
       "precio": 59.1,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -16270,7 +16264,7 @@ window.MG_DATA = {
     },
     {
       "localId": 222,
-      "producto": "Llave stillson 12",
+      "producto": "Lijas",
       "precio": 151,
       "categoria": "Ferretería",
       "unidad": "pieza",
@@ -16278,7 +16272,7 @@ window.MG_DATA = {
     },
     {
       "localId": 223,
-      "producto": "Funda silicona",
+      "producto": "Audífonos de diadema",
       "precio": 68.0,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -16286,7 +16280,7 @@ window.MG_DATA = {
     },
     {
       "localId": 223,
-      "producto": "Mica vidrio",
+      "producto": "Splitter",
       "precio": 78.2,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -16294,7 +16288,7 @@ window.MG_DATA = {
     },
     {
       "localId": 223,
-      "producto": "Cable USB-C 1m",
+      "producto": "Mouse USB",
       "precio": 45.3,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -16302,7 +16296,7 @@ window.MG_DATA = {
     },
     {
       "localId": 223,
-      "producto": "Cable lightning",
+      "producto": "Audífonos bluetooth",
       "precio": 53.0,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -16310,7 +16304,7 @@ window.MG_DATA = {
     },
     {
       "localId": 223,
-      "producto": "Cargador 2 puertos",
+      "producto": "Cargador de pilas",
       "precio": 122,
       "categoria": "Electrónica",
       "unidad": "pieza",
@@ -16318,7 +16312,7 @@ window.MG_DATA = {
     },
     {
       "localId": 224,
-      "producto": "Té manzanilla 50g",
+      "producto": "Chía",
       "precio": 21.2,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -16326,7 +16320,7 @@ window.MG_DATA = {
     },
     {
       "localId": 224,
-      "producto": "Té menta 50g",
+      "producto": "Moringa",
       "precio": 24.2,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -16334,7 +16328,7 @@ window.MG_DATA = {
     },
     {
       "localId": 224,
-      "producto": "Té jamaica 100g",
+      "producto": "Jalea real",
       "precio": 19.3,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -16342,7 +16336,7 @@ window.MG_DATA = {
     },
     {
       "localId": 224,
-      "producto": "Té verde 50g",
+      "producto": "Eucalipto",
       "precio": 30.7,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -16350,7 +16344,7 @@ window.MG_DATA = {
     },
     {
       "localId": 224,
-      "producto": "Té boldo 50g",
+      "producto": "Ruda",
       "precio": 22.3,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
@@ -16358,7 +16352,7 @@ window.MG_DATA = {
     },
     {
       "localId": 225,
-      "producto": "Piñata estrella mediana",
+      "producto": "Globos",
       "precio": 173,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -16366,7 +16360,7 @@ window.MG_DATA = {
     },
     {
       "localId": 225,
-      "producto": "Piñata estrella grande",
+      "producto": "Confeti",
       "precio": 257,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -16374,7 +16368,7 @@ window.MG_DATA = {
     },
     {
       "localId": 225,
-      "producto": "Piñata personaje",
+      "producto": "Pito",
       "precio": 201,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -16382,7 +16376,7 @@ window.MG_DATA = {
     },
     {
       "localId": 225,
-      "producto": "Piñata número",
+      "producto": "Cuerno de fiesta",
       "precio": 182,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -16390,7 +16384,7 @@ window.MG_DATA = {
     },
     {
       "localId": 225,
-      "producto": "Piñata unicornio",
+      "producto": "Varita mágica",
       "precio": 265,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
@@ -16398,7 +16392,7 @@ window.MG_DATA = {
     },
     {
       "localId": 226,
-      "producto": "Tortilla maíz kg",
+      "producto": "Tlayuda",
       "precio": 16.3,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -16406,7 +16400,7 @@ window.MG_DATA = {
     },
     {
       "localId": 226,
-      "producto": "Tortilla harina kg",
+      "producto": "Tortilla de betabel",
       "precio": 23.0,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -16414,7 +16408,7 @@ window.MG_DATA = {
     },
     {
       "localId": 226,
-      "producto": "Tortilla mano 12pz",
+      "producto": "Tortilla taquera",
       "precio": 15.2,
       "categoria": "Tortillería",
       "unidad": "pieza",
@@ -16422,7 +16416,7 @@ window.MG_DATA = {
     },
     {
       "localId": 226,
-      "producto": "Tortilla azul kg",
+      "producto": "Tlacoyo de haba",
       "precio": 26.0,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -16430,7 +16424,7 @@ window.MG_DATA = {
     },
     {
       "localId": 226,
-      "producto": "Tortilla nopal kg",
+      "producto": "Tortilla de cilantro",
       "precio": 27.5,
       "categoria": "Tortillería",
       "unidad": "kg",
@@ -16438,7 +16432,7 @@ window.MG_DATA = {
     },
     {
       "localId": 227,
-      "producto": "Huevo blanco 12pz",
+      "producto": "Huevo en cono de 30",
       "precio": 33.1,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -16446,7 +16440,7 @@ window.MG_DATA = {
     },
     {
       "localId": 227,
-      "producto": "Huevo blanco 18pz",
+      "producto": "Huevo rojo por media cartera",
       "precio": 49.4,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -16454,7 +16448,7 @@ window.MG_DATA = {
     },
     {
       "localId": 227,
-      "producto": "Huevo blanco 30pz",
+      "producto": "Huevo blanco limpio",
       "precio": 69.7,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -16462,7 +16456,7 @@ window.MG_DATA = {
     },
     {
       "localId": 227,
-      "producto": "Huevo blanco 60pz",
+      "producto": "Huevo de avestruz",
       "precio": 111,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -16470,7 +16464,7 @@ window.MG_DATA = {
     },
     {
       "localId": 227,
-      "producto": "Huevo blanco cubeta",
+      "producto": "Huevo en cono de 12",
       "precio": 232,
       "categoria": "Huevería",
       "unidad": "pieza",
@@ -16478,7 +16472,7 @@ window.MG_DATA = {
     },
     {
       "localId": 228,
-      "producto": "Arroz Morelos 1kg",
+      "producto": "Vinagre",
       "precio": 21.5,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -16486,7 +16480,7 @@ window.MG_DATA = {
     },
     {
       "localId": 228,
-      "producto": "Frijol negro 1kg",
+      "producto": "Manteca vegetal",
       "precio": 25.4,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -16494,7 +16488,7 @@ window.MG_DATA = {
     },
     {
       "localId": 228,
-      "producto": "Azúcar 1kg",
+      "producto": "Cajeta en envase",
       "precio": 21.3,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -16502,7 +16496,7 @@ window.MG_DATA = {
     },
     {
       "localId": 228,
-      "producto": "Sal 1kg",
+      "producto": "Arroz blanco",
       "precio": 12.2,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -16510,7 +16504,7 @@ window.MG_DATA = {
     },
     {
       "localId": 228,
-      "producto": "Harina 1kg",
+      "producto": "Atún en agua",
       "precio": 19.0,
       "categoria": "Abarrotes",
       "unidad": "pieza",
@@ -16518,7 +16512,7 @@ window.MG_DATA = {
     },
     {
       "localId": 229,
-      "producto": "Chile guajillo kg",
+      "producto": "Canela entera en raja",
       "precio": 83.9,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -16526,7 +16520,7 @@ window.MG_DATA = {
     },
     {
       "localId": 229,
-      "producto": "Chile ancho kg",
+      "producto": "Tomillo",
       "precio": 101,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -16534,7 +16528,7 @@ window.MG_DATA = {
     },
     {
       "localId": 229,
-      "producto": "Chile pasilla kg",
+      "producto": "Hoja de laurel",
       "precio": 87.7,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -16542,7 +16536,7 @@ window.MG_DATA = {
     },
     {
       "localId": 229,
-      "producto": "Chile morita kg",
+      "producto": "Sazonador completo",
       "precio": 97.2,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -16550,7 +16544,7 @@ window.MG_DATA = {
     },
     {
       "localId": 229,
-      "producto": "Chile chipotle kg",
+      "producto": "Canela en polvo",
       "precio": 94.6,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
@@ -16558,7 +16552,7 @@ window.MG_DATA = {
     },
     {
       "localId": 230,
-      "producto": "Pastel chocolate rebanada",
+      "producto": "Tiramisú de cajeta",
       "precio": 37.7,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -16566,7 +16560,7 @@ window.MG_DATA = {
     },
     {
       "localId": 230,
-      "producto": "Pastel 3 leches rebanada",
+      "producto": "Panqué",
       "precio": 41.5,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -16574,7 +16568,7 @@ window.MG_DATA = {
     },
     {
       "localId": 230,
-      "producto": "Pastel zanahoria rebanada",
+      "producto": "Galletas de avena",
       "precio": 38.6,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -16582,7 +16576,7 @@ window.MG_DATA = {
     },
     {
       "localId": 230,
-      "producto": "Pastel red velvet rebanada",
+      "producto": "Cupcake de vainilla",
       "precio": 44.9,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -16590,7 +16584,7 @@ window.MG_DATA = {
     },
     {
       "localId": 230,
-      "producto": "Pastel marmoleado rebanada",
+      "producto": "Churros rellenos",
       "precio": 33.5,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
@@ -16598,7 +16592,7 @@ window.MG_DATA = {
     },
     {
       "localId": 231,
-      "producto": "Anillo plata .925",
+      "producto": "Anillo de compromiso",
       "precio": 429,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -16606,7 +16600,7 @@ window.MG_DATA = {
     },
     {
       "localId": 231,
-      "producto": "Anillo oro laminado",
+      "producto": "Dije religioso",
       "precio": 351,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -16614,7 +16608,7 @@ window.MG_DATA = {
     },
     {
       "localId": 231,
-      "producto": "Anillo con piedra",
+      "producto": "Collar de cuarzo",
       "precio": 484,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -16622,7 +16616,7 @@ window.MG_DATA = {
     },
     {
       "localId": 231,
-      "producto": "Anillo compromiso plata",
+      "producto": "Collar de bautizo",
       "precio": 847,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -16630,7 +16624,7 @@ window.MG_DATA = {
     },
     {
       "localId": 231,
-      "producto": "Anillo ajustable",
+      "producto": "Tobillera",
       "precio": 81.3,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
@@ -16638,7 +16632,7 @@ window.MG_DATA = {
     },
     {
       "localId": 232,
-      "producto": "Cuaderno profesional 100h",
+      "producto": "Sobre",
       "precio": 41.5,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -16646,7 +16640,7 @@ window.MG_DATA = {
     },
     {
       "localId": 232,
-      "producto": "Cuaderno espiral 200h",
+      "producto": "Lápiz adhesivo",
       "precio": 53.3,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -16654,7 +16648,7 @@ window.MG_DATA = {
     },
     {
       "localId": 232,
-      "producto": "Libreta media",
+      "producto": "Folder tamaño carta",
       "precio": 31.3,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -16662,7 +16656,7 @@ window.MG_DATA = {
     },
     {
       "localId": 232,
-      "producto": "Libreta pocket",
+      "producto": "Clips",
       "precio": 18.3,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -16670,7 +16664,7 @@ window.MG_DATA = {
     },
     {
       "localId": 232,
-      "producto": "Cuaderno dibujo",
+      "producto": "Liga",
       "precio": 65.6,
       "categoria": "Papelería",
       "unidad": "pieza",
@@ -16678,7 +16672,7 @@ window.MG_DATA = {
     },
     {
       "localId": 233,
-      "producto": "Hilo poliéster carrete",
+      "producto": "Botón forrado",
       "precio": 7.21,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -16686,7 +16680,7 @@ window.MG_DATA = {
     },
     {
       "localId": 233,
-      "producto": "Hilo algodón carrete",
+      "producto": "Tela de lino",
       "precio": 10.7,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -16694,7 +16688,7 @@ window.MG_DATA = {
     },
     {
       "localId": 233,
-      "producto": "Hilo bordar surtido",
+      "producto": "Tela de satín",
       "precio": 31.7,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -16702,7 +16696,7 @@ window.MG_DATA = {
     },
     {
       "localId": 233,
-      "producto": "Hilo nylon transparente",
+      "producto": "Hilo de nylon",
       "precio": 12.4,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -16710,7 +16704,7 @@ window.MG_DATA = {
     },
     {
       "localId": 233,
-      "producto": "Hilo grueso",
+      "producto": "Dedal",
       "precio": 14.6,
       "categoria": "Mercería",
       "unidad": "pieza",
@@ -16718,7 +16712,7 @@ window.MG_DATA = {
     },
     {
       "localId": 234,
-      "producto": "Pinol 1L",
+      "producto": "Limpiavidrios",
       "precio": 26.4,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -16726,7 +16720,7 @@ window.MG_DATA = {
     },
     {
       "localId": 234,
-      "producto": "Fabuloso 1L",
+      "producto": "Fibra",
       "precio": 30.9,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -16734,7 +16728,7 @@ window.MG_DATA = {
     },
     {
       "localId": 234,
-      "producto": "Cloro 2L",
+      "producto": "Escobillón",
       "precio": 21.0,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -16742,7 +16736,7 @@ window.MG_DATA = {
     },
     {
       "localId": 234,
-      "producto": "Limpiador multiusos",
+      "producto": "Limpiador de pisos",
       "precio": 25.2,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -16750,7 +16744,7 @@ window.MG_DATA = {
     },
     {
       "localId": 234,
-      "producto": "Limpiavidrios",
+      "producto": "Guantes de hule",
       "precio": 23.4,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
@@ -16758,7 +16752,7 @@ window.MG_DATA = {
     },
     {
       "localId": 235,
-      "producto": "Cuchara sopera 6pz",
+      "producto": "Olla exprés",
       "precio": 36.9,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -16766,7 +16760,7 @@ window.MG_DATA = {
     },
     {
       "localId": 235,
-      "producto": "Cuchara servir",
+      "producto": "Comal de acero",
       "precio": 20.4,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -16774,7 +16768,7 @@ window.MG_DATA = {
     },
     {
       "localId": 235,
-      "producto": "Espátula cocina",
+      "producto": "Cuchara de acero",
       "precio": 17.0,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -16782,7 +16776,7 @@ window.MG_DATA = {
     },
     {
       "localId": 235,
-      "producto": "Cucharón",
+      "producto": "Sartén de teflón",
       "precio": 26.4,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -16790,7 +16784,7 @@ window.MG_DATA = {
     },
     {
       "localId": 235,
-      "producto": "Colador plástico",
+      "producto": "Recipiente con tapa",
       "precio": 26.9,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
@@ -16798,7 +16792,7 @@ window.MG_DATA = {
     },
     {
       "localId": 236,
-      "producto": "Semilla girasol kg",
+      "producto": "Maíz pozolero",
       "precio": 51.3,
       "categoria": "Semillas y Granos",
       "unidad": "kg",
@@ -16806,7 +16800,7 @@ window.MG_DATA = {
     },
     {
       "localId": 236,
-      "producto": "Semilla calabaza kg",
+      "producto": "Frijol negro",
       "precio": 65.1,
       "categoria": "Semillas y Granos",
       "unidad": "kg",
@@ -16814,7 +16808,7 @@ window.MG_DATA = {
     },
     {
       "localId": 236,
-      "producto": "Semilla chía 500g",
+      "producto": "Trigo",
       "precio": 40.8,
       "categoria": "Semillas y Granos",
       "unidad": "pieza",
@@ -16822,7 +16816,7 @@ window.MG_DATA = {
     },
     {
       "localId": 236,
-      "producto": "Semilla linaza 500g",
+      "producto": "Amaranto",
       "precio": 33.0,
       "categoria": "Semillas y Granos",
       "unidad": "pieza",
@@ -16830,7 +16824,7 @@ window.MG_DATA = {
     },
     {
       "localId": 236,
-      "producto": "Semilla ajonjolí kg",
+      "producto": "Chía negra",
       "precio": 74.5,
       "categoria": "Semillas y Granos",
       "unidad": "kg",
@@ -16838,7 +16832,7 @@ window.MG_DATA = {
     },
     {
       "localId": 237,
-      "producto": "Agua purificada 5L",
+      "producto": "Jarritos",
       "precio": 20.1,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -16846,7 +16840,7 @@ window.MG_DATA = {
     },
     {
       "localId": 237,
-      "producto": "Agua purificada 10L",
+      "producto": "Jugo embotellado",
       "precio": 31.5,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -16854,7 +16848,7 @@ window.MG_DATA = {
     },
     {
       "localId": 237,
-      "producto": "Agua garrafón 20L",
+      "producto": "Jugo de uva embotellado",
       "precio": 42.3,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -16862,7 +16856,7 @@ window.MG_DATA = {
     },
     {
       "localId": 237,
-      "producto": "Agua mineral 1.5L",
+      "producto": "Michelada de mango",
       "precio": 16.0,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -16870,7 +16864,7 @@ window.MG_DATA = {
     },
     {
       "localId": 237,
-      "producto": "Agua mineral 600ml",
+      "producto": "Agua de sabor",
       "precio": 11.2,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
@@ -16878,7 +16872,7 @@ window.MG_DATA = {
     },
     {
       "localId": 238,
-      "producto": "Arrachera adobada kg",
+      "producto": "Tasajo en adobo",
       "precio": 177,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -16886,7 +16880,7 @@ window.MG_DATA = {
     },
     {
       "localId": 238,
-      "producto": "Pollo adobado kg",
+      "producto": "Carne para asar",
       "precio": 67.9,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -16894,7 +16888,7 @@ window.MG_DATA = {
     },
     {
       "localId": 238,
-      "producto": "Costilla adobada kg",
+      "producto": "Tocino ahumado",
       "precio": 86.9,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -16902,7 +16896,7 @@ window.MG_DATA = {
     },
     {
       "localId": 238,
-      "producto": "Chuleta adobada kg",
+      "producto": "Buche",
       "precio": 79.7,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -16910,7 +16904,7 @@ window.MG_DATA = {
     },
     {
       "localId": 238,
-      "producto": "Carne asada marinada kg",
+      "producto": "Tripa dorada",
       "precio": 133,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
@@ -16918,7 +16912,7 @@ window.MG_DATA = {
     },
     {
       "localId": 239,
-      "producto": "Rompecabezas infantil",
+      "producto": "Cubo mágico",
       "precio": 86.6,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -16926,7 +16920,7 @@ window.MG_DATA = {
     },
     {
       "localId": 239,
-      "producto": "Bloques construcción",
+      "producto": "Figura coleccionable",
       "precio": 118,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -16934,7 +16928,7 @@ window.MG_DATA = {
     },
     {
       "localId": 239,
-      "producto": "Juego mesa familiar",
+      "producto": "Saltarín",
       "precio": 150,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -16942,7 +16936,7 @@ window.MG_DATA = {
     },
     {
       "localId": 239,
-      "producto": "Kit ciencia",
+      "producto": "Balero",
       "precio": 180,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -16950,7 +16944,7 @@ window.MG_DATA = {
     },
     {
       "localId": 239,
-      "producto": "Laberinto magnético",
+      "producto": "Rompecabezas",
       "precio": 88.6,
       "categoria": "Juguetería",
       "unidad": "pieza",
@@ -16958,7 +16952,7 @@ window.MG_DATA = {
     },
     {
       "localId": 240,
-      "producto": "Jugo naranja 500ml",
+      "producto": "Agua de piña",
       "precio": 37.7,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -16966,7 +16960,7 @@ window.MG_DATA = {
     },
     {
       "localId": 240,
-      "producto": "Jugo zanahoria 500ml",
+      "producto": "Agua de horchata",
       "precio": 35.7,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -16974,7 +16968,7 @@ window.MG_DATA = {
     },
     {
       "localId": 240,
-      "producto": "Jugo verde 500ml",
+      "producto": "Licuado de chocolate",
       "precio": 37.1,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -16982,7 +16976,7 @@ window.MG_DATA = {
     },
     {
       "localId": 240,
-      "producto": "Jugo mango 500ml",
+      "producto": "Jugo de manzana",
       "precio": 40.2,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -16990,7 +16984,7 @@ window.MG_DATA = {
     },
     {
       "localId": 240,
-      "producto": "Jugo piña 500ml",
+      "producto": "Jugo de ciruela",
       "precio": 38.3,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
@@ -16998,7 +16992,7 @@ window.MG_DATA = {
     },
     {
       "localId": 241,
-      "producto": "Orden tacos asada 3pz",
+      "producto": "Tostada de ceviche",
       "precio": 50.3,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -17006,7 +17000,7 @@ window.MG_DATA = {
     },
     {
       "localId": 241,
-      "producto": "Orden tacos adobada 3pz",
+      "producto": "Tamal de elote",
       "precio": 45.5,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -17014,7 +17008,7 @@ window.MG_DATA = {
     },
     {
       "localId": 241,
-      "producto": "Orden tacos pastor 3pz",
+      "producto": "Torta ahogada",
       "precio": 59.4,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -17022,7 +17016,7 @@ window.MG_DATA = {
     },
     {
       "localId": 241,
-      "producto": "Orden tacos tripa 3pz",
+      "producto": "Tacos de barbacoa",
       "precio": 46.6,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -17030,7 +17024,7 @@ window.MG_DATA = {
     },
     {
       "localId": 241,
-      "producto": "Orden tacos suadero 3pz",
+      "producto": "Nachos con queso",
       "precio": 49.6,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
@@ -17038,7 +17032,7 @@ window.MG_DATA = {
     },
     {
       "localId": 242,
-      "producto": "Comida corrida día",
+      "producto": "Omelette de queso",
       "precio": 85.4,
       "categoria": "Fonda",
       "unidad": "pieza",
@@ -17046,7 +17040,7 @@ window.MG_DATA = {
     },
     {
       "localId": 242,
-      "producto": "Comida corrida postre",
+      "producto": "Sopes",
       "precio": 86.6,
       "categoria": "Fonda",
       "unidad": "pieza",
@@ -17054,7 +17048,7 @@ window.MG_DATA = {
     },
     {
       "localId": 242,
-      "producto": "Menú ejecutivo",
+      "producto": "Gorditas de chicharrón",
       "precio": 80.0,
       "categoria": "Fonda",
       "unidad": "pieza",
@@ -17062,7 +17056,7 @@ window.MG_DATA = {
     },
     {
       "localId": 242,
-      "producto": "Comida corrida sopa",
+      "producto": "Milanesa de pollo",
       "precio": 84.9,
       "categoria": "Fonda",
       "unidad": "pieza",
@@ -17070,7 +17064,7 @@ window.MG_DATA = {
     },
     {
       "localId": 242,
-      "producto": "Comida corrida premium",
+      "producto": "Albóndigas",
       "precio": 109,
       "categoria": "Fonda",
       "unidad": "pieza",
@@ -17078,7 +17072,7 @@ window.MG_DATA = {
     },
     {
       "localId": 243,
-      "producto": "Guisado res",
+      "producto": "Mole de olla",
       "precio": 72.0,
       "categoria": "Comida Casera",
       "unidad": "pieza",
@@ -17086,7 +17080,7 @@ window.MG_DATA = {
     },
     {
       "localId": 243,
-      "producto": "Guisado pollo",
+      "producto": "Arroz a la mexicana",
       "precio": 69.8,
       "categoria": "Comida Casera",
       "unidad": "pieza",
@@ -17094,7 +17088,7 @@ window.MG_DATA = {
     },
     {
       "localId": 243,
-      "producto": "Guisado cerdo",
+      "producto": "Bistec a la mexicana",
       "precio": 74.8,
       "categoria": "Comida Casera",
       "unidad": "pieza",
@@ -17102,7 +17096,7 @@ window.MG_DATA = {
     },
     {
       "localId": 243,
-      "producto": "Guisado pescado",
+      "producto": "Torta ahogada",
       "precio": 71.2,
       "categoria": "Comida Casera",
       "unidad": "pieza",
@@ -17110,7 +17104,7 @@ window.MG_DATA = {
     },
     {
       "localId": 243,
-      "producto": "Guisado rajas",
+      "producto": "Pozole rojo con espinazo",
       "precio": 53.4,
       "categoria": "Comida Casera",
       "unidad": "pieza",
@@ -17118,7 +17112,7 @@ window.MG_DATA = {
     },
     {
       "localId": 244,
-      "producto": "Mango ataulfo kg",
+      "producto": "Manzana golden",
       "precio": 34.6,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -17126,7 +17120,7 @@ window.MG_DATA = {
     },
     {
       "localId": 244,
-      "producto": "Sandía kg",
+      "producto": "Naranja valencia",
       "precio": 12.9,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -17134,7 +17128,7 @@ window.MG_DATA = {
     },
     {
       "localId": 244,
-      "producto": "Melón kg",
+      "producto": "Plátano macho",
       "precio": 19.2,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -17142,7 +17136,7 @@ window.MG_DATA = {
     },
     {
       "localId": 244,
-      "producto": "Plátano tabasco kg",
+      "producto": "Guamúchil",
       "precio": 24.3,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -17150,7 +17144,7 @@ window.MG_DATA = {
     },
     {
       "localId": 244,
-      "producto": "Papaya maradol kg",
+      "producto": "Fresa",
       "precio": 25.0,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
@@ -17158,7 +17152,7 @@ window.MG_DATA = {
     },
     {
       "localId": 245,
-      "producto": "Bistec res",
+      "producto": "Aguayón",
       "precio": 143,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -17166,7 +17160,7 @@ window.MG_DATA = {
     },
     {
       "localId": 245,
-      "producto": "Molida res",
+      "producto": "Diezmillo",
       "precio": 78.3,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -17174,7 +17168,7 @@ window.MG_DATA = {
     },
     {
       "localId": 245,
-      "producto": "Costilla res",
+      "producto": "T-bone",
       "precio": 97.4,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -17182,7 +17176,7 @@ window.MG_DATA = {
     },
     {
       "localId": 245,
-      "producto": "Arrachera",
+      "producto": "Cueritos de cerdo",
       "precio": 181,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -17190,7 +17184,7 @@ window.MG_DATA = {
     },
     {
       "localId": 245,
-      "producto": "Cortadillo",
+      "producto": "Suadero",
       "precio": 117,
       "categoria": "Carnicería",
       "unidad": "kg",
@@ -17198,7 +17192,7 @@ window.MG_DATA = {
     },
     {
       "localId": 246,
-      "producto": "Concha vainilla",
+      "producto": "Suaves de malvavisco",
       "precio": 12.4,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -17206,7 +17200,7 @@ window.MG_DATA = {
     },
     {
       "localId": 246,
-      "producto": "Concha chocolate",
+      "producto": "Empanada de cajeta",
       "precio": 14.6,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -17214,7 +17208,7 @@ window.MG_DATA = {
     },
     {
       "localId": 246,
-      "producto": "Oreja",
+      "producto": "Buñuelos",
       "precio": 14.4,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -17222,7 +17216,7 @@ window.MG_DATA = {
     },
     {
       "localId": 246,
-      "producto": "Cuerno",
+      "producto": "Pan de feria",
       "precio": 16.0,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -17230,7 +17224,7 @@ window.MG_DATA = {
     },
     {
       "localId": 246,
-      "producto": "Polvorón",
+      "producto": "Pinturitas de manteca",
       "precio": 13.3,
       "categoria": "Panadería",
       "unidad": "pieza",
@@ -17238,7 +17232,7 @@ window.MG_DATA = {
     },
     {
       "localId": 247,
-      "producto": "Huachinango",
+      "producto": "Cangrejo",
       "precio": 137,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -17246,7 +17240,7 @@ window.MG_DATA = {
     },
     {
       "localId": 247,
-      "producto": "Robalo filete",
+      "producto": "Marlín",
       "precio": 191,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -17254,7 +17248,7 @@ window.MG_DATA = {
     },
     {
       "localId": 247,
-      "producto": "Sierra fresca",
+      "producto": "Salsa negra marisquera",
       "precio": 88.2,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -17262,7 +17256,7 @@ window.MG_DATA = {
     },
     {
       "localId": 247,
-      "producto": "Mojarra",
+      "producto": "Bagre",
       "precio": 73.9,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -17270,7 +17264,7 @@ window.MG_DATA = {
     },
     {
       "localId": 247,
-      "producto": "Pargo",
+      "producto": "Almeja",
       "precio": 147,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
@@ -17278,7 +17272,7 @@ window.MG_DATA = {
     },
     {
       "localId": 248,
-      "producto": "Pollo entero kg",
+      "producto": "Pechuga deshuesada",
       "precio": 51.9,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -17286,7 +17280,7 @@ window.MG_DATA = {
     },
     {
       "localId": 248,
-      "producto": "Pechuga kg",
+      "producto": "Pechuga ahumada",
       "precio": 72.2,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -17294,7 +17288,7 @@ window.MG_DATA = {
     },
     {
       "localId": 248,
-      "producto": "Muslo kg",
+      "producto": "Pollo rostizado",
       "precio": 49.4,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -17302,7 +17296,7 @@ window.MG_DATA = {
     },
     {
       "localId": 248,
-      "producto": "Ala kg",
+      "producto": "Pollo a la parrilla",
       "precio": 37.2,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -17310,7 +17304,7 @@ window.MG_DATA = {
     },
     {
       "localId": 248,
-      "producto": "Pollo deshuesado kg",
+      "producto": "Medio pollo rostizado",
       "precio": 75.9,
       "categoria": "Pollería",
       "unidad": "kg",
@@ -17318,7 +17312,7 @@ window.MG_DATA = {
     },
     {
       "localId": 249,
-      "producto": "Leche Lala entera 1L",
+      "producto": "Mantequilla con ajo",
       "precio": 24.4,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -17326,7 +17320,7 @@ window.MG_DATA = {
     },
     {
       "localId": 249,
-      "producto": "Leche deslactosada 1L",
+      "producto": "Queso panela",
       "precio": 27.1,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -17334,7 +17328,7 @@ window.MG_DATA = {
     },
     {
       "localId": 249,
-      "producto": "Leche Alpura light 1L",
+      "producto": "Leche bronca",
       "precio": 24.0,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -17342,7 +17336,7 @@ window.MG_DATA = {
     },
     {
       "localId": 249,
-      "producto": "Leche coco 1L",
+      "producto": "Crema batida",
       "precio": 31.4,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -17350,7 +17344,7 @@ window.MG_DATA = {
     },
     {
       "localId": 249,
-      "producto": "Leche evaporada",
+      "producto": "Jocoque con chile piquín",
       "precio": 18.1,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
@@ -17358,7 +17352,7 @@ window.MG_DATA = {
     },
     {
       "localId": 250,
-      "producto": "Café olla taza",
+      "producto": "Capuchino de caramelo",
       "precio": 16.3,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -17366,7 +17360,7 @@ window.MG_DATA = {
     },
     {
       "localId": 250,
-      "producto": "Café americano",
+      "producto": "Café irlandés",
       "precio": 23.0,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -17374,7 +17368,7 @@ window.MG_DATA = {
     },
     {
       "localId": 250,
-      "producto": "Café leche",
+      "producto": "Café con canela",
       "precio": 26.5,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -17382,7 +17376,7 @@ window.MG_DATA = {
     },
     {
       "localId": 250,
-      "producto": "Café capuchino",
+      "producto": "Café molido",
       "precio": 33.5,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
@@ -17390,7 +17384,7 @@ window.MG_DATA = {
     },
     {
       "localId": 250,
-      "producto": "Café mocha",
+      "producto": "Champurrado",
       "precio": 39.9,
       "categoria": "Café y Atoles",
       "unidad": "pieza",

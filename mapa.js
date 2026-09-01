@@ -103,12 +103,43 @@
     }
   }
 
+  function normalize(s) {
+    return String(s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, " ").trim();
+  }
+
+  // Índice de productos por local (se construye una sola vez a partir de MG_CATALOGO).
+  let productoIndex = null;
+  function getProductoIndex() {
+    if (productoIndex) return productoIndex;
+    productoIndex = {};
+    const porLocal = global.MG_CATALOGO && global.MG_CATALOGO.porLocal;
+    if (porLocal) {
+      Object.keys(porLocal).forEach((id) => {
+        const nombres = [];
+        (porLocal[id].areas || []).forEach((a) => {
+          (a.productos || []).forEach((p) => {
+            if (p && p.nombre) nombres.push(normalize(p.nombre));
+          });
+        });
+        productoIndex[String(id)] = nombres.join(" | ");
+      });
+    }
+    return productoIndex;
+  }
+
+  function tieneProducto(localId, q) {
+    const blob = getProductoIndex()[String(localId)];
+    return !!blob && blob.indexOf(q) !== -1;
+  }
+
   function matchesMapFilter(local) {
     if (mapFilterGrupo && local.grupoColor !== mapFilterGrupo) return false;
     if (mapSearch) {
-      const q = mapSearch.toLowerCase();
-      const hay = [local.nombre, local.categoria, local.giro, String(local.id)].join(" ").toLowerCase();
-      if (!hay.includes(q)) return false;
+      const q = normalize(mapSearch);
+      const hay = normalize([local.nombre, local.categoria, local.giro, String(local.id)].join(" "));
+      if (hay.indexOf(q) !== -1) return true;
+      if (tieneProducto(local.id, q)) return true;
+      return false;
     }
     return true;
   }
