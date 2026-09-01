@@ -1,14 +1,14 @@
 /* ============================================================
-   DIAGNÓSTICO ANDROID — herramienta TEMPORAL
+   DIAGNÓSTICO ANDROID v2 — herramienta TEMPORAL
    CÓMO ELIMINARLA: borrar este archivo y quitar la línea
    <script src="diagnostico-android.js"></script> en index.html
-   NO forma parte de la app en producción.
    ============================================================ */
 (function () {
   "use strict";
 
   function $(s) { return document.querySelector(s); }
   function cs(e, p) { try { return getComputedStyle(e)[p]; } catch (_) { return "?"; } }
+  function rnd(n) { return Math.round(n * 10) / 10; }
 
   function desc(e) {
     if (!e) return "";
@@ -17,8 +17,6 @@
     try { cls = (e.className && typeof e.className === "string") ? "." + e.className.trim().split(/\s+/).join(".") : ""; } catch (_) {}
     return (e.tagName || "").toLowerCase() + (id || cls);
   }
-
-  function rnd(n) { return Math.round(n * 10) / 10; }
 
   function rutaDOM(el) {
     var a = [];
@@ -31,40 +29,93 @@
     return a.reverse().join(" > ");
   }
 
-  function rectBlock(sel) {
-    var el = $(sel);
-    if (!el) return "  [" + sel + "] NO PRESENTE\n";
-    var r = el.getBoundingClientRect();
-    return "  " + sel + "\n" +
-      "    width=" + rnd(r.width) + " height=" + rnd(r.height) +
-      " left=" + rnd(r.left) + " right=" + rnd(r.right) +
-      " top=" + rnd(r.top) + " bottom=" + rnd(r.bottom) + "\n";
-  }
-
-  function computedBlock(el) {
-    var p = ["width","maxWidth","minWidth","height","maxHeight","paddingLeft","paddingRight","marginLeft","marginRight","boxSizing","position","display","flex","flexShrink","flexGrow","gridTemplateColumns","transform","overflow","overflowX","whiteSpace","wordBreak"];
-    return p.map(function (k) { return k + "=" + cs(el, k); }).join("  |  ");
-  }
-
-  function viewportData() {
+  function fullViewport() {
     var vv = window.visualViewport || {};
-    return {
-      innerWidth: window.innerWidth,
-      innerHeight: window.innerHeight,
-      docClientW: document.documentElement.clientWidth,
-      docClientH: document.documentElement.clientHeight,
-      bodyClientW: document.body.clientWidth,
-      bodyClientH: document.body.clientHeight,
-      docScrollW: document.documentElement.scrollWidth,
-      docScrollH: document.documentElement.scrollHeight,
-      bodyScrollW: document.body.scrollWidth,
-      bodyScrollH: document.body.scrollHeight,
-      vvWidth: vv.width != null ? vv.width : null,
-      vvHeight: vv.height != null ? vv.height : null,
-      vvOffsetLeft: vv.offsetLeft != null ? vv.offsetLeft : null,
-      vvOffsetTop: vv.offsetTop != null ? vv.offsetTop : null,
-      vvScale: vv.scale != null ? vv.scale : null
-    };
+    var de = document.documentElement, b = document.body;
+    var deR = de.getBoundingClientRect(), bR = b.getBoundingClientRect();
+    var L = [];
+    L.push("  window.innerWidth=" + window.innerWidth + "  innerHeight=" + window.innerHeight);
+    L.push("  documentElement.clientWidth=" + de.clientWidth + "  clientHeight=" + de.clientHeight);
+    L.push("  body.clientWidth=" + b.clientWidth + "  clientHeight=" + b.clientHeight);
+    L.push("  documentElement.scrollWidth=" + de.scrollWidth + "  scrollHeight=" + de.scrollHeight);
+    L.push("  body.scrollWidth=" + b.scrollWidth + "  scrollHeight=" + b.scrollHeight);
+    L.push("  visualViewport: width=" + vv.width + " height=" + vv.height + " offsetLeft=" + vv.offsetLeft + " offsetTop=" + vv.offsetTop + " scale=" + vv.scale);
+    L.push("  devicePixelRatio=" + window.devicePixelRatio);
+    L.push("  screen.width=" + screen.width + " screen.height=" + screen.height + " availWidth=" + screen.availWidth + " availHeight=" + screen.availHeight);
+    L.push("  documentElement rect w=" + rnd(deR.width) + " left=" + rnd(deR.left) + " right=" + rnd(deR.right));
+    L.push("  body rect w=" + rnd(bR.width) + " left=" + rnd(bR.left) + " right=" + rnd(bR.right));
+    return L;
+  }
+
+  function isVisible(e) {
+    return cs(e, "display") !== "none" && cs(e, "visibility") !== "hidden" && parseFloat(cs(e, "opacity")) > 0.01;
+  }
+
+  function detectModales() {
+    var cands = [];
+    var all = document.querySelectorAll("body *");
+    for (var i = 0; i < all.length; i++) {
+      var e = all[i];
+      var pos = cs(e, "position");
+      if (pos !== "fixed" && pos !== "absolute") continue;
+      var r = e.getBoundingClientRect();
+      if (r.width < 40 || r.height < 40) continue; // descartar botones/iconos pequeños
+      if (!isVisible(e)) continue;
+      cands.push({ el: e, r: r, area: r.width * r.height, pos: pos });
+    }
+    cands.sort(function (a, b) { return b.area - a.area; });
+    return cands.slice(0, 15);
+  }
+
+  function modalDetail(o) {
+    var e = o.el;
+    var L = [];
+    L.push("  " + desc(e) + "  [" + o.pos + "]  area=" + rnd(o.area));
+    L.push("    rect w=" + rnd(o.r.width) + " h=" + rnd(o.r.height) + " left=" + rnd(o.r.left) + " right=" + rnd(o.r.right) + " top=" + rnd(o.r.top) + " bottom=" + rnd(o.r.bottom));
+    L.push("    position=" + cs(e, "position") + " display=" + cs(e, "display") + " visibility=" + cs(e, "visibility") + " opacity=" + cs(e, "opacity") + " z-index=" + cs(e, "zIndex"));
+    L.push("    transform=" + cs(e, "transform") + "  transform-origin=" + cs(e, "transformOrigin"));
+    L.push("    overflow=" + cs(e, "overflow") + "  overflow-x=" + cs(e, "overflowX") + "  overflow-y=" + cs(e, "overflowY"));
+    L.push("    width=" + cs(e, "width") + " max-width=" + cs(e, "maxWidth") + " min-width=" + cs(e, "minWidth"));
+    L.push("    ruta: " + rutaDOM(e));
+    return L.join("\n");
+  }
+
+  function investigarMapa() {
+    var sels = ["#mapaSvgWrap", "#mapaViewport", "#mapa", ".section-inner", ".reveal-item", ".mapa-svg-wrap", ".mapa-svg"];
+    var L = [];
+    L.push("---- MAPA ----");
+    sels.forEach(function (sel) {
+      var els = document.querySelectorAll(sel);
+      L.push("  " + sel + "  (encontrados: " + els.length + ")");
+      els.forEach(function (e) {
+        var r = e.getBoundingClientRect();
+        L.push("    " + desc(e) + "  rect w=" + rnd(r.width) + " left=" + rnd(r.left) + " right=" + rnd(r.right));
+        L.push("      position=" + cs(e, "position") + " display=" + cs(e, "display") +
+          "  overflow=" + cs(e, "overflow") + " overflow-x=" + cs(e, "overflowX") + " overflow-y=" + cs(e, "overflowY"));
+        L.push("      transform=" + cs(e, "transform") + "  filter=" + cs(e, "filter") + "  perspective=" + cs(e, "perspective") +
+          "  contain=" + cs(e, "contain") + "  will-change=" + cs(e, "willChange") + "  z-index=" + cs(e, "zIndex"));
+      });
+    });
+    return L.join("\n");
+  }
+
+  function ancestrosContainingBlock() {
+    var L = [];
+    L.push("---- ANCESTROS DEL MODAL PRINCIPAL ----");
+    var top = detectModales()[0];
+    if (!top) { L.push("  (no hay modal visible)"); return L.join("\n"); }
+    var el = top.el;
+    var n = el;
+    while (n && n !== document.documentElement) {
+      var t = cs(n, "transform"), f = cs(n, "filter"), p = cs(n, "perspective"), c = cs(n, "contain"), w = cs(n, "willChange"), o = cs(n, "overflow");
+      var flag = "";
+      if ((t && t !== "none") || (f && f !== "none") || (p && p !== "none") || (c && c !== "none") || (w && w !== "auto") || (o !== "visible" && o !== "")) {
+        flag = "  <<< CREA CONTEXT (containing block / overflow)";
+      }
+      L.push("  " + desc(n) + "  pos=" + cs(n, "position") + "  transform=" + t + "  filter=" + f + "  perspective=" + p + "  contain=" + c + "  will-change=" + w + "  overflow=" + o + flag);
+      n = n.parentElement;
+    }
+    return L.join("\n");
   }
 
   function scanOverflow(limit) {
@@ -75,6 +126,7 @@
       var e = all[i];
       var t = (e.tagName || "").toLowerCase();
       if (t === "script" || t === "style" || t === "link" || t === "meta" || t === "noscript") continue;
+      if (!isVisible(e)) continue;
       var r = e.getBoundingClientRect();
       if (r.width === 0 && r.height === 0) continue;
       var exceso = Math.max(r.right - vw, r.width - vw, -r.left);
@@ -85,216 +137,91 @@
     return list.slice(0, limit || 20);
   }
 
-  function headerReport() {
-    var v = viewportData();
-    var L = [];
-    L.push("========================================");
-    L.push("DIAGNÓSTICO OVERFLOW ANDROID");
-    L.push("========================================");
-    L.push("");
-    L.push("DISPOSITIVO / NAVEGADOR");
-    L.push("  UserAgent: " + navigator.userAgent);
-    L.push("");
-    L.push("----------------------------------------");
-    L.push("VIEWPORT");
-    L.push("----------------------------------------");
-    L.push("  innerWidth=" + v.innerWidth + "  innerHeight=" + v.innerHeight);
-    L.push("  documentElement.clientWidth=" + v.docClientW + "  clientHeight=" + v.docClientH);
-    L.push("  body.clientWidth=" + v.bodyClientW + "  clientHeight=" + v.bodyClientH);
-    L.push("  visualViewport.width=" + v.vvWidth + "  height=" + v.vvHeight + "  offsetLeft=" + v.vvOffsetLeft + "  offsetTop=" + v.vvOffsetTop + "  scale=" + v.vvScale);
-    L.push("");
-    L.push("----------------------------------------");
-    L.push("DOCUMENTO");
-    L.push("----------------------------------------");
-    L.push("  documentElement.scrollWidth=" + v.docScrollW + "  scrollHeight=" + v.docScrollH);
-    L.push("  body.scrollWidth=" + v.bodyScrollW + "  scrollHeight=" + v.bodyScrollH);
-    var global = (v.docScrollW > v.innerWidth + 1 || v.bodyScrollW > v.innerWidth + 1);
-    L.push("  OVERFLOW GLOBAL: " + (global ? "SÍ" : "NO"));
-    L.push("");
-    return { L: L, v: v, global: global };
-  }
-
-  function fichaBlock() {
-    var L = [];
-    L.push("----------------------------------------");
-    L.push("FICHA");
-    L.push("----------------------------------------");
-    L.push("  .modal-overlay-ficha PRESENTE=" + !!$(".modal-overlay-ficha"));
-    L.push(rectBlock(".modal-overlay-ficha"));
-    L.push(rectBlock(".modal-ficha"));
-    return L;
-  }
-
-  function catalogoBlock() {
-    var L = [];
-    L.push("----------------------------------------");
-    L.push("CATÁLOGO");
-    L.push("----------------------------------------");
-    L.push("  .cat-overlay PRESENTE=" + !!$(".cat-overlay"));
-    L.push(rectBlock(".cat-overlay"));
-    L.push(rectBlock(".cat-panel"));
-    return L;
-  }
-
-  function offendersBlock(v) {
-    var L = [];
-    L.push("----------------------------------------");
-    L.push("ELEMENTOS PROBLEMÁTICOS (top 20)");
-    L.push("----------------------------------------");
-    var list = scanOverflow(20);
-    if (!list.length) { L.push("  (ninguno)"); return L; }
-    list.forEach(function (o, i) {
-      L.push((i + 1) + ". " + desc(o.el));
-      L.push("   TAG=" + (o.el.tagName || "").toLowerCase() + "  ID=" + (o.el.id || "-") + "  CLASS=" + ((typeof o.el.className === "string") ? o.el.className : "-"));
-      L.push("   width=" + rnd(o.r.width) + " left=" + rnd(o.r.left) + " right=" + rnd(o.r.right) + "  exceso=" + rnd(o.exceso));
-      L.push("   Ruta DOM: " + rutaDOM(o.el));
-    });
-    L.push("");
-    L.push("CSS COMPUTADO (top 5)");
-    list.slice(0, 5).forEach(function (o, i) {
-      L.push("  [" + (i + 1) + "] " + desc(o.el));
-      L.push("     " + computedBlock(o.el));
-    });
-    return L;
-  }
-
-  function conclusion(v, list) {
-    var L = [];
-    L.push("----------------------------------------");
-    L.push("CONCLUSIÓN");
-    L.push("----------------------------------------");
-    var caso = "";
-    var conf = "";
-    if (v.docScrollW > v.innerWidth + 1 || v.bodyScrollW > v.innerWidth + 1) {
-      caso = "A (DOCUMENTO más ancho que el viewport)";
-      conf = "ALTO";
-    } else if (list.length) {
-      var top = list[0].el;
-      caso = "C (HIJO interno excede) / B (modal excede)";
-      var st = { transform: cs(top, "transform"), flexShrink: cs(top, "flexShrink"), minWidth: cs(top, "minWidth"), display: cs(top, "display"), position: cs(top, "position") };
-      if (st.transform && st.transform !== "none") caso = "D (TRANSFORM)";
-      else if (st.flexShrink === "0") caso = "E (FLEXBOX: flex-shrink 0)";
-      else if (st.minWidth && st.minWidth !== "0px" && st.minWidth !== "auto") caso = "B/C + min-width fijo";
-      else caso = "C (HIJO DEL MODAL, contenido/estructura)";
-      conf = "MEDIO";
-    } else {
-      caso = "CAUSA NO DETERMINADA (sin overflow medido en este instante)";
-      conf = "BAJO";
-    }
-    L.push("  CASO: " + caso);
-    L.push("  ELEMENTO MÁS PROBABLE: " + (list.length ? desc(list[0].el) : "-"));
-    L.push("  CAUSA CSS/DOM MÁS PROBABLE: ver 'ELEMENTOS PROBLEMÁTICOS' y 'CSS COMPUTADO' arriba");
-    L.push("  NIVEL DE CONFIANZA: " + conf);
-    L.push("");
-    return L;
-  }
-
   function buildGeneral() {
-    var h = headerReport();
-    var list = scanOverflow(20);
-    var L = h.L;
-    L = L.concat(fichaBlock(), catalogoBlock(), offendersBlock(h.v), conclusion(h.v, list));
-    return L.join("\n");
-  }
-
-  function buildFicha() {
-    var v = viewportData();
     var L = [];
-    L.push("===== MEDICIÓN FICHA =====");
-    L.push("viewport.innerWidth=" + v.innerWidth + "  scrollWidth=" + v.docScrollW);
+    L.push("========================================");
+    L.push("DIAGNÓSTICO ANDROID v2 — ESTADO ACTUAL");
+    L.push("========================================");
+    L.push("UserAgent: " + navigator.userAgent);
     L.push("");
-    L.push(rectBlock(".modal-overlay-ficha"));
-    L.push(rectBlock(".modal-ficha"));
+    L.push("---- VIEWPORT (layout vs visual) ----");
+    L = L.concat(fullViewport());
     L.push("");
-    var modal = $(".modal-ficha");
-    if (modal) {
-      var r = modal.getBoundingClientRect();
-      L.push("Hijos de .modal-ficha que exceden el contenedor (" + rnd(r.width) + "px):");
-      var found = false;
-      modal.querySelectorAll("*").forEach(function (k) {
-        var kr = k.getBoundingClientRect();
-        if (kr.width > r.width + 1 || kr.right > r.right + 1 || kr.left < r.left - 1) {
-          found = true;
-          L.push("  └ " + desc(k) + "  w=" + rnd(kr.width) + " left=" + rnd(kr.left) + " right=" + rnd(kr.right));
-          L.push("      " + computedBlock(k));
-        }
-      });
-      if (!found) L.push("  (ningún hijo excede)");
-      L.push("");
-      L.push("CSS .modal-overlay-ficha: " + computedBlock($(".modal-overlay-ficha")));
-      L.push("CSS .modal-ficha: " + computedBlock(modal));
-    }
+    var global = (document.documentElement.scrollWidth > window.innerWidth + 1 || document.body.scrollWidth > window.innerWidth + 1);
+    L.push("OVERFLOW GLOBAL (scrollWidth > innerWidth): " + (global ? "SÍ" : "NO"));
+    L.push("LAYOUT vs VISUAL: innerWidth=" + window.innerWidth + "  visualViewport.width=" + (window.visualViewport ? window.visualViewport.width : "?"));
+    L.push("");
+    L.push("---- MODALES DETECTADOS (fixed/absolute visibles) ----");
+    var mods = detectModales();
+    if (!mods.length) L.push("  (ninguno)");
+    else mods.forEach(function (o) { L.push(modalDetail(o)); });
+    L.push("");
+    L.push("---- MAPA ----");
+    L.push(investigarMapa());
+    L.push("");
+    L.push("---- ANCESTROS ----");
+    L.push(ancestrosContainingBlock());
+    L.push("");
+    L.push("---- OVERFLOW (top 15) ----");
+    var off = scanOverflow(15);
+    if (!off.length) L.push("  (ninguno)");
+    else off.forEach(function (o, i) {
+      L.push("  [" + (i + 1) + "] " + desc(o.el) + "  w=" + rnd(o.r.width) + " left=" + rnd(o.r.left) + " right=" + rnd(o.r.right) + " exceso=" + rnd(o.exceso));
+    });
     return L.join("\n");
   }
 
-  function buildCatalogo() {
-    var v = viewportData();
+  function buildViewports() {
     var L = [];
-    L.push("===== MEDICIÓN CATÁLOGO =====");
-    L.push("viewport.innerWidth=" + v.innerWidth + "  scrollWidth=" + v.docScrollW);
+    L.push("===== COMPARATIVA VIEWPORT (guarda esto en los 3 estados) =====");
+    L = L.concat(fullViewport());
     L.push("");
-    L.push(rectBlock(".cat-overlay"));
-    L.push(rectBlock(".cat-panel"));
-    L.push("");
-    var panel = $(".cat-panel");
-    if (panel) {
-      var r = panel.getBoundingClientRect();
-      L.push("Hijos de .cat-panel que exceden el contenedor (" + rnd(r.width) + "px):");
-      var found = false;
-      panel.querySelectorAll("*").forEach(function (k) {
-        var kr = k.getBoundingClientRect();
-        if (kr.width > r.width + 1 || kr.right > r.right + 1 || kr.left < r.left - 1) {
-          found = true;
-          L.push("  └ " + desc(k) + "  w=" + rnd(kr.width) + " left=" + rnd(kr.left) + " right=" + rnd(kr.right));
-          L.push("      " + computedBlock(k));
-        }
-      });
-      if (!found) L.push("  (ningún hijo excede)");
-      L.push("");
-      L.push("CSS .cat-overlay: " + computedBlock($(".cat-overlay")));
-      L.push("CSS .cat-panel: " + computedBlock(panel));
-    }
+    L.push("Diferencias clave a observar entre estados: innerWidth vs visualViewport.width vs clientWidth");
     return L.join("\n");
-  }
-
-  function stats(arr) {
-    var nums = arr.filter(function (x) { return x != null; });
-    if (!nums.length) return "min=- max=- avg=-";
-    var min = Math.min.apply(null, nums), max = Math.max.apply(null, nums);
-    var sum = nums.reduce(function (a, b) { return a + b; }, 0);
-    var changes = 0;
-    for (var i = 1; i < arr.length; i++) { if (arr[i] !== arr[i - 1]) changes++; }
-    return "min=" + rnd(min) + " max=" + rnd(max) + " avg=" + rnd(sum / nums.length) + " cambios=" + changes;
   }
 
   function monitorear() {
     var dur = 5000, step = 100;
-    var vw = [], mw = [], ml = [], mr = [];
-    var resizeCount = 0, vvResize = 0, vvScroll = 0;
-    var isCat = !!$(".cat-overlay");
-    var isFicha = !!$(".modal-overlay-ficha");
-    var target = isCat ? ".cat-panel" : (isFicha ? ".modal-ficha" : null);
     var muestras = 0;
+    var series = { iw: [], dcw: [], vvw: [], vvh: [], vvL: [], vvT: [], vvScale: [], mw: [], ml: [], mr: [] };
+    var resizeCount = 0, vvResize = 0, vvScroll = 0;
+    var top = detectModales()[0];
+    var target = top ? top.el : null;
 
     function sample() {
-      vw.push(window.innerWidth);
+      var vv = window.visualViewport || {};
+      series.iw.push(window.innerWidth);
+      series.dcw.push(document.documentElement.clientWidth);
+      series.vvw.push(vv.width);
+      series.vvh.push(vv.height);
+      series.vvL.push(vv.offsetLeft);
+      series.vvT.push(vv.offsetTop);
+      series.vvScale.push(vv.scale);
       if (target) {
-        var el = $(target);
-        var r = el ? el.getBoundingClientRect() : null;
-        mw.push(r ? r.width : null);
-        ml.push(r ? r.left : null);
-        mr.push(r ? r.right : null);
+        var r = target.getBoundingClientRect();
+        series.mw.push(r.width);
+        series.ml.push(r.left);
+        series.mr.push(r.right);
       }
       muestras++;
     }
 
-    var onResize = function () { resizeCount++; };
-    var onVvResize = function () { vvResize++; };
-    var onVvScroll = function () { vvScroll++; };
+    function onResize() { resizeCount++; }
+    function onVvResize() { vvResize++; }
+    function onVvScroll() { vvScroll++; }
     window.addEventListener("resize", onResize);
     if (window.visualViewport) {
       window.visualViewport.addEventListener("resize", onVvResize);
       window.visualViewport.addEventListener("scroll", onVvScroll);
+    }
+
+    function stats(arr) {
+      var nums = arr.filter(function (x) { return x != null; });
+      if (!nums.length) return "min=- max=-";
+      var min = Math.min.apply(null, nums), max = Math.max.apply(null, nums);
+      var changes = 0;
+      for (var i = 1; i < arr.length; i++) if (arr[i] !== arr[i - 1]) changes++;
+      return "min=" + rnd(min) + " max=" + rnd(max) + " cambios=" + changes;
     }
 
     var t0 = Date.now();
@@ -309,25 +236,27 @@
           window.visualViewport.removeEventListener("scroll", onVvScroll);
         }
         var L = [];
-        L.push("----------------------------------------");
-        L.push("MONITOREO (5 segundos)");
-        L.push("----------------------------------------");
-        L.push("  objetivo: " + (target || "(ningún modal abierto)") + "  |  ficha=" + isFicha + "  catálogo=" + isCat);
-        L.push("  muestras=" + muestras);
-        L.push("  viewport width: " + stats(vw));
+        L.push("===== MONITOREO 5s =====");
+        L.push("objetivo: " + (target ? desc(target) : "(ninguno)"));
+        L.push("muestras=" + muestras);
+        L.push("innerWidth: " + stats(series.iw));
+        L.push("documentElement.clientWidth: " + stats(series.dcw));
+        L.push("visualViewport.width: " + stats(series.vvw));
+        L.push("visualViewport.height: " + stats(series.vvh));
+        L.push("visualViewport.offsetLeft: " + stats(series.vvL));
+        L.push("visualViewport.offsetTop: " + stats(series.vvT));
+        L.push("visualViewport.scale: " + stats(series.vvScale));
         if (target) {
-          L.push("  modal width: " + stats(mw));
-          L.push("  modal left: " + stats(ml));
-          L.push("  modal right: " + stats(mr));
+          L.push("modal width: " + stats(series.mw));
+          L.push("modal left: " + stats(series.ml));
+          L.push("modal right: " + stats(series.mr));
         }
-        L.push("  resize events: " + resizeCount);
-        L.push("  visualViewport resize events: " + vvResize);
-        L.push("  visualViewport scroll events: " + vvScroll);
+        L.push("resize events: " + resizeCount + "  |  vv resize: " + vvResize + "  |  vv scroll: " + vvScroll);
         L.push("");
         mostrar(ultimo + "\n" + L.join("\n"));
       }
     }, step);
-    mostrar("Monitoreando 5 s... (espera)");
+    mostrar("Monitoreando 5s...");
   }
 
   var ultimo = "";
@@ -339,23 +268,18 @@
   }
 
   function copiar() {
-    var txt = ultimo || "Sin diagnóstico todavía. Pulsa 'Medir ahora'.";
+    var txt = ultimo || "Sin diagnóstico. Pulsa 'Medir ahora'.";
     function fallback() {
       var ta = document.createElement("textarea");
-      ta.value = txt;
-      ta.style.position = "fixed";
-      ta.style.left = "-9999px";
-      document.body.appendChild(ta);
-      ta.select();
-      try { document.execCommand("copy"); alert("Diagnóstico copiado (fallback)."); }
-      catch (e) { alert("No se pudo copiar automáticamente. Selecciona el texto del panel manualmente."); }
+      ta.value = txt; ta.style.position = "fixed"; ta.style.left = "-9999px";
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); alert("Copiado (fallback)."); }
+      catch (e) { alert("No se pudo copiar. Selecciona el texto del panel manualmente."); }
       document.body.removeChild(ta);
     }
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(txt).then(function () { alert("Diagnóstico copiado."); }, fallback);
-    } else {
-      fallback();
-    }
+    } else fallback();
   }
 
   function buildUI() {
@@ -368,38 +292,33 @@
     var panel = document.createElement("div");
     panel.setAttribute("style", "position:fixed;inset:0;z-index:2147483100;background:rgba(0,0,0,.55);display:none;align-items:center;justify-content:center;padding:12px");
     panel.innerHTML =
-      '<div style="background:#0b0b0f;color:#e8e8e8;border-radius:14px;width:min(560px,100%);max-height:92vh;display:flex;flex-direction:column;overflow:hidden;font:13px/1.45 sans-serif">' +
+      '<div style="background:#0b0b0f;color:#e8e8e8;border-radius:14px;width:min(600px,100%);max-height:92vh;display:flex;flex-direction:column;overflow:hidden;font:13px/1.45 sans-serif">' +
       '  <div style="display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid #222">' +
-      '    <b style="color:#7CFC9A">Diagnóstico Android (temporal)</b>' +
+      '    <b style="color:#7CFC9A">Diagnóstico Android v2 (temporal)</b>' +
       '    <button data-act="cerrar" style="background:#333;color:#fff;border:none;border-radius:8px;padding:6px 12px;cursor:pointer">Cerrar</button>' +
       '  </div>' +
       '  <div style="display:flex;flex-wrap:wrap;gap:6px;padding:10px 16px;border-bottom:1px solid #222">' +
       '    <button data-act="general" style="background:#6B1E3D;color:#fff;border:none;border-radius:8px;padding:8px 12px;cursor:pointer">Medir ahora</button>' +
-      '    <button data-act="ficha" style="background:#333;color:#fff;border:none;border-radius:8px;padding:8px 12px;cursor:pointer">Medir FICHA</button>' +
-      '    <button data-act="catalogo" style="background:#333;color:#fff;border:none;border-radius:8px;padding:8px 12px;cursor:pointer">Medir CATÁLOGO</button>' +
+      '    <button data-act="viewports" style="background:#333;color:#fff;border:none;border-radius:8px;padding:8px 12px;cursor:pointer">Viewport completo</button>' +
       '    <button data-act="monitor" style="background:#333;color:#fff;border:none;border-radius:8px;padding:8px 12px;cursor:pointer">Monitorear 5s</button>' +
       '    <button data-act="copiar" style="background:#C9A227;color:#111;border:none;border-radius:8px;padding:8px 12px;cursor:pointer;font-weight:600">Copiar diagnóstico</button>' +
       '  </div>' +
-      '  <pre id="diag-out" style="margin:0;padding:14px 16px;overflow:auto;white-space:pre-wrap;word-break:break-word;flex:1;color:#7CFC9A;background:#0b0b0f;min-height:40vh">Pulsa "Medir ahora" para generar el diagnóstico.</pre>' +
+      '  <pre id="diag-out" style="margin:0;padding:14px 16px;overflow:auto;white-space:pre-wrap;word-break:break-word;flex:1;color:#7CFC9A;background:#0b0b0f;min-height:40vh">Pulsa "Medir ahora".\n\nConsejo: ejecuta "Medir ahora" en 3 momentos: página normal, ficha abierta y CATÁLOGO abierto, y copia los 3 resultados.</pre>' +
       '</div>';
 
     panel.addEventListener("click", function (e) {
       var b = e.target.closest("[data-act]");
       if (!b) return;
       var act = b.getAttribute("data-act");
-      if (act === "cerrar") { panel.style.display = "none"; }
-      else if (act === "general") { mostrar(buildGeneral()); }
-      else if (act === "ficha") { mostrar(buildFicha()); }
-      else if (act === "catalogo") { mostrar(buildCatalogo()); }
-      else if (act === "monitor") { monitorear(); }
-      else if (act === "copiar") { copiar(); }
+      if (act === "cerrar") panel.style.display = "none";
+      else if (act === "general") mostrar(buildGeneral());
+      else if (act === "viewports") mostrar(buildViewports());
+      else if (act === "monitor") monitorear();
+      else if (act === "copiar") copiar();
     });
     document.body.appendChild(panel);
   }
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", buildUI);
-  } else {
-    buildUI();
-  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", buildUI);
+  else buildUI();
 })();
