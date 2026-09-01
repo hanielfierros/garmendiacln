@@ -282,6 +282,52 @@
     } else fallback();
   }
 
+  var pruebaStyle = null;
+
+  function medirCore() {
+    var vv = window.visualViewport || {};
+    return [
+      "innerWidth=" + window.innerWidth,
+      "documentElement.clientWidth=" + document.documentElement.clientWidth,
+      "body.clientWidth=" + document.body.clientWidth,
+      "documentElement.scrollWidth=" + document.documentElement.scrollWidth,
+      "body.scrollWidth=" + document.body.scrollWidth,
+      "visualViewport.width=" + vv.width + "  height=" + vv.height + "  scale=" + vv.scale,
+      "devicePixelRatio=" + window.devicePixelRatio,
+      "screen.width=" + screen.width + "  screen.height=" + screen.height
+    ];
+  }
+
+  function pruebaMapa() {
+    var L = [];
+    L.push("===== PRUEBA CAUSAL: MAPA =====");
+    L.push("-- ANTES --");
+    L = L.concat(medirCore());
+    if (!pruebaStyle) {
+      pruebaStyle = document.createElement("style");
+      pruebaStyle.id = "mg-prueba-mapa";
+      pruebaStyle.textContent = "#mapaSvgWrap{overflow:hidden!important} #mapaViewport{overflow:hidden!important}";
+      document.head.appendChild(pruebaStyle);
+    }
+    setTimeout(function () {
+      L.push("");
+      L.push("-- CON overflow:hidden temporal --");
+      L = L.concat(medirCore());
+      var m = document.querySelector(".modal-ficha") || document.querySelector(".modal-overlay-ficha");
+      if (m) { var r = m.getBoundingClientRect(); L.push("modal: width=" + rnd(r.width) + " left=" + rnd(r.left) + " right=" + rnd(r.right)); }
+      L.push("");
+      L.push("Conclusión: si innerWidth BAJÓ hacia ~411 → MAPA CONFIRMADO. Si NO cambió → MAPA DESCARTADO (el innerWidth inflado viene de otra parte).");
+      L.push("Usa 'Quitar prueba MAPA' para revertir.");
+      mostrar(L.join("\n"));
+    }, 300);
+  }
+
+  function quitarPruebaMapa() {
+    if (pruebaStyle) { pruebaStyle.remove(); pruebaStyle = null; }
+    var L = ["-- DESPUÉS de quitar la prueba --"].concat(medirCore());
+    mostrar(L.join("\n"));
+  }
+
   function buildUI() {
     var btn = document.createElement("button");
     btn.textContent = "🔍 Diagnóstico Android";
@@ -301,6 +347,8 @@
       '    <button data-act="general" style="background:#6B1E3D;color:#fff;border:none;border-radius:8px;padding:8px 12px;cursor:pointer">Medir ahora</button>' +
       '    <button data-act="viewports" style="background:#333;color:#fff;border:none;border-radius:8px;padding:8px 12px;cursor:pointer">Viewport completo</button>' +
       '    <button data-act="monitor" style="background:#333;color:#fff;border:none;border-radius:8px;padding:8px 12px;cursor:pointer">Monitorear 5s</button>' +
+      '    <button data-act="prueba" style="background:#333;color:#fff;border:none;border-radius:8px;padding:8px 12px;cursor:pointer">Prueba MAPA (overflow)</button>' +
+      '    <button data-act="quitar" style="background:#333;color:#fff;border:none;border-radius:8px;padding:8px 12px;cursor:pointer">Quitar prueba MAPA</button>' +
       '    <button data-act="copiar" style="background:#C9A227;color:#111;border:none;border-radius:8px;padding:8px 12px;cursor:pointer;font-weight:600">Copiar diagnóstico</button>' +
       '  </div>' +
       '  <pre id="diag-out" style="margin:0;padding:14px 16px;overflow:auto;white-space:pre-wrap;word-break:break-word;flex:1;color:#7CFC9A;background:#0b0b0f;min-height:40vh">Pulsa "Medir ahora".\n\nConsejo: ejecuta "Medir ahora" en 3 momentos: página normal, ficha abierta y CATÁLOGO abierto, y copia los 3 resultados.</pre>' +
@@ -314,6 +362,8 @@
       else if (act === "general") mostrar(buildGeneral());
       else if (act === "viewports") mostrar(buildViewports());
       else if (act === "monitor") monitorear();
+      else if (act === "prueba") pruebaMapa();
+      else if (act === "quitar") quitarPruebaMapa();
       else if (act === "copiar") copiar();
     });
     document.body.appendChild(panel);
