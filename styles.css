@@ -1533,9 +1533,7 @@ body::after {
 /* 3. Ficha del local — "revista digital" (drawer / bottom sheet) */
 .modal-overlay-ficha {
   justify-content: flex-end; align-items: stretch; padding: 0;
-  background: rgba(20,16,14,.4);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  background: rgba(20,16,14,.55);
 }
 .modal-overlay-ficha .modal-card {
   max-width: 460px; width: 100%;
@@ -1546,9 +1544,7 @@ body::after {
 }
 @keyframes mgDrawerIn { from { transform: translateX(100%); } to { transform: translateX(0); } }
 .modal-ficha {
-  background: rgba(255,255,255,.72);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  background: #fff;
 }
 .ficha-hero-text h3 {
   font-family: "Playfair Display", Georgia, serif;

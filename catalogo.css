@@ -13,6 +13,8 @@
 
 .cat-panel {
   width: min(640px, 100%);
+  max-width: 100%;
+  min-width: 0;
   max-height: min(92vh, 900px);
   background: #fff;
   border-radius: 18px;
