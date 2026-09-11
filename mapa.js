@@ -19,6 +19,7 @@
   let viewportEl = null;
   let localesLayer = null;
   let prodPanelEl = null;
+  let prodOverlayEl = null;
   let prodPanelTitle = null;
   let prodPanelCount = null;
   let prodPanelList = null;
@@ -137,8 +138,54 @@
     return !!blob && blob.indexOf(q) !== -1;
   }
 
+  function isProductPanelOpen() {
+    return !!(prodOverlayEl && !prodOverlayEl.hidden);
+  }
+
+  function lockPageScroll() {
+    document.body.style.overflow = "hidden";
+    document.documentElement.style.overflow = "hidden";
+  }
+
+  function unlockPageScroll() {
+    if (document.getElementById("modal-root")?.firstChild) return;
+    if (document.getElementById("directorio-root")?.firstChild) return;
+    if (document.getElementById("catalogo-root")?.firstChild) return;
+    document.body.style.overflow = "";
+    document.documentElement.style.overflow = "";
+  }
+
+  function pinOverlayToVisualViewport() {
+    if (!prodOverlayEl) return;
+    const vv = window.visualViewport;
+    if (!vv) return;
+    prodOverlayEl.style.top = vv.offsetTop + "px";
+    prodOverlayEl.style.left = vv.offsetLeft + "px";
+    prodOverlayEl.style.width = vv.width + "px";
+    prodOverlayEl.style.height = vv.height + "px";
+    prodOverlayEl.style.right = "auto";
+    prodOverlayEl.style.bottom = "auto";
+  }
+
+  function unpinOverlay() {
+    if (!prodOverlayEl) return;
+    prodOverlayEl.style.top = "";
+    prodOverlayEl.style.left = "";
+    prodOverlayEl.style.width = "";
+    prodOverlayEl.style.height = "";
+    prodOverlayEl.style.right = "";
+    prodOverlayEl.style.bottom = "";
+  }
+
+  function onVisualViewportChange() {
+    if (isProductPanelOpen()) pinOverlayToVisualViewport();
+  }
+
   function hideProductPanel() {
+    if (prodOverlayEl) prodOverlayEl.hidden = true;
     if (prodPanelEl) prodPanelEl.hidden = true;
+    unpinOverlay();
+    unlockPageScroll();
   }
 
   function findLocalesByProducto(q) {
@@ -192,7 +239,10 @@
         ])
       );
     });
+    if (prodOverlayEl) prodOverlayEl.hidden = false;
     prodPanelEl.hidden = false;
+    pinOverlayToVisualViewport();
+    lockPageScroll();
   }
 
   function onMapSearchInput(value) {
@@ -549,13 +599,6 @@
           autocorrect: "off",
           spellcheck: "false",
           oninput: (e) => onMapSearchInput(e.target.value),
-          onfocus: () => {
-            const mapa = document.getElementById("mapa");
-            if (!mapa || window.innerWidth > 560) return;
-            setTimeout(() => {
-              mapa.scrollIntoView({ behavior: "smooth", block: "start" });
-            }, 250);
-          },
         }),
       ]),
       el("div", { className: "mapa-zoom" }, [
@@ -572,12 +615,16 @@
       prodPanelList = el("div", { className: "mapa-prod-list", role: "list" });
       prodPanelEl = el("div", {
         className: "mapa-prod-panel",
+        role: "dialog",
+        "aria-modal": "true",
         onclick: (e) => e.stopPropagation(),
-        onmousedown: (e) => e.stopPropagation(),
-        ontouchstart: (e) => e.stopPropagation(),
       }, [
         el("div", { className: "mapa-prod-head" }, [
-          el("div", { className: "mapa-prod-head-text" }, [prodPanelTitle, prodPanelCount]),
+          el("div", { className: "mapa-prod-head-text" }, [
+            prodPanelTitle,
+            prodPanelCount,
+            el("span", { className: "mapa-prod-hint", text: "Toca un local o cierra para ver el mapa" }),
+          ]),
           el("button", {
             type: "button",
             className: "mapa-prod-close",
@@ -590,13 +637,22 @@
         ]),
         prodPanelList,
       ]);
+      const backdrop = el("div", {
+        className: "mapa-prod-backdrop",
+        onclick: hideProductPanel,
+      });
+      prodOverlayEl = el("div", { className: "mapa-prod-overlay" }, [backdrop, prodPanelEl]);
+      prodOverlayEl.hidden = true;
       prodPanelEl.hidden = true;
-      prodPanelEl.addEventListener("touchmove", (e) => e.stopPropagation(), { passive: true });
-      prodPanelList.addEventListener("touchmove", (e) => e.stopPropagation(), { passive: true });
-      return prodPanelEl;
+      document.body.appendChild(prodOverlayEl);
+      if (window.visualViewport && !window.visualViewport.__mgProdBound) {
+        window.visualViewport.addEventListener("resize", onVisualViewportChange);
+        window.visualViewport.addEventListener("scroll", onVisualViewportChange);
+        window.visualViewport.__mgProdBound = true;
+      }
     }
 
-    viewport.appendChild(buildProductPanel());
+    buildProductPanel();
 
     const leyendaEl = el("div", { className: "mapa-leyenda reveal-item" }, [
       el("button", { type: "button", className: "mapa-leyenda-item active", "data-grupo": "", onclick: () => setMapFilter("") }, [
@@ -735,5 +791,7 @@
     scrollToLocal,
     setMapFilter,
     resetMapView,
+    hideProductPanel,
+    isProductPanelOpen,
   };
 })(window);

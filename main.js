@@ -145,7 +145,14 @@
   function closeModal() {
     const root = $("#modal-root");
     if (root) root.innerHTML = "";
-    if (!$("#directorio-root")?.firstChild) document.body.style.overflow = "";
+    if ($("#directorio-root")?.firstChild) return;
+    if (window.MG_MAPA && window.MG_MAPA.isProductPanelOpen && window.MG_MAPA.isProductPanelOpen()) {
+      document.body.style.overflow = "hidden";
+      document.documentElement.style.overflow = "hidden";
+      return;
+    }
+    document.body.style.overflow = "";
+    document.documentElement.style.overflow = "";
   }
 
   function renderHeader(app) {
@@ -916,6 +923,9 @@
     if (e.key === "Escape") {
       if ($("#modal-root")?.firstChild) closeModal();
       else if ($("#directorio-root")?.firstChild) closeDirectorio();
+      else if (window.MG_MAPA && window.MG_MAPA.isProductPanelOpen && window.MG_MAPA.isProductPanelOpen()) {
+        window.MG_MAPA.hideProductPanel();
+      }
     }
   });
 
