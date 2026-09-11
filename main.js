@@ -306,9 +306,9 @@
           el("div", { className: "historia-copy reveal-item" }, [
             sectionHead("Nuestra historia", null),
             el("p", { text: `Fundado en ${META.fundacion || 1916}, el Mercado Garmendia nació como el principal centro de abasto de Culiacán. Su arquitectura lo convirtió en ícono urbano y patrimonio cultural de Sinaloa.` }),
-            el("p", { text: `Hoy alberga ${META.totalLocales} locales que mantienen viva la tradición comercial y gastronómica, conectando generaciones de familias sinaloenses con el sabor de su hogar.` }),
+            el("p", { text: "Hoy alberga 120 locales que mantienen viva la tradición comercial y gastronómica, conectando generaciones de familias sinaloenses con el sabor de su hogar." }),
             el("div", { className: "stats-row" }, [
-              el("div", { className: "stat-box" }, [el("strong", { text: String(META.totalLocales) }), el("span", { text: "Locales" })]),
+              el("div", { className: "stat-box" }, [el("strong", { text: "120" }), el("span", { text: "Locales" })]),
               el("div", { className: "stat-box" }, [el("strong", { text: String(CATEGORIAS.length) }), el("span", { text: "Categorías" })]),
               el("div", { className: "stat-box" }, [el("strong", { text: String(META.totalProductos) }), el("span", { text: "Productos" })]),
             ]),

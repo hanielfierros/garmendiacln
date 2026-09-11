@@ -2,7 +2,7 @@ window.MG_DATA = {
   "meta": {
     "version": "14.0.0",
     "totalLocales": 250,
-    "totalProductos": 13750,
+    "totalProductos": 12475,
     "mercado": "Mercado Garmendia",
     "ciudad": "Culiacán, Sinaloa",
     "direccion": "Av. Domingo Rubí Nte. 465, Centro, Culiacán, Sinaloa",
@@ -18,9 +18,9 @@ window.MG_DATA = {
       "Fonda"
     ],
     "historiaImage": "mercado-historia.jpg",
-    "catalogVersion": "14.0.0",
+    "catalogVersion": "15.1.0",
     "catalogoArchivo": "catalogo.js",
-    "productosPorLocal": 55,
+    "productosPorLocal": 40,
     "pickupEnabled": true
   },
   "categorias": [
@@ -182,10 +182,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 91.0,
-        "y": 171.0,
+        "x": 91,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-001"
@@ -216,9 +216,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 130.5,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-002"
@@ -242,10 +242,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 170.0,
-        "y": 171.0,
+        "x": 170,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-003"
@@ -276,9 +276,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 209.5,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-004"
@@ -308,10 +308,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 249.0,
-        "y": 171.0,
+        "x": 249,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-005"
@@ -342,9 +342,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 288.4,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-006"
@@ -369,9 +369,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 327.9,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-007"
@@ -402,9 +402,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 367.4,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-008"
@@ -429,9 +429,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 406.9,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-009"
@@ -462,9 +462,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 446.4,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-010"
@@ -489,9 +489,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 485.9,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-011"
@@ -522,9 +522,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 525.4,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-012"
@@ -549,9 +549,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 564.9,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-013"
@@ -582,9 +582,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 604.3,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-014"
@@ -609,9 +609,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 643.8,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-015"
@@ -642,9 +642,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 683.3,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-016"
@@ -669,9 +669,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 722.8,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-017"
@@ -702,9 +702,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 762.3,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-018"
@@ -729,9 +729,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 801.8,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-019"
@@ -762,9 +762,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 841.3,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-020"
@@ -789,9 +789,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 880.8,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-021"
@@ -822,9 +822,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 920.2,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-022"
@@ -849,9 +849,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 959.7,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-023"
@@ -882,9 +882,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 999.2,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-024"
@@ -909,9 +909,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1038.7,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-025"
@@ -942,9 +942,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 1078.2,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-026"
@@ -969,9 +969,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1117.7,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-027"
@@ -1002,9 +1002,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 1157.2,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-028"
@@ -1029,9 +1029,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1196.7,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-029"
@@ -1062,9 +1062,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 1236.1,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-030"
@@ -1089,9 +1089,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1275.6,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-031"
@@ -1122,9 +1122,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 1315.1,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-032"
@@ -1149,9 +1149,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1354.6,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-033"
@@ -1182,9 +1182,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 1394.1,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-034"
@@ -1215,9 +1215,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 1433.6,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-035"
@@ -1248,9 +1248,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 1473.1,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-036"
@@ -1275,9 +1275,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1512.6,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-037"
@@ -1307,10 +1307,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 1552.0,
-        "y": 171.0,
+        "x": 1552,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-038"
@@ -1335,9 +1335,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1591.5,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-039"
@@ -1372,10 +1372,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 1631.0,
-        "y": 171.0,
+        "x": 1631,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-040"
@@ -1400,9 +1400,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1670.5,
-        "y": 171.0,
+        "y": 171,
         "w": 38.5,
-        "h": 36.0,
+        "h": 36,
         "zona": "perimetro-norte",
         "tipo": "perimetral",
         "planoLabel": "L-041"
@@ -1432,10 +1432,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 91.0,
-        "y": 219.0,
-        "w": 216.0,
-        "h": 20.0,
+        "x": 91,
+        "y": 219,
+        "w": 216,
+        "h": 20,
         "zona": "interior-alto-izq",
         "tipo": "interior",
         "planoLabel": "L-042"
@@ -1459,10 +1459,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 308.0,
-        "y": 219.0,
-        "w": 216.0,
-        "h": 20.0,
+        "x": 308,
+        "y": 219,
+        "w": 216,
+        "h": 20,
         "zona": "interior-alto-izq",
         "tipo": "interior",
         "planoLabel": "L-043"
@@ -1492,10 +1492,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 525.0,
-        "y": 219.0,
-        "w": 216.0,
-        "h": 20.0,
+        "x": 525,
+        "y": 219,
+        "w": 216,
+        "h": 20,
         "zona": "interior-alto-izq",
         "tipo": "interior",
         "planoLabel": "L-044"
@@ -1519,10 +1519,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 91.0,
-        "y": 240.0,
-        "w": 216.0,
-        "h": 20.0,
+        "x": 91,
+        "y": 240,
+        "w": 216,
+        "h": 20,
         "zona": "interior-alto-izq",
         "tipo": "interior",
         "planoLabel": "L-045"
@@ -1552,10 +1552,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 308.0,
-        "y": 240.0,
-        "w": 216.0,
-        "h": 20.0,
+        "x": 308,
+        "y": 240,
+        "w": 216,
+        "h": 20,
         "zona": "interior-alto-izq",
         "tipo": "interior",
         "planoLabel": "L-046"
@@ -1579,10 +1579,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 525.0,
-        "y": 240.0,
-        "w": 216.0,
-        "h": 20.0,
+        "x": 525,
+        "y": 240,
+        "w": 216,
+        "h": 20,
         "zona": "interior-alto-izq",
         "tipo": "interior",
         "planoLabel": "L-047"
@@ -1612,10 +1612,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 91.0,
-        "y": 261.0,
-        "w": 216.0,
-        "h": 20.0,
+        "x": 91,
+        "y": 261,
+        "w": 216,
+        "h": 20,
         "zona": "interior-alto-izq",
         "tipo": "interior",
         "planoLabel": "L-048"
@@ -1639,10 +1639,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 308.0,
-        "y": 261.0,
-        "w": 216.0,
-        "h": 20.0,
+        "x": 308,
+        "y": 261,
+        "w": 216,
+        "h": 20,
         "zona": "interior-alto-izq",
         "tipo": "interior",
         "planoLabel": "L-049"
@@ -1672,10 +1672,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 525.0,
-        "y": 261.0,
-        "w": 216.0,
-        "h": 20.0,
+        "x": 525,
+        "y": 261,
+        "w": 216,
+        "h": 20,
         "zona": "interior-alto-izq",
         "tipo": "interior",
         "planoLabel": "L-050"
@@ -1699,10 +1699,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 91.0,
-        "y": 282.0,
-        "w": 216.0,
-        "h": 20.0,
+        "x": 91,
+        "y": 282,
+        "w": 216,
+        "h": 20,
         "zona": "interior-alto-izq",
         "tipo": "interior",
         "planoLabel": "L-051"
@@ -1732,10 +1732,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 308.0,
-        "y": 282.0,
-        "w": 216.0,
-        "h": 20.0,
+        "x": 308,
+        "y": 282,
+        "w": 216,
+        "h": 20,
         "zona": "interior-alto-izq",
         "tipo": "interior",
         "planoLabel": "L-052"
@@ -1759,10 +1759,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 525.0,
-        "y": 282.0,
-        "w": 216.0,
-        "h": 20.0,
+        "x": 525,
+        "y": 282,
+        "w": 216,
+        "h": 20,
         "zona": "interior-alto-izq",
         "tipo": "interior",
         "planoLabel": "L-053"
@@ -1792,10 +1792,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 91.0,
-        "y": 303.0,
-        "w": 216.0,
-        "h": 20.0,
+        "x": 91,
+        "y": 303,
+        "w": 216,
+        "h": 20,
         "zona": "interior-alto-izq",
         "tipo": "interior",
         "planoLabel": "L-054"
@@ -1819,10 +1819,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 308.0,
-        "y": 303.0,
-        "w": 216.0,
-        "h": 20.0,
+        "x": 308,
+        "y": 303,
+        "w": 216,
+        "h": 20,
         "zona": "interior-alto-izq",
         "tipo": "interior",
         "planoLabel": "L-055"
@@ -1852,10 +1852,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 525.0,
-        "y": 303.0,
-        "w": 216.0,
-        "h": 20.0,
+        "x": 525,
+        "y": 303,
+        "w": 216,
+        "h": 20,
         "zona": "interior-alto-izq",
         "tipo": "interior",
         "planoLabel": "L-056"
@@ -1879,10 +1879,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 799.0,
-        "y": 219.0,
+        "x": 799,
+        "y": 219,
         "w": 302.7,
-        "h": 20.0,
+        "h": 20,
         "zona": "interior-alto-der",
         "tipo": "interior",
         "planoLabel": "L-057"
@@ -1913,9 +1913,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 1102.7,
-        "y": 219.0,
+        "y": 219,
         "w": 302.7,
-        "h": 20.0,
+        "h": 20,
         "zona": "interior-alto-der",
         "tipo": "interior",
         "planoLabel": "L-058"
@@ -1940,9 +1940,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1406.3,
-        "y": 219.0,
+        "y": 219,
         "w": 302.7,
-        "h": 20.0,
+        "h": 20,
         "zona": "interior-alto-der",
         "tipo": "interior",
         "planoLabel": "L-059"
@@ -1977,10 +1977,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 799.0,
-        "y": 240.0,
+        "x": 799,
+        "y": 240,
         "w": 302.7,
-        "h": 20.0,
+        "h": 20,
         "zona": "interior-alto-der",
         "tipo": "interior",
         "planoLabel": "L-060"
@@ -2005,9 +2005,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1102.7,
-        "y": 240.0,
+        "y": 240,
         "w": 302.7,
-        "h": 20.0,
+        "h": 20,
         "zona": "interior-alto-der",
         "tipo": "interior",
         "planoLabel": "L-061"
@@ -2038,9 +2038,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 1406.3,
-        "y": 240.0,
+        "y": 240,
         "w": 302.7,
-        "h": 20.0,
+        "h": 20,
         "zona": "interior-alto-der",
         "tipo": "interior",
         "planoLabel": "L-062"
@@ -2064,10 +2064,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 799.0,
-        "y": 261.0,
+        "x": 799,
+        "y": 261,
         "w": 302.7,
-        "h": 20.0,
+        "h": 20,
         "zona": "interior-alto-der",
         "tipo": "interior",
         "planoLabel": "L-063"
@@ -2098,9 +2098,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 1102.7,
-        "y": 261.0,
+        "y": 261,
         "w": 302.7,
-        "h": 20.0,
+        "h": 20,
         "zona": "interior-alto-der",
         "tipo": "interior",
         "planoLabel": "L-064"
@@ -2125,9 +2125,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1406.3,
-        "y": 261.0,
+        "y": 261,
         "w": 302.7,
-        "h": 20.0,
+        "h": 20,
         "zona": "interior-alto-der",
         "tipo": "interior",
         "planoLabel": "L-065"
@@ -2157,10 +2157,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 799.0,
-        "y": 282.0,
+        "x": 799,
+        "y": 282,
         "w": 302.7,
-        "h": 20.0,
+        "h": 20,
         "zona": "interior-alto-der",
         "tipo": "interior",
         "planoLabel": "L-066"
@@ -2185,9 +2185,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1102.7,
-        "y": 282.0,
+        "y": 282,
         "w": 302.7,
-        "h": 20.0,
+        "h": 20,
         "zona": "interior-alto-der",
         "tipo": "interior",
         "planoLabel": "L-067"
@@ -2218,9 +2218,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 1406.3,
-        "y": 282.0,
+        "y": 282,
         "w": 302.7,
-        "h": 20.0,
+        "h": 20,
         "zona": "interior-alto-der",
         "tipo": "interior",
         "planoLabel": "L-068"
@@ -2244,10 +2244,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 799.0,
-        "y": 303.0,
+        "x": 799,
+        "y": 303,
         "w": 302.7,
-        "h": 20.0,
+        "h": 20,
         "zona": "interior-alto-der",
         "tipo": "interior",
         "planoLabel": "L-069"
@@ -2278,9 +2278,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 1102.7,
-        "y": 303.0,
+        "y": 303,
         "w": 302.7,
-        "h": 20.0,
+        "h": 20,
         "zona": "interior-alto-der",
         "tipo": "interior",
         "planoLabel": "L-070"
@@ -2305,9 +2305,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1406.3,
-        "y": 303.0,
+        "y": 303,
         "w": 302.7,
-        "h": 20.0,
+        "h": 20,
         "zona": "interior-alto-der",
         "tipo": "interior",
         "planoLabel": "L-071"
@@ -2337,10 +2337,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 91.0,
-        "y": 369.0,
-        "w": 216.0,
-        "h": 42.0,
+        "x": 91,
+        "y": 369,
+        "w": 216,
+        "h": 42,
         "zona": "interior-med-izq",
         "tipo": "interior",
         "planoLabel": "L-072"
@@ -2364,10 +2364,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 308.0,
-        "y": 369.0,
-        "w": 216.0,
-        "h": 42.0,
+        "x": 308,
+        "y": 369,
+        "w": 216,
+        "h": 42,
         "zona": "interior-med-izq",
         "tipo": "interior",
         "planoLabel": "L-073"
@@ -2397,10 +2397,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 525.0,
-        "y": 369.0,
-        "w": 216.0,
-        "h": 42.0,
+        "x": 525,
+        "y": 369,
+        "w": 216,
+        "h": 42,
         "zona": "interior-med-izq",
         "tipo": "interior",
         "planoLabel": "L-074"
@@ -2424,10 +2424,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 91.0,
-        "y": 412.0,
-        "w": 216.0,
-        "h": 42.0,
+        "x": 91,
+        "y": 412,
+        "w": 216,
+        "h": 42,
         "zona": "interior-med-izq",
         "tipo": "interior",
         "planoLabel": "L-075"
@@ -2457,10 +2457,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 308.0,
-        "y": 412.0,
-        "w": 216.0,
-        "h": 42.0,
+        "x": 308,
+        "y": 412,
+        "w": 216,
+        "h": 42,
         "zona": "interior-med-izq",
         "tipo": "interior",
         "planoLabel": "L-076"
@@ -2484,10 +2484,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 525.0,
-        "y": 412.0,
-        "w": 216.0,
-        "h": 42.0,
+        "x": 525,
+        "y": 412,
+        "w": 216,
+        "h": 42,
         "zona": "interior-med-izq",
         "tipo": "interior",
         "planoLabel": "L-077"
@@ -2517,10 +2517,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 91.0,
-        "y": 455.0,
-        "w": 216.0,
-        "h": 42.0,
+        "x": 91,
+        "y": 455,
+        "w": 216,
+        "h": 42,
         "zona": "interior-med-izq",
         "tipo": "interior",
         "planoLabel": "L-078"
@@ -2544,10 +2544,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 308.0,
-        "y": 455.0,
-        "w": 216.0,
-        "h": 42.0,
+        "x": 308,
+        "y": 455,
+        "w": 216,
+        "h": 42,
         "zona": "interior-med-izq",
         "tipo": "interior",
         "planoLabel": "L-079"
@@ -2577,10 +2577,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 525.0,
-        "y": 455.0,
-        "w": 216.0,
-        "h": 42.0,
+        "x": 525,
+        "y": 455,
+        "w": 216,
+        "h": 42,
         "zona": "interior-med-izq",
         "tipo": "interior",
         "planoLabel": "L-080"
@@ -2604,10 +2604,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 91.0,
-        "y": 498.0,
-        "w": 216.0,
-        "h": 42.0,
+        "x": 91,
+        "y": 498,
+        "w": 216,
+        "h": 42,
         "zona": "interior-med-izq",
         "tipo": "interior",
         "planoLabel": "L-081"
@@ -2637,10 +2637,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 308.0,
-        "y": 498.0,
-        "w": 216.0,
-        "h": 42.0,
+        "x": 308,
+        "y": 498,
+        "w": 216,
+        "h": 42,
         "zona": "interior-med-izq",
         "tipo": "interior",
         "planoLabel": "L-082"
@@ -2664,10 +2664,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 525.0,
-        "y": 498.0,
-        "w": 216.0,
-        "h": 42.0,
+        "x": 525,
+        "y": 498,
+        "w": 216,
+        "h": 42,
         "zona": "interior-med-izq",
         "tipo": "interior",
         "planoLabel": "L-083"
@@ -2697,10 +2697,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 91.0,
-        "y": 541.0,
-        "w": 216.0,
-        "h": 42.0,
+        "x": 91,
+        "y": 541,
+        "w": 216,
+        "h": 42,
         "zona": "interior-med-izq",
         "tipo": "interior",
         "planoLabel": "L-084"
@@ -2724,10 +2724,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 308.0,
-        "y": 541.0,
-        "w": 216.0,
-        "h": 42.0,
+        "x": 308,
+        "y": 541,
+        "w": 216,
+        "h": 42,
         "zona": "interior-med-izq",
         "tipo": "interior",
         "planoLabel": "L-085"
@@ -2757,10 +2757,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 525.0,
-        "y": 541.0,
-        "w": 216.0,
-        "h": 42.0,
+        "x": 525,
+        "y": 541,
+        "w": 216,
+        "h": 42,
         "zona": "interior-med-izq",
         "tipo": "interior",
         "planoLabel": "L-086"
@@ -2784,10 +2784,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 799.0,
-        "y": 369.0,
+        "x": 799,
+        "y": 369,
         "w": 302.7,
-        "h": 42.0,
+        "h": 42,
         "zona": "interior-med-der",
         "tipo": "interior",
         "planoLabel": "L-087"
@@ -2818,9 +2818,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 1102.7,
-        "y": 369.0,
+        "y": 369,
         "w": 302.7,
-        "h": 42.0,
+        "h": 42,
         "zona": "interior-med-der",
         "tipo": "interior",
         "planoLabel": "L-088"
@@ -2845,9 +2845,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1406.3,
-        "y": 369.0,
+        "y": 369,
         "w": 302.7,
-        "h": 42.0,
+        "h": 42,
         "zona": "interior-med-der",
         "tipo": "interior",
         "planoLabel": "L-089"
@@ -2877,10 +2877,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 799.0,
-        "y": 412.0,
+        "x": 799,
+        "y": 412,
         "w": 302.7,
-        "h": 42.0,
+        "h": 42,
         "zona": "interior-med-der",
         "tipo": "interior",
         "planoLabel": "L-090"
@@ -2905,9 +2905,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1102.7,
-        "y": 412.0,
+        "y": 412,
         "w": 302.7,
-        "h": 42.0,
+        "h": 42,
         "zona": "interior-med-der",
         "tipo": "interior",
         "planoLabel": "L-091"
@@ -2938,9 +2938,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 1406.3,
-        "y": 412.0,
+        "y": 412,
         "w": 302.7,
-        "h": 42.0,
+        "h": 42,
         "zona": "interior-med-der",
         "tipo": "interior",
         "planoLabel": "L-092"
@@ -2964,10 +2964,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 799.0,
-        "y": 455.0,
+        "x": 799,
+        "y": 455,
         "w": 302.7,
-        "h": 42.0,
+        "h": 42,
         "zona": "interior-med-der",
         "tipo": "interior",
         "planoLabel": "L-093"
@@ -2998,9 +2998,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 1102.7,
-        "y": 455.0,
+        "y": 455,
         "w": 302.7,
-        "h": 42.0,
+        "h": 42,
         "zona": "interior-med-der",
         "tipo": "interior",
         "planoLabel": "L-094"
@@ -3025,9 +3025,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1406.3,
-        "y": 455.0,
+        "y": 455,
         "w": 302.7,
-        "h": 42.0,
+        "h": 42,
         "zona": "interior-med-der",
         "tipo": "interior",
         "planoLabel": "L-095"
@@ -3057,10 +3057,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 799.0,
-        "y": 498.0,
+        "x": 799,
+        "y": 498,
         "w": 302.7,
-        "h": 42.0,
+        "h": 42,
         "zona": "interior-med-der",
         "tipo": "interior",
         "planoLabel": "L-096"
@@ -3085,9 +3085,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1102.7,
-        "y": 498.0,
+        "y": 498,
         "w": 302.7,
-        "h": 42.0,
+        "h": 42,
         "zona": "interior-med-der",
         "tipo": "interior",
         "planoLabel": "L-097"
@@ -3118,9 +3118,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 1406.3,
-        "y": 498.0,
+        "y": 498,
         "w": 302.7,
-        "h": 42.0,
+        "h": 42,
         "zona": "interior-med-der",
         "tipo": "interior",
         "planoLabel": "L-098"
@@ -3144,10 +3144,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 799.0,
-        "y": 541.0,
+        "x": 799,
+        "y": 541,
         "w": 302.7,
-        "h": 42.0,
+        "h": 42,
         "zona": "interior-med-der",
         "tipo": "interior",
         "planoLabel": "L-099"
@@ -3178,9 +3178,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 1102.7,
-        "y": 541.0,
+        "y": 541,
         "w": 302.7,
-        "h": 42.0,
+        "h": 42,
         "zona": "interior-med-der",
         "tipo": "interior",
         "planoLabel": "L-100"
@@ -3205,9 +3205,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1406.3,
-        "y": 541.0,
+        "y": 541,
         "w": 302.7,
-        "h": 42.0,
+        "h": 42,
         "zona": "interior-med-der",
         "tipo": "interior",
         "planoLabel": "L-101"
@@ -3237,10 +3237,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 91.0,
-        "y": 629.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 91,
+        "y": 629,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-a",
         "tipo": "interior",
         "planoLabel": "L-102"
@@ -3264,10 +3264,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 308.0,
-        "y": 629.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 308,
+        "y": 629,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-a",
         "tipo": "interior",
         "planoLabel": "L-103"
@@ -3297,10 +3297,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 525.0,
-        "y": 629.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 525,
+        "y": 629,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-a",
         "tipo": "interior",
         "planoLabel": "L-104"
@@ -3324,10 +3324,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 91.0,
-        "y": 668.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 91,
+        "y": 668,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-a",
         "tipo": "interior",
         "planoLabel": "L-105"
@@ -3357,10 +3357,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 308.0,
-        "y": 668.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 308,
+        "y": 668,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-a",
         "tipo": "interior",
         "planoLabel": "L-106"
@@ -3384,10 +3384,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 525.0,
-        "y": 668.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 525,
+        "y": 668,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-a",
         "tipo": "interior",
         "planoLabel": "L-107"
@@ -3417,10 +3417,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 91.0,
-        "y": 707.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 91,
+        "y": 707,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-a",
         "tipo": "interior",
         "planoLabel": "L-108"
@@ -3444,10 +3444,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 308.0,
-        "y": 707.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 308,
+        "y": 707,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-a",
         "tipo": "interior",
         "planoLabel": "L-109"
@@ -3477,10 +3477,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 525.0,
-        "y": 707.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 525,
+        "y": 707,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-a",
         "tipo": "interior",
         "planoLabel": "L-110"
@@ -3504,10 +3504,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 91.0,
-        "y": 746.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 91,
+        "y": 746,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-a",
         "tipo": "interior",
         "planoLabel": "L-111"
@@ -3537,10 +3537,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 308.0,
-        "y": 746.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 308,
+        "y": 746,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-a",
         "tipo": "interior",
         "planoLabel": "L-112"
@@ -3564,10 +3564,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 525.0,
-        "y": 746.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 525,
+        "y": 746,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-a",
         "tipo": "interior",
         "planoLabel": "L-113"
@@ -3597,10 +3597,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 91.0,
-        "y": 785.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 91,
+        "y": 785,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-a",
         "tipo": "interior",
         "planoLabel": "L-114"
@@ -3624,10 +3624,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 308.0,
-        "y": 785.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 308,
+        "y": 785,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-a",
         "tipo": "interior",
         "planoLabel": "L-115"
@@ -3657,10 +3657,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 525.0,
-        "y": 785.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 525,
+        "y": 785,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-a",
         "tipo": "interior",
         "planoLabel": "L-116"
@@ -3684,10 +3684,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 91.0,
-        "y": 835.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 91,
+        "y": 835,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-b",
         "tipo": "interior",
         "planoLabel": "L-117"
@@ -3717,10 +3717,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 308.0,
-        "y": 835.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 308,
+        "y": 835,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-b",
         "tipo": "interior",
         "planoLabel": "L-118"
@@ -3744,10 +3744,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 525.0,
-        "y": 835.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 525,
+        "y": 835,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-b",
         "tipo": "interior",
         "planoLabel": "L-119"
@@ -3777,10 +3777,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 91.0,
-        "y": 874.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 91,
+        "y": 874,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-b",
         "tipo": "interior",
         "planoLabel": "L-120"
@@ -3804,10 +3804,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 308.0,
-        "y": 874.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 308,
+        "y": 874,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-b",
         "tipo": "interior",
         "planoLabel": "L-121"
@@ -3837,10 +3837,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 525.0,
-        "y": 874.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 525,
+        "y": 874,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-b",
         "tipo": "interior",
         "planoLabel": "L-122"
@@ -3864,10 +3864,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 91.0,
-        "y": 913.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 91,
+        "y": 913,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-b",
         "tipo": "interior",
         "planoLabel": "L-123"
@@ -3897,10 +3897,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 308.0,
-        "y": 913.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 308,
+        "y": 913,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-b",
         "tipo": "interior",
         "planoLabel": "L-124"
@@ -3924,10 +3924,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 525.0,
-        "y": 913.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 525,
+        "y": 913,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-b",
         "tipo": "interior",
         "planoLabel": "L-125"
@@ -3957,10 +3957,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 91.0,
-        "y": 952.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 91,
+        "y": 952,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-b",
         "tipo": "interior",
         "planoLabel": "L-126"
@@ -3984,10 +3984,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 308.0,
-        "y": 952.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 308,
+        "y": 952,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-b",
         "tipo": "interior",
         "planoLabel": "L-127"
@@ -4017,10 +4017,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 525.0,
-        "y": 952.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 525,
+        "y": 952,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-b",
         "tipo": "interior",
         "planoLabel": "L-128"
@@ -4044,10 +4044,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 91.0,
-        "y": 991.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 91,
+        "y": 991,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-b",
         "tipo": "interior",
         "planoLabel": "L-129"
@@ -4077,10 +4077,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 308.0,
-        "y": 991.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 308,
+        "y": 991,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-b",
         "tipo": "interior",
         "planoLabel": "L-130"
@@ -4104,10 +4104,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 525.0,
-        "y": 991.0,
-        "w": 216.0,
-        "h": 38.0,
+        "x": 525,
+        "y": 991,
+        "w": 216,
+        "h": 38,
         "zona": "interior-bajo-izq-b",
         "tipo": "interior",
         "planoLabel": "L-131"
@@ -4137,10 +4137,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 799.0,
-        "y": 629.0,
+        "x": 799,
+        "y": 629,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-a",
         "tipo": "interior",
         "planoLabel": "L-132"
@@ -4165,9 +4165,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1102.7,
-        "y": 629.0,
+        "y": 629,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-a",
         "tipo": "interior",
         "planoLabel": "L-133"
@@ -4198,9 +4198,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 1406.3,
-        "y": 629.0,
+        "y": 629,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-a",
         "tipo": "interior",
         "planoLabel": "L-134"
@@ -4224,10 +4224,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 799.0,
-        "y": 668.0,
+        "x": 799,
+        "y": 668,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-a",
         "tipo": "interior",
         "planoLabel": "L-135"
@@ -4258,9 +4258,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 1102.7,
-        "y": 668.0,
+        "y": 668,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-a",
         "tipo": "interior",
         "planoLabel": "L-136"
@@ -4285,9 +4285,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1406.3,
-        "y": 668.0,
+        "y": 668,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-a",
         "tipo": "interior",
         "planoLabel": "L-137"
@@ -4317,10 +4317,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 799.0,
-        "y": 707.0,
+        "x": 799,
+        "y": 707,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-a",
         "tipo": "interior",
         "planoLabel": "L-138"
@@ -4345,9 +4345,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1102.7,
-        "y": 707.0,
+        "y": 707,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-a",
         "tipo": "interior",
         "planoLabel": "L-139"
@@ -4378,9 +4378,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 1406.3,
-        "y": 707.0,
+        "y": 707,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-a",
         "tipo": "interior",
         "planoLabel": "L-140"
@@ -4404,10 +4404,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 799.0,
-        "y": 746.0,
+        "x": 799,
+        "y": 746,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-a",
         "tipo": "interior",
         "planoLabel": "L-141"
@@ -4438,9 +4438,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 1102.7,
-        "y": 746.0,
+        "y": 746,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-a",
         "tipo": "interior",
         "planoLabel": "L-142"
@@ -4465,9 +4465,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1406.3,
-        "y": 746.0,
+        "y": 746,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-a",
         "tipo": "interior",
         "planoLabel": "L-143"
@@ -4497,10 +4497,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 799.0,
-        "y": 785.0,
+        "x": 799,
+        "y": 785,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-a",
         "tipo": "interior",
         "planoLabel": "L-144"
@@ -4525,9 +4525,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1102.7,
-        "y": 785.0,
+        "y": 785,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-a",
         "tipo": "interior",
         "planoLabel": "L-145"
@@ -4558,9 +4558,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 1406.3,
-        "y": 785.0,
+        "y": 785,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-a",
         "tipo": "interior",
         "planoLabel": "L-146"
@@ -4584,10 +4584,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 799.0,
-        "y": 835.0,
+        "x": 799,
+        "y": 835,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-b",
         "tipo": "interior",
         "planoLabel": "L-147"
@@ -4618,9 +4618,9 @@ window.MG_DATA = {
       ],
       "mapa": {
         "x": 1102.7,
-        "y": 835.0,
+        "y": 835,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-b",
         "tipo": "interior",
         "planoLabel": "L-148"
@@ -4645,9 +4645,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1406.3,
-        "y": 835.0,
+        "y": 835,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-b",
         "tipo": "interior",
         "planoLabel": "L-149"
@@ -4677,10 +4677,10 @@ window.MG_DATA = {
         }
       ],
       "mapa": {
-        "x": 799.0,
-        "y": 874.0,
+        "x": 799,
+        "y": 874,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-b",
         "tipo": "interior",
         "planoLabel": "L-150"
@@ -4706,9 +4706,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1102.7,
-        "y": 874.0,
+        "y": 874,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-b",
         "tipo": "interior",
         "planoLabel": "L-151"
@@ -4733,9 +4733,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1406.3,
-        "y": 874.0,
+        "y": 874,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-b",
         "tipo": "interior",
         "planoLabel": "L-152"
@@ -4759,10 +4759,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 799.0,
-        "y": 913.0,
+        "x": 799,
+        "y": 913,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-b",
         "tipo": "interior",
         "planoLabel": "L-153"
@@ -4787,9 +4787,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1102.7,
-        "y": 913.0,
+        "y": 913,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-b",
         "tipo": "interior",
         "planoLabel": "L-154"
@@ -4814,9 +4814,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1406.3,
-        "y": 913.0,
+        "y": 913,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-b",
         "tipo": "interior",
         "planoLabel": "L-155"
@@ -4840,10 +4840,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 799.0,
-        "y": 952.0,
+        "x": 799,
+        "y": 952,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-b",
         "tipo": "interior",
         "planoLabel": "L-156"
@@ -4868,9 +4868,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1102.7,
-        "y": 952.0,
+        "y": 952,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-b",
         "tipo": "interior",
         "planoLabel": "L-157"
@@ -4895,9 +4895,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1406.3,
-        "y": 952.0,
+        "y": 952,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-b",
         "tipo": "interior",
         "planoLabel": "L-158"
@@ -4921,10 +4921,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 799.0,
-        "y": 991.0,
+        "x": 799,
+        "y": 991,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-b",
         "tipo": "interior",
         "planoLabel": "L-159"
@@ -4949,9 +4949,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1102.7,
-        "y": 991.0,
+        "y": 991,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-b",
         "tipo": "interior",
         "planoLabel": "L-160"
@@ -4976,9 +4976,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1406.3,
-        "y": 991.0,
+        "y": 991,
         "w": 302.7,
-        "h": 38.0,
+        "h": 38,
         "zona": "interior-bajo-der-b",
         "tipo": "interior",
         "planoLabel": "L-161"
@@ -5002,9 +5002,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 87.0,
-        "y": 217.0,
-        "w": 30.0,
+        "x": 87,
+        "y": 217,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-oeste",
         "tipo": "perimetral",
@@ -5029,9 +5029,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 87.0,
+        "x": 87,
         "y": 255.4,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-oeste",
         "tipo": "perimetral",
@@ -5056,9 +5056,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 87.0,
+        "x": 87,
         "y": 293.9,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-oeste",
         "tipo": "perimetral",
@@ -5083,9 +5083,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 87.0,
+        "x": 87,
         "y": 332.3,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-oeste",
         "tipo": "perimetral",
@@ -5110,9 +5110,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 87.0,
+        "x": 87,
         "y": 370.7,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-oeste",
         "tipo": "perimetral",
@@ -5137,9 +5137,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 87.0,
+        "x": 87,
         "y": 409.1,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-oeste",
         "tipo": "perimetral",
@@ -5164,9 +5164,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 87.0,
+        "x": 87,
         "y": 447.6,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-oeste",
         "tipo": "perimetral",
@@ -5191,9 +5191,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 87.0,
-        "y": 486.0,
-        "w": 30.0,
+        "x": 87,
+        "y": 486,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-oeste",
         "tipo": "perimetral",
@@ -5218,9 +5218,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 87.0,
+        "x": 87,
         "y": 524.4,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-oeste",
         "tipo": "perimetral",
@@ -5245,9 +5245,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 87.0,
+        "x": 87,
         "y": 562.9,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-oeste",
         "tipo": "perimetral",
@@ -5272,9 +5272,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 87.0,
+        "x": 87,
         "y": 601.3,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-oeste",
         "tipo": "perimetral",
@@ -5299,9 +5299,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 87.0,
+        "x": 87,
         "y": 639.7,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-oeste",
         "tipo": "perimetral",
@@ -5326,9 +5326,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 87.0,
+        "x": 87,
         "y": 678.1,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-oeste",
         "tipo": "perimetral",
@@ -5353,9 +5353,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 87.0,
+        "x": 87,
         "y": 716.6,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-oeste",
         "tipo": "perimetral",
@@ -5380,9 +5380,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 87.0,
-        "y": 755.0,
-        "w": 30.0,
+        "x": 87,
+        "y": 755,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-oeste",
         "tipo": "perimetral",
@@ -5407,9 +5407,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 87.0,
+        "x": 87,
         "y": 793.4,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-oeste",
         "tipo": "perimetral",
@@ -5434,9 +5434,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 87.0,
+        "x": 87,
         "y": 831.9,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-oeste",
         "tipo": "perimetral",
@@ -5461,9 +5461,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 87.0,
+        "x": 87,
         "y": 870.3,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-oeste",
         "tipo": "perimetral",
@@ -5488,9 +5488,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 87.0,
+        "x": 87,
         "y": 908.7,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-oeste",
         "tipo": "perimetral",
@@ -5515,9 +5515,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 87.0,
+        "x": 87,
         "y": 947.1,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-oeste",
         "tipo": "perimetral",
@@ -5542,9 +5542,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 87.0,
+        "x": 87,
         "y": 985.6,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-oeste",
         "tipo": "perimetral",
@@ -5569,9 +5569,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 1683.0,
-        "y": 217.0,
-        "w": 30.0,
+        "x": 1683,
+        "y": 217,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-este",
         "tipo": "perimetral",
@@ -5596,9 +5596,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 1683.0,
+        "x": 1683,
         "y": 255.4,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-este",
         "tipo": "perimetral",
@@ -5623,9 +5623,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 1683.0,
+        "x": 1683,
         "y": 293.9,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-este",
         "tipo": "perimetral",
@@ -5650,9 +5650,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 1683.0,
+        "x": 1683,
         "y": 332.3,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-este",
         "tipo": "perimetral",
@@ -5677,9 +5677,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 1683.0,
+        "x": 1683,
         "y": 370.7,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-este",
         "tipo": "perimetral",
@@ -5704,9 +5704,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 1683.0,
+        "x": 1683,
         "y": 409.1,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-este",
         "tipo": "perimetral",
@@ -5731,9 +5731,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 1683.0,
+        "x": 1683,
         "y": 447.6,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-este",
         "tipo": "perimetral",
@@ -5758,9 +5758,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 1683.0,
-        "y": 486.0,
-        "w": 30.0,
+        "x": 1683,
+        "y": 486,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-este",
         "tipo": "perimetral",
@@ -5785,9 +5785,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 1683.0,
+        "x": 1683,
         "y": 524.4,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-este",
         "tipo": "perimetral",
@@ -5812,9 +5812,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 1683.0,
+        "x": 1683,
         "y": 562.9,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-este",
         "tipo": "perimetral",
@@ -5839,9 +5839,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 1683.0,
+        "x": 1683,
         "y": 601.3,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-este",
         "tipo": "perimetral",
@@ -5866,9 +5866,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 1683.0,
+        "x": 1683,
         "y": 639.7,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-este",
         "tipo": "perimetral",
@@ -5893,9 +5893,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 1683.0,
+        "x": 1683,
         "y": 678.1,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-este",
         "tipo": "perimetral",
@@ -5920,9 +5920,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 1683.0,
+        "x": 1683,
         "y": 716.6,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-este",
         "tipo": "perimetral",
@@ -5947,9 +5947,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 1683.0,
-        "y": 755.0,
-        "w": 30.0,
+        "x": 1683,
+        "y": 755,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-este",
         "tipo": "perimetral",
@@ -5974,9 +5974,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 1683.0,
+        "x": 1683,
         "y": 793.4,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-este",
         "tipo": "perimetral",
@@ -6001,9 +6001,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 1683.0,
+        "x": 1683,
         "y": 831.9,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-este",
         "tipo": "perimetral",
@@ -6028,9 +6028,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 1683.0,
+        "x": 1683,
         "y": 870.3,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-este",
         "tipo": "perimetral",
@@ -6055,9 +6055,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 1683.0,
+        "x": 1683,
         "y": 908.7,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-este",
         "tipo": "perimetral",
@@ -6082,9 +6082,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 1683.0,
+        "x": 1683,
         "y": 947.1,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-este",
         "tipo": "perimetral",
@@ -6109,9 +6109,9 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 1683.0,
+        "x": 1683,
         "y": 985.6,
-        "w": 30.0,
+        "w": 30,
         "h": 37.4,
         "zona": "perimetro-este",
         "tipo": "perimetral",
@@ -6136,10 +6136,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 127.0,
-        "y": 1029.0,
+        "x": 127,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-204"
@@ -6164,9 +6164,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 159.9,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-205"
@@ -6191,9 +6191,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 192.8,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-206"
@@ -6218,9 +6218,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 225.7,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-207"
@@ -6245,9 +6245,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 258.7,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-208"
@@ -6272,9 +6272,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 291.6,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-209"
@@ -6299,9 +6299,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 324.5,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-210"
@@ -6326,9 +6326,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 357.4,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-211"
@@ -6353,9 +6353,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 390.3,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-212"
@@ -6380,9 +6380,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 423.2,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-213"
@@ -6407,9 +6407,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 456.1,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-214"
@@ -6434,9 +6434,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 489.1,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-215"
@@ -6460,10 +6460,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 522.0,
-        "y": 1029.0,
+        "x": 522,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-216"
@@ -6488,9 +6488,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 554.9,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-217"
@@ -6515,9 +6515,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 587.8,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-218"
@@ -6542,9 +6542,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 620.7,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-219"
@@ -6569,9 +6569,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 653.6,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-220"
@@ -6596,9 +6596,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 686.6,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-221"
@@ -6623,9 +6623,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 719.5,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-222"
@@ -6650,9 +6650,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 752.4,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-223"
@@ -6677,9 +6677,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 785.3,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-224"
@@ -6704,9 +6704,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 818.2,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-225"
@@ -6731,9 +6731,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 851.1,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-226"
@@ -6757,10 +6757,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 884.0,
-        "y": 1029.0,
+        "x": 884,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-227"
@@ -6784,10 +6784,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 917.0,
-        "y": 1029.0,
+        "x": 917,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-228"
@@ -6812,9 +6812,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 949.9,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-229"
@@ -6839,9 +6839,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 982.8,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-230"
@@ -6866,9 +6866,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1015.7,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-231"
@@ -6893,9 +6893,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1048.6,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-232"
@@ -6920,9 +6920,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1081.5,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-233"
@@ -6947,9 +6947,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1114.4,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-234"
@@ -6974,9 +6974,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1147.4,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-235"
@@ -7001,9 +7001,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1180.3,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-236"
@@ -7028,9 +7028,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1213.2,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-237"
@@ -7055,9 +7055,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1246.1,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-238"
@@ -7081,10 +7081,10 @@ window.MG_DATA = {
       "horario": "Lun–Dom 6:00 am – 6:00 pm",
       "promociones": [],
       "mapa": {
-        "x": 1279.0,
-        "y": 1029.0,
+        "x": 1279,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-239"
@@ -7109,9 +7109,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1311.9,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-240"
@@ -7136,9 +7136,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1344.9,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-241"
@@ -7163,9 +7163,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1377.8,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-242"
@@ -7190,9 +7190,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1410.7,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-243"
@@ -7217,9 +7217,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1443.6,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-244"
@@ -7244,9 +7244,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1476.5,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-245"
@@ -7271,9 +7271,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1509.4,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-246"
@@ -7298,9 +7298,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1542.3,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-247"
@@ -7325,9 +7325,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1575.3,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-248"
@@ -7352,9 +7352,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1608.2,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-249"
@@ -7379,9 +7379,9 @@ window.MG_DATA = {
       "promociones": [],
       "mapa": {
         "x": 1641.1,
-        "y": 1029.0,
+        "y": 1029,
         "w": 31.9,
-        "h": 34.0,
+        "h": 34,
         "zona": "perimetro-sur",
         "tipo": "perimetral",
         "planoLabel": "L-250"
@@ -7392,1120 +7392,1120 @@ window.MG_DATA = {
   "productos": [
     {
       "localId": 1,
-      "producto": "Aguayón",
-      "precio": 137,
+      "producto": "Pulpa de res",
+      "precio": 161,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L001-P001"
     },
     {
       "localId": 1,
-      "producto": "Diezmillo",
-      "precio": 88.4,
+      "producto": "Bistec de diezmillo",
+      "precio": 184,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L001-P002"
     },
     {
       "localId": 1,
-      "producto": "T-bone",
-      "precio": 94.9,
+      "producto": "Carne molida de res",
+      "precio": 127,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L001-P003"
     },
     {
       "localId": 1,
-      "producto": "Cueritos de cerdo",
-      "precio": 162,
+      "producto": "Costilla de res",
+      "precio": 93,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L001-P004"
     },
     {
       "localId": 1,
-      "producto": "Suadero",
-      "precio": 118,
+      "producto": "Cuete de res",
+      "precio": 153,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L001-P005"
     },
     {
       "localId": 2,
-      "producto": "Aguayón",
-      "precio": 131,
+      "producto": "Pulpa de res",
+      "precio": 176,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L002-P001"
     },
     {
       "localId": 2,
-      "producto": "Diezmillo",
-      "precio": 92.8,
+      "producto": "Bistec de diezmillo",
+      "precio": 183,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L002-P002"
     },
     {
       "localId": 2,
-      "producto": "T-bone",
-      "precio": 86.2,
+      "producto": "Carne molida de res",
+      "precio": 123,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L002-P003"
     },
     {
       "localId": 2,
-      "producto": "Cueritos de cerdo",
-      "precio": 166,
+      "producto": "Costilla de res",
+      "precio": 91,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L002-P004"
     },
     {
       "localId": 2,
-      "producto": "Suadero",
-      "precio": 117,
+      "producto": "Cuete de res",
+      "precio": 150,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L002-P005"
     },
     {
       "localId": 3,
-      "producto": "Aguayón",
-      "precio": 122,
+      "producto": "Pulpa de res",
+      "precio": 166,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L003-P001"
     },
     {
       "localId": 3,
-      "producto": "Diezmillo",
-      "precio": 81.6,
+      "producto": "Bistec de diezmillo",
+      "precio": 176,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L003-P002"
     },
     {
       "localId": 3,
-      "producto": "T-bone",
-      "precio": 96.3,
+      "producto": "Carne molida de res",
+      "precio": 128,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L003-P003"
     },
     {
       "localId": 3,
-      "producto": "Cueritos de cerdo",
-      "precio": 165,
+      "producto": "Costilla de res",
+      "precio": 98,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L003-P004"
     },
     {
       "localId": 3,
-      "producto": "Suadero",
-      "precio": 124,
+      "producto": "Cuete de res",
+      "precio": 147,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L003-P005"
     },
     {
       "localId": 4,
-      "producto": "Aguayón",
-      "precio": 125,
+      "producto": "Machaca de res",
+      "precio": 276,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L004-P001"
     },
     {
       "localId": 4,
-      "producto": "Diezmillo",
-      "precio": 96.7,
+      "producto": "Cecina",
+      "precio": 225,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L004-P002"
     },
     {
       "localId": 4,
-      "producto": "T-bone",
-      "precio": 106,
+      "producto": "Carne para pastor",
+      "precio": 144,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L004-P003"
     },
     {
       "localId": 4,
-      "producto": "Cueritos de cerdo",
-      "precio": 164,
+      "producto": "Carne adobada",
+      "precio": 159,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L004-P004"
     },
     {
       "localId": 4,
-      "producto": "Suadero",
-      "precio": 130,
+      "producto": "Chorizo de casa",
+      "precio": 99,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L004-P005"
     },
     {
       "localId": 5,
-      "producto": "Aguayón",
-      "precio": 130,
+      "producto": "Pulpa de res",
+      "precio": 154,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L005-P001"
     },
     {
       "localId": 5,
-      "producto": "Diezmillo",
-      "precio": 90.9,
+      "producto": "Bistec de diezmillo",
+      "precio": 181,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L005-P002"
     },
     {
       "localId": 5,
-      "producto": "T-bone",
-      "precio": 87.2,
+      "producto": "Carne molida de res",
+      "precio": 133,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L005-P003"
     },
     {
       "localId": 5,
-      "producto": "Cueritos de cerdo",
-      "precio": 158,
+      "producto": "Costilla de res",
+      "precio": 96,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L005-P004"
     },
     {
       "localId": 5,
-      "producto": "Suadero",
-      "precio": 110,
+      "producto": "Cuete de res",
+      "precio": 155,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L005-P005"
     },
     {
       "localId": 6,
-      "producto": "Aguayón",
-      "precio": 141,
+      "producto": "Pulpa de res",
+      "precio": 174,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L006-P001"
     },
     {
       "localId": 6,
-      "producto": "Diezmillo",
-      "precio": 93.6,
+      "producto": "Bistec de diezmillo",
+      "precio": 182,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L006-P002"
     },
     {
       "localId": 6,
-      "producto": "T-bone",
-      "precio": 105,
+      "producto": "Carne molida de res",
+      "precio": 132,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L006-P003"
     },
     {
       "localId": 6,
-      "producto": "Cueritos de cerdo",
-      "precio": 165,
+      "producto": "Costilla de res",
+      "precio": 94,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L006-P004"
     },
     {
       "localId": 6,
-      "producto": "Suadero",
-      "precio": 110,
+      "producto": "Cuete de res",
+      "precio": 141,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L006-P005"
     },
     {
       "localId": 7,
-      "producto": "Aguayón",
-      "precio": 116,
+      "producto": "Pulpa de res",
+      "precio": 176,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L007-P001"
     },
     {
       "localId": 7,
-      "producto": "Diezmillo",
-      "precio": 89.3,
+      "producto": "Bistec de diezmillo",
+      "precio": 167,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L007-P002"
     },
     {
       "localId": 7,
-      "producto": "T-bone",
-      "precio": 98.6,
+      "producto": "Carne molida de res",
+      "precio": 134,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L007-P003"
     },
     {
       "localId": 7,
-      "producto": "Cueritos de cerdo",
-      "precio": 151,
+      "producto": "Costilla de res",
+      "precio": 98,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L007-P004"
     },
     {
       "localId": 7,
-      "producto": "Suadero",
-      "precio": 115,
+      "producto": "Cuete de res",
+      "precio": 148,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L007-P005"
     },
     {
       "localId": 8,
-      "producto": "Suaves de malvavisco",
-      "precio": 14.3,
+      "producto": "Conchas de vainilla",
+      "precio": 15.5,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L008-P001"
     },
     {
       "localId": 8,
-      "producto": "Empanada de cajeta",
-      "precio": 14.2,
+      "producto": "Conchas de chocolate",
+      "precio": 15,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L008-P002"
     },
     {
       "localId": 8,
-      "producto": "Buñuelos",
-      "precio": 15.0,
+      "producto": "Donas de azúcar",
+      "precio": 15,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L008-P003"
     },
     {
       "localId": 8,
-      "producto": "Pan de feria",
-      "precio": 14.9,
+      "producto": "Donas de chocolate",
+      "precio": 17,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L008-P004"
     },
     {
       "localId": 8,
-      "producto": "Pinturitas de manteca",
-      "precio": 11.0,
+      "producto": "Mantecadas",
+      "precio": 13,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L008-P005"
     },
     {
       "localId": 9,
-      "producto": "Suaves de malvavisco",
-      "precio": 12.4,
+      "producto": "Conchas de vainilla",
+      "precio": 15,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L009-P001"
     },
     {
       "localId": 9,
-      "producto": "Empanada de cajeta",
-      "precio": 13.2,
+      "producto": "Conchas de chocolate",
+      "precio": 17,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L009-P002"
     },
     {
       "localId": 9,
-      "producto": "Buñuelos",
-      "precio": 16.3,
+      "producto": "Donas de azúcar",
+      "precio": 14.5,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L009-P003"
     },
     {
       "localId": 9,
-      "producto": "Pan de feria",
-      "precio": 16.8,
+      "producto": "Donas de chocolate",
+      "precio": 16,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L009-P004"
     },
     {
       "localId": 9,
-      "producto": "Pinturitas de manteca",
-      "precio": 11.6,
+      "producto": "Mantecadas",
+      "precio": 13.5,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L009-P005"
     },
     {
       "localId": 10,
-      "producto": "Suaves de malvavisco",
-      "precio": 13.5,
+      "producto": "Pastel de tres leches",
+      "precio": 216,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L010-P001"
     },
     {
       "localId": 10,
-      "producto": "Empanada de cajeta",
-      "precio": 13.6,
+      "producto": "Pay de queso",
+      "precio": 171,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L010-P002"
     },
     {
       "localId": 10,
-      "producto": "Buñuelos",
-      "precio": 17.4,
+      "producto": "Pan de muerto",
+      "precio": 35.5,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L010-P003"
     },
     {
       "localId": 10,
-      "producto": "Pan de feria",
-      "precio": 15.4,
+      "producto": "Rosca de reyes",
+      "precio": 191,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L010-P004"
     },
     {
       "localId": 10,
-      "producto": "Pinturitas de manteca",
-      "precio": 12.9,
+      "producto": "Ladrillos",
+      "precio": 14,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L010-P005"
     },
     {
       "localId": 11,
-      "producto": "Suaves de malvavisco",
-      "precio": 13.1,
+      "producto": "Conchas de vainilla",
+      "precio": 14.5,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L011-P001"
     },
     {
       "localId": 11,
-      "producto": "Empanada de cajeta",
-      "precio": 15.2,
+      "producto": "Conchas de chocolate",
+      "precio": 17,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L011-P002"
     },
     {
       "localId": 11,
-      "producto": "Buñuelos",
-      "precio": 17.9,
+      "producto": "Donas de azúcar",
+      "precio": 16,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L011-P003"
     },
     {
       "localId": 11,
-      "producto": "Pan de feria",
-      "precio": 15.6,
+      "producto": "Donas de chocolate",
+      "precio": 15,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L011-P004"
     },
     {
       "localId": 11,
-      "producto": "Pinturitas de manteca",
-      "precio": 12.1,
+      "producto": "Mantecadas",
+      "precio": 15,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L011-P005"
     },
     {
       "localId": 12,
-      "producto": "Suaves de malvavisco",
-      "precio": 15.0,
+      "producto": "Pastel de tres leches",
+      "precio": 209,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L012-P001"
     },
     {
       "localId": 12,
-      "producto": "Empanada de cajeta",
-      "precio": 13.3,
+      "producto": "Pay de queso",
+      "precio": 165,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L012-P002"
     },
     {
       "localId": 12,
-      "producto": "Buñuelos",
-      "precio": 15.9,
+      "producto": "Pan de muerto",
+      "precio": 36.5,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L012-P003"
     },
     {
       "localId": 12,
-      "producto": "Pan de feria",
-      "precio": 14.5,
+      "producto": "Rosca de reyes",
+      "precio": 182,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L012-P004"
     },
     {
       "localId": 12,
-      "producto": "Pinturitas de manteca",
-      "precio": 10.7,
+      "producto": "Ladrillos",
+      "precio": 14.5,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L012-P005"
     },
     {
       "localId": 13,
-      "producto": "Suaves de malvavisco",
-      "precio": 14.2,
+      "producto": "Pastel de tres leches",
+      "precio": 233,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L013-P001"
     },
     {
       "localId": 13,
-      "producto": "Empanada de cajeta",
-      "precio": 15.5,
+      "producto": "Pay de queso",
+      "precio": 159,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L013-P002"
     },
     {
       "localId": 13,
-      "producto": "Buñuelos",
-      "precio": 17.8,
+      "producto": "Pan de muerto",
+      "precio": 33.5,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L013-P003"
     },
     {
       "localId": 13,
-      "producto": "Pan de feria",
-      "precio": 14.4,
+      "producto": "Rosca de reyes",
+      "precio": 184,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L013-P004"
     },
     {
       "localId": 13,
-      "producto": "Pinturitas de manteca",
-      "precio": 12.6,
+      "producto": "Ladrillos",
+      "precio": 14,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L013-P005"
     },
     {
       "localId": 14,
-      "producto": "Suaves de malvavisco",
-      "precio": 14.8,
+      "producto": "Birote salado",
+      "precio": 9.5,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L014-P001"
     },
     {
       "localId": 14,
-      "producto": "Empanada de cajeta",
-      "precio": 12.3,
+      "producto": "Bolillo",
+      "precio": 5,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L014-P002"
     },
     {
       "localId": 14,
-      "producto": "Buñuelos",
-      "precio": 15.7,
+      "producto": "Telera",
+      "precio": 6.3,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L014-P003"
     },
     {
       "localId": 14,
-      "producto": "Pan de feria",
-      "precio": 14.0,
+      "producto": "Pan de caja",
+      "precio": 41,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L014-P004"
     },
     {
       "localId": 14,
-      "producto": "Pinturitas de manteca",
-      "precio": 13.0,
+      "producto": "Bisquets",
+      "precio": 12.5,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L014-P005"
     },
     {
       "localId": 15,
-      "producto": "Mantequilla con ajo",
-      "precio": 25.3,
+      "producto": "Queso de rancho",
+      "precio": 105,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L015-P001"
     },
     {
       "localId": 15,
-      "producto": "Queso panela",
-      "precio": 28.2,
+      "producto": "Queso fresco",
+      "precio": 106,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L015-P002"
     },
     {
       "localId": 15,
-      "producto": "Leche bronca",
-      "precio": 26.8,
+      "producto": "Queso Oaxaca",
+      "precio": 134,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L015-P003"
     },
     {
       "localId": 15,
-      "producto": "Crema batida",
-      "precio": 28.8,
+      "producto": "Queso panela",
+      "precio": 95,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L015-P004"
     },
     {
       "localId": 15,
-      "producto": "Jocoque con chile piquín",
-      "precio": 18.4,
+      "producto": "Queso asadero",
+      "precio": 129,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L015-P005"
     },
     {
       "localId": 16,
-      "producto": "Mantequilla con ajo",
-      "precio": 24.9,
+      "producto": "Queso de rancho",
+      "precio": 108,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L016-P001"
     },
     {
       "localId": 16,
-      "producto": "Queso panela",
-      "precio": 26.8,
+      "producto": "Queso fresco",
+      "precio": 94,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L016-P002"
     },
     {
       "localId": 16,
-      "producto": "Leche bronca",
-      "precio": 27.3,
+      "producto": "Queso Oaxaca",
+      "precio": 149,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L016-P003"
     },
     {
       "localId": 16,
-      "producto": "Crema batida",
-      "precio": 29.3,
+      "producto": "Queso panela",
+      "precio": 94,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L016-P004"
     },
     {
       "localId": 16,
-      "producto": "Jocoque con chile piquín",
-      "precio": 19.8,
+      "producto": "Queso asadero",
+      "precio": 121,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L016-P005"
     },
     {
       "localId": 17,
-      "producto": "Mantequilla con ajo",
-      "precio": 22.5,
+      "producto": "Queso de rancho",
+      "precio": 115,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L017-P001"
     },
     {
       "localId": 17,
-      "producto": "Queso panela",
-      "precio": 27.6,
+      "producto": "Queso fresco",
+      "precio": 101,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L017-P002"
     },
     {
       "localId": 17,
-      "producto": "Leche bronca",
-      "precio": 26.7,
+      "producto": "Queso Oaxaca",
+      "precio": 149,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L017-P003"
     },
     {
       "localId": 17,
-      "producto": "Crema batida",
-      "precio": 30.1,
+      "producto": "Queso panela",
+      "precio": 94,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L017-P004"
     },
     {
       "localId": 17,
-      "producto": "Jocoque con chile piquín",
-      "precio": 19.9,
+      "producto": "Queso asadero",
+      "precio": 137,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L017-P005"
     },
     {
       "localId": 18,
-      "producto": "Mantequilla con ajo",
-      "precio": 21.3,
+      "producto": "Leche entera",
+      "precio": 25,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "litro",
       "productoId": "L018-P001"
     },
     {
       "localId": 18,
-      "producto": "Queso panela",
-      "precio": 24.9,
+      "producto": "Leche bronca",
+      "precio": 22,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "litro",
       "productoId": "L018-P002"
     },
     {
       "localId": 18,
-      "producto": "Leche bronca",
-      "precio": 25.1,
+      "producto": "Leche evaporada",
+      "precio": 22.5,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
       "productoId": "L018-P003"
     },
     {
       "localId": 18,
-      "producto": "Crema batida",
-      "precio": 31.3,
+      "producto": "Leche condensada",
+      "precio": 27.5,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
       "productoId": "L018-P004"
     },
     {
       "localId": 18,
-      "producto": "Jocoque con chile piquín",
-      "precio": 17.9,
+      "producto": "Suero de sal",
+      "precio": 17,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
       "productoId": "L018-P005"
     },
     {
       "localId": 19,
-      "producto": "Mantequilla con ajo",
-      "precio": 21.4,
+      "producto": "Queso de rancho",
+      "precio": 111,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L019-P001"
     },
     {
       "localId": 19,
-      "producto": "Queso panela",
-      "precio": 25.9,
+      "producto": "Queso fresco",
+      "precio": 104,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L019-P002"
     },
     {
       "localId": 19,
-      "producto": "Leche bronca",
-      "precio": 28.5,
+      "producto": "Queso Oaxaca",
+      "precio": 149,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L019-P003"
     },
     {
       "localId": 19,
-      "producto": "Crema batida",
-      "precio": 30.1,
+      "producto": "Queso panela",
+      "precio": 90,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L019-P004"
     },
     {
       "localId": 19,
-      "producto": "Jocoque con chile piquín",
-      "precio": 17.6,
+      "producto": "Queso asadero",
+      "precio": 134,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L019-P005"
     },
     {
       "localId": 20,
-      "producto": "Mantequilla con ajo",
-      "precio": 23.0,
+      "producto": "Queso de rancho",
+      "precio": 113,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L020-P001"
     },
     {
       "localId": 20,
-      "producto": "Queso panela",
-      "precio": 26.7,
+      "producto": "Queso fresco",
+      "precio": 96,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L020-P002"
     },
     {
       "localId": 20,
-      "producto": "Leche bronca",
-      "precio": 27.6,
+      "producto": "Queso Oaxaca",
+      "precio": 131,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L020-P003"
     },
     {
       "localId": 20,
-      "producto": "Crema batida",
-      "precio": 34.9,
+      "producto": "Queso panela",
+      "precio": 99,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L020-P004"
     },
     {
       "localId": 20,
-      "producto": "Jocoque con chile piquín",
-      "precio": 19.1,
+      "producto": "Queso asadero",
+      "precio": 135,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L020-P005"
     },
     {
       "localId": 21,
-      "producto": "Cangrejo",
-      "precio": 155,
+      "producto": "Sierra molida para ceviche",
+      "precio": 114,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L021-P001"
     },
     {
       "localId": 21,
-      "producto": "Marlín",
-      "precio": 179,
+      "producto": "Calamar picado",
+      "precio": 100,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L021-P002"
     },
     {
       "localId": 21,
-      "producto": "Salsa negra marisquera",
-      "precio": 86.9,
+      "producto": "Tentáculos de calamar",
+      "precio": 91,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L021-P003"
     },
     {
       "localId": 21,
-      "producto": "Bagre",
-      "precio": 63.7,
+      "producto": "Machaca de pescado",
+      "precio": 219,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L021-P004"
     },
     {
       "localId": 21,
-      "producto": "Almeja",
-      "precio": 144,
+      "producto": "Machaca de mantarraya",
+      "precio": 192,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L021-P005"
     },
     {
       "localId": 22,
-      "producto": "Cangrejo",
-      "precio": 131,
+      "producto": "Camarón con cabeza",
+      "precio": 235,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L022-P001"
     },
     {
       "localId": 22,
-      "producto": "Marlín",
-      "precio": 167,
+      "producto": "Camarón pelado",
+      "precio": 270,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L022-P002"
     },
     {
       "localId": 22,
-      "producto": "Salsa negra marisquera",
-      "precio": 87.8,
+      "producto": "Camarón para aguachile",
+      "precio": 302,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L022-P003"
     },
     {
       "localId": 22,
-      "producto": "Bagre",
-      "precio": 79.8,
+      "producto": "Camarón seco",
+      "precio": 400,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L022-P004"
     },
     {
       "localId": 22,
-      "producto": "Almeja",
-      "precio": 163,
+      "producto": "Ostión en su concha",
+      "precio": 140,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L022-P005"
     },
     {
       "localId": 23,
-      "producto": "Cangrejo",
-      "precio": 154,
+      "producto": "Camarón con cabeza",
+      "precio": 221,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L023-P001"
     },
     {
       "localId": 23,
-      "producto": "Marlín",
-      "precio": 172,
+      "producto": "Camarón pelado",
+      "precio": 289,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L023-P002"
     },
     {
       "localId": 23,
-      "producto": "Salsa negra marisquera",
-      "precio": 102,
+      "producto": "Camarón para aguachile",
+      "precio": 310,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L023-P003"
     },
     {
       "localId": 23,
-      "producto": "Bagre",
-      "precio": 80.1,
+      "producto": "Camarón seco",
+      "precio": 391,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L023-P004"
     },
     {
       "localId": 23,
-      "producto": "Almeja",
-      "precio": 156,
+      "producto": "Ostión en su concha",
+      "precio": 149,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L023-P005"
     },
     {
       "localId": 24,
-      "producto": "Cangrejo",
-      "precio": 133,
+      "producto": "Pescado para zarandear",
+      "precio": 138,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L024-P001"
     },
     {
       "localId": 24,
-      "producto": "Marlín",
-      "precio": 188,
+      "producto": "Mojarra entera",
+      "precio": 85,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L024-P002"
     },
     {
       "localId": 24,
-      "producto": "Salsa negra marisquera",
-      "precio": 101,
+      "producto": "Robalo entero",
+      "precio": 188,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L024-P003"
     },
     {
       "localId": 24,
-      "producto": "Bagre",
-      "precio": 72.3,
+      "producto": "Pargo entero",
+      "precio": 153,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L024-P004"
     },
     {
       "localId": 24,
-      "producto": "Almeja",
-      "precio": 170,
+      "producto": "Lisa entera",
+      "precio": 70,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L024-P005"
     },
     {
       "localId": 25,
-      "producto": "Cangrejo",
-      "precio": 146,
+      "producto": "Camarón con cabeza",
+      "precio": 214,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L025-P001"
     },
     {
       "localId": 25,
-      "producto": "Marlín",
-      "precio": 184,
+      "producto": "Camarón pelado",
+      "precio": 290,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L025-P002"
     },
     {
       "localId": 25,
-      "producto": "Salsa negra marisquera",
-      "precio": 86.0,
+      "producto": "Camarón para aguachile",
+      "precio": 329,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L025-P003"
     },
     {
       "localId": 25,
-      "producto": "Bagre",
-      "precio": 66.8,
+      "producto": "Camarón seco",
+      "precio": 392,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L025-P004"
     },
     {
       "localId": 25,
-      "producto": "Almeja",
-      "precio": 163,
+      "producto": "Ostión en su concha",
+      "precio": 144,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L025-P005"
     },
     {
       "localId": 26,
-      "producto": "Cangrejo",
-      "precio": 153,
+      "producto": "Camarón con cabeza",
+      "precio": 227,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L026-P001"
     },
     {
       "localId": 26,
-      "producto": "Marlín",
-      "precio": 187,
+      "producto": "Camarón pelado",
+      "precio": 284,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L026-P002"
     },
     {
       "localId": 26,
-      "producto": "Salsa negra marisquera",
-      "precio": 96.0,
+      "producto": "Camarón para aguachile",
+      "precio": 321,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L026-P003"
     },
     {
       "localId": 26,
-      "producto": "Bagre",
-      "precio": 74.8,
+      "producto": "Camarón seco",
+      "precio": 403,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L026-P004"
     },
     {
       "localId": 26,
-      "producto": "Almeja",
-      "precio": 165,
+      "producto": "Ostión en su concha",
+      "precio": 140,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L026-P005"
     },
     {
       "localId": 27,
-      "producto": "Cangrejo",
-      "precio": 146,
+      "producto": "Sierra molida para ceviche",
+      "precio": 105,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L027-P001"
     },
     {
       "localId": 27,
-      "producto": "Marlín",
-      "precio": 176,
+      "producto": "Calamar picado",
+      "precio": 101,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L027-P002"
     },
     {
       "localId": 27,
-      "producto": "Salsa negra marisquera",
-      "precio": 85.9,
+      "producto": "Tentáculos de calamar",
+      "precio": 96,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L027-P003"
     },
     {
       "localId": 27,
-      "producto": "Bagre",
-      "precio": 68.9,
+      "producto": "Machaca de pescado",
+      "precio": 232,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L027-P004"
     },
     {
       "localId": 27,
-      "producto": "Almeja",
-      "precio": 171,
+      "producto": "Machaca de mantarraya",
+      "precio": 190,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L027-P005"
     },
     {
       "localId": 28,
-      "producto": "Cangrejo",
-      "precio": 147,
+      "producto": "Pescado para zarandear",
+      "precio": 146,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L028-P001"
     },
     {
       "localId": 28,
-      "producto": "Marlín",
-      "precio": 180,
+      "producto": "Mojarra entera",
+      "precio": 88,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L028-P002"
     },
     {
       "localId": 28,
-      "producto": "Salsa negra marisquera",
-      "precio": 96.3,
+      "producto": "Robalo entero",
+      "precio": 168,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L028-P003"
     },
     {
       "localId": 28,
-      "producto": "Bagre",
-      "precio": 63.9,
+      "producto": "Pargo entero",
+      "precio": 150,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L028-P004"
     },
     {
       "localId": 28,
-      "producto": "Almeja",
-      "precio": 161,
+      "producto": "Lisa entera",
+      "precio": 68,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L028-P005"
@@ -8553,7 +8553,7 @@ window.MG_DATA = {
     {
       "localId": 30,
       "producto": "Pechuga deshuesada",
-      "precio": 56.0,
+      "precio": 56,
       "categoria": "Pollería",
       "unidad": "kg",
       "productoId": "L030-P001"
@@ -8569,7 +8569,7 @@ window.MG_DATA = {
     {
       "localId": 30,
       "producto": "Pollo rostizado",
-      "precio": 44.0,
+      "precio": 44,
       "categoria": "Pollería",
       "unidad": "kg",
       "productoId": "L030-P003"
@@ -8712,680 +8712,680 @@ window.MG_DATA = {
     },
     {
       "localId": 34,
-      "producto": "Manzana golden",
-      "precio": 37.2,
+      "producto": "Tomate saladette",
+      "precio": 28.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L034-P001"
     },
     {
       "localId": 34,
-      "producto": "Naranja valencia",
-      "precio": 12.6,
+      "producto": "Cebolla blanca",
+      "precio": 21,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L034-P002"
     },
     {
       "localId": 34,
-      "producto": "Plátano macho",
-      "precio": 17.2,
+      "producto": "Cebolla morada",
+      "precio": 28.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L034-P003"
     },
     {
       "localId": 34,
-      "producto": "Guamúchil",
-      "precio": 20.0,
+      "producto": "Papa blanca",
+      "precio": 22.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L034-P004"
     },
     {
       "localId": 34,
-      "producto": "Fresa",
-      "precio": 28.9,
+      "producto": "Zanahoria",
+      "precio": 19,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L034-P005"
     },
     {
       "localId": 35,
-      "producto": "Manzana golden",
-      "precio": 41.8,
+      "producto": "Tomate saladette",
+      "precio": 27.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L035-P001"
     },
     {
       "localId": 35,
-      "producto": "Naranja valencia",
-      "precio": 11.9,
+      "producto": "Cebolla blanca",
+      "precio": 22,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L035-P002"
     },
     {
       "localId": 35,
-      "producto": "Plátano macho",
-      "precio": 15.9,
+      "producto": "Cebolla morada",
+      "precio": 28.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L035-P003"
     },
     {
       "localId": 35,
-      "producto": "Guamúchil",
-      "precio": 23.9,
+      "producto": "Papa blanca",
+      "precio": 24.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L035-P004"
     },
     {
       "localId": 35,
-      "producto": "Fresa",
-      "precio": 29.5,
+      "producto": "Zanahoria",
+      "precio": 20.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L035-P005"
     },
     {
       "localId": 36,
-      "producto": "Manzana golden",
-      "precio": 41.2,
+      "producto": "Tomate saladette",
+      "precio": 28.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L036-P001"
     },
     {
       "localId": 36,
-      "producto": "Naranja valencia",
-      "precio": 10.8,
+      "producto": "Cebolla blanca",
+      "precio": 23,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L036-P002"
     },
     {
       "localId": 36,
-      "producto": "Plátano macho",
-      "precio": 18.1,
+      "producto": "Cebolla morada",
+      "precio": 26.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L036-P003"
     },
     {
       "localId": 36,
-      "producto": "Guamúchil",
-      "precio": 22.4,
+      "producto": "Papa blanca",
+      "precio": 22.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L036-P004"
     },
     {
       "localId": 36,
-      "producto": "Fresa",
-      "precio": 29.5,
+      "producto": "Zanahoria",
+      "precio": 20.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L036-P005"
     },
     {
       "localId": 37,
-      "producto": "Manzana golden",
-      "precio": 34.0,
+      "producto": "Tomate saladette",
+      "precio": 27.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L037-P001"
     },
     {
       "localId": 37,
-      "producto": "Naranja valencia",
-      "precio": 11.9,
+      "producto": "Cebolla blanca",
+      "precio": 21.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L037-P002"
     },
     {
       "localId": 37,
-      "producto": "Plátano macho",
-      "precio": 17.7,
+      "producto": "Cebolla morada",
+      "precio": 27,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L037-P003"
     },
     {
       "localId": 37,
-      "producto": "Guamúchil",
-      "precio": 21.7,
+      "producto": "Papa blanca",
+      "precio": 25,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L037-P004"
     },
     {
       "localId": 37,
-      "producto": "Fresa",
-      "precio": 27.1,
+      "producto": "Zanahoria",
+      "precio": 19,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L037-P005"
     },
     {
       "localId": 38,
-      "producto": "Manzana golden",
-      "precio": 39.4,
+      "producto": "Plátano Tabasco",
+      "precio": 20.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L038-P001"
     },
     {
       "localId": 38,
-      "producto": "Naranja valencia",
-      "precio": 10.8,
+      "producto": "Manzana Red Delicious",
+      "precio": 42,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L038-P002"
     },
     {
       "localId": 38,
-      "producto": "Plátano macho",
-      "precio": 18.2,
+      "producto": "Manzana Granny Smith",
+      "precio": 46,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L038-P003"
     },
     {
       "localId": 38,
-      "producto": "Guamúchil",
-      "precio": 22.3,
+      "producto": "Sandía",
+      "precio": 13,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L038-P004"
     },
     {
       "localId": 38,
-      "producto": "Fresa",
-      "precio": 27.4,
+      "producto": "Melón chino",
+      "precio": 19,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L038-P005"
     },
     {
       "localId": 39,
-      "producto": "Manzana golden",
-      "precio": 35.0,
+      "producto": "Tomate saladette",
+      "precio": 27.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L039-P001"
     },
     {
       "localId": 39,
-      "producto": "Naranja valencia",
-      "precio": 12.0,
+      "producto": "Cebolla blanca",
+      "precio": 23,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L039-P002"
     },
     {
       "localId": 39,
-      "producto": "Plátano macho",
-      "precio": 16.7,
+      "producto": "Cebolla morada",
+      "precio": 26.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L039-P003"
     },
     {
       "localId": 39,
-      "producto": "Guamúchil",
-      "precio": 20.7,
+      "producto": "Papa blanca",
+      "precio": 24.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L039-P004"
     },
     {
       "localId": 39,
-      "producto": "Fresa",
-      "precio": 25.8,
+      "producto": "Zanahoria",
+      "precio": 21,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L039-P005"
     },
     {
       "localId": 40,
-      "producto": "Manzana golden",
-      "precio": 41.4,
+      "producto": "Plátano Tabasco",
+      "precio": 20.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L040-P001"
     },
     {
       "localId": 40,
-      "producto": "Naranja valencia",
-      "precio": 12.9,
+      "producto": "Manzana Red Delicious",
+      "precio": 45,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L040-P002"
     },
     {
       "localId": 40,
-      "producto": "Plátano macho",
-      "precio": 19.7,
+      "producto": "Manzana Granny Smith",
+      "precio": 47,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L040-P003"
     },
     {
       "localId": 40,
-      "producto": "Guamúchil",
-      "precio": 23.7,
+      "producto": "Sandía",
+      "precio": 11.3,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L040-P004"
     },
     {
       "localId": 40,
-      "producto": "Fresa",
-      "precio": 29.1,
+      "producto": "Melón chino",
+      "precio": 17.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L040-P005"
     },
     {
       "localId": 41,
-      "producto": "Manzana golden",
-      "precio": 34.1,
+      "producto": "Tomate saladette",
+      "precio": 28,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L041-P001"
     },
     {
       "localId": 41,
-      "producto": "Naranja valencia",
-      "precio": 13.0,
+      "producto": "Cebolla blanca",
+      "precio": 21.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L041-P002"
     },
     {
       "localId": 41,
-      "producto": "Plátano macho",
-      "precio": 18.9,
+      "producto": "Cebolla morada",
+      "precio": 28,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L041-P003"
     },
     {
       "localId": 41,
-      "producto": "Guamúchil",
-      "precio": 20.8,
+      "producto": "Papa blanca",
+      "precio": 23.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L041-P004"
     },
     {
       "localId": 41,
-      "producto": "Fresa",
-      "precio": 27.1,
+      "producto": "Zanahoria",
+      "precio": 21,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L041-P005"
     },
     {
       "localId": 42,
-      "producto": "Vinagre",
-      "precio": 22.8,
+      "producto": "Frijol Mayocoba",
+      "precio": 41,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L042-P001"
     },
     {
       "localId": 42,
-      "producto": "Manteca vegetal",
-      "precio": 30.0,
+      "producto": "Harina de trigo",
+      "precio": 23,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L042-P002"
     },
     {
       "localId": 42,
-      "producto": "Cajeta en envase",
-      "precio": 23.0,
+      "producto": "Arroz",
+      "precio": 29,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L042-P003"
     },
     {
       "localId": 42,
-      "producto": "Arroz blanco",
-      "precio": 10.6,
+      "producto": "Azúcar",
+      "precio": 27,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L042-P004"
     },
     {
       "localId": 42,
-      "producto": "Atún en agua",
-      "precio": 17.8,
+      "producto": "Garbanzo seco",
+      "precio": 39,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L042-P005"
     },
     {
       "localId": 43,
-      "producto": "Vinagre",
-      "precio": 24.1,
+      "producto": "Frijol Mayocoba",
+      "precio": 44,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L043-P001"
     },
     {
       "localId": 43,
-      "producto": "Manteca vegetal",
-      "precio": 29.5,
+      "producto": "Harina de trigo",
+      "precio": 20.5,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L043-P002"
     },
     {
       "localId": 43,
-      "producto": "Cajeta en envase",
-      "precio": 21.5,
+      "producto": "Arroz",
+      "precio": 27,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L043-P003"
     },
     {
       "localId": 43,
-      "producto": "Arroz blanco",
-      "precio": 10.9,
+      "producto": "Azúcar",
+      "precio": 25.5,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L043-P004"
     },
     {
       "localId": 43,
-      "producto": "Atún en agua",
-      "precio": 16.8,
+      "producto": "Garbanzo seco",
+      "precio": 38,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L043-P005"
     },
     {
       "localId": 44,
-      "producto": "Vinagre",
-      "precio": 20.8,
+      "producto": "Frijol Mayocoba",
+      "precio": 41,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L044-P001"
     },
     {
       "localId": 44,
-      "producto": "Manteca vegetal",
-      "precio": 29.6,
+      "producto": "Harina de trigo",
+      "precio": 21.5,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L044-P002"
     },
     {
       "localId": 44,
-      "producto": "Cajeta en envase",
-      "precio": 20.1,
+      "producto": "Arroz",
+      "precio": 27.5,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L044-P003"
     },
     {
       "localId": 44,
-      "producto": "Arroz blanco",
-      "precio": 10.8,
+      "producto": "Azúcar",
+      "precio": 24.5,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L044-P004"
     },
     {
       "localId": 44,
-      "producto": "Atún en agua",
-      "precio": 19.0,
+      "producto": "Garbanzo seco",
+      "precio": 38.5,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L044-P005"
     },
     {
       "localId": 45,
-      "producto": "Vinagre",
-      "precio": 24.2,
+      "producto": "Frijol Mayocoba",
+      "precio": 42,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L045-P001"
     },
     {
       "localId": 45,
-      "producto": "Manteca vegetal",
-      "precio": 26.8,
+      "producto": "Harina de trigo",
+      "precio": 21.5,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L045-P002"
     },
     {
       "localId": 45,
-      "producto": "Cajeta en envase",
-      "precio": 19.7,
+      "producto": "Arroz",
+      "precio": 29.5,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L045-P003"
     },
     {
       "localId": 45,
-      "producto": "Arroz blanco",
-      "precio": 11.2,
+      "producto": "Azúcar",
+      "precio": 27.5,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L045-P004"
     },
     {
       "localId": 45,
-      "producto": "Atún en agua",
-      "precio": 18.1,
+      "producto": "Garbanzo seco",
+      "precio": 39,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L045-P005"
     },
     {
       "localId": 46,
-      "producto": "Vinagre",
-      "precio": 19.7,
+      "producto": "Frijol Mayocoba",
+      "precio": 40,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L046-P001"
     },
     {
       "localId": 46,
-      "producto": "Manteca vegetal",
-      "precio": 27.0,
+      "producto": "Harina de trigo",
+      "precio": 22,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L046-P002"
     },
     {
       "localId": 46,
-      "producto": "Cajeta en envase",
-      "precio": 19.5,
+      "producto": "Arroz",
+      "precio": 28,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L046-P003"
     },
     {
       "localId": 46,
-      "producto": "Arroz blanco",
-      "precio": 12.2,
+      "producto": "Azúcar",
+      "precio": 27,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L046-P004"
     },
     {
       "localId": 46,
-      "producto": "Atún en agua",
-      "precio": 16.2,
+      "producto": "Garbanzo seco",
+      "precio": 37.5,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L046-P005"
     },
     {
       "localId": 47,
-      "producto": "Vinagre",
-      "precio": 21.1,
+      "producto": "Frijol Mayocoba",
+      "precio": 42,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L047-P001"
     },
     {
       "localId": 47,
-      "producto": "Manteca vegetal",
-      "precio": 30.8,
+      "producto": "Harina de trigo",
+      "precio": 20.5,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L047-P002"
     },
     {
       "localId": 47,
-      "producto": "Cajeta en envase",
-      "precio": 21.7,
+      "producto": "Arroz",
+      "precio": 29,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L047-P003"
     },
     {
       "localId": 47,
-      "producto": "Arroz blanco",
-      "precio": 10.7,
+      "producto": "Azúcar",
+      "precio": 26,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L047-P004"
     },
     {
       "localId": 47,
-      "producto": "Atún en agua",
-      "precio": 16.5,
+      "producto": "Garbanzo seco",
+      "precio": 35.5,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L047-P005"
     },
     {
       "localId": 48,
-      "producto": "Vinagre",
-      "precio": 24.2,
+      "producto": "Jamaica",
+      "precio": 86,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L048-P001"
     },
     {
       "localId": 48,
-      "producto": "Manteca vegetal",
-      "precio": 31.2,
+      "producto": "Tamarindo",
+      "precio": 43,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L048-P002"
     },
     {
       "localId": 48,
-      "producto": "Cajeta en envase",
-      "precio": 21.8,
+      "producto": "Pan de mujer",
+      "precio": 11.7,
       "categoria": "Abarrotes",
       "unidad": "pieza",
       "productoId": "L048-P003"
     },
     {
       "localId": 48,
-      "producto": "Arroz blanco",
-      "precio": 12.5,
+      "producto": "Tostadas caseras",
+      "precio": 27.5,
       "categoria": "Abarrotes",
       "unidad": "pieza",
       "productoId": "L048-P004"
     },
     {
       "localId": 48,
-      "producto": "Atún en agua",
-      "precio": 16.2,
+      "producto": "Totopos",
+      "precio": 24.5,
       "categoria": "Abarrotes",
       "unidad": "pieza",
       "productoId": "L048-P005"
     },
     {
       "localId": 49,
-      "producto": "Vinagre",
-      "precio": 20.7,
+      "producto": "Frijol Mayocoba",
+      "precio": 42,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L049-P001"
     },
     {
       "localId": 49,
-      "producto": "Manteca vegetal",
-      "precio": 27.0,
+      "producto": "Harina de trigo",
+      "precio": 21,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L049-P002"
     },
     {
       "localId": 49,
-      "producto": "Cajeta en envase",
-      "precio": 24.3,
+      "producto": "Arroz",
+      "precio": 28.5,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L049-P003"
     },
     {
       "localId": 49,
-      "producto": "Arroz blanco",
-      "precio": 11.9,
+      "producto": "Azúcar",
+      "precio": 28,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L049-P004"
     },
     {
       "localId": 49,
-      "producto": "Atún en agua",
-      "precio": 18.9,
+      "producto": "Garbanzo seco",
+      "precio": 36.5,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L049-P005"
     },
     {
       "localId": 50,
-      "producto": "Vinagre",
-      "precio": 21.7,
+      "producto": "Jamaica",
+      "precio": 89,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L050-P001"
     },
     {
       "localId": 50,
-      "producto": "Manteca vegetal",
-      "precio": 31.3,
+      "producto": "Tamarindo",
+      "precio": 43,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L050-P002"
     },
     {
       "localId": 50,
-      "producto": "Cajeta en envase",
-      "precio": 23.4,
+      "producto": "Pan de mujer",
+      "precio": 11.5,
       "categoria": "Abarrotes",
       "unidad": "pieza",
       "productoId": "L050-P003"
     },
     {
       "localId": 50,
-      "producto": "Arroz blanco",
-      "precio": 12.9,
+      "producto": "Tostadas caseras",
+      "precio": 29,
       "categoria": "Abarrotes",
       "unidad": "pieza",
       "productoId": "L050-P004"
     },
     {
       "localId": 50,
-      "producto": "Atún en agua",
-      "precio": 18.6,
+      "producto": "Totopos",
+      "precio": 24.5,
       "categoria": "Abarrotes",
       "unidad": "pieza",
       "productoId": "L050-P005"
@@ -9401,7 +9401,7 @@ window.MG_DATA = {
     {
       "localId": 51,
       "producto": "Tortilla de betabel",
-      "precio": 21.0,
+      "precio": 21,
       "categoria": "Tortillería",
       "unidad": "kg",
       "productoId": "L051-P002"
@@ -9417,7 +9417,7 @@ window.MG_DATA = {
     {
       "localId": 51,
       "producto": "Tlacoyo de haba",
-      "precio": 25.0,
+      "precio": 25,
       "categoria": "Tortillería",
       "unidad": "kg",
       "productoId": "L051-P004"
@@ -9425,7 +9425,7 @@ window.MG_DATA = {
     {
       "localId": 51,
       "producto": "Tortilla de cilantro",
-      "precio": 25.0,
+      "precio": 25,
       "categoria": "Tortillería",
       "unidad": "kg",
       "productoId": "L051-P005"
@@ -9497,7 +9497,7 @@ window.MG_DATA = {
     {
       "localId": 53,
       "producto": "Tlacoyo de haba",
-      "precio": 24.0,
+      "precio": 24,
       "categoria": "Tortillería",
       "unidad": "kg",
       "productoId": "L053-P004"
@@ -9592,360 +9592,360 @@ window.MG_DATA = {
     },
     {
       "localId": 56,
-      "producto": "Tostada de ceviche",
-      "precio": 50.8,
+      "producto": "Gorditas de asiento",
+      "precio": 25.5,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L056-P001"
     },
     {
       "localId": 56,
-      "producto": "Tamal de elote",
-      "precio": 47.5,
+      "producto": "Tacos dorados de loza",
+      "precio": 51,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L056-P002"
     },
     {
       "localId": 56,
-      "producto": "Torta ahogada",
-      "precio": 53.8,
+      "producto": "Enchiladas del suelo",
+      "precio": 51,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L056-P003"
     },
     {
       "localId": 56,
-      "producto": "Tacos de barbacoa",
-      "precio": 54.6,
+      "producto": "Tostadas de pierna",
+      "precio": 42,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L056-P004"
     },
     {
       "localId": 56,
-      "producto": "Nachos con queso",
-      "precio": 55.5,
+      "producto": "Sopes de chilorio",
+      "precio": 35.5,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L056-P005"
     },
     {
       "localId": 57,
-      "producto": "Tostada de ceviche",
-      "precio": 57.8,
+      "producto": "Pozole rojo",
+      "precio": 92,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L057-P001"
     },
     {
       "localId": 57,
-      "producto": "Tamal de elote",
-      "precio": 48.8,
+      "producto": "Menudo blanco",
+      "precio": 96,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L057-P002"
     },
     {
       "localId": 57,
-      "producto": "Torta ahogada",
-      "precio": 55.4,
+      "producto": "Caldo de res",
+      "precio": 82,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L057-P003"
     },
     {
       "localId": 57,
-      "producto": "Tacos de barbacoa",
-      "precio": 52.9,
+      "producto": "Estofado de cazuela",
+      "precio": 78,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L057-P004"
     },
     {
       "localId": 57,
-      "producto": "Nachos con queso",
-      "precio": 50.9,
+      "producto": "Albóndigas de res",
+      "precio": 78,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L057-P005"
     },
     {
       "localId": 58,
-      "producto": "Tostada de ceviche",
-      "precio": 55.9,
+      "producto": "Gorditas de asiento",
+      "precio": 25.5,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L058-P001"
     },
     {
       "localId": 58,
-      "producto": "Tamal de elote",
-      "precio": 48.3,
+      "producto": "Tacos dorados de loza",
+      "precio": 58,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L058-P002"
     },
     {
       "localId": 58,
-      "producto": "Torta ahogada",
-      "precio": 58.5,
+      "producto": "Enchiladas del suelo",
+      "precio": 56,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L058-P003"
     },
     {
       "localId": 58,
-      "producto": "Tacos de barbacoa",
-      "precio": 44.2,
+      "producto": "Tostadas de pierna",
+      "precio": 44,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L058-P004"
     },
     {
       "localId": 58,
-      "producto": "Nachos con queso",
-      "precio": 53.4,
+      "producto": "Sopes de chilorio",
+      "precio": 33.5,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L058-P005"
     },
     {
       "localId": 59,
-      "producto": "Tostada de ceviche",
-      "precio": 56.0,
+      "producto": "Gorditas de asiento",
+      "precio": 24,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L059-P001"
     },
     {
       "localId": 59,
-      "producto": "Tamal de elote",
-      "precio": 49.6,
+      "producto": "Tacos dorados de loza",
+      "precio": 55,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L059-P002"
     },
     {
       "localId": 59,
-      "producto": "Torta ahogada",
-      "precio": 49.4,
+      "producto": "Enchiladas del suelo",
+      "precio": 52,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L059-P003"
     },
     {
       "localId": 59,
-      "producto": "Tacos de barbacoa",
-      "precio": 53.7,
+      "producto": "Tostadas de pierna",
+      "precio": 47,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L059-P004"
     },
     {
       "localId": 59,
-      "producto": "Nachos con queso",
-      "precio": 54.3,
+      "producto": "Sopes de chilorio",
+      "precio": 35,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L059-P005"
     },
     {
       "localId": 60,
-      "producto": "Tostada de ceviche",
-      "precio": 59.1,
+      "producto": "Gorditas de asiento",
+      "precio": 25.5,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L060-P001"
     },
     {
       "localId": 60,
-      "producto": "Tamal de elote",
-      "precio": 49.8,
+      "producto": "Tacos dorados de loza",
+      "precio": 54,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L060-P002"
     },
     {
       "localId": 60,
-      "producto": "Torta ahogada",
-      "precio": 52.5,
+      "producto": "Enchiladas del suelo",
+      "precio": 54,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L060-P003"
     },
     {
       "localId": 60,
-      "producto": "Tacos de barbacoa",
-      "precio": 55.7,
+      "producto": "Tostadas de pierna",
+      "precio": 44,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L060-P004"
     },
     {
       "localId": 60,
-      "producto": "Nachos con queso",
-      "precio": 47.9,
+      "producto": "Sopes de chilorio",
+      "precio": 32.5,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L060-P005"
     },
     {
       "localId": 61,
-      "producto": "Tostada de ceviche",
-      "precio": 51.5,
+      "producto": "Gorditas de asiento",
+      "precio": 23.5,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L061-P001"
     },
     {
       "localId": 61,
-      "producto": "Tamal de elote",
-      "precio": 55.7,
+      "producto": "Tacos dorados de loza",
+      "precio": 52,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L061-P002"
     },
     {
       "localId": 61,
-      "producto": "Torta ahogada",
-      "precio": 59.2,
+      "producto": "Enchiladas del suelo",
+      "precio": 55,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L061-P003"
     },
     {
       "localId": 61,
-      "producto": "Tacos de barbacoa",
-      "precio": 44.4,
+      "producto": "Tostadas de pierna",
+      "precio": 43,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L061-P004"
     },
     {
       "localId": 61,
-      "producto": "Nachos con queso",
-      "precio": 50.3,
+      "producto": "Sopes de chilorio",
+      "precio": 36,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L061-P005"
     },
     {
       "localId": 62,
-      "producto": "Tostada de ceviche",
-      "precio": 55.6,
+      "producto": "Pozole rojo",
+      "precio": 93,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L062-P001"
     },
     {
       "localId": 62,
-      "producto": "Tamal de elote",
-      "precio": 54.8,
+      "producto": "Menudo blanco",
+      "precio": 98,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L062-P002"
     },
     {
       "localId": 62,
-      "producto": "Torta ahogada",
-      "precio": 53.1,
+      "producto": "Caldo de res",
+      "precio": 90,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L062-P003"
     },
     {
       "localId": 62,
-      "producto": "Tacos de barbacoa",
-      "precio": 52.5,
+      "producto": "Estofado de cazuela",
+      "precio": 81,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L062-P004"
     },
     {
       "localId": 62,
-      "producto": "Nachos con queso",
-      "precio": 48.6,
+      "producto": "Albóndigas de res",
+      "precio": 75,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L062-P005"
     },
     {
       "localId": 63,
-      "producto": "Tostada de ceviche",
-      "precio": 60.6,
+      "producto": "Gorditas de asiento",
+      "precio": 26.5,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L063-P001"
     },
     {
       "localId": 63,
-      "producto": "Tamal de elote",
-      "precio": 44.9,
+      "producto": "Tacos dorados de loza",
+      "precio": 53,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L063-P002"
     },
     {
       "localId": 63,
-      "producto": "Torta ahogada",
-      "precio": 52.6,
+      "producto": "Enchiladas del suelo",
+      "precio": 58,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L063-P003"
     },
     {
       "localId": 63,
-      "producto": "Tacos de barbacoa",
-      "precio": 51.5,
+      "producto": "Tostadas de pierna",
+      "precio": 45,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L063-P004"
     },
     {
       "localId": 63,
-      "producto": "Nachos con queso",
-      "precio": 57.9,
+      "producto": "Sopes de chilorio",
+      "precio": 33,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L063-P005"
     },
     {
       "localId": 64,
-      "producto": "Tostada de ceviche",
-      "precio": 60.9,
+      "producto": "Gorditas de asiento",
+      "precio": 24,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L064-P001"
     },
     {
       "localId": 64,
-      "producto": "Tamal de elote",
-      "precio": 55.5,
+      "producto": "Tacos dorados de loza",
+      "precio": 57,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L064-P002"
     },
     {
       "localId": 64,
-      "producto": "Torta ahogada",
-      "precio": 54.5,
+      "producto": "Enchiladas del suelo",
+      "precio": 55,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L064-P003"
     },
     {
       "localId": 64,
-      "producto": "Tacos de barbacoa",
-      "precio": 47.3,
+      "producto": "Tostadas de pierna",
+      "precio": 44,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L064-P004"
     },
     {
       "localId": 64,
-      "producto": "Nachos con queso",
-      "precio": 57.6,
+      "producto": "Sopes de chilorio",
+      "precio": 32.5,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L064-P005"
@@ -9985,7 +9985,7 @@ window.MG_DATA = {
     {
       "localId": 65,
       "producto": "Jugo de ciruela",
-      "precio": 39.0,
+      "precio": 39,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
       "productoId": "L065-P005"
@@ -10033,7 +10033,7 @@ window.MG_DATA = {
     {
       "localId": 67,
       "producto": "Agua de piña",
-      "precio": 39.0,
+      "precio": 39,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
       "productoId": "L067-P001"
@@ -10089,7 +10089,7 @@ window.MG_DATA = {
     {
       "localId": 68,
       "producto": "Licuado de chocolate",
-      "precio": 44.0,
+      "precio": 44,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
       "productoId": "L068-P003"
@@ -10137,7 +10137,7 @@ window.MG_DATA = {
     {
       "localId": 69,
       "producto": "Sazonador completo",
-      "precio": 94.0,
+      "precio": 94,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
       "productoId": "L069-P004"
@@ -10585,7 +10585,7 @@ window.MG_DATA = {
     {
       "localId": 80,
       "producto": "Chía negra",
-      "precio": 82.0,
+      "precio": 82,
       "categoria": "Semillas y Granos",
       "unidad": "kg",
       "productoId": "L080-P005"
@@ -10601,7 +10601,7 @@ window.MG_DATA = {
     {
       "localId": 81,
       "producto": "Frijol negro",
-      "precio": 66.0,
+      "precio": 66,
       "categoria": "Semillas y Granos",
       "unidad": "kg",
       "productoId": "L081-P002"
@@ -10617,7 +10617,7 @@ window.MG_DATA = {
     {
       "localId": 81,
       "producto": "Amaranto",
-      "precio": 39.0,
+      "precio": 39,
       "categoria": "Semillas y Granos",
       "unidad": "pieza",
       "productoId": "L081-P004"
@@ -10665,7 +10665,7 @@ window.MG_DATA = {
     {
       "localId": 82,
       "producto": "Chía negra",
-      "precio": 84.0,
+      "precio": 84,
       "categoria": "Semillas y Granos",
       "unidad": "kg",
       "productoId": "L082-P005"
@@ -10737,7 +10737,7 @@ window.MG_DATA = {
     {
       "localId": 84,
       "producto": "Michelada de mango",
-      "precio": 17.0,
+      "precio": 17,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
       "productoId": "L084-P004"
@@ -10745,7 +10745,7 @@ window.MG_DATA = {
     {
       "localId": 84,
       "producto": "Agua de sabor",
-      "precio": 11.0,
+      "precio": 11,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
       "productoId": "L084-P005"
@@ -10777,7 +10777,7 @@ window.MG_DATA = {
     {
       "localId": 85,
       "producto": "Michelada de mango",
-      "precio": 18.0,
+      "precio": 18,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
       "productoId": "L085-P004"
@@ -10937,7 +10937,7 @@ window.MG_DATA = {
     {
       "localId": 89,
       "producto": "Cupcake de vainilla",
-      "precio": 46.0,
+      "precio": 46,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
       "productoId": "L089-P004"
@@ -11009,7 +11009,7 @@ window.MG_DATA = {
     {
       "localId": 91,
       "producto": "Galletas de avena",
-      "precio": 36.0,
+      "precio": 36,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
       "productoId": "L091-P003"
@@ -11137,7 +11137,7 @@ window.MG_DATA = {
     {
       "localId": 94,
       "producto": "Corona fúnebre",
-      "precio": 22.0,
+      "precio": 22,
       "categoria": "Florería",
       "unidad": "pieza",
       "productoId": "L094-P004"
@@ -11177,7 +11177,7 @@ window.MG_DATA = {
     {
       "localId": 95,
       "producto": "Eucalipto",
-      "precio": 27.0,
+      "precio": 27,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
       "productoId": "L095-P004"
@@ -11272,280 +11272,280 @@ window.MG_DATA = {
     },
     {
       "localId": 98,
-      "producto": "Chamarra",
-      "precio": 169,
+      "producto": "Tela de manta por metro",
+      "precio": 47,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L098-P001"
     },
     {
       "localId": 98,
-      "producto": "Medias",
-      "precio": 233,
+      "producto": "Tela popelina",
+      "precio": 53,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L098-P002"
     },
     {
       "localId": 98,
-      "producto": "Blusa bordada",
-      "precio": 260,
+      "producto": "Servilletas de tela para bordar",
+      "precio": 33.5,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L098-P003"
     },
     {
       "localId": 98,
-      "producto": "Pijama",
-      "precio": 183,
+      "producto": "Hilo para coser",
+      "precio": 11.5,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L098-P004"
     },
     {
       "localId": 98,
-      "producto": "Camisa formal",
-      "precio": 375,
+      "producto": "Agujas de coser",
+      "precio": 14,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L098-P005"
     },
     {
       "localId": 99,
-      "producto": "Chamarra",
-      "precio": 169,
+      "producto": "Tela de manta por metro",
+      "precio": 43,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L099-P001"
     },
     {
       "localId": 99,
-      "producto": "Medias",
-      "precio": 213,
+      "producto": "Tela popelina",
+      "precio": 52,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L099-P002"
     },
     {
       "localId": 99,
-      "producto": "Blusa bordada",
-      "precio": 329,
+      "producto": "Servilletas de tela para bordar",
+      "precio": 35.5,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L099-P003"
     },
     {
       "localId": 99,
-      "producto": "Pijama",
-      "precio": 209,
+      "producto": "Hilo para coser",
+      "precio": 12.5,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L099-P004"
     },
     {
       "localId": 99,
-      "producto": "Camisa formal",
-      "precio": 360,
+      "producto": "Agujas de coser",
+      "precio": 14,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L099-P005"
     },
     {
       "localId": 100,
-      "producto": "Chamarra",
-      "precio": 175,
+      "producto": "Mallas para niña",
+      "precio": 70,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L100-P001"
     },
     {
       "localId": 100,
-      "producto": "Medias",
-      "precio": 238,
+      "producto": "Mameluco de bebé",
+      "precio": 123,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L100-P002"
     },
     {
       "localId": 100,
-      "producto": "Blusa bordada",
-      "precio": 286,
+      "producto": "Calcetas escolares",
+      "precio": 28.5,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L100-P003"
     },
     {
       "localId": 100,
-      "producto": "Pijama",
-      "precio": 216,
+      "producto": "Uniforme escolar básico",
+      "precio": 264,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L100-P004"
     },
     {
       "localId": 100,
-      "producto": "Camisa formal",
-      "precio": 361,
+      "producto": "Gorra de visera",
+      "precio": 73,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L100-P005"
     },
     {
       "localId": 101,
-      "producto": "Chamarra",
-      "precio": 194,
+      "producto": "Pantalón de mezclilla",
+      "precio": 279,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L101-P001"
     },
     {
       "localId": 101,
-      "producto": "Medias",
-      "precio": 200,
+      "producto": "Camisa vaquera",
+      "precio": 219,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L101-P002"
     },
     {
       "localId": 101,
-      "producto": "Blusa bordada",
-      "precio": 267,
+      "producto": "Camiseta de algodón",
+      "precio": 85,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L101-P003"
     },
     {
       "localId": 101,
-      "producto": "Pijama",
-      "precio": 197,
+      "producto": "Ropa interior para caballero",
+      "precio": 45,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L101-P004"
     },
     {
       "localId": 101,
-      "producto": "Camisa formal",
-      "precio": 389,
+      "producto": "Calcetines de algodón",
+      "precio": 25,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L101-P005"
     },
     {
       "localId": 102,
-      "producto": "Chamarra",
-      "precio": 204,
+      "producto": "Pantalón de mezclilla",
+      "precio": 262,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L102-P001"
     },
     {
       "localId": 102,
-      "producto": "Medias",
-      "precio": 226,
+      "producto": "Camisa vaquera",
+      "precio": 216,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L102-P002"
     },
     {
       "localId": 102,
-      "producto": "Blusa bordada",
-      "precio": 330,
+      "producto": "Camiseta de algodón",
+      "precio": 92,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L102-P003"
     },
     {
       "localId": 102,
-      "producto": "Pijama",
-      "precio": 213,
+      "producto": "Ropa interior para caballero",
+      "precio": 47,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L102-P004"
     },
     {
       "localId": 102,
-      "producto": "Camisa formal",
-      "precio": 360,
+      "producto": "Calcetines de algodón",
+      "precio": 25.5,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L102-P005"
     },
     {
       "localId": 103,
-      "producto": "Chamarra",
-      "precio": 172,
+      "producto": "Mallas para niña",
+      "precio": 72,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L103-P001"
     },
     {
       "localId": 103,
-      "producto": "Medias",
-      "precio": 201,
+      "producto": "Mameluco de bebé",
+      "precio": 114,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L103-P002"
     },
     {
       "localId": 103,
-      "producto": "Blusa bordada",
-      "precio": 329,
+      "producto": "Calcetas escolares",
+      "precio": 30,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L103-P003"
     },
     {
       "localId": 103,
-      "producto": "Pijama",
-      "precio": 195,
+      "producto": "Uniforme escolar básico",
+      "precio": 262,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L103-P004"
     },
     {
       "localId": 103,
-      "producto": "Camisa formal",
-      "precio": 372,
+      "producto": "Gorra de visera",
+      "precio": 67,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L103-P005"
     },
     {
       "localId": 104,
-      "producto": "Chamarra",
-      "precio": 163,
+      "producto": "Pantalón de mezclilla",
+      "precio": 295,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L104-P001"
     },
     {
       "localId": 104,
-      "producto": "Medias",
-      "precio": 245,
+      "producto": "Camisa vaquera",
+      "precio": 234,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L104-P002"
     },
     {
       "localId": 104,
-      "producto": "Blusa bordada",
-      "precio": 261,
+      "producto": "Camiseta de algodón",
+      "precio": 85,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L104-P003"
     },
     {
       "localId": 104,
-      "producto": "Pijama",
-      "precio": 192,
+      "producto": "Ropa interior para caballero",
+      "precio": 42,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L104-P004"
     },
     {
       "localId": 104,
-      "producto": "Camisa formal",
-      "precio": 365,
+      "producto": "Calcetines de algodón",
+      "precio": 26.5,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L104-P005"
@@ -11761,7 +11761,7 @@ window.MG_DATA = {
     {
       "localId": 110,
       "producto": "Machete Colima cacha de plástico",
-      "precio": 39.0,
+      "precio": 39,
       "categoria": "Ferretería",
       "unidad": "pieza",
       "productoId": "L110-P002"
@@ -11897,7 +11897,7 @@ window.MG_DATA = {
     {
       "localId": 113,
       "producto": "Sartén de teflón",
-      "precio": 26.0,
+      "precio": 26,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
       "productoId": "L113-P004"
@@ -11905,7 +11905,7 @@ window.MG_DATA = {
     {
       "localId": 113,
       "producto": "Recipiente con tapa",
-      "precio": 30.0,
+      "precio": 30,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
       "productoId": "L113-P005"
@@ -11921,7 +11921,7 @@ window.MG_DATA = {
     {
       "localId": 114,
       "producto": "Comal de acero",
-      "precio": 22.0,
+      "precio": 22,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
       "productoId": "L114-P002"
@@ -12137,7 +12137,7 @@ window.MG_DATA = {
     {
       "localId": 119,
       "producto": "Coyotas de cajeta",
-      "precio": 26.0,
+      "precio": 26,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
       "productoId": "L119-P004"
@@ -12153,7 +12153,7 @@ window.MG_DATA = {
     {
       "localId": 120,
       "producto": "Alegría de amaranto",
-      "precio": 60.0,
+      "precio": 60,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
       "productoId": "L120-P001"
@@ -12177,7 +12177,7 @@ window.MG_DATA = {
     {
       "localId": 120,
       "producto": "Coyotas de cajeta",
-      "precio": 29.0,
+      "precio": 29,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
       "productoId": "L120-P004"
@@ -12201,7 +12201,7 @@ window.MG_DATA = {
     {
       "localId": 121,
       "producto": "Jamoncillos de leche",
-      "precio": 33.0,
+      "precio": 33,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
       "productoId": "L121-P002"
@@ -12393,7 +12393,7 @@ window.MG_DATA = {
     {
       "localId": 126,
       "producto": "Limpiavidrios",
-      "precio": 25.0,
+      "precio": 25,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
       "productoId": "L126-P001"
@@ -12529,7 +12529,7 @@ window.MG_DATA = {
     {
       "localId": 129,
       "producto": "Tela de satín",
-      "precio": 34.0,
+      "precio": 34,
       "categoria": "Mercería",
       "unidad": "pieza",
       "productoId": "L129-P003"
@@ -12585,7 +12585,7 @@ window.MG_DATA = {
     {
       "localId": 130,
       "producto": "Tobillera",
-      "precio": 80.0,
+      "precio": 80,
       "categoria": "Joyería y Bisutería",
       "unidad": "pieza",
       "productoId": "L130-P005"
@@ -12809,7 +12809,7 @@ window.MG_DATA = {
     {
       "localId": 136,
       "producto": "Folder tamaño carta",
-      "precio": 27.0,
+      "precio": 27,
       "categoria": "Papelería",
       "unidad": "pieza",
       "productoId": "L136-P003"
@@ -12889,7 +12889,7 @@ window.MG_DATA = {
     {
       "localId": 138,
       "producto": "Mouse USB",
-      "precio": 50.0,
+      "precio": 50,
       "categoria": "Electrónica",
       "unidad": "pieza",
       "productoId": "L138-P003"
@@ -12977,7 +12977,7 @@ window.MG_DATA = {
     {
       "localId": 140,
       "producto": "Audífonos bluetooth",
-      "precio": 51.0,
+      "precio": 51,
       "categoria": "Electrónica",
       "unidad": "pieza",
       "productoId": "L140-P004"
@@ -13201,7 +13201,7 @@ window.MG_DATA = {
     {
       "localId": 146,
       "producto": "Canasta de bejuco",
-      "precio": 84.0,
+      "precio": 84,
       "categoria": "Artesanías",
       "unidad": "pieza",
       "productoId": "L146-P002"
@@ -13281,7 +13281,7 @@ window.MG_DATA = {
     {
       "localId": 148,
       "producto": "Reparación de reloj",
-      "precio": 72.0,
+      "precio": 72,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
       "productoId": "L148-P002"
@@ -13432,40 +13432,40 @@ window.MG_DATA = {
     },
     {
       "localId": 152,
-      "producto": "Chamarra",
-      "precio": 187,
+      "producto": "Blusa de encaje",
+      "precio": 186,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L152-P001"
     },
     {
       "localId": 152,
-      "producto": "Medias",
-      "precio": 233,
+      "producto": "Vestido de manta",
+      "precio": 237,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L152-P002"
     },
     {
       "localId": 152,
-      "producto": "Blusa bordada",
-      "precio": 285,
+      "producto": "Falda larga",
+      "precio": 162,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L152-P003"
     },
     {
       "localId": 152,
-      "producto": "Pijama",
-      "precio": 189,
+      "producto": "Short de mezclilla",
+      "precio": 170,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L152-P004"
     },
     {
       "localId": 152,
-      "producto": "Camisa formal",
-      "precio": 320,
+      "producto": "Ropa interior para dama",
+      "precio": 53,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L152-P005"
@@ -13521,7 +13521,7 @@ window.MG_DATA = {
     {
       "localId": 154,
       "producto": "Machete Colima cacha de plástico",
-      "precio": 35.0,
+      "precio": 35,
       "categoria": "Ferretería",
       "unidad": "pieza",
       "productoId": "L154-P002"
@@ -13529,7 +13529,7 @@ window.MG_DATA = {
     {
       "localId": 154,
       "producto": "Tornillo para madera",
-      "precio": 39.0,
+      "precio": 39,
       "categoria": "Ferretería",
       "unidad": "pieza",
       "productoId": "L154-P003"
@@ -13673,7 +13673,7 @@ window.MG_DATA = {
     {
       "localId": 158,
       "producto": "Tlayuda",
-      "precio": 16.0,
+      "precio": 16,
       "categoria": "Tortillería",
       "unidad": "kg",
       "productoId": "L158-P001"
@@ -13713,7 +13713,7 @@ window.MG_DATA = {
     {
       "localId": 159,
       "producto": "Huevo en cono de 30",
-      "precio": 35.0,
+      "precio": 35,
       "categoria": "Huevería",
       "unidad": "pieza",
       "productoId": "L159-P001"
@@ -13752,48 +13752,48 @@ window.MG_DATA = {
     },
     {
       "localId": 160,
-      "producto": "Vinagre",
-      "precio": 22.3,
+      "producto": "Frijol Mayocoba",
+      "precio": 44,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L160-P001"
     },
     {
       "localId": 160,
-      "producto": "Manteca vegetal",
-      "precio": 25.5,
+      "producto": "Harina de trigo",
+      "precio": 21,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L160-P002"
     },
     {
       "localId": 160,
-      "producto": "Cajeta en envase",
-      "precio": 20.0,
+      "producto": "Arroz",
+      "precio": 27.5,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L160-P003"
     },
     {
       "localId": 160,
-      "producto": "Arroz blanco",
-      "precio": 11.4,
+      "producto": "Azúcar",
+      "precio": 27,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L160-P004"
     },
     {
       "localId": 160,
-      "producto": "Atún en agua",
-      "precio": 16.9,
+      "producto": "Garbanzo seco",
+      "precio": 38,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L160-P005"
     },
     {
       "localId": 161,
       "producto": "Canela entera en raja",
-      "precio": 86.0,
+      "precio": 86,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
       "productoId": "L161-P001"
@@ -13825,7 +13825,7 @@ window.MG_DATA = {
     {
       "localId": 161,
       "producto": "Canela en polvo",
-      "precio": 99.0,
+      "precio": 99,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
       "productoId": "L161-P005"
@@ -13857,7 +13857,7 @@ window.MG_DATA = {
     {
       "localId": 162,
       "producto": "Cupcake de vainilla",
-      "precio": 47.0,
+      "precio": 47,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
       "productoId": "L162-P004"
@@ -14057,7 +14057,7 @@ window.MG_DATA = {
     {
       "localId": 167,
       "producto": "Sartén de teflón",
-      "precio": 25.0,
+      "precio": 25,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
       "productoId": "L167-P004"
@@ -14129,7 +14129,7 @@ window.MG_DATA = {
     {
       "localId": 169,
       "producto": "Jugo de uva embotellado",
-      "precio": 41.0,
+      "precio": 41,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
       "productoId": "L169-P003"
@@ -14272,40 +14272,40 @@ window.MG_DATA = {
     },
     {
       "localId": 173,
-      "producto": "Tostada de ceviche",
-      "precio": 49.7,
+      "producto": "Gorditas de asiento",
+      "precio": 24.5,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L173-P001"
     },
     {
       "localId": 173,
-      "producto": "Tamal de elote",
-      "precio": 48.7,
+      "producto": "Tacos dorados de loza",
+      "precio": 54,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L173-P002"
     },
     {
       "localId": 173,
-      "producto": "Torta ahogada",
-      "precio": 55.4,
+      "producto": "Enchiladas del suelo",
+      "precio": 57,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L173-P003"
     },
     {
       "localId": 173,
-      "producto": "Tacos de barbacoa",
-      "precio": 49.8,
+      "producto": "Tostadas de pierna",
+      "precio": 42,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L173-P004"
     },
     {
       "localId": 173,
-      "producto": "Nachos con queso",
-      "precio": 54.8,
+      "producto": "Sopes de chilorio",
+      "precio": 36,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L173-P005"
@@ -14392,160 +14392,160 @@ window.MG_DATA = {
     },
     {
       "localId": 176,
-      "producto": "Manzana golden",
-      "precio": 34.6,
+      "producto": "Plátano Tabasco",
+      "precio": 21.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L176-P001"
     },
     {
       "localId": 176,
-      "producto": "Naranja valencia",
-      "precio": 12.6,
+      "producto": "Manzana Red Delicious",
+      "precio": 42,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L176-P002"
     },
     {
       "localId": 176,
-      "producto": "Plátano macho",
-      "precio": 16.7,
+      "producto": "Manzana Granny Smith",
+      "precio": 46,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L176-P003"
     },
     {
       "localId": 176,
-      "producto": "Guamúchil",
-      "precio": 19.6,
+      "producto": "Sandía",
+      "precio": 12.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L176-P004"
     },
     {
       "localId": 176,
-      "producto": "Fresa",
-      "precio": 27.1,
+      "producto": "Melón chino",
+      "precio": 17,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L176-P005"
     },
     {
       "localId": 177,
-      "producto": "Aguayón",
-      "precio": 120,
+      "producto": "Pulpa de res",
+      "precio": 176,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L177-P001"
     },
     {
       "localId": 177,
-      "producto": "Diezmillo",
-      "precio": 79.1,
+      "producto": "Bistec de diezmillo",
+      "precio": 172,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L177-P002"
     },
     {
       "localId": 177,
-      "producto": "T-bone",
-      "precio": 106,
+      "producto": "Carne molida de res",
+      "precio": 124,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L177-P003"
     },
     {
       "localId": 177,
-      "producto": "Cueritos de cerdo",
-      "precio": 184,
+      "producto": "Costilla de res",
+      "precio": 90,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L177-P004"
     },
     {
       "localId": 177,
-      "producto": "Suadero",
-      "precio": 125,
+      "producto": "Cuete de res",
+      "precio": 146,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L177-P005"
     },
     {
       "localId": 178,
-      "producto": "Suaves de malvavisco",
-      "precio": 15.1,
+      "producto": "Conchas de vainilla",
+      "precio": 15.5,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L178-P001"
     },
     {
       "localId": 178,
-      "producto": "Empanada de cajeta",
-      "precio": 13.4,
+      "producto": "Conchas de chocolate",
+      "precio": 15.5,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L178-P002"
     },
     {
       "localId": 178,
-      "producto": "Buñuelos",
-      "precio": 15.8,
+      "producto": "Donas de azúcar",
+      "precio": 16,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L178-P003"
     },
     {
       "localId": 178,
-      "producto": "Pan de feria",
-      "precio": 14.9,
+      "producto": "Donas de chocolate",
+      "precio": 17,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L178-P004"
     },
     {
       "localId": 178,
-      "producto": "Pinturitas de manteca",
-      "precio": 12.2,
+      "producto": "Mantecadas",
+      "precio": 14.5,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L178-P005"
     },
     {
       "localId": 179,
-      "producto": "Cangrejo",
-      "precio": 136,
+      "producto": "Camarón con cabeza",
+      "precio": 225,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L179-P001"
     },
     {
       "localId": 179,
-      "producto": "Marlín",
-      "precio": 200,
+      "producto": "Camarón pelado",
+      "precio": 281,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L179-P002"
     },
     {
       "localId": 179,
-      "producto": "Salsa negra marisquera",
-      "precio": 89.8,
+      "producto": "Camarón para aguachile",
+      "precio": 322,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L179-P003"
     },
     {
       "localId": 179,
-      "producto": "Bagre",
-      "precio": 65.8,
+      "producto": "Camarón seco",
+      "precio": 365,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L179-P004"
     },
     {
       "localId": 179,
-      "producto": "Almeja",
-      "precio": 178,
+      "producto": "Ostión en su concha",
+      "precio": 137,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L179-P005"
@@ -14592,40 +14592,40 @@ window.MG_DATA = {
     },
     {
       "localId": 181,
-      "producto": "Mantequilla con ajo",
-      "precio": 24.3,
+      "producto": "Leche entera",
+      "precio": 24.5,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "litro",
       "productoId": "L181-P001"
     },
     {
       "localId": 181,
-      "producto": "Queso panela",
-      "precio": 24.8,
+      "producto": "Leche bronca",
+      "precio": 23.5,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "litro",
       "productoId": "L181-P002"
     },
     {
       "localId": 181,
-      "producto": "Leche bronca",
-      "precio": 28.5,
+      "producto": "Leche evaporada",
+      "precio": 22,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
       "productoId": "L181-P003"
     },
     {
       "localId": 181,
-      "producto": "Crema batida",
-      "precio": 28.2,
+      "producto": "Leche condensada",
+      "precio": 28.5,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
       "productoId": "L181-P004"
     },
     {
       "localId": 181,
-      "producto": "Jocoque con chile piquín",
-      "precio": 18.6,
+      "producto": "Suero de sal",
+      "precio": 17.5,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
       "productoId": "L181-P005"
@@ -14665,7 +14665,7 @@ window.MG_DATA = {
     {
       "localId": 182,
       "producto": "Champurrado",
-      "precio": 40.0,
+      "precio": 40,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
       "productoId": "L182-P005"
@@ -14792,40 +14792,40 @@ window.MG_DATA = {
     },
     {
       "localId": 186,
-      "producto": "Chamarra",
-      "precio": 163,
+      "producto": "Blusa de encaje",
+      "precio": 181,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L186-P001"
     },
     {
       "localId": 186,
-      "producto": "Medias",
-      "precio": 221,
+      "producto": "Vestido de manta",
+      "precio": 261,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L186-P002"
     },
     {
       "localId": 186,
-      "producto": "Blusa bordada",
-      "precio": 287,
+      "producto": "Falda larga",
+      "precio": 151,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L186-P003"
     },
     {
       "localId": 186,
-      "producto": "Pijama",
-      "precio": 199,
+      "producto": "Short de mezclilla",
+      "precio": 171,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L186-P004"
     },
     {
       "localId": 186,
-      "producto": "Camisa formal",
-      "precio": 339,
+      "producto": "Ropa interior para dama",
+      "precio": 48,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L186-P005"
@@ -14881,7 +14881,7 @@ window.MG_DATA = {
     {
       "localId": 188,
       "producto": "Machete Colima cacha de plástico",
-      "precio": 38.0,
+      "precio": 38,
       "categoria": "Ferretería",
       "unidad": "pieza",
       "productoId": "L188-P002"
@@ -14977,7 +14977,7 @@ window.MG_DATA = {
     {
       "localId": 190,
       "producto": "Eucalipto",
-      "precio": 28.0,
+      "precio": 28,
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
       "productoId": "L190-P004"
@@ -15112,42 +15112,42 @@ window.MG_DATA = {
     },
     {
       "localId": 194,
-      "producto": "Vinagre",
-      "precio": 21.9,
+      "producto": "Frijol Mayocoba",
+      "precio": 44,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L194-P001"
     },
     {
       "localId": 194,
-      "producto": "Manteca vegetal",
-      "precio": 27.8,
+      "producto": "Harina de trigo",
+      "precio": 22.5,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L194-P002"
     },
     {
       "localId": 194,
-      "producto": "Cajeta en envase",
-      "precio": 24.5,
+      "producto": "Arroz",
+      "precio": 28,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L194-P003"
     },
     {
       "localId": 194,
-      "producto": "Arroz blanco",
-      "precio": 11.8,
+      "producto": "Azúcar",
+      "precio": 26,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L194-P004"
     },
     {
       "localId": 194,
-      "producto": "Atún en agua",
-      "precio": 18.8,
+      "producto": "Garbanzo seco",
+      "precio": 39,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L194-P005"
     },
     {
@@ -15345,7 +15345,7 @@ window.MG_DATA = {
     {
       "localId": 199,
       "producto": "Dedal",
-      "precio": 14.0,
+      "precio": 14,
       "categoria": "Mercería",
       "unidad": "pieza",
       "productoId": "L199-P005"
@@ -15441,7 +15441,7 @@ window.MG_DATA = {
     {
       "localId": 202,
       "producto": "Frijol negro",
-      "precio": 64.0,
+      "precio": 64,
       "categoria": "Semillas y Granos",
       "unidad": "kg",
       "productoId": "L202-P002"
@@ -15537,7 +15537,7 @@ window.MG_DATA = {
     {
       "localId": 204,
       "producto": "Buche",
-      "precio": 77.0,
+      "precio": 77,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
       "productoId": "L204-P004"
@@ -15632,40 +15632,40 @@ window.MG_DATA = {
     },
     {
       "localId": 207,
-      "producto": "Tostada de ceviche",
-      "precio": 57.6,
+      "producto": "Tacos de guisado",
+      "precio": 22,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L207-P001"
     },
     {
       "localId": 207,
-      "producto": "Tamal de elote",
-      "precio": 54.5,
+      "producto": "Chimichangas",
+      "precio": 54,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L207-P002"
     },
     {
       "localId": 207,
-      "producto": "Torta ahogada",
-      "precio": 58.4,
+      "producto": "Asado de res",
+      "precio": 92,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L207-P003"
     },
     {
       "localId": 207,
-      "producto": "Tacos de barbacoa",
-      "precio": 54.7,
+      "producto": "Chilorio con huevo",
+      "precio": 74,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L207-P004"
     },
     {
       "localId": 207,
-      "producto": "Nachos con queso",
-      "precio": 49.3,
+      "producto": "Machaca con huevo",
+      "precio": 72,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L207-P005"
@@ -15681,7 +15681,7 @@ window.MG_DATA = {
     {
       "localId": 208,
       "producto": "Sopes",
-      "precio": 95.0,
+      "precio": 95,
       "categoria": "Fonda",
       "unidad": "pieza",
       "productoId": "L208-P002"
@@ -15689,7 +15689,7 @@ window.MG_DATA = {
     {
       "localId": 208,
       "producto": "Gorditas de chicharrón",
-      "precio": 82.0,
+      "precio": 82,
       "categoria": "Fonda",
       "unidad": "pieza",
       "productoId": "L208-P003"
@@ -15721,7 +15721,7 @@ window.MG_DATA = {
     {
       "localId": 209,
       "producto": "Arroz a la mexicana",
-      "precio": 70.0,
+      "precio": 70,
       "categoria": "Comida Casera",
       "unidad": "pieza",
       "productoId": "L209-P002"
@@ -15729,7 +15729,7 @@ window.MG_DATA = {
     {
       "localId": 209,
       "producto": "Bistec a la mexicana",
-      "precio": 66.0,
+      "precio": 66,
       "categoria": "Comida Casera",
       "unidad": "pieza",
       "productoId": "L209-P003"
@@ -15752,160 +15752,160 @@ window.MG_DATA = {
     },
     {
       "localId": 210,
-      "producto": "Manzana golden",
-      "precio": 39.7,
+      "producto": "Plátano Tabasco",
+      "precio": 21,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L210-P001"
     },
     {
       "localId": 210,
-      "producto": "Naranja valencia",
-      "precio": 13.0,
+      "producto": "Manzana Red Delicious",
+      "precio": 45,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L210-P002"
     },
     {
       "localId": 210,
-      "producto": "Plátano macho",
-      "precio": 19.8,
+      "producto": "Manzana Granny Smith",
+      "precio": 51,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L210-P003"
     },
     {
       "localId": 210,
-      "producto": "Guamúchil",
-      "precio": 19.5,
+      "producto": "Sandía",
+      "precio": 11.2,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L210-P004"
     },
     {
       "localId": 210,
-      "producto": "Fresa",
-      "precio": 24.7,
+      "producto": "Melón chino",
+      "precio": 19,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L210-P005"
     },
     {
       "localId": 211,
-      "producto": "Aguayón",
-      "precio": 132,
+      "producto": "Pulpa de res",
+      "precio": 160,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L211-P001"
     },
     {
       "localId": 211,
-      "producto": "Diezmillo",
-      "precio": 93.2,
+      "producto": "Bistec de diezmillo",
+      "precio": 183,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L211-P002"
     },
     {
       "localId": 211,
-      "producto": "T-bone",
-      "precio": 94.2,
+      "producto": "Carne molida de res",
+      "precio": 136,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L211-P003"
     },
     {
       "localId": 211,
-      "producto": "Cueritos de cerdo",
-      "precio": 148,
+      "producto": "Costilla de res",
+      "precio": 93,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L211-P004"
     },
     {
       "localId": 211,
-      "producto": "Suadero",
-      "precio": 122,
+      "producto": "Cuete de res",
+      "precio": 142,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L211-P005"
     },
     {
       "localId": 212,
-      "producto": "Suaves de malvavisco",
-      "precio": 13.6,
+      "producto": "Conchas de vainilla",
+      "precio": 16,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L212-P001"
     },
     {
       "localId": 212,
-      "producto": "Empanada de cajeta",
-      "precio": 15.7,
+      "producto": "Conchas de chocolate",
+      "precio": 16.5,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L212-P002"
     },
     {
       "localId": 212,
-      "producto": "Buñuelos",
-      "precio": 14.7,
+      "producto": "Donas de azúcar",
+      "precio": 15.5,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L212-P003"
     },
     {
       "localId": 212,
-      "producto": "Pan de feria",
-      "precio": 14.4,
+      "producto": "Donas de chocolate",
+      "precio": 15.5,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L212-P004"
     },
     {
       "localId": 212,
-      "producto": "Pinturitas de manteca",
-      "precio": 13.3,
+      "producto": "Mantecadas",
+      "precio": 14.5,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L212-P005"
     },
     {
       "localId": 213,
-      "producto": "Cangrejo",
-      "precio": 156,
+      "producto": "Camarón con cabeza",
+      "precio": 205,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L213-P001"
     },
     {
       "localId": 213,
-      "producto": "Marlín",
-      "precio": 171,
+      "producto": "Camarón pelado",
+      "precio": 288,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L213-P002"
     },
     {
       "localId": 213,
-      "producto": "Salsa negra marisquera",
-      "precio": 97.8,
+      "producto": "Camarón para aguachile",
+      "precio": 298,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L213-P003"
     },
     {
       "localId": 213,
-      "producto": "Bagre",
-      "precio": 66.5,
+      "producto": "Camarón seco",
+      "precio": 357,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L213-P004"
     },
     {
       "localId": 213,
-      "producto": "Almeja",
-      "precio": 166,
+      "producto": "Ostión en su concha",
+      "precio": 149,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L213-P005"
@@ -15952,40 +15952,40 @@ window.MG_DATA = {
     },
     {
       "localId": 215,
-      "producto": "Mantequilla con ajo",
-      "precio": 26.8,
+      "producto": "Leche entera",
+      "precio": 24,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "litro",
       "productoId": "L215-P001"
     },
     {
       "localId": 215,
-      "producto": "Queso panela",
-      "precio": 29.2,
+      "producto": "Leche bronca",
+      "precio": 23.5,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "litro",
       "productoId": "L215-P002"
     },
     {
       "localId": 215,
-      "producto": "Leche bronca",
-      "precio": 27.2,
+      "producto": "Leche evaporada",
+      "precio": 21,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
       "productoId": "L215-P003"
     },
     {
       "localId": 215,
-      "producto": "Crema batida",
-      "precio": 31.3,
+      "producto": "Leche condensada",
+      "precio": 27,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
       "productoId": "L215-P004"
     },
     {
       "localId": 215,
-      "producto": "Jocoque con chile piquín",
-      "precio": 16.7,
+      "producto": "Suero de sal",
+      "precio": 18.5,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
       "productoId": "L215-P005"
@@ -16073,7 +16073,7 @@ window.MG_DATA = {
     {
       "localId": 218,
       "producto": "Tulipán",
-      "precio": 27.0,
+      "precio": 27,
       "categoria": "Florería",
       "unidad": "pieza",
       "productoId": "L218-P001"
@@ -16152,40 +16152,40 @@ window.MG_DATA = {
     },
     {
       "localId": 220,
-      "producto": "Chamarra",
-      "precio": 192,
+      "producto": "Blusa de encaje",
+      "precio": 172,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L220-P001"
     },
     {
       "localId": 220,
-      "producto": "Medias",
-      "precio": 212,
+      "producto": "Vestido de manta",
+      "precio": 239,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L220-P002"
     },
     {
       "localId": 220,
-      "producto": "Blusa bordada",
-      "precio": 315,
+      "producto": "Falda larga",
+      "precio": 156,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L220-P003"
     },
     {
       "localId": 220,
-      "producto": "Pijama",
-      "precio": 202,
+      "producto": "Short de mezclilla",
+      "precio": 186,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L220-P004"
     },
     {
       "localId": 220,
-      "producto": "Camisa formal",
-      "precio": 340,
+      "producto": "Ropa interior para dama",
+      "precio": 48,
       "categoria": "Ropa y Textiles",
       "unidad": "pieza",
       "productoId": "L220-P005"
@@ -16273,7 +16273,7 @@ window.MG_DATA = {
     {
       "localId": 223,
       "producto": "Audífonos de diadema",
-      "precio": 68.0,
+      "precio": 68,
       "categoria": "Electrónica",
       "unidad": "pieza",
       "productoId": "L223-P001"
@@ -16297,7 +16297,7 @@ window.MG_DATA = {
     {
       "localId": 223,
       "producto": "Audífonos bluetooth",
-      "precio": 53.0,
+      "precio": 53,
       "categoria": "Electrónica",
       "unidad": "pieza",
       "productoId": "L223-P004"
@@ -16401,7 +16401,7 @@ window.MG_DATA = {
     {
       "localId": 226,
       "producto": "Tortilla de betabel",
-      "precio": 23.0,
+      "precio": 23,
       "categoria": "Tortillería",
       "unidad": "kg",
       "productoId": "L226-P002"
@@ -16417,7 +16417,7 @@ window.MG_DATA = {
     {
       "localId": 226,
       "producto": "Tlacoyo de haba",
-      "precio": 26.0,
+      "precio": 26,
       "categoria": "Tortillería",
       "unidad": "kg",
       "productoId": "L226-P004"
@@ -16472,42 +16472,42 @@ window.MG_DATA = {
     },
     {
       "localId": 228,
-      "producto": "Vinagre",
-      "precio": 21.5,
+      "producto": "Frijol Mayocoba",
+      "precio": 40,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L228-P001"
     },
     {
       "localId": 228,
-      "producto": "Manteca vegetal",
-      "precio": 25.4,
+      "producto": "Harina de trigo",
+      "precio": 23.5,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L228-P002"
     },
     {
       "localId": 228,
-      "producto": "Cajeta en envase",
-      "precio": 21.3,
+      "producto": "Arroz",
+      "precio": 30,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L228-P003"
     },
     {
       "localId": 228,
-      "producto": "Arroz blanco",
-      "precio": 12.2,
+      "producto": "Azúcar",
+      "precio": 25,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L228-P004"
     },
     {
       "localId": 228,
-      "producto": "Atún en agua",
-      "precio": 19.0,
+      "producto": "Garbanzo seco",
+      "precio": 36.5,
       "categoria": "Abarrotes",
-      "unidad": "pieza",
+      "unidad": "kg",
       "productoId": "L228-P005"
     },
     {
@@ -16729,7 +16729,7 @@ window.MG_DATA = {
     {
       "localId": 234,
       "producto": "Escobillón",
-      "precio": 21.0,
+      "precio": 21,
       "categoria": "Artículos de Limpieza",
       "unidad": "pieza",
       "productoId": "L234-P003"
@@ -16769,7 +16769,7 @@ window.MG_DATA = {
     {
       "localId": 235,
       "producto": "Cuchara de acero",
-      "precio": 17.0,
+      "precio": 17,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
       "productoId": "L235-P003"
@@ -16817,7 +16817,7 @@ window.MG_DATA = {
     {
       "localId": 236,
       "producto": "Amaranto",
-      "precio": 33.0,
+      "precio": 33,
       "categoria": "Semillas y Granos",
       "unidad": "pieza",
       "productoId": "L236-P004"
@@ -16857,7 +16857,7 @@ window.MG_DATA = {
     {
       "localId": 237,
       "producto": "Michelada de mango",
-      "precio": 16.0,
+      "precio": 16,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
       "productoId": "L237-P004"
@@ -16992,40 +16992,40 @@ window.MG_DATA = {
     },
     {
       "localId": 241,
-      "producto": "Tostada de ceviche",
-      "precio": 50.3,
+      "producto": "Gorditas de asiento",
+      "precio": 26.5,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L241-P001"
     },
     {
       "localId": 241,
-      "producto": "Tamal de elote",
-      "precio": 45.5,
+      "producto": "Tacos dorados de loza",
+      "precio": 53,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L241-P002"
     },
     {
       "localId": 241,
-      "producto": "Torta ahogada",
-      "precio": 59.4,
+      "producto": "Enchiladas del suelo",
+      "precio": 59,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L241-P003"
     },
     {
       "localId": 241,
-      "producto": "Tacos de barbacoa",
-      "precio": 46.6,
+      "producto": "Tostadas de pierna",
+      "precio": 47,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L241-P004"
     },
     {
       "localId": 241,
-      "producto": "Nachos con queso",
-      "precio": 49.6,
+      "producto": "Sopes de chilorio",
+      "precio": 34.5,
       "categoria": "Antojitos y Comida",
       "unidad": "pieza",
       "productoId": "L241-P005"
@@ -17049,7 +17049,7 @@ window.MG_DATA = {
     {
       "localId": 242,
       "producto": "Gorditas de chicharrón",
-      "precio": 80.0,
+      "precio": 80,
       "categoria": "Fonda",
       "unidad": "pieza",
       "productoId": "L242-P003"
@@ -17073,7 +17073,7 @@ window.MG_DATA = {
     {
       "localId": 243,
       "producto": "Mole de olla",
-      "precio": 72.0,
+      "precio": 72,
       "categoria": "Comida Casera",
       "unidad": "pieza",
       "productoId": "L243-P001"
@@ -17112,160 +17112,160 @@ window.MG_DATA = {
     },
     {
       "localId": 244,
-      "producto": "Manzana golden",
-      "precio": 34.6,
+      "producto": "Plátano Tabasco",
+      "precio": 22.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L244-P001"
     },
     {
       "localId": 244,
-      "producto": "Naranja valencia",
-      "precio": 12.9,
+      "producto": "Manzana Red Delicious",
+      "precio": 48,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L244-P002"
     },
     {
       "localId": 244,
-      "producto": "Plátano macho",
-      "precio": 19.2,
+      "producto": "Manzana Granny Smith",
+      "precio": 50,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L244-P003"
     },
     {
       "localId": 244,
-      "producto": "Guamúchil",
-      "precio": 24.3,
+      "producto": "Sandía",
+      "precio": 12.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L244-P004"
     },
     {
       "localId": 244,
-      "producto": "Fresa",
-      "precio": 25.0,
+      "producto": "Melón chino",
+      "precio": 18.5,
       "categoria": "Frutas y Verduras",
       "unidad": "kg",
       "productoId": "L244-P005"
     },
     {
       "localId": 245,
-      "producto": "Aguayón",
-      "precio": 143,
+      "producto": "Pulpa de res",
+      "precio": 172,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L245-P001"
     },
     {
       "localId": 245,
-      "producto": "Diezmillo",
-      "precio": 78.3,
+      "producto": "Bistec de diezmillo",
+      "precio": 163,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L245-P002"
     },
     {
       "localId": 245,
-      "producto": "T-bone",
-      "precio": 97.4,
+      "producto": "Carne molida de res",
+      "precio": 136,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L245-P003"
     },
     {
       "localId": 245,
-      "producto": "Cueritos de cerdo",
-      "precio": 181,
+      "producto": "Costilla de res",
+      "precio": 89,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L245-P004"
     },
     {
       "localId": 245,
-      "producto": "Suadero",
-      "precio": 117,
+      "producto": "Cuete de res",
+      "precio": 152,
       "categoria": "Carnicería",
       "unidad": "kg",
       "productoId": "L245-P005"
     },
     {
       "localId": 246,
-      "producto": "Suaves de malvavisco",
-      "precio": 12.4,
+      "producto": "Conchas de vainilla",
+      "precio": 15,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L246-P001"
     },
     {
       "localId": 246,
-      "producto": "Empanada de cajeta",
-      "precio": 14.6,
+      "producto": "Conchas de chocolate",
+      "precio": 16.5,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L246-P002"
     },
     {
       "localId": 246,
-      "producto": "Buñuelos",
-      "precio": 14.4,
+      "producto": "Donas de azúcar",
+      "precio": 16,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L246-P003"
     },
     {
       "localId": 246,
-      "producto": "Pan de feria",
-      "precio": 16.0,
+      "producto": "Donas de chocolate",
+      "precio": 16.5,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L246-P004"
     },
     {
       "localId": 246,
-      "producto": "Pinturitas de manteca",
-      "precio": 13.3,
+      "producto": "Mantecadas",
+      "precio": 14.5,
       "categoria": "Panadería",
       "unidad": "pieza",
       "productoId": "L246-P005"
     },
     {
       "localId": 247,
-      "producto": "Cangrejo",
-      "precio": 137,
+      "producto": "Camarón con cabeza",
+      "precio": 232,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L247-P001"
     },
     {
       "localId": 247,
-      "producto": "Marlín",
-      "precio": 191,
+      "producto": "Camarón pelado",
+      "precio": 279,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L247-P002"
     },
     {
       "localId": 247,
-      "producto": "Salsa negra marisquera",
-      "precio": 88.2,
+      "producto": "Camarón para aguachile",
+      "precio": 340,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L247-P003"
     },
     {
       "localId": 247,
-      "producto": "Bagre",
-      "precio": 73.9,
+      "producto": "Camarón seco",
+      "precio": 372,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L247-P004"
     },
     {
       "localId": 247,
-      "producto": "Almeja",
-      "precio": 147,
+      "producto": "Ostión en su concha",
+      "precio": 136,
       "categoria": "Pescadería y Mariscos",
       "unidad": "kg",
       "productoId": "L247-P005"
@@ -17312,40 +17312,40 @@ window.MG_DATA = {
     },
     {
       "localId": 249,
-      "producto": "Mantequilla con ajo",
-      "precio": 24.4,
+      "producto": "Leche entera",
+      "precio": 23,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "litro",
       "productoId": "L249-P001"
     },
     {
       "localId": 249,
-      "producto": "Queso panela",
-      "precio": 27.1,
+      "producto": "Leche bronca",
+      "precio": 22.5,
       "categoria": "Lácteos y Quesos",
-      "unidad": "pieza",
+      "unidad": "litro",
       "productoId": "L249-P002"
     },
     {
       "localId": 249,
-      "producto": "Leche bronca",
-      "precio": 24.0,
+      "producto": "Leche evaporada",
+      "precio": 22,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
       "productoId": "L249-P003"
     },
     {
       "localId": 249,
-      "producto": "Crema batida",
-      "precio": 31.4,
+      "producto": "Leche condensada",
+      "precio": 26.5,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
       "productoId": "L249-P004"
     },
     {
       "localId": 249,
-      "producto": "Jocoque con chile piquín",
-      "precio": 18.1,
+      "producto": "Suero de sal",
+      "precio": 17,
       "categoria": "Lácteos y Quesos",
       "unidad": "pieza",
       "productoId": "L249-P005"
@@ -17361,7 +17361,7 @@ window.MG_DATA = {
     {
       "localId": 250,
       "producto": "Café irlandés",
-      "precio": 23.0,
+      "precio": 23,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
       "productoId": "L250-P002"

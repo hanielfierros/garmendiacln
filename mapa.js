@@ -18,6 +18,11 @@
   let svgRoot = null;
   let viewportEl = null;
   let localesLayer = null;
+  let prodPanelEl = null;
+  let prodPanelTitle = null;
+  let prodPanelCount = null;
+  let prodPanelList = null;
+  let searchTimer = null;
 
   const FAV_KEY = "mg_favoritos";
   const MIN_SCALE = 0.45;
@@ -132,6 +137,72 @@
     return !!blob && blob.indexOf(q) !== -1;
   }
 
+  function hideProductPanel() {
+    if (prodPanelEl) prodPanelEl.hidden = true;
+  }
+
+  function findLocalesByProducto(q) {
+    const nq = normalize(q);
+    if (!nq || nq.length < 3 || /^\d+$/.test(q.trim())) return [];
+    const { DATA } = getMapDeps();
+    const locales = DATA.locales || [];
+    const out = [];
+    locales.forEach((local) => {
+      if (mapFilterGrupo && local.grupoColor !== mapFilterGrupo) return;
+      if (!tieneProducto(local.id, nq)) return;
+      out.push(local);
+    });
+    out.sort((a, b) => Number(a.id) - Number(b.id));
+    return out;
+  }
+
+  function updateProductResultsPanel() {
+    if (!prodPanelEl || !prodPanelList) return;
+    const q = mapSearch;
+    const locales = findLocalesByProducto(q);
+    if (!locales.length) {
+      hideProductPanel();
+      return;
+    }
+    const { el, openFichaRapida } = getMapDeps();
+    prodPanelTitle.textContent = "Locales con “" + q + "”";
+    prodPanelCount.textContent = locales.length === 1
+      ? "1 local"
+      : locales.length + " locales";
+    prodPanelList.replaceChildren();
+    locales.forEach((local) => {
+      const logoHtml = (global.generarLogoMexicanoSVG
+        ? global.generarLogoMexicanoSVG(local.id, local.giro)
+        : "");
+      prodPanelList.appendChild(
+        el("button", {
+          type: "button",
+          className: "mapa-prod-item",
+          onclick: (e) => {
+            e.stopPropagation();
+            if (openFichaRapida) openFichaRapida(local);
+          },
+        }, [
+          el("span", { className: "mapa-prod-logo", html: logoHtml }),
+          el("span", { className: "mapa-prod-meta" }, [
+            el("strong", { text: local.nombre }),
+            el("span", { text: "Local " + local.id }),
+          ]),
+          el("i", { className: "fa-solid fa-chevron-right mapa-prod-chevron" }),
+        ])
+      );
+    });
+    prodPanelEl.hidden = false;
+  }
+
+  function onMapSearchInput(value) {
+    mapSearch = String(value || "").trim();
+    renderLocalesSvg();
+    if (/^\d+$/.test(mapSearch)) scrollToLocal(mapSearch);
+    if (searchTimer) clearTimeout(searchTimer);
+    searchTimer = setTimeout(updateProductResultsPanel, 220);
+  }
+
   function matchesMapFilter(local) {
     if (mapFilterGrupo && local.grupoColor !== mapFilterGrupo) return false;
     if (mapSearch) {
@@ -191,7 +262,7 @@
     }, { passive: false });
 
     viewport.addEventListener("mousedown", (e) => {
-      if (e.target.closest(".mapa-local-svg")) return;
+      if (e.target.closest(".mapa-local-svg") || e.target.closest(".mapa-prod-panel")) return;
       isPanning = true;
       panStart = { x: e.clientX, y: e.clientY, px: panX, py: panY };
       viewport.classList.add("is-panning");
@@ -216,13 +287,14 @@
           e.touches[0].clientX - e.touches[1].clientX,
           e.touches[0].clientY - e.touches[1].clientY
         );
-      } else if (e.touches.length === 1 && !e.target.closest(".mapa-local-svg")) {
+      } else if (e.touches.length === 1 && !e.target.closest(".mapa-local-svg") && !e.target.closest(".mapa-prod-panel")) {
         isPanning = true;
         panStart = { x: e.touches[0].clientX, y: e.touches[0].clientY, px: panX, py: panY };
       }
     }, { passive: true });
 
     viewport.addEventListener("touchmove", (e) => {
+      if (e.target.closest(".mapa-prod-panel")) return;
       if (e.touches.length === 2) {
         const dist = Math.hypot(
           e.touches[0].clientX - e.touches[1].clientX,
@@ -407,6 +479,7 @@
       b.classList.toggle("active", b.dataset.grupo === grupo || (!grupo && b.dataset.grupo === ""));
     });
     renderLocalesSvg();
+    updateProductResultsPanel();
   }
 
   function buildSvgMap() {
@@ -469,12 +542,19 @@
         el("i", { className: "fa-solid fa-magnifying-glass" }),
         el("input", {
           type: "search",
-          placeholder: "Buscar local por número o nombre…",
+          placeholder: "Buscar local, número o producto…",
           "aria-label": "Buscar en mapa",
-          oninput: (e) => {
-            mapSearch = e.target.value.trim();
-            renderLocalesSvg();
-            if (/^\d+$/.test(mapSearch)) scrollToLocal(mapSearch);
+          enterkeyhint: "search",
+          autocomplete: "off",
+          autocorrect: "off",
+          spellcheck: "false",
+          oninput: (e) => onMapSearchInput(e.target.value),
+          onfocus: () => {
+            const mapa = document.getElementById("mapa");
+            if (!mapa || window.innerWidth > 560) return;
+            setTimeout(() => {
+              mapa.scrollIntoView({ behavior: "smooth", block: "start" });
+            }, 250);
           },
         }),
       ]),
@@ -485,6 +565,38 @@
         el("button", { type: "button", className: "mapa-reset", "aria-label": "Restablecer", onclick: resetMapView }, [el("i", { className: "fa-solid fa-compress" })]),
       ]),
     ]);
+
+    function buildProductPanel() {
+      prodPanelTitle = el("strong", { className: "mapa-prod-title", text: "Locales" });
+      prodPanelCount = el("span", { className: "mapa-prod-count", text: "" });
+      prodPanelList = el("div", { className: "mapa-prod-list", role: "list" });
+      prodPanelEl = el("div", {
+        className: "mapa-prod-panel",
+        onclick: (e) => e.stopPropagation(),
+        onmousedown: (e) => e.stopPropagation(),
+        ontouchstart: (e) => e.stopPropagation(),
+      }, [
+        el("div", { className: "mapa-prod-head" }, [
+          el("div", { className: "mapa-prod-head-text" }, [prodPanelTitle, prodPanelCount]),
+          el("button", {
+            type: "button",
+            className: "mapa-prod-close",
+            "aria-label": "Cerrar lista para ver el mapa",
+            onclick: (e) => {
+              e.stopPropagation();
+              hideProductPanel();
+            },
+          }, [el("i", { className: "fa-solid fa-xmark" })]),
+        ]),
+        prodPanelList,
+      ]);
+      prodPanelEl.hidden = true;
+      prodPanelEl.addEventListener("touchmove", (e) => e.stopPropagation(), { passive: true });
+      prodPanelList.addEventListener("touchmove", (e) => e.stopPropagation(), { passive: true });
+      return prodPanelEl;
+    }
+
+    viewport.appendChild(buildProductPanel());
 
     const leyendaEl = el("div", { className: "mapa-leyenda reveal-item" }, [
       el("button", { type: "button", className: "mapa-leyenda-item active", "data-grupo": "", onclick: () => setMapFilter("") }, [
