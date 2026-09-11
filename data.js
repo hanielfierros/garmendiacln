@@ -2,7 +2,7 @@ window.MG_DATA = {
   "meta": {
     "version": "14.0.0",
     "totalLocales": 250,
-    "totalProductos": 12475,
+    "totalProductos": 6488,
     "mercado": "Mercado Garmendia",
     "ciudad": "Culiacán, Sinaloa",
     "direccion": "Av. Domingo Rubí Nte. 465, Centro, Culiacán, Sinaloa",
@@ -18,7 +18,7 @@ window.MG_DATA = {
       "Fonda"
     ],
     "historiaImage": "mercado-historia.jpg",
-    "catalogVersion": "15.1.0",
+    "catalogVersion": "15.2.0",
     "catalogoArchivo": "catalogo.js",
     "productosPorLocal": 40,
     "pickupEnabled": true
@@ -8512,203 +8512,123 @@ window.MG_DATA = {
     },
     {
       "localId": 29,
-      "producto": "Pechuga deshuesada",
-      "precio": 57.5,
+      "producto": "Nuggets",
+      "precio": 52.7,
       "categoria": "Pollería",
       "unidad": "kg",
-      "productoId": "L029-P001"
+      "productoId": "L029-P006"
     },
     {
       "localId": 29,
-      "producto": "Pechuga ahumada",
-      "precio": 73.7,
+      "producto": "Alitas picantes",
+      "precio": 85.4,
       "categoria": "Pollería",
       "unidad": "kg",
-      "productoId": "L029-P002"
+      "productoId": "L029-P015"
     },
     {
       "localId": 29,
-      "producto": "Pollo rostizado",
-      "precio": 49.5,
+      "producto": "Alitas a la BBQ",
+      "precio": 13.7,
       "categoria": "Pollería",
-      "unidad": "kg",
-      "productoId": "L029-P003"
-    },
-    {
-      "localId": 29,
-      "producto": "Pollo a la parrilla",
-      "precio": 38.1,
-      "categoria": "Pollería",
-      "unidad": "kg",
-      "productoId": "L029-P004"
-    },
-    {
-      "localId": 29,
-      "producto": "Medio pollo rostizado",
-      "precio": 73.1,
-      "categoria": "Pollería",
-      "unidad": "kg",
-      "productoId": "L029-P005"
+      "unidad": "pieza",
+      "productoId": "L029-P055"
     },
     {
       "localId": 30,
-      "producto": "Pechuga deshuesada",
-      "precio": 56,
+      "producto": "Nuggets",
+      "precio": 52.6,
       "categoria": "Pollería",
       "unidad": "kg",
-      "productoId": "L030-P001"
+      "productoId": "L030-P006"
     },
     {
       "localId": 30,
-      "producto": "Pechuga ahumada",
-      "precio": 69.1,
+      "producto": "Alitas picantes",
+      "precio": 85.3,
       "categoria": "Pollería",
       "unidad": "kg",
-      "productoId": "L030-P002"
+      "productoId": "L030-P015"
     },
     {
       "localId": 30,
-      "producto": "Pollo rostizado",
-      "precio": 44,
+      "producto": "Alitas a la BBQ",
+      "precio": 14.8,
       "categoria": "Pollería",
-      "unidad": "kg",
-      "productoId": "L030-P003"
-    },
-    {
-      "localId": 30,
-      "producto": "Pollo a la parrilla",
-      "precio": 40.7,
-      "categoria": "Pollería",
-      "unidad": "kg",
-      "productoId": "L030-P004"
-    },
-    {
-      "localId": 30,
-      "producto": "Medio pollo rostizado",
-      "precio": 74.7,
-      "categoria": "Pollería",
-      "unidad": "kg",
-      "productoId": "L030-P005"
+      "unidad": "pieza",
+      "productoId": "L030-P055"
     },
     {
       "localId": 31,
-      "producto": "Pechuga deshuesada",
-      "precio": 57.5,
+      "producto": "Nuggets",
+      "precio": 52,
       "categoria": "Pollería",
       "unidad": "kg",
-      "productoId": "L031-P001"
+      "productoId": "L031-P006"
     },
     {
       "localId": 31,
-      "producto": "Pechuga ahumada",
-      "precio": 78.3,
+      "producto": "Alitas picantes",
+      "precio": 79.9,
       "categoria": "Pollería",
       "unidad": "kg",
-      "productoId": "L031-P002"
+      "productoId": "L031-P015"
     },
     {
       "localId": 31,
-      "producto": "Pollo rostizado",
-      "precio": 46.9,
+      "producto": "Alitas a la BBQ",
+      "precio": 13.4,
       "categoria": "Pollería",
-      "unidad": "kg",
-      "productoId": "L031-P003"
-    },
-    {
-      "localId": 31,
-      "producto": "Pollo a la parrilla",
-      "precio": 37.7,
-      "categoria": "Pollería",
-      "unidad": "kg",
-      "productoId": "L031-P004"
-    },
-    {
-      "localId": 31,
-      "producto": "Medio pollo rostizado",
-      "precio": 71.8,
-      "categoria": "Pollería",
-      "unidad": "kg",
-      "productoId": "L031-P005"
+      "unidad": "pieza",
+      "productoId": "L031-P055"
     },
     {
       "localId": 32,
-      "producto": "Pechuga deshuesada",
-      "precio": 46.7,
+      "producto": "Nuggets",
+      "precio": 52.8,
       "categoria": "Pollería",
       "unidad": "kg",
-      "productoId": "L032-P001"
+      "productoId": "L032-P006"
     },
     {
       "localId": 32,
-      "producto": "Pechuga ahumada",
-      "precio": 87.3,
+      "producto": "Alitas picantes",
+      "precio": 93.5,
       "categoria": "Pollería",
       "unidad": "kg",
-      "productoId": "L032-P002"
+      "productoId": "L032-P015"
     },
     {
       "localId": 32,
-      "producto": "Pollo rostizado",
-      "precio": 48.7,
+      "producto": "Alitas a la BBQ",
+      "precio": 16.7,
       "categoria": "Pollería",
-      "unidad": "kg",
-      "productoId": "L032-P003"
-    },
-    {
-      "localId": 32,
-      "producto": "Pollo a la parrilla",
-      "precio": 46.7,
-      "categoria": "Pollería",
-      "unidad": "kg",
-      "productoId": "L032-P004"
-    },
-    {
-      "localId": 32,
-      "producto": "Medio pollo rostizado",
-      "precio": 65.9,
-      "categoria": "Pollería",
-      "unidad": "kg",
-      "productoId": "L032-P005"
+      "unidad": "pieza",
+      "productoId": "L032-P055"
     },
     {
       "localId": 33,
-      "producto": "Pechuga deshuesada",
-      "precio": 47.8,
+      "producto": "Nuggets",
+      "precio": 47.4,
       "categoria": "Pollería",
       "unidad": "kg",
-      "productoId": "L033-P001"
+      "productoId": "L033-P006"
     },
     {
       "localId": 33,
-      "producto": "Pechuga ahumada",
-      "precio": 77.6,
+      "producto": "Alitas picantes",
+      "precio": 93.8,
       "categoria": "Pollería",
       "unidad": "kg",
-      "productoId": "L033-P002"
+      "productoId": "L033-P015"
     },
     {
       "localId": 33,
-      "producto": "Pollo rostizado",
-      "precio": 46.9,
+      "producto": "Alitas a la BBQ",
+      "precio": 13.5,
       "categoria": "Pollería",
-      "unidad": "kg",
-      "productoId": "L033-P003"
-    },
-    {
-      "localId": 33,
-      "producto": "Pollo a la parrilla",
-      "precio": 43.4,
-      "categoria": "Pollería",
-      "unidad": "kg",
-      "productoId": "L033-P004"
-    },
-    {
-      "localId": 33,
-      "producto": "Medio pollo rostizado",
-      "precio": 72.2,
-      "categoria": "Pollería",
-      "unidad": "kg",
-      "productoId": "L033-P005"
+      "unidad": "pieza",
+      "productoId": "L033-P055"
     },
     {
       "localId": 34,
@@ -9400,22 +9320,6 @@ window.MG_DATA = {
     },
     {
       "localId": 51,
-      "producto": "Tortilla de betabel",
-      "precio": 21,
-      "categoria": "Tortillería",
-      "unidad": "kg",
-      "productoId": "L051-P002"
-    },
-    {
-      "localId": 51,
-      "producto": "Tortilla taquera",
-      "precio": 13.8,
-      "categoria": "Tortillería",
-      "unidad": "pieza",
-      "productoId": "L051-P003"
-    },
-    {
-      "localId": 51,
       "producto": "Tlacoyo de haba",
       "precio": 25,
       "categoria": "Tortillería",
@@ -9424,11 +9328,27 @@ window.MG_DATA = {
     },
     {
       "localId": 51,
-      "producto": "Tortilla de cilantro",
-      "precio": 25,
+      "producto": "Chilaquiles",
+      "precio": 15.2,
       "categoria": "Tortillería",
-      "unidad": "kg",
-      "productoId": "L051-P005"
+      "unidad": "pieza",
+      "productoId": "L051-P047"
+    },
+    {
+      "localId": 51,
+      "producto": "Pellizcada",
+      "precio": 21.7,
+      "categoria": "Tortillería",
+      "unidad": "pieza",
+      "productoId": "L051-P051"
+    },
+    {
+      "localId": 51,
+      "producto": "Chalupa",
+      "precio": 26.6,
+      "categoria": "Tortillería",
+      "unidad": "pieza",
+      "productoId": "L051-P054"
     },
     {
       "localId": 52,
@@ -9440,22 +9360,6 @@ window.MG_DATA = {
     },
     {
       "localId": 52,
-      "producto": "Tortilla de betabel",
-      "precio": 23.5,
-      "categoria": "Tortillería",
-      "unidad": "kg",
-      "productoId": "L052-P002"
-    },
-    {
-      "localId": 52,
-      "producto": "Tortilla taquera",
-      "precio": 14.2,
-      "categoria": "Tortillería",
-      "unidad": "pieza",
-      "productoId": "L052-P003"
-    },
-    {
-      "localId": 52,
       "producto": "Tlacoyo de haba",
       "precio": 26.1,
       "categoria": "Tortillería",
@@ -9464,11 +9368,27 @@ window.MG_DATA = {
     },
     {
       "localId": 52,
-      "producto": "Tortilla de cilantro",
-      "precio": 24.2,
+      "producto": "Chilaquiles",
+      "precio": 16.3,
       "categoria": "Tortillería",
-      "unidad": "kg",
-      "productoId": "L052-P005"
+      "unidad": "pieza",
+      "productoId": "L052-P047"
+    },
+    {
+      "localId": 52,
+      "producto": "Pellizcada",
+      "precio": 21.1,
+      "categoria": "Tortillería",
+      "unidad": "pieza",
+      "productoId": "L052-P051"
+    },
+    {
+      "localId": 52,
+      "producto": "Chalupa",
+      "precio": 25.2,
+      "categoria": "Tortillería",
+      "unidad": "pieza",
+      "productoId": "L052-P054"
     },
     {
       "localId": 53,
@@ -9480,22 +9400,6 @@ window.MG_DATA = {
     },
     {
       "localId": 53,
-      "producto": "Tortilla de betabel",
-      "precio": 23.5,
-      "categoria": "Tortillería",
-      "unidad": "kg",
-      "productoId": "L053-P002"
-    },
-    {
-      "localId": 53,
-      "producto": "Tortilla taquera",
-      "precio": 12.6,
-      "categoria": "Tortillería",
-      "unidad": "pieza",
-      "productoId": "L053-P003"
-    },
-    {
-      "localId": 53,
       "producto": "Tlacoyo de haba",
       "precio": 24,
       "categoria": "Tortillería",
@@ -9504,11 +9408,27 @@ window.MG_DATA = {
     },
     {
       "localId": 53,
-      "producto": "Tortilla de cilantro",
-      "precio": 27.7,
+      "producto": "Chilaquiles",
+      "precio": 15.4,
       "categoria": "Tortillería",
-      "unidad": "kg",
-      "productoId": "L053-P005"
+      "unidad": "pieza",
+      "productoId": "L053-P047"
+    },
+    {
+      "localId": 53,
+      "producto": "Pellizcada",
+      "precio": 22.9,
+      "categoria": "Tortillería",
+      "unidad": "pieza",
+      "productoId": "L053-P051"
+    },
+    {
+      "localId": 53,
+      "producto": "Chalupa",
+      "precio": 26.2,
+      "categoria": "Tortillería",
+      "unidad": "pieza",
+      "productoId": "L053-P054"
     },
     {
       "localId": 54,
@@ -9520,22 +9440,6 @@ window.MG_DATA = {
     },
     {
       "localId": 54,
-      "producto": "Tortilla de betabel",
-      "precio": 23.7,
-      "categoria": "Tortillería",
-      "unidad": "kg",
-      "productoId": "L054-P002"
-    },
-    {
-      "localId": 54,
-      "producto": "Tortilla taquera",
-      "precio": 13.1,
-      "categoria": "Tortillería",
-      "unidad": "pieza",
-      "productoId": "L054-P003"
-    },
-    {
-      "localId": 54,
       "producto": "Tlacoyo de haba",
       "precio": 23.5,
       "categoria": "Tortillería",
@@ -9544,11 +9448,27 @@ window.MG_DATA = {
     },
     {
       "localId": 54,
-      "producto": "Tortilla de cilantro",
-      "precio": 27.4,
+      "producto": "Chilaquiles",
+      "precio": 15.6,
       "categoria": "Tortillería",
-      "unidad": "kg",
-      "productoId": "L054-P005"
+      "unidad": "pieza",
+      "productoId": "L054-P047"
+    },
+    {
+      "localId": 54,
+      "producto": "Pellizcada",
+      "precio": 23.2,
+      "categoria": "Tortillería",
+      "unidad": "pieza",
+      "productoId": "L054-P051"
+    },
+    {
+      "localId": 54,
+      "producto": "Chalupa",
+      "precio": 24,
+      "categoria": "Tortillería",
+      "unidad": "pieza",
+      "productoId": "L054-P054"
     },
     {
       "localId": 55,
@@ -9560,22 +9480,6 @@ window.MG_DATA = {
     },
     {
       "localId": 55,
-      "producto": "Tortilla de betabel",
-      "precio": 19.8,
-      "categoria": "Tortillería",
-      "unidad": "kg",
-      "productoId": "L055-P002"
-    },
-    {
-      "localId": 55,
-      "producto": "Tortilla taquera",
-      "precio": 13.1,
-      "categoria": "Tortillería",
-      "unidad": "pieza",
-      "productoId": "L055-P003"
-    },
-    {
-      "localId": 55,
       "producto": "Tlacoyo de haba",
       "precio": 24.2,
       "categoria": "Tortillería",
@@ -9584,11 +9488,27 @@ window.MG_DATA = {
     },
     {
       "localId": 55,
-      "producto": "Tortilla de cilantro",
-      "precio": 25.4,
+      "producto": "Chilaquiles",
+      "precio": 13.5,
       "categoria": "Tortillería",
-      "unidad": "kg",
-      "productoId": "L055-P005"
+      "unidad": "pieza",
+      "productoId": "L055-P047"
+    },
+    {
+      "localId": 55,
+      "producto": "Pellizcada",
+      "precio": 22.8,
+      "categoria": "Tortillería",
+      "unidad": "pieza",
+      "productoId": "L055-P051"
+    },
+    {
+      "localId": 55,
+      "producto": "Chalupa",
+      "precio": 25.9,
+      "categoria": "Tortillería",
+      "unidad": "pieza",
+      "productoId": "L055-P054"
     },
     {
       "localId": 56,
@@ -9952,179 +9872,163 @@ window.MG_DATA = {
     },
     {
       "localId": 65,
-      "producto": "Agua de piña",
-      "precio": 36.3,
+      "producto": "Jugo de apio",
+      "precio": 37.8,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L065-P001"
+      "productoId": "L065-P012"
     },
     {
       "localId": 65,
-      "producto": "Agua de horchata",
-      "precio": 37.2,
+      "producto": "Jugo de granada",
+      "precio": 45.4,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L065-P002"
+      "productoId": "L065-P013"
     },
     {
       "localId": 65,
-      "producto": "Licuado de chocolate",
-      "precio": 41.4,
+      "producto": "Jugo de betabel",
+      "precio": 28.2,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L065-P003"
+      "productoId": "L065-P030"
     },
     {
       "localId": 65,
-      "producto": "Jugo de manzana",
-      "precio": 40.2,
+      "producto": "Jugo de uva",
+      "precio": 24.7,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L065-P004"
+      "productoId": "L065-P044"
     },
     {
       "localId": 65,
-      "producto": "Jugo de ciruela",
-      "precio": 39,
+      "producto": "Jugo mixto",
+      "precio": 51.8,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L065-P005"
+      "productoId": "L065-P050"
     },
     {
       "localId": 66,
-      "producto": "Agua de piña",
-      "precio": 38.1,
+      "producto": "Jugo de apio",
+      "precio": 38.7,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L066-P001"
+      "productoId": "L066-P012"
     },
     {
       "localId": 66,
-      "producto": "Agua de horchata",
-      "precio": 37.6,
+      "producto": "Jugo de granada",
+      "precio": 44.6,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L066-P002"
+      "productoId": "L066-P013"
     },
     {
       "localId": 66,
-      "producto": "Licuado de chocolate",
-      "precio": 42.1,
+      "producto": "Jugo de betabel",
+      "precio": 27.3,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L066-P003"
+      "productoId": "L066-P030"
     },
     {
       "localId": 66,
-      "producto": "Jugo de manzana",
-      "precio": 36.1,
+      "producto": "Jugo de uva",
+      "precio": 26.7,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L066-P004"
+      "productoId": "L066-P044"
     },
     {
       "localId": 66,
-      "producto": "Jugo de ciruela",
-      "precio": 41.4,
+      "producto": "Jugo mixto",
+      "precio": 50.1,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L066-P005"
+      "productoId": "L066-P050"
     },
     {
       "localId": 67,
-      "producto": "Agua de piña",
-      "precio": 39,
+      "producto": "Jugo de apio",
+      "precio": 41.1,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L067-P001"
+      "productoId": "L067-P012"
     },
     {
       "localId": 67,
-      "producto": "Agua de horchata",
-      "precio": 37.4,
+      "producto": "Jugo de granada",
+      "precio": 43.6,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L067-P002"
+      "productoId": "L067-P013"
     },
     {
       "localId": 67,
-      "producto": "Licuado de chocolate",
-      "precio": 43.7,
+      "producto": "Jugo de betabel",
+      "precio": 32.1,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L067-P003"
+      "productoId": "L067-P030"
     },
     {
       "localId": 67,
-      "producto": "Jugo de manzana",
-      "precio": 43.9,
+      "producto": "Jugo de uva",
+      "precio": 23.4,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L067-P004"
+      "productoId": "L067-P044"
     },
     {
       "localId": 67,
-      "producto": "Jugo de ciruela",
-      "precio": 33.5,
+      "producto": "Jugo mixto",
+      "precio": 49.7,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L067-P005"
+      "productoId": "L067-P050"
     },
     {
       "localId": 68,
-      "producto": "Agua de piña",
-      "precio": 34.9,
+      "producto": "Jugo de apio",
+      "precio": 37,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L068-P001"
+      "productoId": "L068-P012"
     },
     {
       "localId": 68,
-      "producto": "Agua de horchata",
-      "precio": 38.3,
+      "producto": "Jugo de granada",
+      "precio": 42.9,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L068-P002"
+      "productoId": "L068-P013"
     },
     {
       "localId": 68,
-      "producto": "Licuado de chocolate",
-      "precio": 44,
+      "producto": "Jugo de betabel",
+      "precio": 26.5,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L068-P003"
+      "productoId": "L068-P030"
     },
     {
       "localId": 68,
-      "producto": "Jugo de manzana",
-      "precio": 38.8,
+      "producto": "Jugo de uva",
+      "precio": 25,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L068-P004"
+      "productoId": "L068-P044"
     },
     {
       "localId": 68,
-      "producto": "Jugo de ciruela",
-      "precio": 41.9,
+      "producto": "Jugo mixto",
+      "precio": 53.6,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L068-P005"
-    },
-    {
-      "localId": 69,
-      "producto": "Canela entera en raja",
-      "precio": 78.4,
-      "categoria": "Especias y Chiles",
-      "unidad": "kg",
-      "productoId": "L069-P001"
-    },
-    {
-      "localId": 69,
-      "producto": "Tomillo",
-      "precio": 87.2,
-      "categoria": "Especias y Chiles",
-      "unidad": "kg",
-      "productoId": "L069-P002"
+      "productoId": "L068-P050"
     },
     {
       "localId": 69,
@@ -10144,27 +10048,27 @@ window.MG_DATA = {
     },
     {
       "localId": 69,
-      "producto": "Canela en polvo",
-      "precio": 106,
+      "producto": "Pipián",
+      "precio": 78.2,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
-      "productoId": "L069-P005"
+      "productoId": "L069-P006"
     },
     {
-      "localId": 70,
-      "producto": "Canela entera en raja",
-      "precio": 78.7,
+      "localId": 69,
+      "producto": "Anís",
+      "precio": 79.2,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
-      "productoId": "L070-P001"
+      "productoId": "L069-P007"
     },
     {
-      "localId": 70,
-      "producto": "Tomillo",
-      "precio": 104,
+      "localId": 69,
+      "producto": "Mejorana",
+      "precio": 99.8,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
-      "productoId": "L070-P002"
+      "productoId": "L069-P008"
     },
     {
       "localId": 70,
@@ -10184,27 +10088,27 @@ window.MG_DATA = {
     },
     {
       "localId": 70,
-      "producto": "Canela en polvo",
-      "precio": 96.6,
+      "producto": "Pipián",
+      "precio": 72.8,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
-      "productoId": "L070-P005"
+      "productoId": "L070-P006"
     },
     {
-      "localId": 71,
-      "producto": "Canela entera en raja",
-      "precio": 88.6,
+      "localId": 70,
+      "producto": "Anís",
+      "precio": 72.8,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
-      "productoId": "L071-P001"
+      "productoId": "L070-P007"
     },
     {
-      "localId": 71,
-      "producto": "Tomillo",
-      "precio": 103,
+      "localId": 70,
+      "producto": "Mejorana",
+      "precio": 98.4,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
-      "productoId": "L071-P002"
+      "productoId": "L070-P008"
     },
     {
       "localId": 71,
@@ -10224,27 +10128,27 @@ window.MG_DATA = {
     },
     {
       "localId": 71,
-      "producto": "Canela en polvo",
-      "precio": 115,
+      "producto": "Pipián",
+      "precio": 80.6,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
-      "productoId": "L071-P005"
+      "productoId": "L071-P006"
     },
     {
-      "localId": 72,
-      "producto": "Canela entera en raja",
-      "precio": 87.6,
+      "localId": 71,
+      "producto": "Anís",
+      "precio": 87.3,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
-      "productoId": "L072-P001"
+      "productoId": "L071-P007"
     },
     {
-      "localId": 72,
-      "producto": "Tomillo",
-      "precio": 97.6,
+      "localId": 71,
+      "producto": "Mejorana",
+      "precio": 98,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
-      "productoId": "L072-P002"
+      "productoId": "L071-P008"
     },
     {
       "localId": 72,
@@ -10264,131 +10168,27 @@ window.MG_DATA = {
     },
     {
       "localId": 72,
-      "producto": "Canela en polvo",
-      "precio": 94.3,
+      "producto": "Pipián",
+      "precio": 73.5,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
-      "productoId": "L072-P005"
+      "productoId": "L072-P006"
     },
     {
-      "localId": 73,
-      "producto": "Huevo en cono de 30",
-      "precio": 35.4,
-      "categoria": "Huevería",
-      "unidad": "pieza",
-      "productoId": "L073-P001"
+      "localId": 72,
+      "producto": "Anís",
+      "precio": 79.4,
+      "categoria": "Especias y Chiles",
+      "unidad": "kg",
+      "productoId": "L072-P007"
     },
     {
-      "localId": 73,
-      "producto": "Huevo rojo por media cartera",
-      "precio": 42.2,
-      "categoria": "Huevería",
-      "unidad": "pieza",
-      "productoId": "L073-P002"
-    },
-    {
-      "localId": 73,
-      "producto": "Huevo blanco limpio",
-      "precio": 59.2,
-      "categoria": "Huevería",
-      "unidad": "pieza",
-      "productoId": "L073-P003"
-    },
-    {
-      "localId": 73,
-      "producto": "Huevo de avestruz",
-      "precio": 128,
-      "categoria": "Huevería",
-      "unidad": "pieza",
-      "productoId": "L073-P004"
-    },
-    {
-      "localId": 73,
-      "producto": "Huevo en cono de 12",
-      "precio": 204,
-      "categoria": "Huevería",
-      "unidad": "pieza",
-      "productoId": "L073-P005"
-    },
-    {
-      "localId": 74,
-      "producto": "Huevo en cono de 30",
-      "precio": 32.8,
-      "categoria": "Huevería",
-      "unidad": "pieza",
-      "productoId": "L074-P001"
-    },
-    {
-      "localId": 74,
-      "producto": "Huevo rojo por media cartera",
-      "precio": 47.9,
-      "categoria": "Huevería",
-      "unidad": "pieza",
-      "productoId": "L074-P002"
-    },
-    {
-      "localId": 74,
-      "producto": "Huevo blanco limpio",
-      "precio": 58.6,
-      "categoria": "Huevería",
-      "unidad": "pieza",
-      "productoId": "L074-P003"
-    },
-    {
-      "localId": 74,
-      "producto": "Huevo de avestruz",
-      "precio": 136,
-      "categoria": "Huevería",
-      "unidad": "pieza",
-      "productoId": "L074-P004"
-    },
-    {
-      "localId": 74,
-      "producto": "Huevo en cono de 12",
-      "precio": 211,
-      "categoria": "Huevería",
-      "unidad": "pieza",
-      "productoId": "L074-P005"
-    },
-    {
-      "localId": 75,
-      "producto": "Huevo en cono de 30",
-      "precio": 32.8,
-      "categoria": "Huevería",
-      "unidad": "pieza",
-      "productoId": "L075-P001"
-    },
-    {
-      "localId": 75,
-      "producto": "Huevo rojo por media cartera",
-      "precio": 41.8,
-      "categoria": "Huevería",
-      "unidad": "pieza",
-      "productoId": "L075-P002"
-    },
-    {
-      "localId": 75,
-      "producto": "Huevo blanco limpio",
-      "precio": 72.1,
-      "categoria": "Huevería",
-      "unidad": "pieza",
-      "productoId": "L075-P003"
-    },
-    {
-      "localId": 75,
-      "producto": "Huevo de avestruz",
-      "precio": 135,
-      "categoria": "Huevería",
-      "unidad": "pieza",
-      "productoId": "L075-P004"
-    },
-    {
-      "localId": 75,
-      "producto": "Huevo en cono de 12",
-      "precio": 215,
-      "categoria": "Huevería",
-      "unidad": "pieza",
-      "productoId": "L075-P005"
+      "localId": 72,
+      "producto": "Mejorana",
+      "precio": 80.7,
+      "categoria": "Especias y Chiles",
+      "unidad": "kg",
+      "productoId": "L072-P008"
     },
     {
       "localId": 76,
@@ -10400,22 +10200,6 @@ window.MG_DATA = {
     },
     {
       "localId": 76,
-      "producto": "Carne para asar",
-      "precio": 62.8,
-      "categoria": "Carnes Preparadas",
-      "unidad": "kg",
-      "productoId": "L076-P002"
-    },
-    {
-      "localId": 76,
-      "producto": "Tocino ahumado",
-      "precio": 87.8,
-      "categoria": "Carnes Preparadas",
-      "unidad": "kg",
-      "productoId": "L076-P003"
-    },
-    {
-      "localId": 76,
       "producto": "Buche",
       "precio": 75.6,
       "categoria": "Carnes Preparadas",
@@ -10424,11 +10208,27 @@ window.MG_DATA = {
     },
     {
       "localId": 76,
-      "producto": "Tripa dorada",
-      "precio": 130,
+      "producto": "Mortadela",
+      "precio": 137,
+      "categoria": "Carnes Preparadas",
+      "unidad": "pieza",
+      "productoId": "L076-P022"
+    },
+    {
+      "localId": 76,
+      "producto": "Tasajo",
+      "precio": 240,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
-      "productoId": "L076-P005"
+      "productoId": "L076-P024"
+    },
+    {
+      "localId": 76,
+      "producto": "Arrachera en adobo",
+      "precio": 140,
+      "categoria": "Carnes Preparadas",
+      "unidad": "kg",
+      "productoId": "L076-P034"
     },
     {
       "localId": 77,
@@ -10440,22 +10240,6 @@ window.MG_DATA = {
     },
     {
       "localId": 77,
-      "producto": "Carne para asar",
-      "precio": 63.8,
-      "categoria": "Carnes Preparadas",
-      "unidad": "kg",
-      "productoId": "L077-P002"
-    },
-    {
-      "localId": 77,
-      "producto": "Tocino ahumado",
-      "precio": 102,
-      "categoria": "Carnes Preparadas",
-      "unidad": "kg",
-      "productoId": "L077-P003"
-    },
-    {
-      "localId": 77,
       "producto": "Buche",
       "precio": 77.2,
       "categoria": "Carnes Preparadas",
@@ -10464,11 +10248,27 @@ window.MG_DATA = {
     },
     {
       "localId": 77,
-      "producto": "Tripa dorada",
-      "precio": 154,
+      "producto": "Mortadela",
+      "precio": 132,
+      "categoria": "Carnes Preparadas",
+      "unidad": "pieza",
+      "productoId": "L077-P022"
+    },
+    {
+      "localId": 77,
+      "producto": "Tasajo",
+      "precio": 246,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
-      "productoId": "L077-P005"
+      "productoId": "L077-P024"
+    },
+    {
+      "localId": 77,
+      "producto": "Arrachera en adobo",
+      "precio": 167,
+      "categoria": "Carnes Preparadas",
+      "unidad": "kg",
+      "productoId": "L077-P034"
     },
     {
       "localId": 78,
@@ -10480,22 +10280,6 @@ window.MG_DATA = {
     },
     {
       "localId": 78,
-      "producto": "Carne para asar",
-      "precio": 64.7,
-      "categoria": "Carnes Preparadas",
-      "unidad": "kg",
-      "productoId": "L078-P002"
-    },
-    {
-      "localId": 78,
-      "producto": "Tocino ahumado",
-      "precio": 90.7,
-      "categoria": "Carnes Preparadas",
-      "unidad": "kg",
-      "productoId": "L078-P003"
-    },
-    {
-      "localId": 78,
       "producto": "Buche",
       "precio": 72.4,
       "categoria": "Carnes Preparadas",
@@ -10504,11 +10288,27 @@ window.MG_DATA = {
     },
     {
       "localId": 78,
-      "producto": "Tripa dorada",
-      "precio": 134,
+      "producto": "Mortadela",
+      "precio": 142,
+      "categoria": "Carnes Preparadas",
+      "unidad": "pieza",
+      "productoId": "L078-P022"
+    },
+    {
+      "localId": 78,
+      "producto": "Tasajo",
+      "precio": 196,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
-      "productoId": "L078-P005"
+      "productoId": "L078-P024"
+    },
+    {
+      "localId": 78,
+      "producto": "Arrachera en adobo",
+      "precio": 139,
+      "categoria": "Carnes Preparadas",
+      "unidad": "kg",
+      "productoId": "L078-P034"
     },
     {
       "localId": 79,
@@ -10520,22 +10320,6 @@ window.MG_DATA = {
     },
     {
       "localId": 79,
-      "producto": "Carne para asar",
-      "precio": 70.9,
-      "categoria": "Carnes Preparadas",
-      "unidad": "kg",
-      "productoId": "L079-P002"
-    },
-    {
-      "localId": 79,
-      "producto": "Tocino ahumado",
-      "precio": 95.1,
-      "categoria": "Carnes Preparadas",
-      "unidad": "kg",
-      "productoId": "L079-P003"
-    },
-    {
-      "localId": 79,
       "producto": "Buche",
       "precio": 81.5,
       "categoria": "Carnes Preparadas",
@@ -10544,43 +10328,27 @@ window.MG_DATA = {
     },
     {
       "localId": 79,
-      "producto": "Tripa dorada",
-      "precio": 143,
+      "producto": "Mortadela",
+      "precio": 161,
+      "categoria": "Carnes Preparadas",
+      "unidad": "pieza",
+      "productoId": "L079-P022"
+    },
+    {
+      "localId": 79,
+      "producto": "Tasajo",
+      "precio": 234,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
-      "productoId": "L079-P005"
+      "productoId": "L079-P024"
     },
     {
-      "localId": 80,
-      "producto": "Maíz pozolero",
-      "precio": 57.8,
-      "categoria": "Semillas y Granos",
+      "localId": 79,
+      "producto": "Arrachera en adobo",
+      "precio": 166,
+      "categoria": "Carnes Preparadas",
       "unidad": "kg",
-      "productoId": "L080-P001"
-    },
-    {
-      "localId": 80,
-      "producto": "Frijol negro",
-      "precio": 60.2,
-      "categoria": "Semillas y Granos",
-      "unidad": "kg",
-      "productoId": "L080-P002"
-    },
-    {
-      "localId": 80,
-      "producto": "Trigo",
-      "precio": 46.5,
-      "categoria": "Semillas y Granos",
-      "unidad": "pieza",
-      "productoId": "L080-P003"
-    },
-    {
-      "localId": 80,
-      "producto": "Amaranto",
-      "precio": 34.3,
-      "categoria": "Semillas y Granos",
-      "unidad": "pieza",
-      "productoId": "L080-P004"
+      "productoId": "L079-P034"
     },
     {
       "localId": 80,
@@ -10591,36 +10359,36 @@ window.MG_DATA = {
       "productoId": "L080-P005"
     },
     {
-      "localId": 81,
-      "producto": "Maíz pozolero",
-      "precio": 59.8,
-      "categoria": "Semillas y Granos",
-      "unidad": "kg",
-      "productoId": "L081-P001"
-    },
-    {
-      "localId": 81,
-      "producto": "Frijol negro",
-      "precio": 66,
-      "categoria": "Semillas y Granos",
-      "unidad": "kg",
-      "productoId": "L081-P002"
-    },
-    {
-      "localId": 81,
-      "producto": "Trigo",
-      "precio": 41.3,
+      "localId": 80,
+      "producto": "Ajonjolí",
+      "precio": 47.8,
       "categoria": "Semillas y Granos",
       "unidad": "pieza",
-      "productoId": "L081-P003"
+      "productoId": "L080-P008"
     },
     {
-      "localId": 81,
-      "producto": "Amaranto",
-      "precio": 39,
+      "localId": 80,
+      "producto": "Almendra",
+      "precio": 59.5,
       "categoria": "Semillas y Granos",
       "unidad": "pieza",
-      "productoId": "L081-P004"
+      "productoId": "L080-P009"
+    },
+    {
+      "localId": 80,
+      "producto": "Sorgo",
+      "precio": 25.7,
+      "categoria": "Semillas y Granos",
+      "unidad": "kg",
+      "productoId": "L080-P015"
+    },
+    {
+      "localId": 80,
+      "producto": "Alpiste",
+      "precio": 35.6,
+      "categoria": "Semillas y Granos",
+      "unidad": "kg",
+      "productoId": "L080-P017"
     },
     {
       "localId": 81,
@@ -10631,36 +10399,36 @@ window.MG_DATA = {
       "productoId": "L081-P005"
     },
     {
-      "localId": 82,
-      "producto": "Maíz pozolero",
-      "precio": 50.8,
-      "categoria": "Semillas y Granos",
-      "unidad": "kg",
-      "productoId": "L082-P001"
-    },
-    {
-      "localId": 82,
-      "producto": "Frijol negro",
-      "precio": 72.7,
-      "categoria": "Semillas y Granos",
-      "unidad": "kg",
-      "productoId": "L082-P002"
-    },
-    {
-      "localId": 82,
-      "producto": "Trigo",
-      "precio": 39.9,
+      "localId": 81,
+      "producto": "Ajonjolí",
+      "precio": 51.7,
       "categoria": "Semillas y Granos",
       "unidad": "pieza",
-      "productoId": "L082-P003"
+      "productoId": "L081-P008"
     },
     {
-      "localId": 82,
-      "producto": "Amaranto",
-      "precio": 32.9,
+      "localId": 81,
+      "producto": "Almendra",
+      "precio": 59.1,
       "categoria": "Semillas y Granos",
       "unidad": "pieza",
-      "productoId": "L082-P004"
+      "productoId": "L081-P009"
+    },
+    {
+      "localId": 81,
+      "producto": "Sorgo",
+      "precio": 25,
+      "categoria": "Semillas y Granos",
+      "unidad": "kg",
+      "productoId": "L081-P015"
+    },
+    {
+      "localId": 81,
+      "producto": "Alpiste",
+      "precio": 32.8,
+      "categoria": "Semillas y Granos",
+      "unidad": "kg",
+      "productoId": "L081-P017"
     },
     {
       "localId": 82,
@@ -10669,6 +10437,38 @@ window.MG_DATA = {
       "categoria": "Semillas y Granos",
       "unidad": "kg",
       "productoId": "L082-P005"
+    },
+    {
+      "localId": 82,
+      "producto": "Ajonjolí",
+      "precio": 44.1,
+      "categoria": "Semillas y Granos",
+      "unidad": "pieza",
+      "productoId": "L082-P008"
+    },
+    {
+      "localId": 82,
+      "producto": "Almendra",
+      "precio": 58.9,
+      "categoria": "Semillas y Granos",
+      "unidad": "pieza",
+      "productoId": "L082-P009"
+    },
+    {
+      "localId": 82,
+      "producto": "Sorgo",
+      "precio": 27.5,
+      "categoria": "Semillas y Granos",
+      "unidad": "kg",
+      "productoId": "L082-P015"
+    },
+    {
+      "localId": 82,
+      "producto": "Alpiste",
+      "precio": 35.3,
+      "categoria": "Semillas y Granos",
+      "unidad": "kg",
+      "productoId": "L082-P017"
     },
     {
       "localId": 83,
@@ -10696,19 +10496,19 @@ window.MG_DATA = {
     },
     {
       "localId": 83,
-      "producto": "Michelada de mango",
-      "precio": 16.2,
+      "producto": "Té de burbujas",
+      "precio": 11.3,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
-      "productoId": "L083-P004"
+      "productoId": "L083-P006"
     },
     {
       "localId": 83,
-      "producto": "Agua de sabor",
-      "precio": 12.7,
+      "producto": "Boing",
+      "precio": 9.34,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
-      "productoId": "L083-P005"
+      "productoId": "L083-P010"
     },
     {
       "localId": 84,
@@ -10736,19 +10536,19 @@ window.MG_DATA = {
     },
     {
       "localId": 84,
-      "producto": "Michelada de mango",
-      "precio": 17,
+      "producto": "Té de burbujas",
+      "precio": 10.7,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
-      "productoId": "L084-P004"
+      "productoId": "L084-P006"
     },
     {
       "localId": 84,
-      "producto": "Agua de sabor",
-      "precio": 11,
+      "producto": "Boing",
+      "precio": 10.9,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
-      "productoId": "L084-P005"
+      "productoId": "L084-P010"
     },
     {
       "localId": 85,
@@ -10776,19 +10576,19 @@ window.MG_DATA = {
     },
     {
       "localId": 85,
-      "producto": "Michelada de mango",
-      "precio": 18,
+      "producto": "Té de burbujas",
+      "precio": 10.6,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
-      "productoId": "L085-P004"
+      "productoId": "L085-P006"
     },
     {
       "localId": 85,
-      "producto": "Agua de sabor",
-      "precio": 12.3,
+      "producto": "Boing",
+      "precio": 11.1,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
-      "productoId": "L085-P005"
+      "productoId": "L085-P010"
     },
     {
       "localId": 86,
@@ -10800,35 +10600,35 @@ window.MG_DATA = {
     },
     {
       "localId": 86,
-      "producto": "Café irlandés",
-      "precio": 20.3,
-      "categoria": "Café y Atoles",
-      "unidad": "pieza",
-      "productoId": "L086-P002"
-    },
-    {
-      "localId": 86,
-      "producto": "Café con canela",
-      "precio": 29.9,
-      "categoria": "Café y Atoles",
-      "unidad": "pieza",
-      "productoId": "L086-P003"
-    },
-    {
-      "localId": 86,
-      "producto": "Café molido",
-      "precio": 38.7,
-      "categoria": "Café y Atoles",
-      "unidad": "pieza",
-      "productoId": "L086-P004"
-    },
-    {
-      "localId": 86,
       "producto": "Champurrado",
       "precio": 37.8,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
       "productoId": "L086-P005"
+    },
+    {
+      "localId": 86,
+      "producto": "Atole de zarzamora",
+      "precio": 47.3,
+      "categoria": "Café y Atoles",
+      "unidad": "pieza",
+      "productoId": "L086-P008"
+    },
+    {
+      "localId": 86,
+      "producto": "Atole de nuez",
+      "precio": 20,
+      "categoria": "Café y Atoles",
+      "unidad": "pieza",
+      "productoId": "L086-P013"
+    },
+    {
+      "localId": 86,
+      "producto": "Té de hierbabuena",
+      "precio": 14.4,
+      "categoria": "Café y Atoles",
+      "unidad": "pieza",
+      "productoId": "L086-P024"
     },
     {
       "localId": 87,
@@ -10840,35 +10640,35 @@ window.MG_DATA = {
     },
     {
       "localId": 87,
-      "producto": "Café irlandés",
-      "precio": 23.3,
-      "categoria": "Café y Atoles",
-      "unidad": "pieza",
-      "productoId": "L087-P002"
-    },
-    {
-      "localId": 87,
-      "producto": "Café con canela",
-      "precio": 27.5,
-      "categoria": "Café y Atoles",
-      "unidad": "pieza",
-      "productoId": "L087-P003"
-    },
-    {
-      "localId": 87,
-      "producto": "Café molido",
-      "precio": 35.6,
-      "categoria": "Café y Atoles",
-      "unidad": "pieza",
-      "productoId": "L087-P004"
-    },
-    {
-      "localId": 87,
       "producto": "Champurrado",
       "precio": 38.9,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
       "productoId": "L087-P005"
+    },
+    {
+      "localId": 87,
+      "producto": "Atole de zarzamora",
+      "precio": 44.4,
+      "categoria": "Café y Atoles",
+      "unidad": "pieza",
+      "productoId": "L087-P008"
+    },
+    {
+      "localId": 87,
+      "producto": "Atole de nuez",
+      "precio": 22.9,
+      "categoria": "Café y Atoles",
+      "unidad": "pieza",
+      "productoId": "L087-P013"
+    },
+    {
+      "localId": 87,
+      "producto": "Té de hierbabuena",
+      "precio": 16.6,
+      "categoria": "Café y Atoles",
+      "unidad": "pieza",
+      "productoId": "L087-P024"
     },
     {
       "localId": 88,
@@ -10880,30 +10680,6 @@ window.MG_DATA = {
     },
     {
       "localId": 88,
-      "producto": "Café irlandés",
-      "precio": 24.2,
-      "categoria": "Café y Atoles",
-      "unidad": "pieza",
-      "productoId": "L088-P002"
-    },
-    {
-      "localId": 88,
-      "producto": "Café con canela",
-      "precio": 30.1,
-      "categoria": "Café y Atoles",
-      "unidad": "pieza",
-      "productoId": "L088-P003"
-    },
-    {
-      "localId": 88,
-      "producto": "Café molido",
-      "precio": 33.7,
-      "categoria": "Café y Atoles",
-      "unidad": "pieza",
-      "productoId": "L088-P004"
-    },
-    {
-      "localId": 88,
       "producto": "Champurrado",
       "precio": 40.7,
       "categoria": "Café y Atoles",
@@ -10911,12 +10687,28 @@ window.MG_DATA = {
       "productoId": "L088-P005"
     },
     {
-      "localId": 89,
-      "producto": "Tiramisú de cajeta",
-      "precio": 32.5,
-      "categoria": "Postres y Repostería",
+      "localId": 88,
+      "producto": "Atole de zarzamora",
+      "precio": 45.6,
+      "categoria": "Café y Atoles",
       "unidad": "pieza",
-      "productoId": "L089-P001"
+      "productoId": "L088-P008"
+    },
+    {
+      "localId": 88,
+      "producto": "Atole de nuez",
+      "precio": 21.1,
+      "categoria": "Café y Atoles",
+      "unidad": "pieza",
+      "productoId": "L088-P013"
+    },
+    {
+      "localId": 88,
+      "producto": "Té de hierbabuena",
+      "precio": 14.2,
+      "categoria": "Café y Atoles",
+      "unidad": "pieza",
+      "productoId": "L088-P024"
     },
     {
       "localId": 89,
@@ -10928,22 +10720,6 @@ window.MG_DATA = {
     },
     {
       "localId": 89,
-      "producto": "Galletas de avena",
-      "precio": 32.7,
-      "categoria": "Postres y Repostería",
-      "unidad": "pieza",
-      "productoId": "L089-P003"
-    },
-    {
-      "localId": 89,
-      "producto": "Cupcake de vainilla",
-      "precio": 46,
-      "categoria": "Postres y Repostería",
-      "unidad": "pieza",
-      "productoId": "L089-P004"
-    },
-    {
-      "localId": 89,
       "producto": "Churros rellenos",
       "precio": 31.8,
       "categoria": "Postres y Repostería",
@@ -10951,12 +10727,28 @@ window.MG_DATA = {
       "productoId": "L089-P005"
     },
     {
-      "localId": 90,
-      "producto": "Tiramisú de cajeta",
-      "precio": 36.4,
+      "localId": 89,
+      "producto": "Merengues",
+      "precio": 494,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
-      "productoId": "L090-P001"
+      "productoId": "L089-P010"
+    },
+    {
+      "localId": 89,
+      "producto": "Gelatina",
+      "precio": 35.3,
+      "categoria": "Postres y Repostería",
+      "unidad": "pieza",
+      "productoId": "L089-P012"
+    },
+    {
+      "localId": 89,
+      "producto": "Cheesecake",
+      "precio": 32.2,
+      "categoria": "Postres y Repostería",
+      "unidad": "pieza",
+      "productoId": "L089-P016"
     },
     {
       "localId": 90,
@@ -10968,22 +10760,6 @@ window.MG_DATA = {
     },
     {
       "localId": 90,
-      "producto": "Galletas de avena",
-      "precio": 34.5,
-      "categoria": "Postres y Repostería",
-      "unidad": "pieza",
-      "productoId": "L090-P003"
-    },
-    {
-      "localId": 90,
-      "producto": "Cupcake de vainilla",
-      "precio": 44.2,
-      "categoria": "Postres y Repostería",
-      "unidad": "pieza",
-      "productoId": "L090-P004"
-    },
-    {
-      "localId": 90,
       "producto": "Churros rellenos",
       "precio": 33.3,
       "categoria": "Postres y Repostería",
@@ -10991,12 +10767,28 @@ window.MG_DATA = {
       "productoId": "L090-P005"
     },
     {
-      "localId": 91,
-      "producto": "Tiramisú de cajeta",
-      "precio": 31.3,
+      "localId": 90,
+      "producto": "Merengues",
+      "precio": 549,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
-      "productoId": "L091-P001"
+      "productoId": "L090-P010"
+    },
+    {
+      "localId": 90,
+      "producto": "Gelatina",
+      "precio": 28.2,
+      "categoria": "Postres y Repostería",
+      "unidad": "pieza",
+      "productoId": "L090-P012"
+    },
+    {
+      "localId": 90,
+      "producto": "Cheesecake",
+      "precio": 34.9,
+      "categoria": "Postres y Repostería",
+      "unidad": "pieza",
+      "productoId": "L090-P016"
     },
     {
       "localId": 91,
@@ -11008,27 +10800,35 @@ window.MG_DATA = {
     },
     {
       "localId": 91,
-      "producto": "Galletas de avena",
-      "precio": 36,
-      "categoria": "Postres y Repostería",
-      "unidad": "pieza",
-      "productoId": "L091-P003"
-    },
-    {
-      "localId": 91,
-      "producto": "Cupcake de vainilla",
-      "precio": 44.3,
-      "categoria": "Postres y Repostería",
-      "unidad": "pieza",
-      "productoId": "L091-P004"
-    },
-    {
-      "localId": 91,
       "producto": "Churros rellenos",
       "precio": 28.2,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
       "productoId": "L091-P005"
+    },
+    {
+      "localId": 91,
+      "producto": "Merengues",
+      "precio": 576,
+      "categoria": "Postres y Repostería",
+      "unidad": "pieza",
+      "productoId": "L091-P010"
+    },
+    {
+      "localId": 91,
+      "producto": "Gelatina",
+      "precio": 28.4,
+      "categoria": "Postres y Repostería",
+      "unidad": "pieza",
+      "productoId": "L091-P012"
+    },
+    {
+      "localId": 91,
+      "producto": "Cheesecake",
+      "precio": 38.8,
+      "categoria": "Postres y Repostería",
+      "unidad": "pieza",
+      "productoId": "L091-P016"
     },
     {
       "localId": 92,
@@ -11040,14 +10840,6 @@ window.MG_DATA = {
     },
     {
       "localId": 92,
-      "producto": "Clavel rojo",
-      "precio": 21.9,
-      "categoria": "Florería",
-      "unidad": "pieza",
-      "productoId": "L092-P002"
-    },
-    {
-      "localId": 92,
       "producto": "Suculenta",
       "precio": 19.6,
       "categoria": "Florería",
@@ -11056,19 +10848,27 @@ window.MG_DATA = {
     },
     {
       "localId": 92,
-      "producto": "Corona fúnebre",
-      "precio": 19.5,
-      "categoria": "Florería",
-      "unidad": "pieza",
-      "productoId": "L092-P004"
-    },
-    {
-      "localId": 92,
       "producto": "Ramo de girasoles",
       "precio": 261,
       "categoria": "Florería",
       "unidad": "pieza",
       "productoId": "L092-P005"
+    },
+    {
+      "localId": 92,
+      "producto": "Alcatraz",
+      "precio": 490,
+      "categoria": "Florería",
+      "unidad": "pieza",
+      "productoId": "L092-P006"
+    },
+    {
+      "localId": 92,
+      "producto": "Ramo de condolencia",
+      "precio": 102,
+      "categoria": "Florería",
+      "unidad": "pieza",
+      "productoId": "L092-P007"
     },
     {
       "localId": 93,
@@ -11080,14 +10880,6 @@ window.MG_DATA = {
     },
     {
       "localId": 93,
-      "producto": "Clavel rojo",
-      "precio": 20.5,
-      "categoria": "Florería",
-      "unidad": "pieza",
-      "productoId": "L093-P002"
-    },
-    {
-      "localId": 93,
       "producto": "Suculenta",
       "precio": 23.8,
       "categoria": "Florería",
@@ -11096,19 +10888,27 @@ window.MG_DATA = {
     },
     {
       "localId": 93,
-      "producto": "Corona fúnebre",
-      "precio": 20.6,
-      "categoria": "Florería",
-      "unidad": "pieza",
-      "productoId": "L093-P004"
-    },
-    {
-      "localId": 93,
       "producto": "Ramo de girasoles",
       "precio": 298,
       "categoria": "Florería",
       "unidad": "pieza",
       "productoId": "L093-P005"
+    },
+    {
+      "localId": 93,
+      "producto": "Alcatraz",
+      "precio": 595,
+      "categoria": "Florería",
+      "unidad": "pieza",
+      "productoId": "L093-P006"
+    },
+    {
+      "localId": 93,
+      "producto": "Ramo de condolencia",
+      "precio": 88.6,
+      "categoria": "Florería",
+      "unidad": "pieza",
+      "productoId": "L093-P007"
     },
     {
       "localId": 94,
@@ -11120,14 +10920,6 @@ window.MG_DATA = {
     },
     {
       "localId": 94,
-      "producto": "Clavel rojo",
-      "precio": 19.4,
-      "categoria": "Florería",
-      "unidad": "pieza",
-      "productoId": "L094-P002"
-    },
-    {
-      "localId": 94,
       "producto": "Suculenta",
       "precio": 21.7,
       "categoria": "Florería",
@@ -11136,19 +10928,27 @@ window.MG_DATA = {
     },
     {
       "localId": 94,
-      "producto": "Corona fúnebre",
-      "precio": 22,
-      "categoria": "Florería",
-      "unidad": "pieza",
-      "productoId": "L094-P004"
-    },
-    {
-      "localId": 94,
       "producto": "Ramo de girasoles",
       "precio": 269,
       "categoria": "Florería",
       "unidad": "pieza",
       "productoId": "L094-P005"
+    },
+    {
+      "localId": 94,
+      "producto": "Alcatraz",
+      "precio": 498,
+      "categoria": "Florería",
+      "unidad": "pieza",
+      "productoId": "L094-P006"
+    },
+    {
+      "localId": 94,
+      "producto": "Ramo de condolencia",
+      "precio": 98.9,
+      "categoria": "Florería",
+      "unidad": "pieza",
+      "productoId": "L094-P007"
     },
     {
       "localId": 95,
@@ -11168,14 +10968,6 @@ window.MG_DATA = {
     },
     {
       "localId": 95,
-      "producto": "Jalea real",
-      "precio": 18.1,
-      "categoria": "Herbolaria y Naturista",
-      "unidad": "pieza",
-      "productoId": "L095-P003"
-    },
-    {
-      "localId": 95,
       "producto": "Eucalipto",
       "precio": 27,
       "categoria": "Herbolaria y Naturista",
@@ -11189,6 +10981,14 @@ window.MG_DATA = {
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
       "productoId": "L095-P005"
+    },
+    {
+      "localId": 95,
+      "producto": "Cápsulas de jengibre",
+      "precio": 21.1,
+      "categoria": "Herbolaria y Naturista",
+      "unidad": "pieza",
+      "productoId": "L095-P006"
     },
     {
       "localId": 96,
@@ -11208,14 +11008,6 @@ window.MG_DATA = {
     },
     {
       "localId": 96,
-      "producto": "Jalea real",
-      "precio": 18.2,
-      "categoria": "Herbolaria y Naturista",
-      "unidad": "pieza",
-      "productoId": "L096-P003"
-    },
-    {
-      "localId": 96,
       "producto": "Eucalipto",
       "precio": 28.1,
       "categoria": "Herbolaria y Naturista",
@@ -11229,6 +11021,14 @@ window.MG_DATA = {
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
       "productoId": "L096-P005"
+    },
+    {
+      "localId": 96,
+      "producto": "Cápsulas de jengibre",
+      "precio": 23.4,
+      "categoria": "Herbolaria y Naturista",
+      "unidad": "pieza",
+      "productoId": "L096-P006"
     },
     {
       "localId": 97,
@@ -11248,14 +11048,6 @@ window.MG_DATA = {
     },
     {
       "localId": 97,
-      "producto": "Jalea real",
-      "precio": 16.3,
-      "categoria": "Herbolaria y Naturista",
-      "unidad": "pieza",
-      "productoId": "L097-P003"
-    },
-    {
-      "localId": 97,
       "producto": "Eucalipto",
       "precio": 27.5,
       "categoria": "Herbolaria y Naturista",
@@ -11269,6 +11061,14 @@ window.MG_DATA = {
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
       "productoId": "L097-P005"
+    },
+    {
+      "localId": 97,
+      "producto": "Cápsulas de jengibre",
+      "precio": 22.8,
+      "categoria": "Herbolaria y Naturista",
+      "unidad": "pieza",
+      "productoId": "L097-P006"
     },
     {
       "localId": 98,
@@ -11560,35 +11360,35 @@ window.MG_DATA = {
     },
     {
       "localId": 105,
-      "producto": "Zapatos de niño",
-      "precio": 457,
+      "producto": "Tenis de fútbol",
+      "precio": 304,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L105-P002"
+      "productoId": "L105-P006"
     },
     {
       "localId": 105,
-      "producto": "Tenis deportivos",
-      "precio": 221,
+      "producto": "Tacones",
+      "precio": 272,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L105-P003"
+      "productoId": "L105-P009"
     },
     {
       "localId": 105,
-      "producto": "Calzado de charol para niño",
-      "precio": 182,
+      "producto": "Zapatos casuales",
+      "precio": 462,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L105-P004"
+      "productoId": "L105-P012"
     },
     {
       "localId": 105,
-      "producto": "Botas de trabajo",
-      "precio": 182,
+      "producto": "Zapatos de seguridad",
+      "precio": 303,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L105-P005"
+      "productoId": "L105-P013"
     },
     {
       "localId": 106,
@@ -11600,35 +11400,35 @@ window.MG_DATA = {
     },
     {
       "localId": 106,
-      "producto": "Zapatos de niño",
-      "precio": 422,
+      "producto": "Tenis de fútbol",
+      "precio": 254,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L106-P002"
+      "productoId": "L106-P006"
     },
     {
       "localId": 106,
-      "producto": "Tenis deportivos",
-      "precio": 227,
+      "producto": "Tacones",
+      "precio": 295,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L106-P003"
+      "productoId": "L106-P009"
     },
     {
       "localId": 106,
-      "producto": "Calzado de charol para niño",
-      "precio": 202,
+      "producto": "Zapatos casuales",
+      "precio": 466,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L106-P004"
+      "productoId": "L106-P012"
     },
     {
       "localId": 106,
-      "producto": "Botas de trabajo",
-      "precio": 193,
+      "producto": "Zapatos de seguridad",
+      "precio": 309,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L106-P005"
+      "productoId": "L106-P013"
     },
     {
       "localId": 107,
@@ -11640,35 +11440,35 @@ window.MG_DATA = {
     },
     {
       "localId": 107,
-      "producto": "Zapatos de niño",
-      "precio": 409,
+      "producto": "Tenis de fútbol",
+      "precio": 318,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L107-P002"
+      "productoId": "L107-P006"
     },
     {
       "localId": 107,
-      "producto": "Tenis deportivos",
-      "precio": 258,
+      "producto": "Tacones",
+      "precio": 266,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L107-P003"
+      "productoId": "L107-P009"
     },
     {
       "localId": 107,
-      "producto": "Calzado de charol para niño",
-      "precio": 196,
+      "producto": "Zapatos casuales",
+      "precio": 443,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L107-P004"
+      "productoId": "L107-P012"
     },
     {
       "localId": 107,
-      "producto": "Botas de trabajo",
-      "precio": 187,
+      "producto": "Zapatos de seguridad",
+      "precio": 333,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L107-P005"
+      "productoId": "L107-P013"
     },
     {
       "localId": 108,
@@ -11680,59 +11480,35 @@ window.MG_DATA = {
     },
     {
       "localId": 108,
-      "producto": "Zapatos de niño",
-      "precio": 411,
+      "producto": "Tenis de fútbol",
+      "precio": 258,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L108-P002"
+      "productoId": "L108-P006"
     },
     {
       "localId": 108,
-      "producto": "Tenis deportivos",
-      "precio": 221,
+      "producto": "Tacones",
+      "precio": 299,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L108-P003"
+      "productoId": "L108-P009"
     },
     {
       "localId": 108,
-      "producto": "Calzado de charol para niño",
-      "precio": 183,
+      "producto": "Zapatos casuales",
+      "precio": 485,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L108-P004"
+      "productoId": "L108-P012"
     },
     {
       "localId": 108,
-      "producto": "Botas de trabajo",
-      "precio": 160,
+      "producto": "Zapatos de seguridad",
+      "precio": 336,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L108-P005"
-    },
-    {
-      "localId": 109,
-      "producto": "Brocha",
-      "precio": 116,
-      "categoria": "Ferretería",
-      "unidad": "pieza",
-      "productoId": "L109-P001"
-    },
-    {
-      "localId": 109,
-      "producto": "Machete Colima cacha de plástico",
-      "precio": 32.5,
-      "categoria": "Ferretería",
-      "unidad": "pieza",
-      "productoId": "L109-P002"
-    },
-    {
-      "localId": 109,
-      "producto": "Tornillo para madera",
-      "precio": 36.4,
-      "categoria": "Ferretería",
-      "unidad": "pieza",
-      "productoId": "L109-P003"
+      "productoId": "L108-P013"
     },
     {
       "localId": 109,
@@ -11751,28 +11527,28 @@ window.MG_DATA = {
       "productoId": "L109-P005"
     },
     {
-      "localId": 110,
-      "producto": "Brocha",
-      "precio": 118,
+      "localId": 109,
+      "producto": "Pintura",
+      "precio": 104,
       "categoria": "Ferretería",
       "unidad": "pieza",
-      "productoId": "L110-P001"
+      "productoId": "L109-P006"
     },
     {
-      "localId": 110,
-      "producto": "Machete Colima cacha de plástico",
-      "precio": 39,
+      "localId": 109,
+      "producto": "Escuadra",
+      "precio": 88.1,
       "categoria": "Ferretería",
       "unidad": "pieza",
-      "productoId": "L110-P002"
+      "productoId": "L109-P011"
     },
     {
-      "localId": 110,
-      "producto": "Tornillo para madera",
-      "precio": 32.9,
+      "localId": 109,
+      "producto": "Candado de latón reforzado",
+      "precio": 2.04,
       "categoria": "Ferretería",
       "unidad": "pieza",
-      "productoId": "L110-P003"
+      "productoId": "L109-P013"
     },
     {
       "localId": 110,
@@ -11791,28 +11567,28 @@ window.MG_DATA = {
       "productoId": "L110-P005"
     },
     {
-      "localId": 111,
-      "producto": "Brocha",
-      "precio": 115,
+      "localId": 110,
+      "producto": "Pintura",
+      "precio": 92,
       "categoria": "Ferretería",
       "unidad": "pieza",
-      "productoId": "L111-P001"
+      "productoId": "L110-P006"
     },
     {
-      "localId": 111,
-      "producto": "Machete Colima cacha de plástico",
-      "precio": 38.5,
+      "localId": 110,
+      "producto": "Escuadra",
+      "precio": 78.8,
       "categoria": "Ferretería",
       "unidad": "pieza",
-      "productoId": "L111-P002"
+      "productoId": "L110-P011"
     },
     {
-      "localId": 111,
-      "producto": "Tornillo para madera",
-      "precio": 38.5,
+      "localId": 110,
+      "producto": "Candado de latón reforzado",
+      "precio": 2.11,
       "categoria": "Ferretería",
       "unidad": "pieza",
-      "productoId": "L111-P003"
+      "productoId": "L110-P013"
     },
     {
       "localId": 111,
@@ -11831,28 +11607,28 @@ window.MG_DATA = {
       "productoId": "L111-P005"
     },
     {
-      "localId": 112,
-      "producto": "Olla exprés",
-      "precio": 30.9,
-      "categoria": "Plásticos y Trastes",
+      "localId": 111,
+      "producto": "Pintura",
+      "precio": 93.7,
+      "categoria": "Ferretería",
       "unidad": "pieza",
-      "productoId": "L112-P001"
+      "productoId": "L111-P006"
     },
     {
-      "localId": 112,
-      "producto": "Comal de acero",
-      "precio": 22.2,
-      "categoria": "Plásticos y Trastes",
+      "localId": 111,
+      "producto": "Escuadra",
+      "precio": 79.8,
+      "categoria": "Ferretería",
       "unidad": "pieza",
-      "productoId": "L112-P002"
+      "productoId": "L111-P011"
     },
     {
-      "localId": 112,
-      "producto": "Cuchara de acero",
-      "precio": 17.3,
-      "categoria": "Plásticos y Trastes",
+      "localId": 111,
+      "producto": "Candado de latón reforzado",
+      "precio": 2,
+      "categoria": "Ferretería",
       "unidad": "pieza",
-      "productoId": "L112-P003"
+      "productoId": "L111-P013"
     },
     {
       "localId": 112,
@@ -11864,35 +11640,35 @@ window.MG_DATA = {
     },
     {
       "localId": 112,
-      "producto": "Recipiente con tapa",
-      "precio": 25.1,
+      "producto": "Charola",
+      "precio": 24.2,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
-      "productoId": "L112-P005"
+      "productoId": "L112-P006"
     },
     {
-      "localId": 113,
-      "producto": "Olla exprés",
-      "precio": 31.1,
+      "localId": 112,
+      "producto": "Tenedor",
+      "precio": 16,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
-      "productoId": "L113-P001"
+      "productoId": "L112-P007"
     },
     {
-      "localId": 113,
-      "producto": "Comal de acero",
-      "precio": 23.1,
+      "localId": 112,
+      "producto": "Tupper",
+      "precio": 34.2,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
-      "productoId": "L113-P002"
+      "productoId": "L112-P008"
     },
     {
-      "localId": 113,
-      "producto": "Cuchara de acero",
-      "precio": 17.2,
+      "localId": 112,
+      "producto": "Cuchillo",
+      "precio": 18.5,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
-      "productoId": "L113-P003"
+      "productoId": "L112-P012"
     },
     {
       "localId": 113,
@@ -11904,35 +11680,35 @@ window.MG_DATA = {
     },
     {
       "localId": 113,
-      "producto": "Recipiente con tapa",
-      "precio": 30,
+      "producto": "Charola",
+      "precio": 20.8,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
-      "productoId": "L113-P005"
+      "productoId": "L113-P006"
     },
     {
-      "localId": 114,
-      "producto": "Olla exprés",
-      "precio": 36.9,
+      "localId": 113,
+      "producto": "Tenedor",
+      "precio": 14.7,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
-      "productoId": "L114-P001"
+      "productoId": "L113-P007"
     },
     {
-      "localId": 114,
-      "producto": "Comal de acero",
-      "precio": 22,
+      "localId": 113,
+      "producto": "Tupper",
+      "precio": 31,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
-      "productoId": "L114-P002"
+      "productoId": "L113-P008"
     },
     {
-      "localId": 114,
-      "producto": "Cuchara de acero",
-      "precio": 17.4,
+      "localId": 113,
+      "producto": "Cuchillo",
+      "precio": 18.9,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
-      "productoId": "L114-P003"
+      "productoId": "L113-P012"
     },
     {
       "localId": 114,
@@ -11944,11 +11720,35 @@ window.MG_DATA = {
     },
     {
       "localId": 114,
-      "producto": "Recipiente con tapa",
-      "precio": 25.2,
+      "producto": "Charola",
+      "precio": 22.3,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
-      "productoId": "L114-P005"
+      "productoId": "L114-P006"
+    },
+    {
+      "localId": 114,
+      "producto": "Tenedor",
+      "precio": 16.3,
+      "categoria": "Plásticos y Trastes",
+      "unidad": "pieza",
+      "productoId": "L114-P007"
+    },
+    {
+      "localId": 114,
+      "producto": "Tupper",
+      "precio": 38.6,
+      "categoria": "Plásticos y Trastes",
+      "unidad": "pieza",
+      "productoId": "L114-P008"
+    },
+    {
+      "localId": 114,
+      "producto": "Cuchillo",
+      "precio": 17,
+      "categoria": "Plásticos y Trastes",
+      "unidad": "pieza",
+      "productoId": "L114-P012"
     },
     {
       "localId": 115,
@@ -11976,19 +11776,19 @@ window.MG_DATA = {
     },
     {
       "localId": 115,
-      "producto": "Cuerno de fiesta",
-      "precio": 204,
+      "producto": "Pancarta",
+      "precio": 230,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
-      "productoId": "L115-P004"
+      "productoId": "L115-P006"
     },
     {
       "localId": 115,
-      "producto": "Varita mágica",
-      "precio": 217,
+      "producto": "Dulceros",
+      "precio": 219,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
-      "productoId": "L115-P005"
+      "productoId": "L115-P007"
     },
     {
       "localId": 116,
@@ -12016,19 +11816,19 @@ window.MG_DATA = {
     },
     {
       "localId": 116,
-      "producto": "Cuerno de fiesta",
-      "precio": 216,
+      "producto": "Pancarta",
+      "precio": 235,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
-      "productoId": "L116-P004"
+      "productoId": "L116-P006"
     },
     {
       "localId": 116,
-      "producto": "Varita mágica",
-      "precio": 227,
+      "producto": "Dulceros",
+      "precio": 241,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
-      "productoId": "L116-P005"
+      "productoId": "L116-P007"
     },
     {
       "localId": 117,
@@ -12056,35 +11856,19 @@ window.MG_DATA = {
     },
     {
       "localId": 117,
-      "producto": "Cuerno de fiesta",
-      "precio": 177,
+      "producto": "Pancarta",
+      "precio": 212,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
-      "productoId": "L117-P004"
+      "productoId": "L117-P006"
     },
     {
       "localId": 117,
-      "producto": "Varita mágica",
-      "precio": 249,
+      "producto": "Dulceros",
+      "precio": 210,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
-      "productoId": "L117-P005"
-    },
-    {
-      "localId": 118,
-      "producto": "Alegría de amaranto",
-      "precio": 62.4,
-      "categoria": "Dulcería y Botanas",
-      "unidad": "pieza",
-      "productoId": "L118-P001"
-    },
-    {
-      "localId": 118,
-      "producto": "Jamoncillos de leche",
-      "precio": 32.1,
-      "categoria": "Dulcería y Botanas",
-      "unidad": "pieza",
-      "productoId": "L118-P002"
+      "productoId": "L117-P007"
     },
     {
       "localId": 118,
@@ -12096,35 +11880,35 @@ window.MG_DATA = {
     },
     {
       "localId": 118,
-      "producto": "Coyotas de cajeta",
-      "precio": 29.6,
+      "producto": "Tostitos",
+      "precio": 22.3,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
-      "productoId": "L118-P004"
+      "productoId": "L118-P006"
     },
     {
       "localId": 118,
-      "producto": "Gomitas",
-      "precio": 46.6,
+      "producto": "Suaves de malvavisco",
+      "precio": 16.5,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
-      "productoId": "L118-P005"
+      "productoId": "L118-P009"
     },
     {
-      "localId": 119,
-      "producto": "Alegría de amaranto",
-      "precio": 69.7,
+      "localId": 118,
+      "producto": "Chamoy",
+      "precio": 8,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
-      "productoId": "L119-P001"
+      "productoId": "L118-P010"
     },
     {
-      "localId": 119,
-      "producto": "Jamoncillos de leche",
-      "precio": 32.2,
+      "localId": 118,
+      "producto": "Mazapán",
+      "precio": 16,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
-      "productoId": "L119-P002"
+      "productoId": "L118-P016"
     },
     {
       "localId": 119,
@@ -12136,35 +11920,35 @@ window.MG_DATA = {
     },
     {
       "localId": 119,
-      "producto": "Coyotas de cajeta",
-      "precio": 26,
+      "producto": "Tostitos",
+      "precio": 22.3,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
-      "productoId": "L119-P004"
+      "productoId": "L119-P006"
     },
     {
       "localId": 119,
-      "producto": "Gomitas",
-      "precio": 42.2,
+      "producto": "Suaves de malvavisco",
+      "precio": 15.2,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
-      "productoId": "L119-P005"
+      "productoId": "L119-P009"
     },
     {
-      "localId": 120,
-      "producto": "Alegría de amaranto",
-      "precio": 60,
+      "localId": 119,
+      "producto": "Chamoy",
+      "precio": 7.55,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
-      "productoId": "L120-P001"
+      "productoId": "L119-P010"
     },
     {
-      "localId": 120,
-      "producto": "Jamoncillos de leche",
-      "precio": 31.4,
+      "localId": 119,
+      "producto": "Mazapán",
+      "precio": 16.2,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
-      "productoId": "L120-P002"
+      "productoId": "L119-P016"
     },
     {
       "localId": 120,
@@ -12176,35 +11960,35 @@ window.MG_DATA = {
     },
     {
       "localId": 120,
-      "producto": "Coyotas de cajeta",
-      "precio": 29,
+      "producto": "Tostitos",
+      "precio": 22.4,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
-      "productoId": "L120-P004"
+      "productoId": "L120-P006"
     },
     {
       "localId": 120,
-      "producto": "Gomitas",
-      "precio": 39.5,
+      "producto": "Suaves de malvavisco",
+      "precio": 13.7,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
-      "productoId": "L120-P005"
+      "productoId": "L120-P009"
     },
     {
-      "localId": 121,
-      "producto": "Alegría de amaranto",
-      "precio": 65.3,
+      "localId": 120,
+      "producto": "Chamoy",
+      "precio": 8.56,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
-      "productoId": "L121-P001"
+      "productoId": "L120-P010"
     },
     {
-      "localId": 121,
-      "producto": "Jamoncillos de leche",
-      "precio": 33,
+      "localId": 120,
+      "producto": "Mazapán",
+      "precio": 18.1,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
-      "productoId": "L121-P002"
+      "productoId": "L120-P016"
     },
     {
       "localId": 121,
@@ -12216,35 +12000,35 @@ window.MG_DATA = {
     },
     {
       "localId": 121,
-      "producto": "Coyotas de cajeta",
-      "precio": 27.4,
+      "producto": "Tostitos",
+      "precio": 21.8,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
-      "productoId": "L121-P004"
+      "productoId": "L121-P006"
     },
     {
       "localId": 121,
-      "producto": "Gomitas",
-      "precio": 46.1,
+      "producto": "Suaves de malvavisco",
+      "precio": 15.9,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
-      "productoId": "L121-P005"
+      "productoId": "L121-P009"
     },
     {
-      "localId": 122,
-      "producto": "Alegría de amaranto",
-      "precio": 62.1,
+      "localId": 121,
+      "producto": "Chamoy",
+      "precio": 8.46,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
-      "productoId": "L122-P001"
+      "productoId": "L121-P010"
     },
     {
-      "localId": 122,
-      "producto": "Jamoncillos de leche",
-      "precio": 37.2,
+      "localId": 121,
+      "producto": "Mazapán",
+      "precio": 20,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
-      "productoId": "L122-P002"
+      "productoId": "L121-P016"
     },
     {
       "localId": 122,
@@ -12256,19 +12040,35 @@ window.MG_DATA = {
     },
     {
       "localId": 122,
-      "producto": "Coyotas de cajeta",
-      "precio": 29.5,
+      "producto": "Tostitos",
+      "precio": 22.2,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
-      "productoId": "L122-P004"
+      "productoId": "L122-P006"
     },
     {
       "localId": 122,
-      "producto": "Gomitas",
-      "precio": 41.9,
+      "producto": "Suaves de malvavisco",
+      "precio": 13.4,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
-      "productoId": "L122-P005"
+      "productoId": "L122-P009"
+    },
+    {
+      "localId": 122,
+      "producto": "Chamoy",
+      "precio": 8.61,
+      "categoria": "Dulcería y Botanas",
+      "unidad": "pieza",
+      "productoId": "L122-P010"
+    },
+    {
+      "localId": 122,
+      "producto": "Mazapán",
+      "precio": 17.5,
+      "categoria": "Dulcería y Botanas",
+      "unidad": "pieza",
+      "productoId": "L122-P016"
     },
     {
       "localId": 123,
@@ -12432,38 +12232,6 @@ window.MG_DATA = {
     },
     {
       "localId": 127,
-      "producto": "Botón forrado",
-      "precio": 8.71,
-      "categoria": "Mercería",
-      "unidad": "pieza",
-      "productoId": "L127-P001"
-    },
-    {
-      "localId": 127,
-      "producto": "Tela de lino",
-      "precio": 9.75,
-      "categoria": "Mercería",
-      "unidad": "pieza",
-      "productoId": "L127-P002"
-    },
-    {
-      "localId": 127,
-      "producto": "Tela de satín",
-      "precio": 36.5,
-      "categoria": "Mercería",
-      "unidad": "pieza",
-      "productoId": "L127-P003"
-    },
-    {
-      "localId": 127,
-      "producto": "Hilo de nylon",
-      "precio": 11.8,
-      "categoria": "Mercería",
-      "unidad": "pieza",
-      "productoId": "L127-P004"
-    },
-    {
-      "localId": 127,
       "producto": "Dedal",
       "precio": 15.4,
       "categoria": "Mercería",
@@ -12471,36 +12239,36 @@ window.MG_DATA = {
       "productoId": "L127-P005"
     },
     {
-      "localId": 128,
-      "producto": "Botón forrado",
-      "precio": 7.51,
+      "localId": 127,
+      "producto": "Listón de raso",
+      "precio": 10.6,
       "categoria": "Mercería",
       "unidad": "pieza",
-      "productoId": "L128-P001"
+      "productoId": "L127-P008"
     },
     {
-      "localId": 128,
-      "producto": "Tela de lino",
-      "precio": 10.8,
+      "localId": 127,
+      "producto": "Listón",
+      "precio": 24.4,
       "categoria": "Mercería",
       "unidad": "pieza",
-      "productoId": "L128-P002"
+      "productoId": "L127-P009"
     },
     {
-      "localId": 128,
-      "producto": "Tela de satín",
-      "precio": 37.4,
+      "localId": 127,
+      "producto": "Corchetes",
+      "precio": 79.8,
       "categoria": "Mercería",
       "unidad": "pieza",
-      "productoId": "L128-P003"
+      "productoId": "L127-P010"
     },
     {
-      "localId": 128,
-      "producto": "Hilo de nylon",
-      "precio": 13.4,
+      "localId": 127,
+      "producto": "Aplicaciones",
+      "precio": 29,
       "categoria": "Mercería",
       "unidad": "pieza",
-      "productoId": "L128-P004"
+      "productoId": "L127-P011"
     },
     {
       "localId": 128,
@@ -12511,36 +12279,36 @@ window.MG_DATA = {
       "productoId": "L128-P005"
     },
     {
-      "localId": 129,
-      "producto": "Botón forrado",
-      "precio": 8.61,
+      "localId": 128,
+      "producto": "Listón de raso",
+      "precio": 13,
       "categoria": "Mercería",
       "unidad": "pieza",
-      "productoId": "L129-P001"
+      "productoId": "L128-P008"
     },
     {
-      "localId": 129,
-      "producto": "Tela de lino",
-      "precio": 10.5,
+      "localId": 128,
+      "producto": "Listón",
+      "precio": 26.2,
       "categoria": "Mercería",
       "unidad": "pieza",
-      "productoId": "L129-P002"
+      "productoId": "L128-P009"
     },
     {
-      "localId": 129,
-      "producto": "Tela de satín",
-      "precio": 34,
+      "localId": 128,
+      "producto": "Corchetes",
+      "precio": 90.1,
       "categoria": "Mercería",
       "unidad": "pieza",
-      "productoId": "L129-P003"
+      "productoId": "L128-P010"
     },
     {
-      "localId": 129,
-      "producto": "Hilo de nylon",
-      "precio": 13.2,
+      "localId": 128,
+      "producto": "Aplicaciones",
+      "precio": 26.3,
       "categoria": "Mercería",
       "unidad": "pieza",
-      "productoId": "L129-P004"
+      "productoId": "L128-P011"
     },
     {
       "localId": 129,
@@ -12549,6 +12317,38 @@ window.MG_DATA = {
       "categoria": "Mercería",
       "unidad": "pieza",
       "productoId": "L129-P005"
+    },
+    {
+      "localId": 129,
+      "producto": "Listón de raso",
+      "precio": 11.7,
+      "categoria": "Mercería",
+      "unidad": "pieza",
+      "productoId": "L129-P008"
+    },
+    {
+      "localId": 129,
+      "producto": "Listón",
+      "precio": 27.8,
+      "categoria": "Mercería",
+      "unidad": "pieza",
+      "productoId": "L129-P009"
+    },
+    {
+      "localId": 129,
+      "producto": "Corchetes",
+      "precio": 82.1,
+      "categoria": "Mercería",
+      "unidad": "pieza",
+      "productoId": "L129-P010"
+    },
+    {
+      "localId": 129,
+      "producto": "Aplicaciones",
+      "precio": 28,
+      "categoria": "Mercería",
+      "unidad": "pieza",
+      "productoId": "L129-P011"
     },
     {
       "localId": 130,
@@ -12728,14 +12528,6 @@ window.MG_DATA = {
     },
     {
       "localId": 134,
-      "producto": "Folder tamaño carta",
-      "precio": 26.6,
-      "categoria": "Papelería",
-      "unidad": "pieza",
-      "productoId": "L134-P003"
-    },
-    {
-      "localId": 134,
       "producto": "Clips",
       "precio": 17.3,
       "categoria": "Papelería",
@@ -12744,11 +12536,19 @@ window.MG_DATA = {
     },
     {
       "localId": 134,
-      "producto": "Liga",
-      "precio": 69.3,
+      "producto": "Sacapuntas",
+      "precio": 78,
       "categoria": "Papelería",
       "unidad": "pieza",
-      "productoId": "L134-P005"
+      "productoId": "L134-P007"
+    },
+    {
+      "localId": 134,
+      "producto": "Pluma",
+      "precio": 39.4,
+      "categoria": "Papelería",
+      "unidad": "pieza",
+      "productoId": "L134-P010"
     },
     {
       "localId": 135,
@@ -12768,14 +12568,6 @@ window.MG_DATA = {
     },
     {
       "localId": 135,
-      "producto": "Folder tamaño carta",
-      "precio": 24.8,
-      "categoria": "Papelería",
-      "unidad": "pieza",
-      "productoId": "L135-P003"
-    },
-    {
-      "localId": 135,
       "producto": "Clips",
       "precio": 20.1,
       "categoria": "Papelería",
@@ -12784,11 +12576,19 @@ window.MG_DATA = {
     },
     {
       "localId": 135,
-      "producto": "Liga",
-      "precio": 66.8,
+      "producto": "Sacapuntas",
+      "precio": 85.5,
       "categoria": "Papelería",
       "unidad": "pieza",
-      "productoId": "L135-P005"
+      "productoId": "L135-P007"
+    },
+    {
+      "localId": 135,
+      "producto": "Pluma",
+      "precio": 42.1,
+      "categoria": "Papelería",
+      "unidad": "pieza",
+      "productoId": "L135-P010"
     },
     {
       "localId": 136,
@@ -12808,14 +12608,6 @@ window.MG_DATA = {
     },
     {
       "localId": 136,
-      "producto": "Folder tamaño carta",
-      "precio": 27,
-      "categoria": "Papelería",
-      "unidad": "pieza",
-      "productoId": "L136-P003"
-    },
-    {
-      "localId": 136,
       "producto": "Clips",
       "precio": 16.1,
       "categoria": "Papelería",
@@ -12824,11 +12616,19 @@ window.MG_DATA = {
     },
     {
       "localId": 136,
-      "producto": "Liga",
-      "precio": 72.5,
+      "producto": "Sacapuntas",
+      "precio": 78.6,
       "categoria": "Papelería",
       "unidad": "pieza",
-      "productoId": "L136-P005"
+      "productoId": "L136-P007"
+    },
+    {
+      "localId": 136,
+      "producto": "Pluma",
+      "precio": 41.3,
+      "categoria": "Papelería",
+      "unidad": "pieza",
+      "productoId": "L136-P010"
     },
     {
       "localId": 137,
@@ -12992,35 +12792,11 @@ window.MG_DATA = {
     },
     {
       "localId": 141,
-      "producto": "Cubo mágico",
-      "precio": 79.1,
-      "categoria": "Juguetería",
-      "unidad": "pieza",
-      "productoId": "L141-P001"
-    },
-    {
-      "localId": 141,
-      "producto": "Figura coleccionable",
-      "precio": 120,
-      "categoria": "Juguetería",
-      "unidad": "pieza",
-      "productoId": "L141-P002"
-    },
-    {
-      "localId": 141,
       "producto": "Saltarín",
       "precio": 144,
       "categoria": "Juguetería",
       "unidad": "pieza",
       "productoId": "L141-P003"
-    },
-    {
-      "localId": 141,
-      "producto": "Balero",
-      "precio": 148,
-      "categoria": "Juguetería",
-      "unidad": "pieza",
-      "productoId": "L141-P004"
     },
     {
       "localId": 141,
@@ -13031,20 +12807,28 @@ window.MG_DATA = {
       "productoId": "L141-P005"
     },
     {
-      "localId": 142,
-      "producto": "Cubo mágico",
-      "precio": 91.9,
+      "localId": 141,
+      "producto": "Avión de juguete",
+      "precio": 66.5,
       "categoria": "Juguetería",
       "unidad": "pieza",
-      "productoId": "L142-P001"
+      "productoId": "L141-P006"
     },
     {
-      "localId": 142,
-      "producto": "Figura coleccionable",
-      "precio": 106,
+      "localId": 141,
+      "producto": "Triciclo",
+      "precio": 113,
       "categoria": "Juguetería",
       "unidad": "pieza",
-      "productoId": "L142-P002"
+      "productoId": "L141-P007"
+    },
+    {
+      "localId": 141,
+      "producto": "Peluche",
+      "precio": 48.9,
+      "categoria": "Juguetería",
+      "unidad": "pieza",
+      "productoId": "L141-P009"
     },
     {
       "localId": 142,
@@ -13056,14 +12840,6 @@ window.MG_DATA = {
     },
     {
       "localId": 142,
-      "producto": "Balero",
-      "precio": 160,
-      "categoria": "Juguetería",
-      "unidad": "pieza",
-      "productoId": "L142-P004"
-    },
-    {
-      "localId": 142,
       "producto": "Rompecabezas",
       "precio": 102,
       "categoria": "Juguetería",
@@ -13071,20 +12847,28 @@ window.MG_DATA = {
       "productoId": "L142-P005"
     },
     {
-      "localId": 143,
-      "producto": "Cubo mágico",
+      "localId": 142,
+      "producto": "Avión de juguete",
       "precio": 78.7,
       "categoria": "Juguetería",
       "unidad": "pieza",
-      "productoId": "L143-P001"
+      "productoId": "L142-P006"
     },
     {
-      "localId": 143,
-      "producto": "Figura coleccionable",
-      "precio": 122,
+      "localId": 142,
+      "producto": "Triciclo",
+      "precio": 99.1,
       "categoria": "Juguetería",
       "unidad": "pieza",
-      "productoId": "L143-P002"
+      "productoId": "L142-P007"
+    },
+    {
+      "localId": 142,
+      "producto": "Peluche",
+      "precio": 49.3,
+      "categoria": "Juguetería",
+      "unidad": "pieza",
+      "productoId": "L142-P009"
     },
     {
       "localId": 143,
@@ -13096,14 +12880,6 @@ window.MG_DATA = {
     },
     {
       "localId": 143,
-      "producto": "Balero",
-      "precio": 178,
-      "categoria": "Juguetería",
-      "unidad": "pieza",
-      "productoId": "L143-P004"
-    },
-    {
-      "localId": 143,
       "producto": "Rompecabezas",
       "precio": 98.4,
       "categoria": "Juguetería",
@@ -13111,12 +12887,28 @@ window.MG_DATA = {
       "productoId": "L143-P005"
     },
     {
-      "localId": 144,
-      "producto": "Tapete tejido",
-      "precio": 129,
-      "categoria": "Artesanías",
+      "localId": 143,
+      "producto": "Avión de juguete",
+      "precio": 76.3,
+      "categoria": "Juguetería",
       "unidad": "pieza",
-      "productoId": "L144-P001"
+      "productoId": "L143-P006"
+    },
+    {
+      "localId": 143,
+      "producto": "Triciclo",
+      "precio": 109,
+      "categoria": "Juguetería",
+      "unidad": "pieza",
+      "productoId": "L143-P007"
+    },
+    {
+      "localId": 143,
+      "producto": "Peluche",
+      "precio": 54.3,
+      "categoria": "Juguetería",
+      "unidad": "pieza",
+      "productoId": "L143-P009"
     },
     {
       "localId": 144,
@@ -13136,27 +12928,27 @@ window.MG_DATA = {
     },
     {
       "localId": 144,
-      "producto": "Jarrito de barro",
-      "precio": 36.7,
+      "producto": "Textil otomí",
+      "precio": 57.6,
       "categoria": "Artesanías",
       "unidad": "pieza",
-      "productoId": "L144-P004"
+      "productoId": "L144-P009"
     },
     {
       "localId": 144,
-      "producto": "Figura de ámbar",
-      "precio": 201,
+      "producto": "Arbolito de la vida",
+      "precio": 91.3,
       "categoria": "Artesanías",
       "unidad": "pieza",
-      "productoId": "L144-P005"
+      "productoId": "L144-P013"
     },
     {
-      "localId": 145,
-      "producto": "Tapete tejido",
+      "localId": 144,
+      "producto": "Espejo de talavera",
       "precio": 129,
       "categoria": "Artesanías",
       "unidad": "pieza",
-      "productoId": "L145-P001"
+      "productoId": "L144-P014"
     },
     {
       "localId": 145,
@@ -13176,27 +12968,27 @@ window.MG_DATA = {
     },
     {
       "localId": 145,
-      "producto": "Jarrito de barro",
-      "precio": 37.5,
+      "producto": "Textil otomí",
+      "precio": 60.7,
       "categoria": "Artesanías",
       "unidad": "pieza",
-      "productoId": "L145-P004"
+      "productoId": "L145-P009"
     },
     {
       "localId": 145,
-      "producto": "Figura de ámbar",
-      "precio": 173,
+      "producto": "Arbolito de la vida",
+      "precio": 90.1,
       "categoria": "Artesanías",
       "unidad": "pieza",
-      "productoId": "L145-P005"
+      "productoId": "L145-P013"
     },
     {
-      "localId": 146,
-      "producto": "Tapete tejido",
-      "precio": 131,
+      "localId": 145,
+      "producto": "Espejo de talavera",
+      "precio": 121,
       "categoria": "Artesanías",
       "unidad": "pieza",
-      "productoId": "L146-P001"
+      "productoId": "L145-P014"
     },
     {
       "localId": 146,
@@ -13216,27 +13008,27 @@ window.MG_DATA = {
     },
     {
       "localId": 146,
-      "producto": "Jarrito de barro",
-      "precio": 36.4,
+      "producto": "Textil otomí",
+      "precio": 54.9,
       "categoria": "Artesanías",
       "unidad": "pieza",
-      "productoId": "L146-P004"
+      "productoId": "L146-P009"
     },
     {
       "localId": 146,
-      "producto": "Figura de ámbar",
-      "precio": 193,
+      "producto": "Arbolito de la vida",
+      "precio": 84.2,
       "categoria": "Artesanías",
       "unidad": "pieza",
-      "productoId": "L146-P005"
+      "productoId": "L146-P013"
     },
     {
-      "localId": 147,
-      "producto": "Tapete tejido",
-      "precio": 137,
+      "localId": 146,
+      "producto": "Espejo de talavera",
+      "precio": 114,
       "categoria": "Artesanías",
       "unidad": "pieza",
-      "productoId": "L147-P001"
+      "productoId": "L146-P014"
     },
     {
       "localId": 147,
@@ -13256,19 +13048,27 @@ window.MG_DATA = {
     },
     {
       "localId": 147,
-      "producto": "Jarrito de barro",
-      "precio": 33.7,
+      "producto": "Textil otomí",
+      "precio": 60.1,
       "categoria": "Artesanías",
       "unidad": "pieza",
-      "productoId": "L147-P004"
+      "productoId": "L147-P009"
     },
     {
       "localId": 147,
-      "producto": "Figura de ámbar",
-      "precio": 188,
+      "producto": "Arbolito de la vida",
+      "precio": 88.9,
       "categoria": "Artesanías",
       "unidad": "pieza",
-      "productoId": "L147-P005"
+      "productoId": "L147-P013"
+    },
+    {
+      "localId": 147,
+      "producto": "Espejo de talavera",
+      "precio": 139,
+      "categoria": "Artesanías",
+      "unidad": "pieza",
+      "productoId": "L147-P014"
     },
     {
       "localId": 148,
@@ -13288,27 +13088,27 @@ window.MG_DATA = {
     },
     {
       "localId": 148,
-      "producto": "Bordado de playeras",
-      "precio": 85.5,
+      "producto": "Manicure",
+      "precio": 14.2,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
-      "productoId": "L148-P003"
+      "productoId": "L148-P006"
     },
     {
       "localId": 148,
-      "producto": "Reparación de sombreros",
-      "precio": 133,
+      "producto": "Reparación de bicicletas",
+      "precio": 71.5,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
-      "productoId": "L148-P004"
+      "productoId": "L148-P008"
     },
     {
       "localId": 148,
-      "producto": "Costura sencilla",
-      "precio": 27.2,
+      "producto": "Pedicure",
+      "precio": 152,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
-      "productoId": "L148-P005"
+      "productoId": "L148-P009"
     },
     {
       "localId": 149,
@@ -13328,27 +13128,27 @@ window.MG_DATA = {
     },
     {
       "localId": 149,
-      "producto": "Bordado de playeras",
-      "precio": 93.8,
+      "producto": "Manicure",
+      "precio": 16.3,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
-      "productoId": "L149-P003"
+      "productoId": "L149-P006"
     },
     {
       "localId": 149,
-      "producto": "Reparación de sombreros",
-      "precio": 130,
+      "producto": "Reparación de bicicletas",
+      "precio": 66.3,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
-      "productoId": "L149-P004"
+      "productoId": "L149-P008"
     },
     {
       "localId": 149,
-      "producto": "Costura sencilla",
-      "precio": 26.6,
+      "producto": "Pedicure",
+      "precio": 136,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
-      "productoId": "L149-P005"
+      "productoId": "L149-P009"
     },
     {
       "localId": 150,
@@ -13368,43 +13168,27 @@ window.MG_DATA = {
     },
     {
       "localId": 150,
-      "producto": "Bordado de playeras",
-      "precio": 79.5,
+      "producto": "Manicure",
+      "precio": 14.6,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
-      "productoId": "L150-P003"
+      "productoId": "L150-P006"
     },
     {
       "localId": 150,
-      "producto": "Reparación de sombreros",
-      "precio": 120,
+      "producto": "Reparación de bicicletas",
+      "precio": 57.6,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
-      "productoId": "L150-P004"
+      "productoId": "L150-P008"
     },
     {
       "localId": 150,
-      "producto": "Costura sencilla",
-      "precio": 22.2,
+      "producto": "Pedicure",
+      "precio": 141,
       "categoria": "Servicios Varios",
       "unidad": "pieza",
-      "productoId": "L150-P005"
-    },
-    {
-      "localId": 151,
-      "producto": "Alegría de amaranto",
-      "precio": 69.8,
-      "categoria": "Dulcería y Botanas",
-      "unidad": "pieza",
-      "productoId": "L151-P001"
-    },
-    {
-      "localId": 151,
-      "producto": "Jamoncillos de leche",
-      "precio": 34.2,
-      "categoria": "Dulcería y Botanas",
-      "unidad": "pieza",
-      "productoId": "L151-P002"
+      "productoId": "L150-P009"
     },
     {
       "localId": 151,
@@ -13416,19 +13200,35 @@ window.MG_DATA = {
     },
     {
       "localId": 151,
-      "producto": "Coyotas de cajeta",
-      "precio": 26.1,
+      "producto": "Tostitos",
+      "precio": 22.9,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
-      "productoId": "L151-P004"
+      "productoId": "L151-P006"
     },
     {
       "localId": 151,
-      "producto": "Gomitas",
-      "precio": 40.1,
+      "producto": "Suaves de malvavisco",
+      "precio": 16.4,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
-      "productoId": "L151-P005"
+      "productoId": "L151-P009"
+    },
+    {
+      "localId": 151,
+      "producto": "Chamoy",
+      "precio": 7.93,
+      "categoria": "Dulcería y Botanas",
+      "unidad": "pieza",
+      "productoId": "L151-P010"
+    },
+    {
+      "localId": 151,
+      "producto": "Mazapán",
+      "precio": 19.8,
+      "categoria": "Dulcería y Botanas",
+      "unidad": "pieza",
+      "productoId": "L151-P016"
     },
     {
       "localId": 152,
@@ -13480,59 +13280,35 @@ window.MG_DATA = {
     },
     {
       "localId": 153,
-      "producto": "Zapatos de niño",
-      "precio": 469,
+      "producto": "Tenis de fútbol",
+      "precio": 281,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L153-P002"
+      "productoId": "L153-P006"
     },
     {
       "localId": 153,
-      "producto": "Tenis deportivos",
-      "precio": 224,
+      "producto": "Tacones",
+      "precio": 279,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L153-P003"
+      "productoId": "L153-P009"
     },
     {
       "localId": 153,
-      "producto": "Calzado de charol para niño",
-      "precio": 187,
+      "producto": "Zapatos casuales",
+      "precio": 484,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L153-P004"
+      "productoId": "L153-P012"
     },
     {
       "localId": 153,
-      "producto": "Botas de trabajo",
-      "precio": 188,
+      "producto": "Zapatos de seguridad",
+      "precio": 364,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L153-P005"
-    },
-    {
-      "localId": 154,
-      "producto": "Brocha",
-      "precio": 125,
-      "categoria": "Ferretería",
-      "unidad": "pieza",
-      "productoId": "L154-P001"
-    },
-    {
-      "localId": 154,
-      "producto": "Machete Colima cacha de plástico",
-      "precio": 35,
-      "categoria": "Ferretería",
-      "unidad": "pieza",
-      "productoId": "L154-P002"
-    },
-    {
-      "localId": 154,
-      "producto": "Tornillo para madera",
-      "precio": 39,
-      "categoria": "Ferretería",
-      "unidad": "pieza",
-      "productoId": "L154-P003"
+      "productoId": "L153-P013"
     },
     {
       "localId": 154,
@@ -13549,6 +13325,30 @@ window.MG_DATA = {
       "categoria": "Ferretería",
       "unidad": "pieza",
       "productoId": "L154-P005"
+    },
+    {
+      "localId": 154,
+      "producto": "Pintura",
+      "precio": 96.5,
+      "categoria": "Ferretería",
+      "unidad": "pieza",
+      "productoId": "L154-P006"
+    },
+    {
+      "localId": 154,
+      "producto": "Escuadra",
+      "precio": 83.3,
+      "categoria": "Ferretería",
+      "unidad": "pieza",
+      "productoId": "L154-P011"
+    },
+    {
+      "localId": 154,
+      "producto": "Candado de latón reforzado",
+      "precio": 1.77,
+      "categoria": "Ferretería",
+      "unidad": "pieza",
+      "productoId": "L154-P013"
     },
     {
       "localId": 155,
@@ -13608,14 +13408,6 @@ window.MG_DATA = {
     },
     {
       "localId": 156,
-      "producto": "Jalea real",
-      "precio": 17.8,
-      "categoria": "Herbolaria y Naturista",
-      "unidad": "pieza",
-      "productoId": "L156-P003"
-    },
-    {
-      "localId": 156,
       "producto": "Eucalipto",
       "precio": 26.3,
       "categoria": "Herbolaria y Naturista",
@@ -13629,6 +13421,14 @@ window.MG_DATA = {
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
       "productoId": "L156-P005"
+    },
+    {
+      "localId": 156,
+      "producto": "Cápsulas de jengibre",
+      "precio": 22.1,
+      "categoria": "Herbolaria y Naturista",
+      "unidad": "pieza",
+      "productoId": "L156-P006"
     },
     {
       "localId": 157,
@@ -13656,19 +13456,19 @@ window.MG_DATA = {
     },
     {
       "localId": 157,
-      "producto": "Cuerno de fiesta",
-      "precio": 190,
+      "producto": "Pancarta",
+      "precio": 250,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
-      "productoId": "L157-P004"
+      "productoId": "L157-P006"
     },
     {
       "localId": 157,
-      "producto": "Varita mágica",
-      "precio": 259,
+      "producto": "Dulceros",
+      "precio": 243,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
-      "productoId": "L157-P005"
+      "productoId": "L157-P007"
     },
     {
       "localId": 158,
@@ -13680,22 +13480,6 @@ window.MG_DATA = {
     },
     {
       "localId": 158,
-      "producto": "Tortilla de betabel",
-      "precio": 21.6,
-      "categoria": "Tortillería",
-      "unidad": "kg",
-      "productoId": "L158-P002"
-    },
-    {
-      "localId": 158,
-      "producto": "Tortilla taquera",
-      "precio": 15.4,
-      "categoria": "Tortillería",
-      "unidad": "pieza",
-      "productoId": "L158-P003"
-    },
-    {
-      "localId": 158,
       "producto": "Tlacoyo de haba",
       "precio": 21.2,
       "categoria": "Tortillería",
@@ -13704,51 +13488,27 @@ window.MG_DATA = {
     },
     {
       "localId": 158,
-      "producto": "Tortilla de cilantro",
-      "precio": 27.5,
+      "producto": "Chilaquiles",
+      "precio": 15.5,
       "categoria": "Tortillería",
-      "unidad": "kg",
-      "productoId": "L158-P005"
+      "unidad": "pieza",
+      "productoId": "L158-P047"
     },
     {
-      "localId": 159,
-      "producto": "Huevo en cono de 30",
-      "precio": 35,
-      "categoria": "Huevería",
+      "localId": 158,
+      "producto": "Pellizcada",
+      "precio": 23.2,
+      "categoria": "Tortillería",
       "unidad": "pieza",
-      "productoId": "L159-P001"
+      "productoId": "L158-P051"
     },
     {
-      "localId": 159,
-      "producto": "Huevo rojo por media cartera",
-      "precio": 40.8,
-      "categoria": "Huevería",
+      "localId": 158,
+      "producto": "Chalupa",
+      "precio": 23.6,
+      "categoria": "Tortillería",
       "unidad": "pieza",
-      "productoId": "L159-P002"
-    },
-    {
-      "localId": 159,
-      "producto": "Huevo blanco limpio",
-      "precio": 60.6,
-      "categoria": "Huevería",
-      "unidad": "pieza",
-      "productoId": "L159-P003"
-    },
-    {
-      "localId": 159,
-      "producto": "Huevo de avestruz",
-      "precio": 115,
-      "categoria": "Huevería",
-      "unidad": "pieza",
-      "productoId": "L159-P004"
-    },
-    {
-      "localId": 159,
-      "producto": "Huevo en cono de 12",
-      "precio": 221,
-      "categoria": "Huevería",
-      "unidad": "pieza",
-      "productoId": "L159-P005"
+      "productoId": "L158-P054"
     },
     {
       "localId": 160,
@@ -13792,22 +13552,6 @@ window.MG_DATA = {
     },
     {
       "localId": 161,
-      "producto": "Canela entera en raja",
-      "precio": 86,
-      "categoria": "Especias y Chiles",
-      "unidad": "kg",
-      "productoId": "L161-P001"
-    },
-    {
-      "localId": 161,
-      "producto": "Tomillo",
-      "precio": 86.9,
-      "categoria": "Especias y Chiles",
-      "unidad": "kg",
-      "productoId": "L161-P002"
-    },
-    {
-      "localId": 161,
       "producto": "Hoja de laurel",
       "precio": 95.4,
       "categoria": "Especias y Chiles",
@@ -13824,19 +13568,27 @@ window.MG_DATA = {
     },
     {
       "localId": 161,
-      "producto": "Canela en polvo",
-      "precio": 99,
+      "producto": "Pipián",
+      "precio": 75.7,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
-      "productoId": "L161-P005"
+      "productoId": "L161-P006"
     },
     {
-      "localId": 162,
-      "producto": "Tiramisú de cajeta",
-      "precio": 33.4,
-      "categoria": "Postres y Repostería",
-      "unidad": "pieza",
-      "productoId": "L162-P001"
+      "localId": 161,
+      "producto": "Anís",
+      "precio": 75.2,
+      "categoria": "Especias y Chiles",
+      "unidad": "kg",
+      "productoId": "L161-P007"
+    },
+    {
+      "localId": 161,
+      "producto": "Mejorana",
+      "precio": 85.4,
+      "categoria": "Especias y Chiles",
+      "unidad": "kg",
+      "productoId": "L161-P008"
     },
     {
       "localId": 162,
@@ -13848,27 +13600,35 @@ window.MG_DATA = {
     },
     {
       "localId": 162,
-      "producto": "Galletas de avena",
-      "precio": 32.4,
-      "categoria": "Postres y Repostería",
-      "unidad": "pieza",
-      "productoId": "L162-P003"
-    },
-    {
-      "localId": 162,
-      "producto": "Cupcake de vainilla",
-      "precio": 47,
-      "categoria": "Postres y Repostería",
-      "unidad": "pieza",
-      "productoId": "L162-P004"
-    },
-    {
-      "localId": 162,
       "producto": "Churros rellenos",
       "precio": 31.9,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
       "productoId": "L162-P005"
+    },
+    {
+      "localId": 162,
+      "producto": "Merengues",
+      "precio": 511,
+      "categoria": "Postres y Repostería",
+      "unidad": "pieza",
+      "productoId": "L162-P010"
+    },
+    {
+      "localId": 162,
+      "producto": "Gelatina",
+      "precio": 33.1,
+      "categoria": "Postres y Repostería",
+      "unidad": "pieza",
+      "productoId": "L162-P012"
+    },
+    {
+      "localId": 162,
+      "producto": "Cheesecake",
+      "precio": 32.5,
+      "categoria": "Postres y Repostería",
+      "unidad": "pieza",
+      "productoId": "L162-P016"
     },
     {
       "localId": 163,
@@ -13928,14 +13688,6 @@ window.MG_DATA = {
     },
     {
       "localId": 164,
-      "producto": "Folder tamaño carta",
-      "precio": 27.9,
-      "categoria": "Papelería",
-      "unidad": "pieza",
-      "productoId": "L164-P003"
-    },
-    {
-      "localId": 164,
       "producto": "Clips",
       "precio": 17.2,
       "categoria": "Papelería",
@@ -13944,43 +13696,19 @@ window.MG_DATA = {
     },
     {
       "localId": 164,
-      "producto": "Liga",
-      "precio": 64.7,
+      "producto": "Sacapuntas",
+      "precio": 87.1,
       "categoria": "Papelería",
       "unidad": "pieza",
-      "productoId": "L164-P005"
+      "productoId": "L164-P007"
     },
     {
-      "localId": 165,
-      "producto": "Botón forrado",
-      "precio": 7.43,
-      "categoria": "Mercería",
+      "localId": 164,
+      "producto": "Pluma",
+      "precio": 40.3,
+      "categoria": "Papelería",
       "unidad": "pieza",
-      "productoId": "L165-P001"
-    },
-    {
-      "localId": 165,
-      "producto": "Tela de lino",
-      "precio": 9.84,
-      "categoria": "Mercería",
-      "unidad": "pieza",
-      "productoId": "L165-P002"
-    },
-    {
-      "localId": 165,
-      "producto": "Tela de satín",
-      "precio": 34.1,
-      "categoria": "Mercería",
-      "unidad": "pieza",
-      "productoId": "L165-P003"
-    },
-    {
-      "localId": 165,
-      "producto": "Hilo de nylon",
-      "precio": 10.6,
-      "categoria": "Mercería",
-      "unidad": "pieza",
-      "productoId": "L165-P004"
+      "productoId": "L164-P010"
     },
     {
       "localId": 165,
@@ -13989,6 +13717,38 @@ window.MG_DATA = {
       "categoria": "Mercería",
       "unidad": "pieza",
       "productoId": "L165-P005"
+    },
+    {
+      "localId": 165,
+      "producto": "Listón de raso",
+      "precio": 12.6,
+      "categoria": "Mercería",
+      "unidad": "pieza",
+      "productoId": "L165-P008"
+    },
+    {
+      "localId": 165,
+      "producto": "Listón",
+      "precio": 26.3,
+      "categoria": "Mercería",
+      "unidad": "pieza",
+      "productoId": "L165-P009"
+    },
+    {
+      "localId": 165,
+      "producto": "Corchetes",
+      "precio": 76.1,
+      "categoria": "Mercería",
+      "unidad": "pieza",
+      "productoId": "L165-P010"
+    },
+    {
+      "localId": 165,
+      "producto": "Aplicaciones",
+      "precio": 28.6,
+      "categoria": "Mercería",
+      "unidad": "pieza",
+      "productoId": "L165-P011"
     },
     {
       "localId": 166,
@@ -14032,30 +13792,6 @@ window.MG_DATA = {
     },
     {
       "localId": 167,
-      "producto": "Olla exprés",
-      "precio": 36.4,
-      "categoria": "Plásticos y Trastes",
-      "unidad": "pieza",
-      "productoId": "L167-P001"
-    },
-    {
-      "localId": 167,
-      "producto": "Comal de acero",
-      "precio": 23.8,
-      "categoria": "Plásticos y Trastes",
-      "unidad": "pieza",
-      "productoId": "L167-P002"
-    },
-    {
-      "localId": 167,
-      "producto": "Cuchara de acero",
-      "precio": 20.1,
-      "categoria": "Plásticos y Trastes",
-      "unidad": "pieza",
-      "productoId": "L167-P003"
-    },
-    {
-      "localId": 167,
       "producto": "Sartén de teflón",
       "precio": 25,
       "categoria": "Plásticos y Trastes",
@@ -14064,43 +13800,35 @@ window.MG_DATA = {
     },
     {
       "localId": 167,
-      "producto": "Recipiente con tapa",
-      "precio": 27.4,
+      "producto": "Charola",
+      "precio": 22.7,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
-      "productoId": "L167-P005"
+      "productoId": "L167-P006"
     },
     {
-      "localId": 168,
-      "producto": "Maíz pozolero",
-      "precio": 56.5,
-      "categoria": "Semillas y Granos",
-      "unidad": "kg",
-      "productoId": "L168-P001"
-    },
-    {
-      "localId": 168,
-      "producto": "Frijol negro",
-      "precio": 65.3,
-      "categoria": "Semillas y Granos",
-      "unidad": "kg",
-      "productoId": "L168-P002"
-    },
-    {
-      "localId": 168,
-      "producto": "Trigo",
-      "precio": 40.4,
-      "categoria": "Semillas y Granos",
+      "localId": 167,
+      "producto": "Tenedor",
+      "precio": 13.4,
+      "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
-      "productoId": "L168-P003"
+      "productoId": "L167-P007"
     },
     {
-      "localId": 168,
-      "producto": "Amaranto",
-      "precio": 36.4,
-      "categoria": "Semillas y Granos",
+      "localId": 167,
+      "producto": "Tupper",
+      "precio": 33.8,
+      "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
-      "productoId": "L168-P004"
+      "productoId": "L167-P008"
+    },
+    {
+      "localId": 167,
+      "producto": "Cuchillo",
+      "precio": 18.9,
+      "categoria": "Plásticos y Trastes",
+      "unidad": "pieza",
+      "productoId": "L167-P012"
     },
     {
       "localId": 168,
@@ -14109,6 +13837,38 @@ window.MG_DATA = {
       "categoria": "Semillas y Granos",
       "unidad": "kg",
       "productoId": "L168-P005"
+    },
+    {
+      "localId": 168,
+      "producto": "Ajonjolí",
+      "precio": 46.1,
+      "categoria": "Semillas y Granos",
+      "unidad": "pieza",
+      "productoId": "L168-P008"
+    },
+    {
+      "localId": 168,
+      "producto": "Almendra",
+      "precio": 51.5,
+      "categoria": "Semillas y Granos",
+      "unidad": "pieza",
+      "productoId": "L168-P009"
+    },
+    {
+      "localId": 168,
+      "producto": "Sorgo",
+      "precio": 26.7,
+      "categoria": "Semillas y Granos",
+      "unidad": "kg",
+      "productoId": "L168-P015"
+    },
+    {
+      "localId": 168,
+      "producto": "Alpiste",
+      "precio": 32.4,
+      "categoria": "Semillas y Granos",
+      "unidad": "kg",
+      "productoId": "L168-P017"
     },
     {
       "localId": 169,
@@ -14136,19 +13896,19 @@ window.MG_DATA = {
     },
     {
       "localId": 169,
-      "producto": "Michelada de mango",
-      "precio": 16.2,
+      "producto": "Té de burbujas",
+      "precio": 10.8,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
-      "productoId": "L169-P004"
+      "productoId": "L169-P006"
     },
     {
       "localId": 169,
-      "producto": "Agua de sabor",
-      "precio": 12.7,
+      "producto": "Boing",
+      "precio": 9.95,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
-      "productoId": "L169-P005"
+      "productoId": "L169-P010"
     },
     {
       "localId": 170,
@@ -14160,22 +13920,6 @@ window.MG_DATA = {
     },
     {
       "localId": 170,
-      "producto": "Carne para asar",
-      "precio": 71.9,
-      "categoria": "Carnes Preparadas",
-      "unidad": "kg",
-      "productoId": "L170-P002"
-    },
-    {
-      "localId": 170,
-      "producto": "Tocino ahumado",
-      "precio": 97.1,
-      "categoria": "Carnes Preparadas",
-      "unidad": "kg",
-      "productoId": "L170-P003"
-    },
-    {
-      "localId": 170,
       "producto": "Buche",
       "precio": 74.2,
       "categoria": "Carnes Preparadas",
@@ -14184,27 +13928,27 @@ window.MG_DATA = {
     },
     {
       "localId": 170,
-      "producto": "Tripa dorada",
-      "precio": 162,
+      "producto": "Mortadela",
+      "precio": 154,
+      "categoria": "Carnes Preparadas",
+      "unidad": "pieza",
+      "productoId": "L170-P022"
+    },
+    {
+      "localId": 170,
+      "producto": "Tasajo",
+      "precio": 216,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
-      "productoId": "L170-P005"
+      "productoId": "L170-P024"
     },
     {
-      "localId": 171,
-      "producto": "Cubo mágico",
-      "precio": 83.4,
-      "categoria": "Juguetería",
-      "unidad": "pieza",
-      "productoId": "L171-P001"
-    },
-    {
-      "localId": 171,
-      "producto": "Figura coleccionable",
-      "precio": 113,
-      "categoria": "Juguetería",
-      "unidad": "pieza",
-      "productoId": "L171-P002"
+      "localId": 170,
+      "producto": "Arrachera en adobo",
+      "precio": 168,
+      "categoria": "Carnes Preparadas",
+      "unidad": "kg",
+      "productoId": "L170-P034"
     },
     {
       "localId": 171,
@@ -14216,14 +13960,6 @@ window.MG_DATA = {
     },
     {
       "localId": 171,
-      "producto": "Balero",
-      "precio": 173,
-      "categoria": "Juguetería",
-      "unidad": "pieza",
-      "productoId": "L171-P004"
-    },
-    {
-      "localId": 171,
       "producto": "Rompecabezas",
       "precio": 106,
       "categoria": "Juguetería",
@@ -14231,44 +13967,68 @@ window.MG_DATA = {
       "productoId": "L171-P005"
     },
     {
-      "localId": 172,
-      "producto": "Agua de piña",
-      "precio": 38.6,
-      "categoria": "Jugos y Licuados",
+      "localId": 171,
+      "producto": "Avión de juguete",
+      "precio": 82.6,
+      "categoria": "Juguetería",
       "unidad": "pieza",
-      "productoId": "L172-P001"
+      "productoId": "L171-P006"
+    },
+    {
+      "localId": 171,
+      "producto": "Triciclo",
+      "precio": 118,
+      "categoria": "Juguetería",
+      "unidad": "pieza",
+      "productoId": "L171-P007"
+    },
+    {
+      "localId": 171,
+      "producto": "Peluche",
+      "precio": 53.6,
+      "categoria": "Juguetería",
+      "unidad": "pieza",
+      "productoId": "L171-P009"
     },
     {
       "localId": 172,
-      "producto": "Agua de horchata",
-      "precio": 40.5,
+      "producto": "Jugo de apio",
+      "precio": 37.8,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L172-P002"
+      "productoId": "L172-P012"
     },
     {
       "localId": 172,
-      "producto": "Licuado de chocolate",
-      "precio": 43.2,
+      "producto": "Jugo de granada",
+      "precio": 38.9,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L172-P003"
+      "productoId": "L172-P013"
     },
     {
       "localId": 172,
-      "producto": "Jugo de manzana",
-      "precio": 43.1,
+      "producto": "Jugo de betabel",
+      "precio": 30.4,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L172-P004"
+      "productoId": "L172-P030"
     },
     {
       "localId": 172,
-      "producto": "Jugo de ciruela",
-      "precio": 35.4,
+      "producto": "Jugo de uva",
+      "precio": 27.8,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L172-P005"
+      "productoId": "L172-P044"
+    },
+    {
+      "localId": 172,
+      "producto": "Jugo mixto",
+      "precio": 42.9,
+      "categoria": "Jugos y Licuados",
+      "unidad": "pieza",
+      "productoId": "L172-P050"
     },
     {
       "localId": 173,
@@ -14312,83 +14072,59 @@ window.MG_DATA = {
     },
     {
       "localId": 174,
-      "producto": "Omelette de queso",
-      "precio": 85.4,
+      "producto": "Chilaquiles",
+      "precio": 69.7,
       "categoria": "Fonda",
       "unidad": "pieza",
-      "productoId": "L174-P001"
+      "productoId": "L174-P014"
     },
     {
       "localId": 174,
-      "producto": "Sopes",
-      "precio": 84.7,
+      "producto": "Postre del día",
+      "precio": 61.8,
       "categoria": "Fonda",
       "unidad": "pieza",
-      "productoId": "L174-P002"
-    },
-    {
-      "localId": 174,
-      "producto": "Gorditas de chicharrón",
-      "precio": 72.9,
-      "categoria": "Fonda",
-      "unidad": "pieza",
-      "productoId": "L174-P003"
-    },
-    {
-      "localId": 174,
-      "producto": "Milanesa de pollo",
-      "precio": 86.6,
-      "categoria": "Fonda",
-      "unidad": "pieza",
-      "productoId": "L174-P004"
-    },
-    {
-      "localId": 174,
-      "producto": "Albóndigas",
-      "precio": 115,
-      "categoria": "Fonda",
-      "unidad": "pieza",
-      "productoId": "L174-P005"
+      "productoId": "L174-P020"
     },
     {
       "localId": 175,
-      "producto": "Mole de olla",
-      "precio": 83.6,
+      "producto": "Mole",
+      "precio": 39.2,
       "categoria": "Comida Casera",
       "unidad": "pieza",
-      "productoId": "L175-P001"
+      "productoId": "L175-P015"
     },
     {
       "localId": 175,
-      "producto": "Arroz a la mexicana",
-      "precio": 72.7,
+      "producto": "Chilaquiles",
+      "precio": 49.7,
       "categoria": "Comida Casera",
       "unidad": "pieza",
-      "productoId": "L175-P002"
+      "productoId": "L175-P018"
     },
     {
       "localId": 175,
-      "producto": "Bistec a la mexicana",
-      "precio": 69.9,
+      "producto": "Nopales navegantes",
+      "precio": 64,
       "categoria": "Comida Casera",
       "unidad": "pieza",
-      "productoId": "L175-P003"
+      "productoId": "L175-P022"
     },
     {
       "localId": 175,
-      "producto": "Torta ahogada",
-      "precio": 81.9,
+      "producto": "Birria",
+      "precio": 30.6,
       "categoria": "Comida Casera",
       "unidad": "pieza",
-      "productoId": "L175-P004"
+      "productoId": "L175-P026"
     },
     {
       "localId": 175,
-      "producto": "Pozole rojo con espinazo",
-      "precio": 50.2,
+      "producto": "Tinga",
+      "precio": 79.8,
       "categoria": "Comida Casera",
       "unidad": "pieza",
-      "productoId": "L175-P005"
+      "productoId": "L175-P033"
     },
     {
       "localId": 176,
@@ -14552,43 +14288,27 @@ window.MG_DATA = {
     },
     {
       "localId": 180,
-      "producto": "Pechuga deshuesada",
-      "precio": 51.7,
+      "producto": "Nuggets",
+      "precio": 44.1,
       "categoria": "Pollería",
       "unidad": "kg",
-      "productoId": "L180-P001"
+      "productoId": "L180-P006"
     },
     {
       "localId": 180,
-      "producto": "Pechuga ahumada",
-      "precio": 83.8,
+      "producto": "Alitas picantes",
+      "precio": 90.3,
       "categoria": "Pollería",
       "unidad": "kg",
-      "productoId": "L180-P002"
+      "productoId": "L180-P015"
     },
     {
       "localId": 180,
-      "producto": "Pollo rostizado",
-      "precio": 53.3,
+      "producto": "Alitas a la BBQ",
+      "precio": 15.6,
       "categoria": "Pollería",
-      "unidad": "kg",
-      "productoId": "L180-P003"
-    },
-    {
-      "localId": 180,
-      "producto": "Pollo a la parrilla",
-      "precio": 39.7,
-      "categoria": "Pollería",
-      "unidad": "kg",
-      "productoId": "L180-P004"
-    },
-    {
-      "localId": 180,
-      "producto": "Medio pollo rostizado",
-      "precio": 78.3,
-      "categoria": "Pollería",
-      "unidad": "kg",
-      "productoId": "L180-P005"
+      "unidad": "pieza",
+      "productoId": "L180-P055"
     },
     {
       "localId": 181,
@@ -14640,30 +14360,6 @@ window.MG_DATA = {
     },
     {
       "localId": 182,
-      "producto": "Café irlandés",
-      "precio": 24.6,
-      "categoria": "Café y Atoles",
-      "unidad": "pieza",
-      "productoId": "L182-P002"
-    },
-    {
-      "localId": 182,
-      "producto": "Café con canela",
-      "precio": 25.2,
-      "categoria": "Café y Atoles",
-      "unidad": "pieza",
-      "productoId": "L182-P003"
-    },
-    {
-      "localId": 182,
-      "producto": "Café molido",
-      "precio": 35.8,
-      "categoria": "Café y Atoles",
-      "unidad": "pieza",
-      "productoId": "L182-P004"
-    },
-    {
-      "localId": 182,
       "producto": "Champurrado",
       "precio": 40,
       "categoria": "Café y Atoles",
@@ -14671,12 +14367,28 @@ window.MG_DATA = {
       "productoId": "L182-P005"
     },
     {
-      "localId": 183,
-      "producto": "Tapete tejido",
-      "precio": 118,
-      "categoria": "Artesanías",
+      "localId": 182,
+      "producto": "Atole de zarzamora",
+      "precio": 46.6,
+      "categoria": "Café y Atoles",
       "unidad": "pieza",
-      "productoId": "L183-P001"
+      "productoId": "L182-P008"
+    },
+    {
+      "localId": 182,
+      "producto": "Atole de nuez",
+      "precio": 20.3,
+      "categoria": "Café y Atoles",
+      "unidad": "pieza",
+      "productoId": "L182-P013"
+    },
+    {
+      "localId": 182,
+      "producto": "Té de hierbabuena",
+      "precio": 16.1,
+      "categoria": "Café y Atoles",
+      "unidad": "pieza",
+      "productoId": "L182-P024"
     },
     {
       "localId": 183,
@@ -14696,19 +14408,27 @@ window.MG_DATA = {
     },
     {
       "localId": 183,
-      "producto": "Jarrito de barro",
-      "precio": 35.4,
+      "producto": "Textil otomí",
+      "precio": 49.2,
       "categoria": "Artesanías",
       "unidad": "pieza",
-      "productoId": "L183-P004"
+      "productoId": "L183-P009"
     },
     {
       "localId": 183,
-      "producto": "Figura de ámbar",
-      "precio": 202,
+      "producto": "Arbolito de la vida",
+      "precio": 101,
       "categoria": "Artesanías",
       "unidad": "pieza",
-      "productoId": "L183-P005"
+      "productoId": "L183-P013"
+    },
+    {
+      "localId": 183,
+      "producto": "Espejo de talavera",
+      "precio": 134,
+      "categoria": "Artesanías",
+      "unidad": "pieza",
+      "productoId": "L183-P014"
     },
     {
       "localId": 184,
@@ -14720,27 +14440,11 @@ window.MG_DATA = {
     },
     {
       "localId": 184,
-      "producto": "Clavel rojo",
-      "precio": 23.9,
-      "categoria": "Florería",
-      "unidad": "pieza",
-      "productoId": "L184-P002"
-    },
-    {
-      "localId": 184,
       "producto": "Suculenta",
       "precio": 22.3,
       "categoria": "Florería",
       "unidad": "pieza",
       "productoId": "L184-P003"
-    },
-    {
-      "localId": 184,
-      "producto": "Corona fúnebre",
-      "precio": 23.4,
-      "categoria": "Florería",
-      "unidad": "pieza",
-      "productoId": "L184-P004"
     },
     {
       "localId": 184,
@@ -14751,20 +14455,20 @@ window.MG_DATA = {
       "productoId": "L184-P005"
     },
     {
-      "localId": 185,
-      "producto": "Alegría de amaranto",
-      "precio": 62.9,
-      "categoria": "Dulcería y Botanas",
+      "localId": 184,
+      "producto": "Alcatraz",
+      "precio": 585,
+      "categoria": "Florería",
       "unidad": "pieza",
-      "productoId": "L185-P001"
+      "productoId": "L184-P006"
     },
     {
-      "localId": 185,
-      "producto": "Jamoncillos de leche",
-      "precio": 34.9,
-      "categoria": "Dulcería y Botanas",
+      "localId": 184,
+      "producto": "Ramo de condolencia",
+      "precio": 91.5,
+      "categoria": "Florería",
       "unidad": "pieza",
-      "productoId": "L185-P002"
+      "productoId": "L184-P007"
     },
     {
       "localId": 185,
@@ -14776,19 +14480,35 @@ window.MG_DATA = {
     },
     {
       "localId": 185,
-      "producto": "Coyotas de cajeta",
-      "precio": 28.7,
+      "producto": "Tostitos",
+      "precio": 21.2,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
-      "productoId": "L185-P004"
+      "productoId": "L185-P006"
     },
     {
       "localId": 185,
-      "producto": "Gomitas",
-      "precio": 45.9,
+      "producto": "Suaves de malvavisco",
+      "precio": 13.5,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
-      "productoId": "L185-P005"
+      "productoId": "L185-P009"
+    },
+    {
+      "localId": 185,
+      "producto": "Chamoy",
+      "precio": 8.05,
+      "categoria": "Dulcería y Botanas",
+      "unidad": "pieza",
+      "productoId": "L185-P010"
+    },
+    {
+      "localId": 185,
+      "producto": "Mazapán",
+      "precio": 16.9,
+      "categoria": "Dulcería y Botanas",
+      "unidad": "pieza",
+      "productoId": "L185-P016"
     },
     {
       "localId": 186,
@@ -14840,59 +14560,35 @@ window.MG_DATA = {
     },
     {
       "localId": 187,
-      "producto": "Zapatos de niño",
-      "precio": 454,
+      "producto": "Tenis de fútbol",
+      "precio": 260,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L187-P002"
+      "productoId": "L187-P006"
     },
     {
       "localId": 187,
-      "producto": "Tenis deportivos",
-      "precio": 239,
+      "producto": "Tacones",
+      "precio": 300,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L187-P003"
+      "productoId": "L187-P009"
     },
     {
       "localId": 187,
-      "producto": "Calzado de charol para niño",
-      "precio": 215,
+      "producto": "Zapatos casuales",
+      "precio": 425,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L187-P004"
+      "productoId": "L187-P012"
     },
     {
       "localId": 187,
-      "producto": "Botas de trabajo",
-      "precio": 174,
+      "producto": "Zapatos de seguridad",
+      "precio": 322,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L187-P005"
-    },
-    {
-      "localId": 188,
-      "producto": "Brocha",
-      "precio": 138,
-      "categoria": "Ferretería",
-      "unidad": "pieza",
-      "productoId": "L188-P001"
-    },
-    {
-      "localId": 188,
-      "producto": "Machete Colima cacha de plástico",
-      "precio": 38,
-      "categoria": "Ferretería",
-      "unidad": "pieza",
-      "productoId": "L188-P002"
-    },
-    {
-      "localId": 188,
-      "producto": "Tornillo para madera",
-      "precio": 38.3,
-      "categoria": "Ferretería",
-      "unidad": "pieza",
-      "productoId": "L188-P003"
+      "productoId": "L187-P013"
     },
     {
       "localId": 188,
@@ -14909,6 +14605,30 @@ window.MG_DATA = {
       "categoria": "Ferretería",
       "unidad": "pieza",
       "productoId": "L188-P005"
+    },
+    {
+      "localId": 188,
+      "producto": "Pintura",
+      "precio": 104,
+      "categoria": "Ferretería",
+      "unidad": "pieza",
+      "productoId": "L188-P006"
+    },
+    {
+      "localId": 188,
+      "producto": "Escuadra",
+      "precio": 86.8,
+      "categoria": "Ferretería",
+      "unidad": "pieza",
+      "productoId": "L188-P011"
+    },
+    {
+      "localId": 188,
+      "producto": "Candado de latón reforzado",
+      "precio": 2.16,
+      "categoria": "Ferretería",
+      "unidad": "pieza",
+      "productoId": "L188-P013"
     },
     {
       "localId": 189,
@@ -14968,14 +14688,6 @@ window.MG_DATA = {
     },
     {
       "localId": 190,
-      "producto": "Jalea real",
-      "precio": 19.7,
-      "categoria": "Herbolaria y Naturista",
-      "unidad": "pieza",
-      "productoId": "L190-P003"
-    },
-    {
-      "localId": 190,
       "producto": "Eucalipto",
       "precio": 28,
       "categoria": "Herbolaria y Naturista",
@@ -14989,6 +14701,14 @@ window.MG_DATA = {
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
       "productoId": "L190-P005"
+    },
+    {
+      "localId": 190,
+      "producto": "Cápsulas de jengibre",
+      "precio": 19.7,
+      "categoria": "Herbolaria y Naturista",
+      "unidad": "pieza",
+      "productoId": "L190-P006"
     },
     {
       "localId": 191,
@@ -15016,19 +14736,19 @@ window.MG_DATA = {
     },
     {
       "localId": 191,
-      "producto": "Cuerno de fiesta",
-      "precio": 177,
+      "producto": "Pancarta",
+      "precio": 210,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
-      "productoId": "L191-P004"
+      "productoId": "L191-P006"
     },
     {
       "localId": 191,
-      "producto": "Varita mágica",
-      "precio": 252,
+      "producto": "Dulceros",
+      "precio": 251,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
-      "productoId": "L191-P005"
+      "productoId": "L191-P007"
     },
     {
       "localId": 192,
@@ -15040,22 +14760,6 @@ window.MG_DATA = {
     },
     {
       "localId": 192,
-      "producto": "Tortilla de betabel",
-      "precio": 19.5,
-      "categoria": "Tortillería",
-      "unidad": "kg",
-      "productoId": "L192-P002"
-    },
-    {
-      "localId": 192,
-      "producto": "Tortilla taquera",
-      "precio": 13.6,
-      "categoria": "Tortillería",
-      "unidad": "pieza",
-      "productoId": "L192-P003"
-    },
-    {
-      "localId": 192,
       "producto": "Tlacoyo de haba",
       "precio": 25.9,
       "categoria": "Tortillería",
@@ -15064,51 +14768,27 @@ window.MG_DATA = {
     },
     {
       "localId": 192,
-      "producto": "Tortilla de cilantro",
-      "precio": 25.9,
+      "producto": "Chilaquiles",
+      "precio": 16.2,
       "categoria": "Tortillería",
-      "unidad": "kg",
-      "productoId": "L192-P005"
+      "unidad": "pieza",
+      "productoId": "L192-P047"
     },
     {
-      "localId": 193,
-      "producto": "Huevo en cono de 30",
-      "precio": 31.1,
-      "categoria": "Huevería",
+      "localId": 192,
+      "producto": "Pellizcada",
+      "precio": 21.8,
+      "categoria": "Tortillería",
       "unidad": "pieza",
-      "productoId": "L193-P001"
+      "productoId": "L192-P051"
     },
     {
-      "localId": 193,
-      "producto": "Huevo rojo por media cartera",
-      "precio": 45.5,
-      "categoria": "Huevería",
+      "localId": 192,
+      "producto": "Chalupa",
+      "precio": 25.6,
+      "categoria": "Tortillería",
       "unidad": "pieza",
-      "productoId": "L193-P002"
-    },
-    {
-      "localId": 193,
-      "producto": "Huevo blanco limpio",
-      "precio": 67.9,
-      "categoria": "Huevería",
-      "unidad": "pieza",
-      "productoId": "L193-P003"
-    },
-    {
-      "localId": 193,
-      "producto": "Huevo de avestruz",
-      "precio": 129,
-      "categoria": "Huevería",
-      "unidad": "pieza",
-      "productoId": "L193-P004"
-    },
-    {
-      "localId": 193,
-      "producto": "Huevo en cono de 12",
-      "precio": 205,
-      "categoria": "Huevería",
-      "unidad": "pieza",
-      "productoId": "L193-P005"
+      "productoId": "L192-P054"
     },
     {
       "localId": 194,
@@ -15152,22 +14832,6 @@ window.MG_DATA = {
     },
     {
       "localId": 195,
-      "producto": "Canela entera en raja",
-      "precio": 88.9,
-      "categoria": "Especias y Chiles",
-      "unidad": "kg",
-      "productoId": "L195-P001"
-    },
-    {
-      "localId": 195,
-      "producto": "Tomillo",
-      "precio": 94.8,
-      "categoria": "Especias y Chiles",
-      "unidad": "kg",
-      "productoId": "L195-P002"
-    },
-    {
-      "localId": 195,
       "producto": "Hoja de laurel",
       "precio": 86.8,
       "categoria": "Especias y Chiles",
@@ -15184,19 +14848,27 @@ window.MG_DATA = {
     },
     {
       "localId": 195,
-      "producto": "Canela en polvo",
-      "precio": 112,
+      "producto": "Pipián",
+      "precio": 72.1,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
-      "productoId": "L195-P005"
+      "productoId": "L195-P006"
     },
     {
-      "localId": 196,
-      "producto": "Tiramisú de cajeta",
-      "precio": 31.8,
-      "categoria": "Postres y Repostería",
-      "unidad": "pieza",
-      "productoId": "L196-P001"
+      "localId": 195,
+      "producto": "Anís",
+      "precio": 80.3,
+      "categoria": "Especias y Chiles",
+      "unidad": "kg",
+      "productoId": "L195-P007"
+    },
+    {
+      "localId": 195,
+      "producto": "Mejorana",
+      "precio": 87.7,
+      "categoria": "Especias y Chiles",
+      "unidad": "kg",
+      "productoId": "L195-P008"
     },
     {
       "localId": 196,
@@ -15208,27 +14880,35 @@ window.MG_DATA = {
     },
     {
       "localId": 196,
-      "producto": "Galletas de avena",
-      "precio": 37.2,
-      "categoria": "Postres y Repostería",
-      "unidad": "pieza",
-      "productoId": "L196-P003"
-    },
-    {
-      "localId": 196,
-      "producto": "Cupcake de vainilla",
-      "precio": 40.3,
-      "categoria": "Postres y Repostería",
-      "unidad": "pieza",
-      "productoId": "L196-P004"
-    },
-    {
-      "localId": 196,
       "producto": "Churros rellenos",
       "precio": 33.2,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
       "productoId": "L196-P005"
+    },
+    {
+      "localId": 196,
+      "producto": "Merengues",
+      "precio": 538,
+      "categoria": "Postres y Repostería",
+      "unidad": "pieza",
+      "productoId": "L196-P010"
+    },
+    {
+      "localId": 196,
+      "producto": "Gelatina",
+      "precio": 34,
+      "categoria": "Postres y Repostería",
+      "unidad": "pieza",
+      "productoId": "L196-P012"
+    },
+    {
+      "localId": 196,
+      "producto": "Cheesecake",
+      "precio": 31.1,
+      "categoria": "Postres y Repostería",
+      "unidad": "pieza",
+      "productoId": "L196-P016"
     },
     {
       "localId": 197,
@@ -15288,14 +14968,6 @@ window.MG_DATA = {
     },
     {
       "localId": 198,
-      "producto": "Folder tamaño carta",
-      "precio": 25.6,
-      "categoria": "Papelería",
-      "unidad": "pieza",
-      "productoId": "L198-P003"
-    },
-    {
-      "localId": 198,
       "producto": "Clips",
       "precio": 17.8,
       "categoria": "Papelería",
@@ -15304,43 +14976,19 @@ window.MG_DATA = {
     },
     {
       "localId": 198,
-      "producto": "Liga",
-      "precio": 64.2,
+      "producto": "Sacapuntas",
+      "precio": 78.9,
       "categoria": "Papelería",
       "unidad": "pieza",
-      "productoId": "L198-P005"
+      "productoId": "L198-P007"
     },
     {
-      "localId": 199,
-      "producto": "Botón forrado",
-      "precio": 7.72,
-      "categoria": "Mercería",
+      "localId": 198,
+      "producto": "Pluma",
+      "precio": 40.6,
+      "categoria": "Papelería",
       "unidad": "pieza",
-      "productoId": "L199-P001"
-    },
-    {
-      "localId": 199,
-      "producto": "Tela de lino",
-      "precio": 10.5,
-      "categoria": "Mercería",
-      "unidad": "pieza",
-      "productoId": "L199-P002"
-    },
-    {
-      "localId": 199,
-      "producto": "Tela de satín",
-      "precio": 36.8,
-      "categoria": "Mercería",
-      "unidad": "pieza",
-      "productoId": "L199-P003"
-    },
-    {
-      "localId": 199,
-      "producto": "Hilo de nylon",
-      "precio": 13.1,
-      "categoria": "Mercería",
-      "unidad": "pieza",
-      "productoId": "L199-P004"
+      "productoId": "L198-P010"
     },
     {
       "localId": 199,
@@ -15349,6 +14997,38 @@ window.MG_DATA = {
       "categoria": "Mercería",
       "unidad": "pieza",
       "productoId": "L199-P005"
+    },
+    {
+      "localId": 199,
+      "producto": "Listón de raso",
+      "precio": 13.2,
+      "categoria": "Mercería",
+      "unidad": "pieza",
+      "productoId": "L199-P008"
+    },
+    {
+      "localId": 199,
+      "producto": "Listón",
+      "precio": 22.7,
+      "categoria": "Mercería",
+      "unidad": "pieza",
+      "productoId": "L199-P009"
+    },
+    {
+      "localId": 199,
+      "producto": "Corchetes",
+      "precio": 92.3,
+      "categoria": "Mercería",
+      "unidad": "pieza",
+      "productoId": "L199-P010"
+    },
+    {
+      "localId": 199,
+      "producto": "Aplicaciones",
+      "precio": 26.4,
+      "categoria": "Mercería",
+      "unidad": "pieza",
+      "productoId": "L199-P011"
     },
     {
       "localId": 200,
@@ -15392,30 +15072,6 @@ window.MG_DATA = {
     },
     {
       "localId": 201,
-      "producto": "Olla exprés",
-      "precio": 35.6,
-      "categoria": "Plásticos y Trastes",
-      "unidad": "pieza",
-      "productoId": "L201-P001"
-    },
-    {
-      "localId": 201,
-      "producto": "Comal de acero",
-      "precio": 24.5,
-      "categoria": "Plásticos y Trastes",
-      "unidad": "pieza",
-      "productoId": "L201-P002"
-    },
-    {
-      "localId": 201,
-      "producto": "Cuchara de acero",
-      "precio": 17.7,
-      "categoria": "Plásticos y Trastes",
-      "unidad": "pieza",
-      "productoId": "L201-P003"
-    },
-    {
-      "localId": 201,
       "producto": "Sartén de teflón",
       "precio": 24.8,
       "categoria": "Plásticos y Trastes",
@@ -15424,43 +15080,35 @@ window.MG_DATA = {
     },
     {
       "localId": 201,
-      "producto": "Recipiente con tapa",
-      "precio": 25.3,
+      "producto": "Charola",
+      "precio": 22.6,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
-      "productoId": "L201-P005"
+      "productoId": "L201-P006"
     },
     {
-      "localId": 202,
-      "producto": "Maíz pozolero",
-      "precio": 52.6,
-      "categoria": "Semillas y Granos",
-      "unidad": "kg",
-      "productoId": "L202-P001"
-    },
-    {
-      "localId": 202,
-      "producto": "Frijol negro",
-      "precio": 64,
-      "categoria": "Semillas y Granos",
-      "unidad": "kg",
-      "productoId": "L202-P002"
-    },
-    {
-      "localId": 202,
-      "producto": "Trigo",
-      "precio": 47.1,
-      "categoria": "Semillas y Granos",
+      "localId": 201,
+      "producto": "Tenedor",
+      "precio": 14.3,
+      "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
-      "productoId": "L202-P003"
+      "productoId": "L201-P007"
     },
     {
-      "localId": 202,
-      "producto": "Amaranto",
-      "precio": 34.5,
-      "categoria": "Semillas y Granos",
+      "localId": 201,
+      "producto": "Tupper",
+      "precio": 32.1,
+      "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
-      "productoId": "L202-P004"
+      "productoId": "L201-P008"
+    },
+    {
+      "localId": 201,
+      "producto": "Cuchillo",
+      "precio": 19.5,
+      "categoria": "Plásticos y Trastes",
+      "unidad": "pieza",
+      "productoId": "L201-P012"
     },
     {
       "localId": 202,
@@ -15469,6 +15117,38 @@ window.MG_DATA = {
       "categoria": "Semillas y Granos",
       "unidad": "kg",
       "productoId": "L202-P005"
+    },
+    {
+      "localId": 202,
+      "producto": "Ajonjolí",
+      "precio": 52.5,
+      "categoria": "Semillas y Granos",
+      "unidad": "pieza",
+      "productoId": "L202-P008"
+    },
+    {
+      "localId": 202,
+      "producto": "Almendra",
+      "precio": 55,
+      "categoria": "Semillas y Granos",
+      "unidad": "pieza",
+      "productoId": "L202-P009"
+    },
+    {
+      "localId": 202,
+      "producto": "Sorgo",
+      "precio": 27,
+      "categoria": "Semillas y Granos",
+      "unidad": "kg",
+      "productoId": "L202-P015"
+    },
+    {
+      "localId": 202,
+      "producto": "Alpiste",
+      "precio": 33.7,
+      "categoria": "Semillas y Granos",
+      "unidad": "kg",
+      "productoId": "L202-P017"
     },
     {
       "localId": 203,
@@ -15496,19 +15176,19 @@ window.MG_DATA = {
     },
     {
       "localId": 203,
-      "producto": "Michelada de mango",
-      "precio": 16.2,
+      "producto": "Té de burbujas",
+      "precio": 13.2,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
-      "productoId": "L203-P004"
+      "productoId": "L203-P006"
     },
     {
       "localId": 203,
-      "producto": "Agua de sabor",
-      "precio": 13.4,
+      "producto": "Boing",
+      "precio": 10.1,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
-      "productoId": "L203-P005"
+      "productoId": "L203-P010"
     },
     {
       "localId": 204,
@@ -15520,22 +15200,6 @@ window.MG_DATA = {
     },
     {
       "localId": 204,
-      "producto": "Carne para asar",
-      "precio": 60.3,
-      "categoria": "Carnes Preparadas",
-      "unidad": "kg",
-      "productoId": "L204-P002"
-    },
-    {
-      "localId": 204,
-      "producto": "Tocino ahumado",
-      "precio": 104,
-      "categoria": "Carnes Preparadas",
-      "unidad": "kg",
-      "productoId": "L204-P003"
-    },
-    {
-      "localId": 204,
       "producto": "Buche",
       "precio": 77,
       "categoria": "Carnes Preparadas",
@@ -15544,27 +15208,27 @@ window.MG_DATA = {
     },
     {
       "localId": 204,
-      "producto": "Tripa dorada",
-      "precio": 136,
+      "producto": "Mortadela",
+      "precio": 145,
+      "categoria": "Carnes Preparadas",
+      "unidad": "pieza",
+      "productoId": "L204-P022"
+    },
+    {
+      "localId": 204,
+      "producto": "Tasajo",
+      "precio": 236,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
-      "productoId": "L204-P005"
+      "productoId": "L204-P024"
     },
     {
-      "localId": 205,
-      "producto": "Cubo mágico",
-      "precio": 90.1,
-      "categoria": "Juguetería",
-      "unidad": "pieza",
-      "productoId": "L205-P001"
-    },
-    {
-      "localId": 205,
-      "producto": "Figura coleccionable",
-      "precio": 124,
-      "categoria": "Juguetería",
-      "unidad": "pieza",
-      "productoId": "L205-P002"
+      "localId": 204,
+      "producto": "Arrachera en adobo",
+      "precio": 148,
+      "categoria": "Carnes Preparadas",
+      "unidad": "kg",
+      "productoId": "L204-P034"
     },
     {
       "localId": 205,
@@ -15576,14 +15240,6 @@ window.MG_DATA = {
     },
     {
       "localId": 205,
-      "producto": "Balero",
-      "precio": 165,
-      "categoria": "Juguetería",
-      "unidad": "pieza",
-      "productoId": "L205-P004"
-    },
-    {
-      "localId": 205,
       "producto": "Rompecabezas",
       "precio": 85.3,
       "categoria": "Juguetería",
@@ -15591,44 +15247,68 @@ window.MG_DATA = {
       "productoId": "L205-P005"
     },
     {
-      "localId": 206,
-      "producto": "Agua de piña",
-      "precio": 31.2,
-      "categoria": "Jugos y Licuados",
+      "localId": 205,
+      "producto": "Avión de juguete",
+      "precio": 73.9,
+      "categoria": "Juguetería",
       "unidad": "pieza",
-      "productoId": "L206-P001"
+      "productoId": "L205-P006"
+    },
+    {
+      "localId": 205,
+      "producto": "Triciclo",
+      "precio": 121,
+      "categoria": "Juguetería",
+      "unidad": "pieza",
+      "productoId": "L205-P007"
+    },
+    {
+      "localId": 205,
+      "producto": "Peluche",
+      "precio": 55,
+      "categoria": "Juguetería",
+      "unidad": "pieza",
+      "productoId": "L205-P009"
     },
     {
       "localId": 206,
-      "producto": "Agua de horchata",
-      "precio": 36.3,
+      "producto": "Jugo de apio",
+      "precio": 36.5,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L206-P002"
+      "productoId": "L206-P012"
     },
     {
       "localId": 206,
-      "producto": "Licuado de chocolate",
-      "precio": 38.1,
+      "producto": "Jugo de granada",
+      "precio": 39.6,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L206-P003"
+      "productoId": "L206-P013"
     },
     {
       "localId": 206,
-      "producto": "Jugo de manzana",
-      "precio": 38.5,
+      "producto": "Jugo de betabel",
+      "precio": 30.9,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L206-P004"
+      "productoId": "L206-P030"
     },
     {
       "localId": 206,
-      "producto": "Jugo de ciruela",
-      "precio": 42.2,
+      "producto": "Jugo de uva",
+      "precio": 25.9,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L206-P005"
+      "productoId": "L206-P044"
+    },
+    {
+      "localId": 206,
+      "producto": "Jugo mixto",
+      "precio": 51.8,
+      "categoria": "Jugos y Licuados",
+      "unidad": "pieza",
+      "productoId": "L206-P050"
     },
     {
       "localId": 207,
@@ -15672,83 +15352,59 @@ window.MG_DATA = {
     },
     {
       "localId": 208,
-      "producto": "Omelette de queso",
-      "precio": 75.6,
-      "categoria": "Fonda",
-      "unidad": "pieza",
-      "productoId": "L208-P001"
-    },
-    {
-      "localId": 208,
-      "producto": "Sopes",
-      "precio": 95,
-      "categoria": "Fonda",
-      "unidad": "pieza",
-      "productoId": "L208-P002"
-    },
-    {
-      "localId": 208,
-      "producto": "Gorditas de chicharrón",
-      "precio": 82,
-      "categoria": "Fonda",
-      "unidad": "pieza",
-      "productoId": "L208-P003"
-    },
-    {
-      "localId": 208,
-      "producto": "Milanesa de pollo",
-      "precio": 85.3,
-      "categoria": "Fonda",
-      "unidad": "pieza",
-      "productoId": "L208-P004"
-    },
-    {
-      "localId": 208,
-      "producto": "Albóndigas",
-      "precio": 109,
-      "categoria": "Fonda",
-      "unidad": "pieza",
-      "productoId": "L208-P005"
-    },
-    {
-      "localId": 209,
-      "producto": "Mole de olla",
-      "precio": 74.2,
-      "categoria": "Comida Casera",
-      "unidad": "pieza",
-      "productoId": "L209-P001"
-    },
-    {
-      "localId": 209,
-      "producto": "Arroz a la mexicana",
-      "precio": 70,
-      "categoria": "Comida Casera",
-      "unidad": "pieza",
-      "productoId": "L209-P002"
-    },
-    {
-      "localId": 209,
-      "producto": "Bistec a la mexicana",
+      "producto": "Chilaquiles",
       "precio": 66,
-      "categoria": "Comida Casera",
+      "categoria": "Fonda",
       "unidad": "pieza",
-      "productoId": "L209-P003"
+      "productoId": "L208-P014"
+    },
+    {
+      "localId": 208,
+      "producto": "Postre del día",
+      "precio": 61.6,
+      "categoria": "Fonda",
+      "unidad": "pieza",
+      "productoId": "L208-P020"
     },
     {
       "localId": 209,
-      "producto": "Torta ahogada",
-      "precio": 78.8,
+      "producto": "Mole",
+      "precio": 39.9,
       "categoria": "Comida Casera",
       "unidad": "pieza",
-      "productoId": "L209-P004"
+      "productoId": "L209-P015"
     },
     {
       "localId": 209,
-      "producto": "Pozole rojo con espinazo",
-      "precio": 60.4,
+      "producto": "Chilaquiles",
+      "precio": 39.8,
       "categoria": "Comida Casera",
       "unidad": "pieza",
-      "productoId": "L209-P005"
+      "productoId": "L209-P018"
+    },
+    {
+      "localId": 209,
+      "producto": "Nopales navegantes",
+      "precio": 53.7,
+      "categoria": "Comida Casera",
+      "unidad": "pieza",
+      "productoId": "L209-P022"
+    },
+    {
+      "localId": 209,
+      "producto": "Birria",
+      "precio": 25.1,
+      "categoria": "Comida Casera",
+      "unidad": "pieza",
+      "productoId": "L209-P026"
+    },
+    {
+      "localId": 209,
+      "producto": "Tinga",
+      "precio": 84.4,
+      "categoria": "Comida Casera",
+      "unidad": "pieza",
+      "productoId": "L209-P033"
     },
     {
       "localId": 210,
@@ -15912,43 +15568,27 @@ window.MG_DATA = {
     },
     {
       "localId": 214,
-      "producto": "Pechuga deshuesada",
-      "precio": 46.9,
+      "producto": "Nuggets",
+      "precio": 47,
       "categoria": "Pollería",
       "unidad": "kg",
-      "productoId": "L214-P001"
+      "productoId": "L214-P006"
     },
     {
       "localId": 214,
-      "producto": "Pechuga ahumada",
-      "precio": 76.4,
+      "producto": "Alitas picantes",
+      "precio": 96.5,
       "categoria": "Pollería",
       "unidad": "kg",
-      "productoId": "L214-P002"
+      "productoId": "L214-P015"
     },
     {
       "localId": 214,
-      "producto": "Pollo rostizado",
-      "precio": 49.9,
+      "producto": "Alitas a la BBQ",
+      "precio": 15.1,
       "categoria": "Pollería",
-      "unidad": "kg",
-      "productoId": "L214-P003"
-    },
-    {
-      "localId": 214,
-      "producto": "Pollo a la parrilla",
-      "precio": 38.3,
-      "categoria": "Pollería",
-      "unidad": "kg",
-      "productoId": "L214-P004"
-    },
-    {
-      "localId": 214,
-      "producto": "Medio pollo rostizado",
-      "precio": 78.8,
-      "categoria": "Pollería",
-      "unidad": "kg",
-      "productoId": "L214-P005"
+      "unidad": "pieza",
+      "productoId": "L214-P055"
     },
     {
       "localId": 215,
@@ -16000,30 +15640,6 @@ window.MG_DATA = {
     },
     {
       "localId": 216,
-      "producto": "Café irlandés",
-      "precio": 22.4,
-      "categoria": "Café y Atoles",
-      "unidad": "pieza",
-      "productoId": "L216-P002"
-    },
-    {
-      "localId": 216,
-      "producto": "Café con canela",
-      "precio": 24.7,
-      "categoria": "Café y Atoles",
-      "unidad": "pieza",
-      "productoId": "L216-P003"
-    },
-    {
-      "localId": 216,
-      "producto": "Café molido",
-      "precio": 42.1,
-      "categoria": "Café y Atoles",
-      "unidad": "pieza",
-      "productoId": "L216-P004"
-    },
-    {
-      "localId": 216,
       "producto": "Champurrado",
       "precio": 46.1,
       "categoria": "Café y Atoles",
@@ -16031,12 +15647,28 @@ window.MG_DATA = {
       "productoId": "L216-P005"
     },
     {
-      "localId": 217,
-      "producto": "Tapete tejido",
-      "precio": 134,
-      "categoria": "Artesanías",
+      "localId": 216,
+      "producto": "Atole de zarzamora",
+      "precio": 43.6,
+      "categoria": "Café y Atoles",
       "unidad": "pieza",
-      "productoId": "L217-P001"
+      "productoId": "L216-P008"
+    },
+    {
+      "localId": 216,
+      "producto": "Atole de nuez",
+      "precio": 22.3,
+      "categoria": "Café y Atoles",
+      "unidad": "pieza",
+      "productoId": "L216-P013"
+    },
+    {
+      "localId": 216,
+      "producto": "Té de hierbabuena",
+      "precio": 15.7,
+      "categoria": "Café y Atoles",
+      "unidad": "pieza",
+      "productoId": "L216-P024"
     },
     {
       "localId": 217,
@@ -16056,19 +15688,27 @@ window.MG_DATA = {
     },
     {
       "localId": 217,
-      "producto": "Jarrito de barro",
-      "precio": 38.2,
+      "producto": "Textil otomí",
+      "precio": 61.4,
       "categoria": "Artesanías",
       "unidad": "pieza",
-      "productoId": "L217-P004"
+      "productoId": "L217-P009"
     },
     {
       "localId": 217,
-      "producto": "Figura de ámbar",
-      "precio": 168,
+      "producto": "Arbolito de la vida",
+      "precio": 87.4,
       "categoria": "Artesanías",
       "unidad": "pieza",
-      "productoId": "L217-P005"
+      "productoId": "L217-P013"
+    },
+    {
+      "localId": 217,
+      "producto": "Espejo de talavera",
+      "precio": 140,
+      "categoria": "Artesanías",
+      "unidad": "pieza",
+      "productoId": "L217-P014"
     },
     {
       "localId": 218,
@@ -16080,27 +15720,11 @@ window.MG_DATA = {
     },
     {
       "localId": 218,
-      "producto": "Clavel rojo",
-      "precio": 22.1,
-      "categoria": "Florería",
-      "unidad": "pieza",
-      "productoId": "L218-P002"
-    },
-    {
-      "localId": 218,
       "producto": "Suculenta",
       "precio": 22.4,
       "categoria": "Florería",
       "unidad": "pieza",
       "productoId": "L218-P003"
-    },
-    {
-      "localId": 218,
-      "producto": "Corona fúnebre",
-      "precio": 20.6,
-      "categoria": "Florería",
-      "unidad": "pieza",
-      "productoId": "L218-P004"
     },
     {
       "localId": 218,
@@ -16111,20 +15735,20 @@ window.MG_DATA = {
       "productoId": "L218-P005"
     },
     {
-      "localId": 219,
-      "producto": "Alegría de amaranto",
-      "precio": 60.6,
-      "categoria": "Dulcería y Botanas",
+      "localId": 218,
+      "producto": "Alcatraz",
+      "precio": 577,
+      "categoria": "Florería",
       "unidad": "pieza",
-      "productoId": "L219-P001"
+      "productoId": "L218-P006"
     },
     {
-      "localId": 219,
-      "producto": "Jamoncillos de leche",
-      "precio": 33.8,
-      "categoria": "Dulcería y Botanas",
+      "localId": 218,
+      "producto": "Ramo de condolencia",
+      "precio": 84.9,
+      "categoria": "Florería",
       "unidad": "pieza",
-      "productoId": "L219-P002"
+      "productoId": "L218-P007"
     },
     {
       "localId": 219,
@@ -16136,19 +15760,35 @@ window.MG_DATA = {
     },
     {
       "localId": 219,
-      "producto": "Coyotas de cajeta",
-      "precio": 31.2,
+      "producto": "Tostitos",
+      "precio": 20.8,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
-      "productoId": "L219-P004"
+      "productoId": "L219-P006"
     },
     {
       "localId": 219,
-      "producto": "Gomitas",
-      "precio": 42.9,
+      "producto": "Suaves de malvavisco",
+      "precio": 16.3,
       "categoria": "Dulcería y Botanas",
       "unidad": "pieza",
-      "productoId": "L219-P005"
+      "productoId": "L219-P009"
+    },
+    {
+      "localId": 219,
+      "producto": "Chamoy",
+      "precio": 8.16,
+      "categoria": "Dulcería y Botanas",
+      "unidad": "pieza",
+      "productoId": "L219-P010"
+    },
+    {
+      "localId": 219,
+      "producto": "Mazapán",
+      "precio": 19.2,
+      "categoria": "Dulcería y Botanas",
+      "unidad": "pieza",
+      "productoId": "L219-P016"
     },
     {
       "localId": 220,
@@ -16200,59 +15840,35 @@ window.MG_DATA = {
     },
     {
       "localId": 221,
-      "producto": "Zapatos de niño",
-      "precio": 461,
+      "producto": "Tenis de fútbol",
+      "precio": 282,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L221-P002"
+      "productoId": "L221-P006"
     },
     {
       "localId": 221,
-      "producto": "Tenis deportivos",
-      "precio": 250,
+      "producto": "Tacones",
+      "precio": 284,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L221-P003"
+      "productoId": "L221-P009"
     },
     {
       "localId": 221,
-      "producto": "Calzado de charol para niño",
-      "precio": 176,
+      "producto": "Zapatos casuales",
+      "precio": 424,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L221-P004"
+      "productoId": "L221-P012"
     },
     {
       "localId": 221,
-      "producto": "Botas de trabajo",
-      "precio": 168,
+      "producto": "Zapatos de seguridad",
+      "precio": 293,
       "categoria": "Calzado",
       "unidad": "pieza",
-      "productoId": "L221-P005"
-    },
-    {
-      "localId": 222,
-      "producto": "Brocha",
-      "precio": 122,
-      "categoria": "Ferretería",
-      "unidad": "pieza",
-      "productoId": "L222-P001"
-    },
-    {
-      "localId": 222,
-      "producto": "Machete Colima cacha de plástico",
-      "precio": 34.5,
-      "categoria": "Ferretería",
-      "unidad": "pieza",
-      "productoId": "L222-P002"
-    },
-    {
-      "localId": 222,
-      "producto": "Tornillo para madera",
-      "precio": 35.4,
-      "categoria": "Ferretería",
-      "unidad": "pieza",
-      "productoId": "L222-P003"
+      "productoId": "L221-P013"
     },
     {
       "localId": 222,
@@ -16269,6 +15885,30 @@ window.MG_DATA = {
       "categoria": "Ferretería",
       "unidad": "pieza",
       "productoId": "L222-P005"
+    },
+    {
+      "localId": 222,
+      "producto": "Pintura",
+      "precio": 89.6,
+      "categoria": "Ferretería",
+      "unidad": "pieza",
+      "productoId": "L222-P006"
+    },
+    {
+      "localId": 222,
+      "producto": "Escuadra",
+      "precio": 78.6,
+      "categoria": "Ferretería",
+      "unidad": "pieza",
+      "productoId": "L222-P011"
+    },
+    {
+      "localId": 222,
+      "producto": "Candado de latón reforzado",
+      "precio": 2.17,
+      "categoria": "Ferretería",
+      "unidad": "pieza",
+      "productoId": "L222-P013"
     },
     {
       "localId": 223,
@@ -16328,14 +15968,6 @@ window.MG_DATA = {
     },
     {
       "localId": 224,
-      "producto": "Jalea real",
-      "precio": 19.3,
-      "categoria": "Herbolaria y Naturista",
-      "unidad": "pieza",
-      "productoId": "L224-P003"
-    },
-    {
-      "localId": 224,
       "producto": "Eucalipto",
       "precio": 30.7,
       "categoria": "Herbolaria y Naturista",
@@ -16349,6 +15981,14 @@ window.MG_DATA = {
       "categoria": "Herbolaria y Naturista",
       "unidad": "pieza",
       "productoId": "L224-P005"
+    },
+    {
+      "localId": 224,
+      "producto": "Cápsulas de jengibre",
+      "precio": 20.7,
+      "categoria": "Herbolaria y Naturista",
+      "unidad": "pieza",
+      "productoId": "L224-P006"
     },
     {
       "localId": 225,
@@ -16376,19 +16016,19 @@ window.MG_DATA = {
     },
     {
       "localId": 225,
-      "producto": "Cuerno de fiesta",
-      "precio": 182,
+      "producto": "Pancarta",
+      "precio": 204,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
-      "productoId": "L225-P004"
+      "productoId": "L225-P006"
     },
     {
       "localId": 225,
-      "producto": "Varita mágica",
-      "precio": 265,
+      "producto": "Dulceros",
+      "precio": 232,
       "categoria": "Piñatería y Fiestas",
       "unidad": "pieza",
-      "productoId": "L225-P005"
+      "productoId": "L225-P007"
     },
     {
       "localId": 226,
@@ -16400,22 +16040,6 @@ window.MG_DATA = {
     },
     {
       "localId": 226,
-      "producto": "Tortilla de betabel",
-      "precio": 23,
-      "categoria": "Tortillería",
-      "unidad": "kg",
-      "productoId": "L226-P002"
-    },
-    {
-      "localId": 226,
-      "producto": "Tortilla taquera",
-      "precio": 15.2,
-      "categoria": "Tortillería",
-      "unidad": "pieza",
-      "productoId": "L226-P003"
-    },
-    {
-      "localId": 226,
       "producto": "Tlacoyo de haba",
       "precio": 26,
       "categoria": "Tortillería",
@@ -16424,51 +16048,27 @@ window.MG_DATA = {
     },
     {
       "localId": 226,
-      "producto": "Tortilla de cilantro",
-      "precio": 27.5,
+      "producto": "Chilaquiles",
+      "precio": 16.3,
       "categoria": "Tortillería",
-      "unidad": "kg",
-      "productoId": "L226-P005"
+      "unidad": "pieza",
+      "productoId": "L226-P047"
     },
     {
-      "localId": 227,
-      "producto": "Huevo en cono de 30",
-      "precio": 33.1,
-      "categoria": "Huevería",
+      "localId": 226,
+      "producto": "Pellizcada",
+      "precio": 23.3,
+      "categoria": "Tortillería",
       "unidad": "pieza",
-      "productoId": "L227-P001"
+      "productoId": "L226-P051"
     },
     {
-      "localId": 227,
-      "producto": "Huevo rojo por media cartera",
-      "precio": 49.4,
-      "categoria": "Huevería",
+      "localId": 226,
+      "producto": "Chalupa",
+      "precio": 25.6,
+      "categoria": "Tortillería",
       "unidad": "pieza",
-      "productoId": "L227-P002"
-    },
-    {
-      "localId": 227,
-      "producto": "Huevo blanco limpio",
-      "precio": 69.7,
-      "categoria": "Huevería",
-      "unidad": "pieza",
-      "productoId": "L227-P003"
-    },
-    {
-      "localId": 227,
-      "producto": "Huevo de avestruz",
-      "precio": 111,
-      "categoria": "Huevería",
-      "unidad": "pieza",
-      "productoId": "L227-P004"
-    },
-    {
-      "localId": 227,
-      "producto": "Huevo en cono de 12",
-      "precio": 232,
-      "categoria": "Huevería",
-      "unidad": "pieza",
-      "productoId": "L227-P005"
+      "productoId": "L226-P054"
     },
     {
       "localId": 228,
@@ -16512,22 +16112,6 @@ window.MG_DATA = {
     },
     {
       "localId": 229,
-      "producto": "Canela entera en raja",
-      "precio": 83.9,
-      "categoria": "Especias y Chiles",
-      "unidad": "kg",
-      "productoId": "L229-P001"
-    },
-    {
-      "localId": 229,
-      "producto": "Tomillo",
-      "precio": 101,
-      "categoria": "Especias y Chiles",
-      "unidad": "kg",
-      "productoId": "L229-P002"
-    },
-    {
-      "localId": 229,
       "producto": "Hoja de laurel",
       "precio": 87.7,
       "categoria": "Especias y Chiles",
@@ -16544,19 +16128,27 @@ window.MG_DATA = {
     },
     {
       "localId": 229,
-      "producto": "Canela en polvo",
-      "precio": 94.6,
+      "producto": "Pipián",
+      "precio": 66.1,
       "categoria": "Especias y Chiles",
       "unidad": "kg",
-      "productoId": "L229-P005"
+      "productoId": "L229-P006"
     },
     {
-      "localId": 230,
-      "producto": "Tiramisú de cajeta",
-      "precio": 37.7,
-      "categoria": "Postres y Repostería",
-      "unidad": "pieza",
-      "productoId": "L230-P001"
+      "localId": 229,
+      "producto": "Anís",
+      "precio": 82.3,
+      "categoria": "Especias y Chiles",
+      "unidad": "kg",
+      "productoId": "L229-P007"
+    },
+    {
+      "localId": 229,
+      "producto": "Mejorana",
+      "precio": 85.2,
+      "categoria": "Especias y Chiles",
+      "unidad": "kg",
+      "productoId": "L229-P008"
     },
     {
       "localId": 230,
@@ -16568,27 +16160,35 @@ window.MG_DATA = {
     },
     {
       "localId": 230,
-      "producto": "Galletas de avena",
-      "precio": 38.6,
-      "categoria": "Postres y Repostería",
-      "unidad": "pieza",
-      "productoId": "L230-P003"
-    },
-    {
-      "localId": 230,
-      "producto": "Cupcake de vainilla",
-      "precio": 44.9,
-      "categoria": "Postres y Repostería",
-      "unidad": "pieza",
-      "productoId": "L230-P004"
-    },
-    {
-      "localId": 230,
       "producto": "Churros rellenos",
       "precio": 33.5,
       "categoria": "Postres y Repostería",
       "unidad": "pieza",
       "productoId": "L230-P005"
+    },
+    {
+      "localId": 230,
+      "producto": "Merengues",
+      "precio": 597,
+      "categoria": "Postres y Repostería",
+      "unidad": "pieza",
+      "productoId": "L230-P010"
+    },
+    {
+      "localId": 230,
+      "producto": "Gelatina",
+      "precio": 33,
+      "categoria": "Postres y Repostería",
+      "unidad": "pieza",
+      "productoId": "L230-P012"
+    },
+    {
+      "localId": 230,
+      "producto": "Cheesecake",
+      "precio": 31.3,
+      "categoria": "Postres y Repostería",
+      "unidad": "pieza",
+      "productoId": "L230-P016"
     },
     {
       "localId": 231,
@@ -16648,14 +16248,6 @@ window.MG_DATA = {
     },
     {
       "localId": 232,
-      "producto": "Folder tamaño carta",
-      "precio": 31.3,
-      "categoria": "Papelería",
-      "unidad": "pieza",
-      "productoId": "L232-P003"
-    },
-    {
-      "localId": 232,
       "producto": "Clips",
       "precio": 18.3,
       "categoria": "Papelería",
@@ -16664,43 +16256,19 @@ window.MG_DATA = {
     },
     {
       "localId": 232,
-      "producto": "Liga",
-      "precio": 65.6,
+      "producto": "Sacapuntas",
+      "precio": 87.1,
       "categoria": "Papelería",
       "unidad": "pieza",
-      "productoId": "L232-P005"
+      "productoId": "L232-P007"
     },
     {
-      "localId": 233,
-      "producto": "Botón forrado",
-      "precio": 7.21,
-      "categoria": "Mercería",
+      "localId": 232,
+      "producto": "Pluma",
+      "precio": 44.2,
+      "categoria": "Papelería",
       "unidad": "pieza",
-      "productoId": "L233-P001"
-    },
-    {
-      "localId": 233,
-      "producto": "Tela de lino",
-      "precio": 10.7,
-      "categoria": "Mercería",
-      "unidad": "pieza",
-      "productoId": "L233-P002"
-    },
-    {
-      "localId": 233,
-      "producto": "Tela de satín",
-      "precio": 31.7,
-      "categoria": "Mercería",
-      "unidad": "pieza",
-      "productoId": "L233-P003"
-    },
-    {
-      "localId": 233,
-      "producto": "Hilo de nylon",
-      "precio": 12.4,
-      "categoria": "Mercería",
-      "unidad": "pieza",
-      "productoId": "L233-P004"
+      "productoId": "L232-P010"
     },
     {
       "localId": 233,
@@ -16709,6 +16277,38 @@ window.MG_DATA = {
       "categoria": "Mercería",
       "unidad": "pieza",
       "productoId": "L233-P005"
+    },
+    {
+      "localId": 233,
+      "producto": "Listón de raso",
+      "precio": 11.5,
+      "categoria": "Mercería",
+      "unidad": "pieza",
+      "productoId": "L233-P008"
+    },
+    {
+      "localId": 233,
+      "producto": "Listón",
+      "precio": 23,
+      "categoria": "Mercería",
+      "unidad": "pieza",
+      "productoId": "L233-P009"
+    },
+    {
+      "localId": 233,
+      "producto": "Corchetes",
+      "precio": 86,
+      "categoria": "Mercería",
+      "unidad": "pieza",
+      "productoId": "L233-P010"
+    },
+    {
+      "localId": 233,
+      "producto": "Aplicaciones",
+      "precio": 29.3,
+      "categoria": "Mercería",
+      "unidad": "pieza",
+      "productoId": "L233-P011"
     },
     {
       "localId": 234,
@@ -16752,30 +16352,6 @@ window.MG_DATA = {
     },
     {
       "localId": 235,
-      "producto": "Olla exprés",
-      "precio": 36.9,
-      "categoria": "Plásticos y Trastes",
-      "unidad": "pieza",
-      "productoId": "L235-P001"
-    },
-    {
-      "localId": 235,
-      "producto": "Comal de acero",
-      "precio": 20.4,
-      "categoria": "Plásticos y Trastes",
-      "unidad": "pieza",
-      "productoId": "L235-P002"
-    },
-    {
-      "localId": 235,
-      "producto": "Cuchara de acero",
-      "precio": 17,
-      "categoria": "Plásticos y Trastes",
-      "unidad": "pieza",
-      "productoId": "L235-P003"
-    },
-    {
-      "localId": 235,
       "producto": "Sartén de teflón",
       "precio": 26.4,
       "categoria": "Plásticos y Trastes",
@@ -16784,43 +16360,35 @@ window.MG_DATA = {
     },
     {
       "localId": 235,
-      "producto": "Recipiente con tapa",
-      "precio": 26.9,
+      "producto": "Charola",
+      "precio": 21.8,
       "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
-      "productoId": "L235-P005"
+      "productoId": "L235-P006"
     },
     {
-      "localId": 236,
-      "producto": "Maíz pozolero",
-      "precio": 51.3,
-      "categoria": "Semillas y Granos",
-      "unidad": "kg",
-      "productoId": "L236-P001"
-    },
-    {
-      "localId": 236,
-      "producto": "Frijol negro",
-      "precio": 65.1,
-      "categoria": "Semillas y Granos",
-      "unidad": "kg",
-      "productoId": "L236-P002"
-    },
-    {
-      "localId": 236,
-      "producto": "Trigo",
-      "precio": 40.8,
-      "categoria": "Semillas y Granos",
+      "localId": 235,
+      "producto": "Tenedor",
+      "precio": 16.8,
+      "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
-      "productoId": "L236-P003"
+      "productoId": "L235-P007"
     },
     {
-      "localId": 236,
-      "producto": "Amaranto",
-      "precio": 33,
-      "categoria": "Semillas y Granos",
+      "localId": 235,
+      "producto": "Tupper",
+      "precio": 35.6,
+      "categoria": "Plásticos y Trastes",
       "unidad": "pieza",
-      "productoId": "L236-P004"
+      "productoId": "L235-P008"
+    },
+    {
+      "localId": 235,
+      "producto": "Cuchillo",
+      "precio": 18.9,
+      "categoria": "Plásticos y Trastes",
+      "unidad": "pieza",
+      "productoId": "L235-P012"
     },
     {
       "localId": 236,
@@ -16829,6 +16397,38 @@ window.MG_DATA = {
       "categoria": "Semillas y Granos",
       "unidad": "kg",
       "productoId": "L236-P005"
+    },
+    {
+      "localId": 236,
+      "producto": "Ajonjolí",
+      "precio": 49.5,
+      "categoria": "Semillas y Granos",
+      "unidad": "pieza",
+      "productoId": "L236-P008"
+    },
+    {
+      "localId": 236,
+      "producto": "Almendra",
+      "precio": 49.4,
+      "categoria": "Semillas y Granos",
+      "unidad": "pieza",
+      "productoId": "L236-P009"
+    },
+    {
+      "localId": 236,
+      "producto": "Sorgo",
+      "precio": 23.9,
+      "categoria": "Semillas y Granos",
+      "unidad": "kg",
+      "productoId": "L236-P015"
+    },
+    {
+      "localId": 236,
+      "producto": "Alpiste",
+      "precio": 31.3,
+      "categoria": "Semillas y Granos",
+      "unidad": "kg",
+      "productoId": "L236-P017"
     },
     {
       "localId": 237,
@@ -16856,19 +16456,19 @@ window.MG_DATA = {
     },
     {
       "localId": 237,
-      "producto": "Michelada de mango",
-      "precio": 16,
+      "producto": "Té de burbujas",
+      "precio": 10.6,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
-      "productoId": "L237-P004"
+      "productoId": "L237-P006"
     },
     {
       "localId": 237,
-      "producto": "Agua de sabor",
-      "precio": 11.2,
+      "producto": "Boing",
+      "precio": 9.97,
       "categoria": "Bebidas y Aguas",
       "unidad": "pieza",
-      "productoId": "L237-P005"
+      "productoId": "L237-P010"
     },
     {
       "localId": 238,
@@ -16880,22 +16480,6 @@ window.MG_DATA = {
     },
     {
       "localId": 238,
-      "producto": "Carne para asar",
-      "precio": 67.9,
-      "categoria": "Carnes Preparadas",
-      "unidad": "kg",
-      "productoId": "L238-P002"
-    },
-    {
-      "localId": 238,
-      "producto": "Tocino ahumado",
-      "precio": 86.9,
-      "categoria": "Carnes Preparadas",
-      "unidad": "kg",
-      "productoId": "L238-P003"
-    },
-    {
-      "localId": 238,
       "producto": "Buche",
       "precio": 79.7,
       "categoria": "Carnes Preparadas",
@@ -16904,27 +16488,27 @@ window.MG_DATA = {
     },
     {
       "localId": 238,
-      "producto": "Tripa dorada",
-      "precio": 133,
+      "producto": "Mortadela",
+      "precio": 161,
+      "categoria": "Carnes Preparadas",
+      "unidad": "pieza",
+      "productoId": "L238-P022"
+    },
+    {
+      "localId": 238,
+      "producto": "Tasajo",
+      "precio": 237,
       "categoria": "Carnes Preparadas",
       "unidad": "kg",
-      "productoId": "L238-P005"
+      "productoId": "L238-P024"
     },
     {
-      "localId": 239,
-      "producto": "Cubo mágico",
-      "precio": 86.6,
-      "categoria": "Juguetería",
-      "unidad": "pieza",
-      "productoId": "L239-P001"
-    },
-    {
-      "localId": 239,
-      "producto": "Figura coleccionable",
-      "precio": 118,
-      "categoria": "Juguetería",
-      "unidad": "pieza",
-      "productoId": "L239-P002"
+      "localId": 238,
+      "producto": "Arrachera en adobo",
+      "precio": 140,
+      "categoria": "Carnes Preparadas",
+      "unidad": "kg",
+      "productoId": "L238-P034"
     },
     {
       "localId": 239,
@@ -16936,14 +16520,6 @@ window.MG_DATA = {
     },
     {
       "localId": 239,
-      "producto": "Balero",
-      "precio": 180,
-      "categoria": "Juguetería",
-      "unidad": "pieza",
-      "productoId": "L239-P004"
-    },
-    {
-      "localId": 239,
       "producto": "Rompecabezas",
       "precio": 88.6,
       "categoria": "Juguetería",
@@ -16951,44 +16527,68 @@ window.MG_DATA = {
       "productoId": "L239-P005"
     },
     {
-      "localId": 240,
-      "producto": "Agua de piña",
-      "precio": 37.7,
-      "categoria": "Jugos y Licuados",
+      "localId": 239,
+      "producto": "Avión de juguete",
+      "precio": 73.4,
+      "categoria": "Juguetería",
       "unidad": "pieza",
-      "productoId": "L240-P001"
+      "productoId": "L239-P006"
+    },
+    {
+      "localId": 239,
+      "producto": "Triciclo",
+      "precio": 117,
+      "categoria": "Juguetería",
+      "unidad": "pieza",
+      "productoId": "L239-P007"
+    },
+    {
+      "localId": 239,
+      "producto": "Peluche",
+      "precio": 60.4,
+      "categoria": "Juguetería",
+      "unidad": "pieza",
+      "productoId": "L239-P009"
     },
     {
       "localId": 240,
-      "producto": "Agua de horchata",
-      "precio": 35.7,
+      "producto": "Jugo de apio",
+      "precio": 35.4,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L240-P002"
+      "productoId": "L240-P012"
     },
     {
       "localId": 240,
-      "producto": "Licuado de chocolate",
-      "precio": 37.1,
+      "producto": "Jugo de granada",
+      "precio": 46.7,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L240-P003"
+      "productoId": "L240-P013"
     },
     {
       "localId": 240,
-      "producto": "Jugo de manzana",
-      "precio": 40.2,
+      "producto": "Jugo de betabel",
+      "precio": 26.6,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L240-P004"
+      "productoId": "L240-P030"
     },
     {
       "localId": 240,
-      "producto": "Jugo de ciruela",
-      "precio": 38.3,
+      "producto": "Jugo de uva",
+      "precio": 22.2,
       "categoria": "Jugos y Licuados",
       "unidad": "pieza",
-      "productoId": "L240-P005"
+      "productoId": "L240-P044"
+    },
+    {
+      "localId": 240,
+      "producto": "Jugo mixto",
+      "precio": 49.5,
+      "categoria": "Jugos y Licuados",
+      "unidad": "pieza",
+      "productoId": "L240-P050"
     },
     {
       "localId": 241,
@@ -17032,83 +16632,59 @@ window.MG_DATA = {
     },
     {
       "localId": 242,
-      "producto": "Omelette de queso",
-      "precio": 85.4,
+      "producto": "Chilaquiles",
+      "precio": 74.1,
       "categoria": "Fonda",
       "unidad": "pieza",
-      "productoId": "L242-P001"
+      "productoId": "L242-P014"
     },
     {
       "localId": 242,
-      "producto": "Sopes",
-      "precio": 86.6,
+      "producto": "Postre del día",
+      "precio": 60.6,
       "categoria": "Fonda",
       "unidad": "pieza",
-      "productoId": "L242-P002"
-    },
-    {
-      "localId": 242,
-      "producto": "Gorditas de chicharrón",
-      "precio": 80,
-      "categoria": "Fonda",
-      "unidad": "pieza",
-      "productoId": "L242-P003"
-    },
-    {
-      "localId": 242,
-      "producto": "Milanesa de pollo",
-      "precio": 84.9,
-      "categoria": "Fonda",
-      "unidad": "pieza",
-      "productoId": "L242-P004"
-    },
-    {
-      "localId": 242,
-      "producto": "Albóndigas",
-      "precio": 109,
-      "categoria": "Fonda",
-      "unidad": "pieza",
-      "productoId": "L242-P005"
+      "productoId": "L242-P020"
     },
     {
       "localId": 243,
-      "producto": "Mole de olla",
-      "precio": 72,
+      "producto": "Mole",
+      "precio": 39.3,
       "categoria": "Comida Casera",
       "unidad": "pieza",
-      "productoId": "L243-P001"
+      "productoId": "L243-P015"
     },
     {
       "localId": 243,
-      "producto": "Arroz a la mexicana",
-      "precio": 69.8,
+      "producto": "Chilaquiles",
+      "precio": 42.6,
       "categoria": "Comida Casera",
       "unidad": "pieza",
-      "productoId": "L243-P002"
+      "productoId": "L243-P018"
     },
     {
       "localId": 243,
-      "producto": "Bistec a la mexicana",
-      "precio": 74.8,
+      "producto": "Nopales navegantes",
+      "precio": 64.3,
       "categoria": "Comida Casera",
       "unidad": "pieza",
-      "productoId": "L243-P003"
+      "productoId": "L243-P022"
     },
     {
       "localId": 243,
-      "producto": "Torta ahogada",
-      "precio": 71.2,
+      "producto": "Birria",
+      "precio": 28.4,
       "categoria": "Comida Casera",
       "unidad": "pieza",
-      "productoId": "L243-P004"
+      "productoId": "L243-P026"
     },
     {
       "localId": 243,
-      "producto": "Pozole rojo con espinazo",
-      "precio": 53.4,
+      "producto": "Tinga",
+      "precio": 95,
       "categoria": "Comida Casera",
       "unidad": "pieza",
-      "productoId": "L243-P005"
+      "productoId": "L243-P033"
     },
     {
       "localId": 244,
@@ -17272,43 +16848,27 @@ window.MG_DATA = {
     },
     {
       "localId": 248,
-      "producto": "Pechuga deshuesada",
-      "precio": 51.9,
+      "producto": "Nuggets",
+      "precio": 44.3,
       "categoria": "Pollería",
       "unidad": "kg",
-      "productoId": "L248-P001"
+      "productoId": "L248-P006"
     },
     {
       "localId": 248,
-      "producto": "Pechuga ahumada",
-      "precio": 72.2,
+      "producto": "Alitas picantes",
+      "precio": 97.1,
       "categoria": "Pollería",
       "unidad": "kg",
-      "productoId": "L248-P002"
+      "productoId": "L248-P015"
     },
     {
       "localId": 248,
-      "producto": "Pollo rostizado",
-      "precio": 49.4,
+      "producto": "Alitas a la BBQ",
+      "precio": 15.4,
       "categoria": "Pollería",
-      "unidad": "kg",
-      "productoId": "L248-P003"
-    },
-    {
-      "localId": 248,
-      "producto": "Pollo a la parrilla",
-      "precio": 37.2,
-      "categoria": "Pollería",
-      "unidad": "kg",
-      "productoId": "L248-P004"
-    },
-    {
-      "localId": 248,
-      "producto": "Medio pollo rostizado",
-      "precio": 75.9,
-      "categoria": "Pollería",
-      "unidad": "kg",
-      "productoId": "L248-P005"
+      "unidad": "pieza",
+      "productoId": "L248-P055"
     },
     {
       "localId": 249,
@@ -17360,35 +16920,35 @@ window.MG_DATA = {
     },
     {
       "localId": 250,
-      "producto": "Café irlandés",
-      "precio": 23,
-      "categoria": "Café y Atoles",
-      "unidad": "pieza",
-      "productoId": "L250-P002"
-    },
-    {
-      "localId": 250,
-      "producto": "Café con canela",
-      "precio": 26.5,
-      "categoria": "Café y Atoles",
-      "unidad": "pieza",
-      "productoId": "L250-P003"
-    },
-    {
-      "localId": 250,
-      "producto": "Café molido",
-      "precio": 33.5,
-      "categoria": "Café y Atoles",
-      "unidad": "pieza",
-      "productoId": "L250-P004"
-    },
-    {
-      "localId": 250,
       "producto": "Champurrado",
       "precio": 39.9,
       "categoria": "Café y Atoles",
       "unidad": "pieza",
       "productoId": "L250-P005"
+    },
+    {
+      "localId": 250,
+      "producto": "Atole de zarzamora",
+      "precio": 42.4,
+      "categoria": "Café y Atoles",
+      "unidad": "pieza",
+      "productoId": "L250-P008"
+    },
+    {
+      "localId": 250,
+      "producto": "Atole de nuez",
+      "precio": 22.6,
+      "categoria": "Café y Atoles",
+      "unidad": "pieza",
+      "productoId": "L250-P013"
+    },
+    {
+      "localId": 250,
+      "producto": "Té de hierbabuena",
+      "precio": 16.6,
+      "categoria": "Café y Atoles",
+      "unidad": "pieza",
+      "productoId": "L250-P024"
     }
   ],
   "eventos": [
