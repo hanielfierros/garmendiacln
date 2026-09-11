@@ -17,8 +17,7 @@
   const NAV = [
     { id: "inicio", label: "Inicio", href: "#inicio", action: "scroll" },
     { id: "historia", label: "Conócenos", href: "#historia", action: "scroll" },
-    { id: "locales", label: "Locales", href: "#locales", action: "directorio" },
-    { id: "mapa", label: "Mapa", href: "#mapa", action: "scroll" },
+    { id: "mapa", label: "Mapa del Mercado", href: "#mapa", action: "mapa-overlay" },
     { id: "gastronomia", label: "Gastronomía", href: "#gastronomia", action: "scroll" },
     { id: "eventos", label: "Eventos", href: "#eventos", action: "scroll" },
     { id: "noticias", label: "Noticias", href: "#noticias", action: "scroll" },
@@ -72,10 +71,15 @@
     }
     if (item.action === "directorio") {
       openDirectorio(filterCat);
-    } else {
-      smoothScroll(item.href);
-      setActiveNav(item.id);
+      return;
     }
+    if (item.action === "mapa-overlay") {
+      setActiveNav(item.id);
+      if (window.MG_MAPA && window.MG_MAPA.openMapaOverlay) window.MG_MAPA.openMapaOverlay();
+      return;
+    }
+    smoothScroll(item.href);
+    setActiveNav(item.id);
   }
 
   function staggerReveal(selector, baseDelay, step) {
@@ -147,6 +151,11 @@
     if (root) root.innerHTML = "";
     if ($("#directorio-root")?.firstChild) return;
     if (window.MG_MAPA && window.MG_MAPA.isProductPanelOpen && window.MG_MAPA.isProductPanelOpen()) {
+      document.body.style.overflow = "hidden";
+      document.documentElement.style.overflow = "hidden";
+      return;
+    }
+    if (window.MG_MAPA && window.MG_MAPA.isMapaOverlayOpen && window.MG_MAPA.isMapaOverlayOpen()) {
       document.body.style.overflow = "hidden";
       document.documentElement.style.overflow = "hidden";
       return;
@@ -859,6 +868,10 @@
 
   function highlightNav() {
     if ($("#directorio-root")?.firstChild) return;
+    if (window.MG_MAPA && window.MG_MAPA.isMapaOverlayOpen && window.MG_MAPA.isMapaOverlayOpen()) {
+      setActiveNav("mapa");
+      return;
+    }
     let current = NAV[0].id;
     NAV.forEach(({ id }) => {
       const sec = $(`#${id}`);
@@ -922,10 +935,11 @@
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") {
       if ($("#modal-root")?.firstChild) closeModal();
-      else if ($("#directorio-root")?.firstChild) closeDirectorio();
       else if (window.MG_MAPA && window.MG_MAPA.isProductPanelOpen && window.MG_MAPA.isProductPanelOpen()) {
         window.MG_MAPA.hideProductPanel();
-      }
+      } else if (window.MG_MAPA && window.MG_MAPA.isMapaOverlayOpen && window.MG_MAPA.isMapaOverlayOpen()) {
+        window.MG_MAPA.closeMapaOverlay();
+      } else if ($("#directorio-root")?.firstChild) closeDirectorio();
     }
   });
 

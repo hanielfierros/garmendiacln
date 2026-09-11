@@ -23,7 +23,10 @@
   let prodPanelTitle = null;
   let prodPanelCount = null;
   let prodPanelList = null;
-  let searchTimer = null;
+  let productQuery = "";
+  let mapaPageOverlay = null;
+  let mapaInner = null;
+  let mapaHost = null;
 
   const FAV_KEY = "mg_favoritos";
   const MIN_SCALE = 0.45;
@@ -113,7 +116,46 @@
     return String(s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, " ").trim();
   }
 
-  // Índice de productos por local (se construye una sola vez a partir de MG_CATALOGO).
+  function tokenize(s) {
+    return normalize(s).split(/[^a-z0-9]+/).filter(Boolean);
+  }
+
+  function editDistance(a, b) {
+    if (a === b) return 0;
+    const la = a.length;
+    const lb = b.length;
+    if (!la) return lb;
+    if (!lb) return la;
+    if (Math.abs(la - lb) > 3) return 99;
+    const prev = new Array(lb + 1);
+    const cur = new Array(lb + 1);
+    for (let j = 0; j <= lb; j++) prev[j] = j;
+    for (let i = 1; i <= la; i++) {
+      cur[0] = i;
+      for (let j = 1; j <= lb; j++) {
+        const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+        cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + cost);
+      }
+      for (let j = 0; j <= lb; j++) prev[j] = cur[j];
+    }
+    return prev[lb];
+  }
+
+  function wordFuzzyEqual(q, w) {
+    if (q === w) return true;
+    if (q.length < 3) return false;
+    const max = q.length <= 5 ? 1 : q.length <= 8 ? 2 : 3;
+    if (Math.abs(q.length - w.length) > max) return false;
+    return editDistance(q, w) <= max;
+  }
+
+  function productoCoincide(nombre, query) {
+    const qw = tokenize(query);
+    const pw = tokenize(nombre);
+    if (!qw.length || !pw.length) return false;
+    return qw.every((q) => pw.some((w) => wordFuzzyEqual(q, w)));
+  }
+
   let productoIndex = null;
   function getProductoIndex() {
     if (productoIndex) return productoIndex;
@@ -124,18 +166,18 @@
         const nombres = [];
         (porLocal[id].areas || []).forEach((a) => {
           (a.productos || []).forEach((p) => {
-            if (p && p.nombre) nombres.push(normalize(p.nombre));
+            if (p && p.nombre) nombres.push(p.nombre);
           });
         });
-        productoIndex[String(id)] = nombres.join(" | ");
+        productoIndex[String(id)] = nombres;
       });
     }
     return productoIndex;
   }
 
-  function tieneProducto(localId, q) {
-    const blob = getProductoIndex()[String(localId)];
-    return !!blob && blob.indexOf(q) !== -1;
+  function localVendeProducto(localId, query) {
+    const nombres = getProductoIndex()[String(localId)] || [];
+    return nombres.some((n) => productoCoincide(n, query));
   }
 
   function isProductPanelOpen() {
@@ -151,34 +193,47 @@
     if (document.getElementById("modal-root")?.firstChild) return;
     if (document.getElementById("directorio-root")?.firstChild) return;
     if (document.getElementById("catalogo-root")?.firstChild) return;
+    if (mapaPageOverlay) return;
     document.body.style.overflow = "";
     document.documentElement.style.overflow = "";
   }
 
-  function pinOverlayToVisualViewport() {
-    if (!prodOverlayEl) return;
+  function pinElToVisualViewport(node) {
+    if (!node) return;
     const vv = window.visualViewport;
     if (!vv) return;
-    prodOverlayEl.style.top = vv.offsetTop + "px";
-    prodOverlayEl.style.left = vv.offsetLeft + "px";
-    prodOverlayEl.style.width = vv.width + "px";
-    prodOverlayEl.style.height = vv.height + "px";
-    prodOverlayEl.style.right = "auto";
-    prodOverlayEl.style.bottom = "auto";
+    node.style.top = vv.offsetTop + "px";
+    node.style.left = vv.offsetLeft + "px";
+    node.style.width = vv.width + "px";
+    node.style.height = vv.height + "px";
+    node.style.right = "auto";
+    node.style.bottom = "auto";
+  }
+
+  function unpinEl(node) {
+    if (!node) return;
+    node.style.top = "";
+    node.style.left = "";
+    node.style.width = "";
+    node.style.height = "";
+    node.style.right = "";
+    node.style.bottom = "";
+  }
+
+  function pinOverlayToVisualViewport() {
+    pinElToVisualViewport(prodOverlayEl);
   }
 
   function unpinOverlay() {
-    if (!prodOverlayEl) return;
-    prodOverlayEl.style.top = "";
-    prodOverlayEl.style.left = "";
-    prodOverlayEl.style.width = "";
-    prodOverlayEl.style.height = "";
-    prodOverlayEl.style.right = "";
-    prodOverlayEl.style.bottom = "";
+    unpinEl(prodOverlayEl);
   }
 
   function onVisualViewportChange() {
-    if (isProductPanelOpen()) pinOverlayToVisualViewport();
+    if (isProductPanelOpen()) pinElToVisualViewport(prodOverlayEl);
+    if (mapaPageOverlay) {
+      pinElToVisualViewport(mapaPageOverlay);
+      fitMapPreview();
+    }
   }
 
   function hideProductPanel() {
@@ -190,78 +245,117 @@
 
   function findLocalesByProducto(q) {
     const nq = normalize(q);
-    if (!nq || nq.length < 3 || /^\d+$/.test(q.trim())) return [];
+    if (!nq || /^\d+$/.test(q.trim())) return [];
     const { DATA } = getMapDeps();
     const locales = DATA.locales || [];
     const out = [];
     locales.forEach((local) => {
       if (mapFilterGrupo && local.grupoColor !== mapFilterGrupo) return;
-      if (!tieneProducto(local.id, nq)) return;
+      if (!localVendeProducto(local.id, q)) return;
       out.push(local);
     });
     out.sort((a, b) => Number(a.id) - Number(b.id));
     return out;
   }
 
-  function updateProductResultsPanel() {
+  function showProductPanel(locales, q) {
     if (!prodPanelEl || !prodPanelList) return;
-    const q = mapSearch;
-    const locales = findLocalesByProducto(q);
-    if (!locales.length) {
-      hideProductPanel();
-      return;
-    }
     const { el, openFichaRapida } = getMapDeps();
-    prodPanelTitle.textContent = "Locales con “" + q + "”";
+    prodPanelTitle.textContent = locales.length
+      ? "Locales con “" + q + "”"
+      : "Sin coincidencias";
     prodPanelCount.textContent = locales.length === 1
       ? "1 local"
-      : locales.length + " locales";
+      : locales.length
+        ? locales.length + " locales"
+        : "0 locales";
     prodPanelList.replaceChildren();
-    locales.forEach((local) => {
-      const logoHtml = (global.generarLogoMexicanoSVG
-        ? global.generarLogoMexicanoSVG(local.id, local.giro)
-        : "");
+    if (!locales.length) {
       prodPanelList.appendChild(
-        el("button", {
-          type: "button",
-          className: "mapa-prod-item",
-          onclick: (e) => {
-            e.stopPropagation();
-            if (openFichaRapida) openFichaRapida(local);
-          },
-        }, [
-          el("span", { className: "mapa-prod-logo", html: logoHtml }),
-          el("span", { className: "mapa-prod-meta" }, [
-            el("strong", { text: local.nombre }),
-            el("span", { text: "Local " + local.id }),
-          ]),
-          el("i", { className: "fa-solid fa-chevron-right mapa-prod-chevron" }),
-        ])
+        el("p", {
+          className: "mapa-prod-empty",
+          text: "No encontramos “" + q + "”. Prueba el nombre completo del producto.",
+        })
       );
-    });
+    } else {
+      locales.forEach((local) => {
+        const logoHtml = (global.generarLogoMexicanoSVG
+          ? global.generarLogoMexicanoSVG(local.id, local.giro)
+          : "");
+        prodPanelList.appendChild(
+          el("button", {
+            type: "button",
+            className: "mapa-prod-item",
+            onclick: (e) => {
+              e.stopPropagation();
+              if (openFichaRapida) openFichaRapida(local);
+            },
+          }, [
+            el("span", { className: "mapa-prod-logo", html: logoHtml }),
+            el("span", { className: "mapa-prod-meta" }, [
+              el("strong", { text: local.nombre }),
+              el("span", { text: "Local " + local.id }),
+            ]),
+            el("i", { className: "fa-solid fa-chevron-right mapa-prod-chevron" }),
+          ])
+        );
+      });
+    }
     if (prodOverlayEl) prodOverlayEl.hidden = false;
     prodPanelEl.hidden = false;
     pinOverlayToVisualViewport();
     lockPageScroll();
   }
 
+  function localIdentityMatch(local, q) {
+    const hay = normalize([local.nombre, local.categoria, local.giro, String(local.id)].join(" "));
+    return hay.indexOf(q) !== -1;
+  }
+
+  function submitMapSearch() {
+    const q = mapSearch;
+    productQuery = "";
+    if (!q) {
+      hideProductPanel();
+      renderLocalesSvg();
+      return;
+    }
+    if (/^\d+$/.test(q)) {
+      hideProductPanel();
+      renderLocalesSvg();
+      scrollToLocal(q);
+      return;
+    }
+    const locales = findLocalesByProducto(q);
+    if (locales.length) {
+      productQuery = q;
+      renderLocalesSvg();
+      showProductPanel(locales, q);
+      return;
+    }
+    renderLocalesSvg();
+    const { DATA } = getMapDeps();
+    const nq = normalize(q);
+    const localHit = (DATA.locales || []).some((l) => localIdentityMatch(l, nq));
+    if (localHit) {
+      hideProductPanel();
+      return;
+    }
+    showProductPanel([], q);
+  }
+
   function onMapSearchInput(value) {
     mapSearch = String(value || "").trim();
+    productQuery = "";
+    hideProductPanel();
     renderLocalesSvg();
     if (/^\d+$/.test(mapSearch)) scrollToLocal(mapSearch);
-    if (searchTimer) clearTimeout(searchTimer);
-    searchTimer = setTimeout(updateProductResultsPanel, 220);
   }
 
   function matchesMapFilter(local) {
     if (mapFilterGrupo && local.grupoColor !== mapFilterGrupo) return false;
-    if (mapSearch) {
-      const q = normalize(mapSearch);
-      const hay = normalize([local.nombre, local.categoria, local.giro, String(local.id)].join(" "));
-      if (hay.indexOf(q) !== -1) return true;
-      if (tieneProducto(local.id, q)) return true;
-      return false;
-    }
+    if (productQuery) return localVendeProducto(local.id, productQuery);
+    if (mapSearch) return localIdentityMatch(local, normalize(mapSearch));
     return true;
   }
 
@@ -529,7 +623,11 @@
       b.classList.toggle("active", b.dataset.grupo === grupo || (!grupo && b.dataset.grupo === ""));
     });
     renderLocalesSvg();
-    updateProductResultsPanel();
+    if (productQuery) {
+      const locales = findLocalesByProducto(productQuery);
+      if (locales.length) showProductPanel(locales, productQuery);
+      else hideProductPanel();
+    }
   }
 
   function buildSvgMap() {
@@ -588,18 +686,35 @@
     viewport.appendChild(svgWrap);
 
     const toolbar = el("div", { className: "mapa-toolbar reveal-item" }, [
-      el("div", { className: "mapa-search" }, [
-        el("i", { className: "fa-solid fa-magnifying-glass" }),
-        el("input", {
-          type: "search",
-          placeholder: "Buscar local, número o producto…",
-          "aria-label": "Buscar en mapa",
-          enterkeyhint: "search",
-          autocomplete: "off",
-          autocorrect: "off",
-          spellcheck: "false",
-          oninput: (e) => onMapSearchInput(e.target.value),
-        }),
+      el("div", { className: "mapa-search-wrap" }, [
+        el("div", { className: "mapa-search" }, [
+          el("i", { className: "fa-solid fa-magnifying-glass" }),
+          el("input", {
+            type: "search",
+            id: "mapaSearchInput",
+            placeholder: "Local, número o producto…",
+            "aria-label": "Buscar en mapa",
+            enterkeyhint: "search",
+            autocomplete: "off",
+            autocorrect: "off",
+            spellcheck: "false",
+            oninput: (e) => onMapSearchInput(e.target.value),
+            onkeydown: (e) => {
+              if (e.key === "Enter") {
+                e.preventDefault();
+                submitMapSearch();
+              }
+            },
+          }),
+        ]),
+        el("button", {
+          type: "button",
+          className: "mapa-search-btn",
+          onclick: submitMapSearch,
+        }, [
+          el("i", { className: "fa-solid fa-magnifying-glass" }),
+          "Buscar",
+        ]),
       ]),
       el("div", { className: "mapa-zoom" }, [
         el("button", { type: "button", "aria-label": "Alejar", onclick: () => setMapZoom(-0.15) }, [el("i", { className: "fa-solid fa-minus" })]),
@@ -686,7 +801,7 @@
           toolbar,
           leyendaEl,
           tipoLeyenda,
-          el("div", { className: "reveal-item" }, [viewport]),
+          el("div", { className: "reveal-item mapa-viewport-host" }, [viewport]),
           el("p", {
             className: "mapa-hint reveal-item",
             html: `<i class="fa-solid fa-hand-pointer"></i> Clic en un local para ver su ficha · <i class="fa-solid fa-arrows-up-down-left-right"></i> Arrastra el plano para explorar · ${META.totalLocales} locales`,
@@ -700,6 +815,57 @@
     window.addEventListener("resize", () => {
       if (scale <= 1.05) fitMapPreview();
     }, { passive: true });
+  }
+
+  function openMapaOverlay() {
+    if (mapaPageOverlay) return;
+    const { el } = getMapDeps();
+    const section = document.getElementById("mapa");
+    if (!section || !el) return;
+    const inner = section.querySelector(".section-inner");
+    if (!inner) return;
+    mapaInner = inner;
+    mapaHost = inner.parentNode;
+    mapaPageOverlay = el("div", { className: "mapa-page-overlay", id: "mapaPageOverlay" }, [
+      el("div", { className: "directorio-topbar" }, [
+        el("div", { className: "directorio-topbar-inner" }, [
+          el("h1", { text: "Mapa del Mercado" }),
+          el("button", {
+            className: "directorio-close",
+            type: "button",
+            "aria-label": "Cerrar mapa",
+            onclick: closeMapaOverlay,
+          }, [el("i", { className: "fa-solid fa-xmark" })]),
+        ]),
+      ]),
+      el("div", { className: "mapa-page-body" }),
+    ]);
+    mapaPageOverlay.querySelector(".mapa-page-body").appendChild(inner);
+    document.body.appendChild(mapaPageOverlay);
+    document.body.style.overflow = "hidden";
+    document.documentElement.style.overflow = "hidden";
+    pinElToVisualViewport(mapaPageOverlay);
+    requestAnimationFrame(() => {
+      fitMapPreview();
+      setTimeout(fitMapPreview, 80);
+    });
+  }
+
+  function closeMapaOverlay() {
+    hideProductPanel();
+    unpinEl(mapaPageOverlay);
+    if (mapaInner && mapaHost) mapaHost.appendChild(mapaInner);
+    if (mapaPageOverlay && mapaPageOverlay.parentNode) mapaPageOverlay.parentNode.removeChild(mapaPageOverlay);
+    mapaPageOverlay = null;
+    mapaInner = null;
+    mapaHost = null;
+    document.body.style.overflow = "";
+    document.documentElement.style.overflow = "";
+    requestAnimationFrame(() => fitMapPreview());
+  }
+
+  function isMapaOverlayOpen() {
+    return !!mapaPageOverlay;
   }
 
   function buildFichaRapida(local, deps) {
@@ -793,5 +959,8 @@
     resetMapView,
     hideProductPanel,
     isProductPanelOpen,
+    openMapaOverlay,
+    closeMapaOverlay,
+    isMapaOverlayOpen,
   };
 })(window);
