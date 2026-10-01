@@ -208,6 +208,110 @@ body.js-ready .reveal-item.is-visible {
   box-shadow: 0 12px 32px rgba(201, 162, 39, 0.5);
 }
 
+/* Banner Pick Up (home) — compra inteligente */
+.pickup-promo-banner {
+  background: linear-gradient(135deg, #1e6fd9 0%, #0d4a9e 100%);
+  padding: 0;
+  overflow: hidden;
+}
+.pickup-promo-inner {
+  max-width: 1320px; margin: 0 auto;
+  display: grid; grid-template-columns: auto 1fr;
+  align-items: center; gap: 32px;
+  padding: 32px max(32px, calc((100vw - 1320px) / 2 + 32px));
+}
+.pickup-promo-icon {
+  width: 72px; height: 72px; border-radius: 50%;
+  background: rgba(255, 255, 255, 0.14);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  display: flex; align-items: center; justify-content: center;
+  color: #fff; font-size: 1.7rem;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.22);
+}
+.pickup-promo-eyebrow {
+  font-size: 0.68rem; font-weight: 700; letter-spacing: 2px;
+  text-transform: uppercase; color: rgba(255, 255, 255, 0.85); margin-bottom: 10px;
+}
+.pickup-promo-copy h2 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 800; color: #fff; line-height: 1.2; margin-bottom: 12px;
+}
+.pickup-promo-copy h2 em { color: #fff; font-style: normal; }
+.pickup-promo-copy p {
+  font-size: 0.9rem; color: rgba(255, 255, 255, 0.85);
+  line-height: 1.7; max-width: 560px; margin-bottom: 22px;
+}
+.btn-pickup-promo {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 14px 28px;
+  background: #fff;
+  color: #0d4a9e; font-size: 0.78rem; font-weight: 700;
+  letter-spacing: 0.8px; text-transform: uppercase; border-radius: 50px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.25);
+  transition: var(--transition);
+}
+.btn-pickup-promo:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+}
+
+/* Popup Pick Up */
+.pickup-popup-overlay {
+  position: fixed; inset: 0; z-index: 5000;
+  background: rgba(13, 40, 74, 0.45);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px;
+}
+.pickup-popup-card {
+  width: 100%; max-width: 420px;
+  background: linear-gradient(160deg, #1e6fd9 0%, #0d4a9e 100%);
+  color: #fff;
+  border-radius: 20px;
+  padding: 28px 24px;
+  text-align: center;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  max-height: calc(100dvh - 40px);
+  overflow-y: auto;
+}
+.pickup-popup-icon {
+  width: 64px; height: 64px; border-radius: 50%;
+  background: rgba(255, 255, 255, 0.16);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  display: flex; align-items: center; justify-content: center;
+  color: #fff; font-size: 1.5rem;
+  margin: 0 auto 16px;
+}
+.pickup-popup-card h2 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.5rem; font-weight: 800; margin-bottom: 12px;
+}
+.pickup-popup-card p {
+  font-size: 0.9rem; color: rgba(255, 255, 255, 0.88);
+  line-height: 1.65; margin-bottom: 20px;
+}
+.pickup-popup-primary,
+.pickup-popup-secondary {
+  width: 100%; border: none; border-radius: 50px;
+  padding: 15px 24px; font-weight: 700; font-size: 0.85rem;
+  letter-spacing: 0.8px; text-transform: uppercase;
+  cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  min-height: 48px;
+}
+.pickup-popup-primary {
+  background: #fff; color: #0d4a9e;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  margin-bottom: 10px;
+}
+.pickup-popup-primary:hover { transform: translateY(-2px); }
+.pickup-popup-secondary {
+  background: transparent; color: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+.pickup-popup-secondary:hover { background: rgba(255, 255, 255, 0.12); }
+
 /* Hero */
 .hero-section {
   margin-top: calc(var(--topbar-h) + var(--header-h));
@@ -1180,6 +1284,12 @@ body.js-ready .reveal-item.is-visible {
   }
   .cuponera-promo-visual { display: flex; justify-content: center; }
   .cuponera-promo-copy p { margin-inline: auto; }
+  .pickup-promo-inner {
+    grid-template-columns: 1fr;
+    text-align: center; padding: 28px 24px; gap: 20px;
+  }
+  .pickup-promo-visual { display: flex; justify-content: center; }
+  .pickup-promo-copy p { margin-inline: auto; }
   .nav-menu { display: none; }
   .hamburger { display: flex; }
   .mapa-toolbar { flex-direction: column; align-items: stretch; }
@@ -1203,6 +1313,8 @@ body.js-ready .reveal-item.is-visible {
   .section-inner { padding: 0; }
   .cuponera-promo-icon { width: 72px; height: 72px; font-size: 1.6rem; }
   .btn-cuponera-promo { width: 100%; justify-content: center; }
+  .pickup-promo-icon { width: 64px; height: 64px; font-size: 1.5rem; }
+  .btn-pickup-promo { width: 100%; justify-content: center; }
   .mapa-viewport { min-height: 300px; height: 48vh; height: 48dvh; border-radius: var(--radius); }
   .mapa-search input { font-size: 16px; min-height: 44px; }
   .mapa-search-btn { height: 44px; min-width: 44px; padding: 0 14px; }

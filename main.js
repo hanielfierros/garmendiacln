@@ -14,11 +14,13 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
 
+  const CHECKOUT_URL = "https://hanielfierros.github.io/mercado-garmendia-checkout/";
+
   const NAV = [
     { id: "inicio", label: "Inicio", href: "#inicio", action: "scroll" },
     { id: "historia", label: "Conócenos", href: "#historia", action: "scroll" },
     { id: "mapa", label: "Mapa del Mercado", href: "#mapa", action: "mapa-overlay" },
-    { id: "gastronomia", label: "Gastronomía", href: "#gastronomia", action: "scroll" },
+    { id: "pickup", label: "PICK UP", href: CHECKOUT_URL, action: "link" },
     { id: "eventos", label: "Eventos", href: "#eventos", action: "scroll" },
     { id: "noticias", label: "Noticias", href: "#noticias", action: "scroll" },
     { id: "contacto", label: "Contacto", href: "#contacto", action: "scroll" },
@@ -271,6 +273,29 @@
             el("a", { className: "btn-cuponera-promo", href: "cupones.html" }, [
               el("i", { className: "fa-solid fa-ticket" }),
               "Ver cupones exclusivos",
+            ]),
+          ]),
+        ]),
+      ])
+    );
+  }
+
+  function renderPickupPromo(app) {
+    app.appendChild(
+      el("section", { className: "pickup-promo-banner", id: "pickup-promo", "aria-label": "Compra inteligente Pick Up" }, [
+        el("div", { className: "pickup-promo-inner" }, [
+          el("div", { className: "pickup-promo-visual reveal-item" }, [
+            el("div", { className: "pickup-promo-icon", html: '<i class="fa-solid fa-bag-shopping"></i>' }),
+          ]),
+          el("div", { className: "pickup-promo-copy reveal-item" }, [
+            el("p", { className: "pickup-promo-eyebrow", text: "El mercado de siempre, ahora más inteligente." }),
+            el("h2", { html: 'Compra inteligente en el <em>Mercado Garmendia</em>' }),
+            el("p", {
+              text: "Interactúa con el mercado desde tu celular: consulta productos, pregunta precios, revisa disponibilidad y contacta directamente con los locatarios.",
+            }),
+            el("a", { className: "btn-pickup-promo", href: CHECKOUT_URL, target: "_blank", rel: "noopener" }, [
+              el("i", { className: "fa-solid fa-bag-shopping" }),
+              "PICK UP",
             ]),
           ]),
         ]),
@@ -768,7 +793,7 @@
             el("button", {
               className: "btn-pickup",
               type: "button",
-              onclick: () => window.MG_PICKUP_ENTRY && window.MG_PICKUP_ENTRY.openFromHome(),
+              onclick: () => window.open(CHECKOUT_URL, "_blank", "noopener"),
             }, [el("i", { className: "fa-solid fa-bag-shopping" }), "PICK UP"]),
           ]),
           el("div", { className: "contacto-map reveal-item" }, [
@@ -932,6 +957,40 @@
     $("#mobileNav")?.classList.remove("open");
   }
 
+  function openPickupPopup() {
+    const root = $("#modal-root");
+    if (!root) return;
+    if (root.querySelector(".pickup-popup-overlay")) return;
+
+    const overlay = el("div", {
+      className: "pickup-popup-overlay",
+      onclick: (e) => { if (e.target === overlay) closePickupPopup(); },
+    }, [
+      el("div", { className: "pickup-popup-card", role: "dialog", "aria-modal": "true", "aria-label": "Compra inteligente Pick Up" }, [
+        el("div", { className: "pickup-popup-icon", html: '<i class="fa-solid fa-bag-shopping"></i>' }),
+        el("h2", { text: "Haz tu compra inteligente" }),
+        el("p", {
+          text: "Encuentra productos, consulta precios, revisa disponibilidad y descubre lo que ofrecen los locatarios del Mercado Garmendia desde un solo lugar.",
+        }),
+        el("button", {
+          className: "pickup-popup-primary",
+          type: "button",
+          onclick: () => { closePickupPopup(); window.open(CHECKOUT_URL, "_blank", "noopener"); },
+        }, ["IR A PICK UP"]),
+        el("button", { className: "pickup-popup-secondary", type: "button", onclick: closePickupPopup }, ["Ahora no"]),
+      ]),
+    ]);
+
+    root.appendChild(overlay);
+  }
+
+  function closePickupPopup() {
+    const root = $("#modal-root");
+    if (!root) return;
+    const overlay = root.querySelector(".pickup-popup-overlay");
+    if (overlay) overlay.remove();
+  }
+
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") {
       if ($("#modal-root")?.firstChild) closeModal();
@@ -955,6 +1014,7 @@
       renderHero(app);
       renderFeatures(app);
       renderCuponeraBanner(app);
+      renderPickupPromo(app);
       renderCampaignBanner(app);
 
       renderHistoria(main);
@@ -979,12 +1039,15 @@
       staggerReveal(".hero-copy .reveal-item", 100, 120);
       staggerReveal(".feature-item", 500, 90);
       staggerReveal(".cuponera-promo-banner .reveal-item", 700, 120);
+      staggerReveal(".pickup-promo-banner .reveal-item", 820, 120);
       staggerReveal(".page-section .reveal-item", 200, 60);
 
       initScroll();
       initParallax();
       initGaleriaCarousel();
       highlightNav();
+
+      setTimeout(() => openPickupPopup(), 1100);
     } catch (err) {
       console.error("Mercado Garmendia V14:", err);
       document.body.classList.remove("js-ready");
